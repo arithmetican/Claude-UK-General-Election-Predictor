@@ -1,0 +1,5675 @@
+{
+    "Sunderland Central": {
+        "Labour": "16852",
+        "Reform": "10779",
+        "Conservative": "5731",
+        "Liberal Democrat": "3602",
+        "Green": "2993"
+    },
+    "Swindon South": {
+        "Labour": "21676",
+        "Conservative": "12070",
+        "Reform": "6194",
+        "Green": "2539",
+        "Liberal Democrat": "1843",
+        "Independent": "472"
+    },
+    "Blyth and Ashington": {
+        "Labour": "20030",
+        "Reform": "10857",
+        "Conservative": "6121",
+        "Green": "1960",
+        "Liberal Democrat": "1433"
+    },
+    "Houghton and Sunderland South": {
+        "Labour": "18837",
+        "Reform": "11668",
+        "Conservative": "5514",
+        "Liberal Democrat": "2290",
+        "Green": "1723"
+    },
+    "Washington and Gateshead South": {
+        "Labour": "17682",
+        "Reform": "10769",
+        "Conservative": "4654",
+        "Green": "1687",
+        "Liberal Democrat": "1602",
+        "Independent": "627"
+    },
+    "Newcastle upon Tyne Central and West": {
+        "Labour": "18875",
+        "Reform": "7815",
+        "Conservative": "4228",
+        "Independent": "1636",
+        "Green": "3228",
+        "Liberal Democrat": "1946"
+    },
+    "Gateshead Central and Whickham": {
+        "Labour": "18245",
+        "Reform": "8601",
+        "Liberal Democrat": "4987",
+        "Conservative": "4628",
+        "Green": "3217",
+        "Trade Unionist and Socialist Coalition": "369",
+        "Save Us Now": "170"
+    },
+    "Cramlington and Killingworth": {
+        "Labour": "22274",
+        "Reform": "9454",
+        "Conservative": "8592",
+        "Green": "2144",
+        "Liberal Democrat": "1898",
+        "Independent": "322",
+        "Social Democratic Party": "137"
+    },
+    "South Shields": {
+        "Labour": "15122",
+        "Reform": "8469",
+        "Green": "5433",
+        "Conservative": "4128",
+        "Independent": "2270",
+        "Liberal Democrat": "1402"
+    },
+    "Harrogate and Knaresborough": {
+        "Liberal Democrat": "23976",
+        "Conservative": "15738",
+        "Reform": "5679",
+        "Labour": "4153",
+        "Green": "1762",
+        "Independent": "136"
+    },
+    "Rayleigh and Wickford": {
+        "Conservative": "17756",
+        "Reform": "12135",
+        "Labour": "11823",
+        "Liberal Democrat": "4068",
+        "Green": "2196"
+    },
+    "Stroud": {
+        "Labour": "25607",
+        "Conservative": "14219",
+        "Reform": "6329",
+        "Green": "5729",
+        "Liberal Democrat": "2913",
+        "Independent": "261",
+        "Volt United Kingdom": "163"
+    },
+    "Jarrow and Gateshead East": {
+        "Labour": "18856",
+        "Reform": "9892",
+        "Conservative": "3354",
+        "Green": "2384",
+        "Liberal Democrat": "1740",
+        "Alliance for Democracy and Freedom": "502"
+    },
+    "Darlington": {
+        "Labour": "16621",
+        "Conservative": "14323",
+        "Reform": "6852",
+        "Green": "2847",
+        "Liberal Democrat": "1735"
+    },
+    "Nuneaton": {
+        "Labour": "15216",
+        "Conservative": "11737",
+        "Reform": "9059",
+        "Green": "2894",
+        "Liberal Democrat": "1340",
+        "Workers Party of Britain": "967"
+    },
+    "Knowsley": {
+        "Labour": "24243",
+        "Reform": "5924",
+        "Green": "2772",
+        "Conservative": "1496",
+        "Liberal Democrat": "1232",
+        "Workers Party of Britain": "245",
+        "Social Democratic Party": "135"
+    },
+    "Barnsley North": {
+        "Labour": "18610",
+        "Reform": "10799",
+        "Conservative": "3083",
+        "Green": "1805",
+        "Liberal Democrat": "1336",
+        "Independent": "616",
+        "The Yorkshire Party": "603",
+        "English Democrats": "42"
+    },
+    "Leeds West and Pudsey": {
+        "Labour": "18976",
+        "Conservative": "6584",
+        "Reform": "6281",
+        "Green": "3794",
+        "Liberal Democrat": "1743",
+        "Workers Party of Britain": "633",
+        "The Yorkshire Party": "404",
+        "Social Democratic Party": "79"
+    },
+    "Eastleigh": {
+        "Liberal Democrat": "15970",
+        "Conservative": "14424",
+        "Labour": "7005",
+        "Reform": "6151",
+        "Green": "2403",
+        "Independent": "467"
+    },
+    "Telford": {
+        "Labour": "18212",
+        "Reform": "10110",
+        "Conservative": "8728",
+        "Green": "2120",
+        "Liberal Democrat": "1560"
+    },
+    "Bridgend": {
+        "Labour": "16516",
+        "Reform": "7921",
+        "Conservative": "6764",
+        "Plaid Cymru": "3629",
+        "Independent": "3338",
+        "Green": "1760",
+        "Liberal Democrat": "1446"
+    },
+    "Swindon North": {
+        "Labour": "17930",
+        "Conservative": "13827",
+        "Reform": "7557",
+        "Green": "2366",
+        "Liberal Democrat": "2086",
+        "Independent": "260",
+        "Trade Unionist and Socialist Coalition": "139"
+    },
+    "Barnsley South": {
+        "Labour": "16399",
+        "Reform": "11651",
+        "Conservative": "3247",
+        "Green": "1521",
+        "Liberal Democrat": "1172",
+        "The Yorkshire Party": "716",
+        "Socialist Labour Party": "227",
+        "English Democrats": "149"
+    },
+    "Vale of Glamorgan": {
+        "Labour": "17740",
+        "Conservative": "13524",
+        "Reform": "6973",
+        "Plaid Cymru": "3245",
+        "Green": "1881",
+        "Liberal Democrat": "1612",
+        "Abolish the Welsh Assembly Party": "669",
+        "Independent": "182"
+    },
+    "Battersea": {
+        "Labour": "22983",
+        "Conservative": "10944",
+        "Liberal Democrat": "4826",
+        "Green": "4239",
+        "Reform": "2825",
+        "Workers Party of Britain": "499",
+        "Rejoin EU": "401",
+        "Independent": "216",
+        "Social Democratic Party": "149"
+    },
+    "Cannock Chase": {
+        "Labour": "15671",
+        "Conservative": "12546",
+        "Reform": "11570",
+        "Green": "2137",
+        "Liberal Democrat": "1029"
+    },
+    "Leigh and Atherton": {
+        "Labour": "19971",
+        "Reform": "11090",
+        "Conservative": "6483",
+        "Green": "1653",
+        "Liberal Democrat": "1597",
+        "English Democrats": "376"
+    },
+    "Colchester": {
+        "Labour": "18804",
+        "Conservative": "10554",
+        "Reform": "6664",
+        "Liberal Democrat": "6393",
+        "Green": "2414",
+        "Climate Party": "74"
+    },
+    "Ashfield": {
+        "Reform": "17062",
+        "Labour": "11554",
+        "Ashfield Independents": "6276",
+        "Conservative": "3271",
+        "Green": "1100",
+        "Liberal Democrat": "619"
+    },
+    "Norwich South": {
+        "Labour": "21484",
+        "Green": "8245",
+        "Conservative": "5806",
+        "Reform": "5227",
+        "Liberal Democrat": "3577",
+        "Party of Women": "455",
+        "Independent": "301"
+    },
+    "Blackpool South": {
+        "Labour": "16916",
+        "Reform": "10068",
+        "Conservative": "5504",
+        "Green": "1207",
+        "Liberal Democrat": "1041",
+        "Independent": "261",
+        "Alliance for Democracy and Freedom": "183"
+    },
+    "Tynemouth": {
+        "Labour": "24491",
+        "Conservative": "9036",
+        "Reform": "7392",
+        "Green": "3592",
+        "Liberal Democrat": "2709",
+        "Independent": "273",
+        "Party of Women": "286",
+        "Heritage Party": "108"
+    },
+    "Widnes and Halewood": {
+        "Labour": "23484",
+        "Reform": "7059",
+        "Conservative": "3507",
+        "Green": "2058",
+        "Liberal Democrat": "1593",
+        "Workers Party of Britain": "415"
+    },
+    "Reading Central": {
+        "Labour": "21598",
+        "Conservative": "8961",
+        "Green": "6417",
+        "Liberal Democrat": "3963",
+        "Reform": "3904",
+        "Independent": "227",
+        "Trade Unionist and Socialist Coalition": "221"
+    },
+    "Redcar": {
+        "Labour": "15663",
+        "Conservative": "12340",
+        "Reform": "7216",
+        "Liberal Democrat": "1542",
+        "Green": "1270",
+        "Social Democratic Party": "169"
+    },
+    "Broxbourne": {
+        "Conservative": "15810",
+        "Labour": "12952",
+        "Reform": "8782",
+        "Liberal Democrat": "2688",
+        "Green": "2461",
+        "UK Independence Party": "172",
+        "English Constitution Party": "87"
+    },
+    "Middlesbrough and Thornaby East": {
+        "Labour": "16238",
+        "Reform": "7046",
+        "Conservative": "6174",
+        "Workers Party of Britain": "2007",
+        "Green": "1522",
+        "Liberal Democrat": "1037",
+        "Independent": "383"
+    },
+    "Runcorn and Helsby": {
+        "Labour": "22358",
+        "Reform": "7662",
+        "Conservative": "6756",
+        "Green": "2715",
+        "Liberal Democrat": "2149",
+        "Liberal Party": "479",
+        "Social Democratic Party": "116"
+    },
+    "Swansea West": {
+        "Labour": "14761",
+        "Reform": "6246",
+        "Liberal Democrat": "4367",
+        "Plaid Cymru": "4105",
+        "Conservative": "3536",
+        "Green": "2305",
+        "Trade Unionist and Socialist Coalition": "337"
+    },
+    "Putney": {
+        "Labour": "20952",
+        "Conservative": "10011",
+        "Liberal Democrat": "5189",
+        "Green": "3182",
+        "Reform": "2681",
+        "Workers Party of Britain": "433",
+        "Rejoin EU": "289"
+    },
+    "Rushcliffe": {
+        "Labour": "25291",
+        "Conservative": "17865",
+        "Reform": "6353",
+        "Green": "4367",
+        "Liberal Democrat": "3133",
+        "Independent": "186"
+    },
+    "Hartlepool": {
+        "Labour": "16414",
+        "Reform": "8716",
+        "Conservative": "7767",
+        "Independent": "895",
+        "Green": "834",
+        "Liberal Democrat": "572",
+        "Workers Party of Britain": "248",
+        "Heritage Party": "65"
+    },
+    "Pontypridd": {
+        "Labour": "16225",
+        "Reform": "7823",
+        "Plaid Cymru": "5275",
+        "Conservative": "3775",
+        "Independent": "44",
+        "Green": "1865",
+        "Liberal Democrat": "1606"
+    },
+    "Chorley": {
+        "Speaker of the House of Commons": "25238",
+        "Green": "4663",
+        "Democracy for Chorley": "2424",
+        "English Constitution Party": "1007",
+        "Trade Unionist and Socialist Coalition": "632"
+    },
+    "Whitehaven and Workington": {
+        "Labour": "22173",
+        "Reform": "8887",
+        "Conservative": "8455",
+        "Green": "1207",
+        "Liberal Democrat": "1118"
+    },
+    "Wrexham": {
+        "Labour": "15836",
+        "Conservative": "9888",
+        "Reform": "6915",
+        "Plaid Cymru": "4138",
+        "Liberal Democrat": "1777",
+        "Green": "1339",
+        "Abolish the Welsh Assembly Party": "480"
+    },
+    "Bootle": {
+        "Labour": "26729",
+        "Reform": "4746",
+        "Green": "3904",
+        "Conservative": "1674",
+        "Liberal Democrat": "1301",
+        "Workers Party of Britain": "526"
+    },
+    "Rochdale": {
+        "Labour": "13027",
+        "Workers Party of Britain": "11587",
+        "Reform": "6773",
+        "Conservative": "4273",
+        "Liberal Democrat": "2816",
+        "Green": "1212"
+    },
+    "Erewash": {
+        "Labour": "17224",
+        "Conservative": "11365",
+        "Reform": "9162",
+        "Green": "2478",
+        "Liberal Democrat": "2426",
+        "Independent": "351"
+    },
+    "Tipton and Wednesbury": {
+        "Labour": "11755",
+        "Conservative": "8370",
+        "Reform": "8019",
+        "Green": "1509",
+        "Independent": "660",
+        "Liberal Democrat": "592"
+    },
+    "Kilmarnock and Loudoun": {
+        "Labour": "19055",
+        "Scottish National Party": "13936",
+        "Conservative": "3527",
+        "Reform": "3472",
+        "Green": "1237",
+        "Liberal Democrat": "850",
+        "Independent": "401"
+    },
+    "Islington South and Finsbury": {
+        "Labour": "22946",
+        "Green": "7491",
+        "Liberal Democrat": "4045",
+        "Conservative": "3584",
+        "Reform": "3388",
+        "Independent": "569",
+        "Party of Women": "354",
+        "Trade Unionist and Socialist Coalition": "215",
+        "Social Democratic Party": "162"
+    },
+    "Kingston and Surbiton": {
+        "Liberal Democrat": "25870",
+        "Conservative": "8635",
+        "Labour": "6561",
+        "Reform": "4787",
+        "Green": "3009",
+        "Kingston Independent Residents Group": "1177",
+        "Workers Party of Britain": "395",
+        "Monster Raving Loony Party": "230"
+    },
+    "Torfaen": {
+        "Labour": "15176",
+        "Reform": "7854",
+        "Conservative": "5737",
+        "Plaid Cymru": "2571",
+        "Green": "1705",
+        "Liberal Democrat": "1644",
+        "Independent": "881",
+        "Heritage Party": "137"
+    },
+    "Leyton and Wanstead": {
+        "Labour": "20755",
+        "Green": "6791",
+        "Conservative": "4846",
+        "Independent": "4173",
+        "Liberal Democrat": "2815",
+        "Reform": "2475",
+        "Workers Party of Britain": "1633",
+        "Rejoin EU": "244"
+    },
+    "Gower": {
+        "Labour": "20480",
+        "Conservative": "8913",
+        "Reform": "8530",
+        "Plaid Cymru": "3942",
+        "Liberal Democrat": "2593",
+        "Green": "2488",
+        "Independent": "283"
+    },
+    "Coventry East": {
+        "Labour": "18308",
+        "Reform": "6685",
+        "Conservative": "6240",
+        "Green": "2730",
+        "Liberal Democrat": "1227",
+        "Workers Party of Britain": "1027",
+        "Trade Unionist and Socialist Coalition": "797"
+    },
+    "Ealing Central and Acton": {
+        "Labour": "22340",
+        "Conservative": "8345",
+        "Liberal Democrat": "6056",
+        "Green": "5444",
+        "Reform": "3105",
+        "Workers Party of Britain": "1766",
+        "Social Democratic Party": "410",
+        "Independent": "303"
+    },
+    "Southport": {
+        "Labour": "17252",
+        "Conservative": "11463",
+        "Reform": "7395",
+        "Liberal Democrat": "5868",
+        "Green": "2159",
+        "Independent": "922"
+    },
+    "West Dunbartonshire": {
+        "Labour": "19312",
+        "Scottish National Party": "13302",
+        "Reform": "2770",
+        "Green": "1496",
+        "Conservative": "1474",
+        "Liberal Democrat": "839",
+        "Scottish Family Party": "318",
+        "Sovereignty": "73"
+    },
+    "Broxtowe": {
+        "Labour": "19561",
+        "Conservative": "11158",
+        "Reform": "8402",
+        "Liberal Democrat": "3807",
+        "Green": "3488",
+        "Independent": "1034",
+        "Workers Party of Britain": "388"
+    },
+    "Stevenage": {
+        "Labour": "17698",
+        "Conservative": "11080",
+        "Reform": "7667",
+        "Liberal Democrat": "3467",
+        "Green": "2655",
+        "Christian Peoples Alliance": "148"
+    },
+    "Bishop Auckland": {
+        "Labour": "17036",
+        "Conservative": "10364",
+        "Reform": "9466",
+        "Green": "1857",
+        "Liberal Democrat": "1373",
+        "Transform Party": "331"
+    },
+    "Easington": {
+        "Labour": "16774",
+        "Reform": "10232",
+        "Conservative": "3753",
+        "North East Party": "1581",
+        "Green": "1173",
+        "Liberal Democrat": "811"
+    },
+    "Barrow and Furness": {
+        "Labour": "18537",
+        "Conservative": "13213",
+        "Reform": "7035",
+        "Liberal Democrat": "1680",
+        "Green": "1466",
+        "Party of Women": "290"
+    },
+    "Scunthorpe": {
+        "Labour": "15484",
+        "Conservative": "11942",
+        "Reform": "8163",
+        "Green": "1218",
+        "Independent": "1202",
+        "Liberal Democrat": "942",
+        "Heritage Party": "100"
+    },
+    "Tooting": {
+        "Labour": "29209",
+        "Conservative": "9722",
+        "Green": "5672",
+        "Liberal Democrat": "4438",
+        "Reform": "2546",
+        "Workers Party of Britain": "807",
+        "Rejoin EU": "370",
+        "Independent": "179"
+    },
+    "Ashton-under-Lyne": {
+        "Labour": "15575",
+        "Reform": "8784",
+        "Conservative": "4375",
+        "Workers Party of Britain": "2835",
+        "Green": "2481",
+        "Liberal Democrat": "1411"
+    },
+    "Thurrock": {
+        "Labour": "16050",
+        "Reform": "9576",
+        "Conservative": "8009",
+        "Green": "1632",
+        "Liberal Democrat": "1157",
+        "Workers Party of Britain": "691",
+        "Independent": "443"
+    },
+    "Leicester West": {
+        "Labour": "15798",
+        "Conservative": "7021",
+        "Reform": "5666",
+        "Green": "4089",
+        "Liberal Democrat": "2179",
+        "One Leicester": "327",
+        "Trade Unionist and Socialist Coalition": "317"
+    },
+    "Makerfield": {
+        "Labour": "18202",
+        "Reform": "12803",
+        "Conservative": "4379",
+        "Liberal Democrat": "2735",
+        "Green": "1776",
+        "English Democrats": "368"
+    },
+    "West Suffolk": {
+        "Conservative": "15814",
+        "Labour": "12567",
+        "Reform": "9623",
+        "Liberal Democrat": "4284",
+        "Green": "2910",
+        "Independent": "345",
+        "Social Democratic Party": "133"
+    },
+    "Liverpool Walton": {
+        "Labour": "26032",
+        "Reform": "5787",
+        "Green": "2388",
+        "Conservative": "1282",
+        "Liberal Democrat": "945",
+        "Liberal Party": "452"
+    },
+    "North East Cambridgeshire": {
+        "Conservative": "16246",
+        "Reform": "9057",
+        "Labour": "8008",
+        "Liberal Democrat": "2716",
+        "Green": "2001",
+        "Independent": "958",
+        "Workers Party of Britain": "190"
+    },
+    "Hinckley and Bosworth": {
+        "Conservative": "17032",
+        "Liberal Democrat": "11624",
+        "Reform": "8817",
+        "Labour": "8601",
+        "Green": "1514",
+        "Independent": "211"
+    },
+    "Newcastle upon Tyne North": {
+        "Labour": "24440",
+        "Conservative": "6678",
+        "Liberal Democrat": "5936",
+        "Reform": "5933",
+        "Green": "5035",
+        "Independent": "310",
+        "Social Democratic Party": "285"
+    },
+    "Huntingdon": {
+        "Conservative": "18257",
+        "Labour": "16758",
+        "Reform": "8039",
+        "Liberal Democrat": "4821",
+        "Green": "3042",
+        "Independent": "1123"
+    },
+    "Chelmsford": {
+        "Liberal Democrat": "20214",
+        "Conservative": "15461",
+        "Reform": "6754",
+        "Labour": "6108",
+        "Green": "1588",
+        "Independent Network ": "230",
+        "Monster Raving Loony Party": "187",
+        "Workers Party of Britain": "105",
+        "Independent": "69"
+    },
+    "Luton North": {
+        "Labour": "14677",
+        "Conservative": "7167",
+        "Reform": "4666",
+        "Independent": "4393",
+        "Workers Party of Britain": "3914",
+        "Green": "1940",
+        "Liberal Democrat": "1890",
+        "Social Democratic Party": "98"
+    },
+    "Walthamstow": {
+        "Labour": "27172",
+        "Green": "9176",
+        "Conservative": "2353",
+        "Reform": "1836",
+        "Liberal Democrat": "1736",
+        "Workers Party of Britain": "1535",
+        "Independent": "288",
+        "Trade Unionist and Socialist Coalition": "561"
+    },
+    "Bolsover": {
+        "Labour": "17197",
+        "Conservative": "10874",
+        "Reform": "9131",
+        "Green": "3754",
+        "Liberal Democrat": "1478"
+    },
+    "Holborn and St Pancras": {
+        "Labour": "18884",
+        "Independent": "19",
+        "Green": "4030",
+        "Conservative": "2776",
+        "Reform": "2371",
+        "Liberal Democrat": "2236",
+        "Monster Raving Loony Party": "162",
+        "UK Independence Party": "75",
+        "Socialist Equality": "61"
+    },
+    "Rhondda and Ogmore": {
+        "Labour": "17118",
+        "Reform": "9328",
+        "Plaid Cymru": "5198",
+        "Conservative": "2050",
+        "Green": "1177",
+        "Liberal Democrat": "935"
+    },
+    "Ealing North": {
+        "Labour": "20663",
+        "Conservative": "8144",
+        "Green": "4056",
+        "Reform": "3948",
+        "Workers Party of Britain": "3139",
+        "Liberal Democrat": "2543",
+        "Independent": "499",
+        "Social Democratic Party": "240"
+    },
+    "Folkestone and Hythe": {
+        "Labour": "15020",
+        "Conservative": "11291",
+        "Reform": "10685",
+        "Green": "3954",
+        "Liberal Democrat": "1736",
+        "Trade Unionist and Socialist Coalition": "249",
+        "Fairer Voting Party": "240",
+        "Socialist Party of Great Britain": "71"
+    },
+    "Lewisham East": {
+        "Labour": "23646",
+        "Green": "5573",
+        "Conservative": "4401",
+        "Reform": "3469",
+        "Liberal Democrat": "2471",
+        "Workers Party of Britain": "577",
+        "Christian Peoples Alliance": "404",
+        "Shared Ground": "96"
+    },
+    "Smethwick": {
+        "Labour": "16858",
+        "Reform": "5670",
+        "Conservative": "4546",
+        "Green": "2741",
+        "Workers Party of Britain": "2449",
+        "Independent": "348",
+        "Liberal Democrat": "1018",
+        "Trade Unionist and Socialist Coalition": "163"
+    },
+    "Cheltenham": {
+        "Liberal Democrat": "25076",
+        "Conservative": "17866",
+        "Green": "3160",
+        "Labour": "2665",
+        "Independent": "775"
+    },
+    "Caerphilly": {
+        "Labour": "14538",
+        "Plaid Cymru": "8119",
+        "Reform": "7754",
+        "Conservative": "4385",
+        "Liberal Democrat": "1788",
+        "Green": "1650"
+    },
+    "Carshalton and Wallington": {
+        "Liberal Democrat": "20126",
+        "Conservative": "12221",
+        "Labour": "6108",
+        "Reform": "5941",
+        "Green": "1517",
+        "Workers Party of Britain": "441",
+        "Christian Peoples Alliance": "231",
+        "Social Democratic Party": "85"
+    },
+    "Twickenham": {
+        "Liberal Democrat": "30185",
+        "Conservative": "8728",
+        "Labour": "6693",
+        "Reform": "4092",
+        "Green": "3590",
+        "Workers Party of Britain": "347"
+    },
+    "Coventry North West": {
+        "Labour": "19696",
+        "Conservative": "8522",
+        "Reform": "7950",
+        "Green": "3420",
+        "Liberal Democrat": "1931",
+        "Independent": "511"
+    },
+    "Hazel Grove": {
+        "Liberal Democrat": "17328",
+        "Labour": "10828",
+        "Conservative": "9011",
+        "Reform": "6955",
+        "Green": "1763",
+        "Social Democratic Party": "113"
+    },
+    "Exeter": {
+        "Labour": "18225",
+        "Conservative": "6288",
+        "Green": "5907",
+        "Reform": "4914",
+        "Liberal Democrat": "4201",
+        "Independent": "194"
+    },
+    "Wigan": {
+        "Labour": "19401",
+        "Reform": "9852",
+        "Conservative": "4310",
+        "Independent": "87",
+        "Liberal Democrat": "1692",
+        "Green": "1629"
+    },
+    "Fylde": {
+        "Conservative": "15917",
+        "Labour": "15356",
+        "Reform": "8295",
+        "Independent": "4513",
+        "Liberal Democrat": "2120",
+        "Green": "1560",
+        "Alliance for Democracy and Freedom": "199"
+    },
+    "Torbay": {
+        "Liberal Democrat": "18937",
+        "Conservative": "13588",
+        "Reform": "8660",
+        "Labour": "3276",
+        "Green": "1420",
+        "Workers Party of Britain": "234"
+    },
+    "Paisley and Renfrewshire South": {
+        "Labour": "19583",
+        "Scottish National Party": "13056",
+        "Reform": "2956",
+        "Conservative": "2219",
+        "Green": "1724",
+        "Liberal Democrat": "1315",
+        "Independent": "317",
+        "Freedom Alliance": "113"
+    },
+    "Epping Forest": {
+        "Conservative": "18038",
+        "Labour": "12356",
+        "Liberal Democrat": "5268",
+        "Independent": "3037",
+        "Green": "2486",
+        "Shared Ground": "568"
+    },
+    "Blaydon and Consett": {
+        "Labour": "21160",
+        "Reform": "10007",
+        "Conservative": "6052",
+        "Green": "2589",
+        "Liberal Democrat": "2273",
+        "Social Democratic Party": "135"
+    },
+    "Gosport": {
+        "Conservative": "17830",
+        "Labour": "11776",
+        "Reform": "7983",
+        "Liberal Democrat": "4039",
+        "Green": "1948",
+        "Independent": "334",
+        "Heritage Party": "319",
+        "Hampshire Independents": "48"
+    },
+    "Heywood and Middleton North": {
+        "Labour": "15069",
+        "Reform": "8987",
+        "Conservative": "6423",
+        "Independent": "4349",
+        "Liberal Democrat": "2302"
+    },
+    "Harlow": {
+        "Labour": "16313",
+        "Conservative": "13809",
+        "Reform": "9461",
+        "Green": "2267",
+        "Liberal Democrat": "1350",
+        "UK Independence Party": "157"
+    },
+    "Welwyn Hatfield": {
+        "Labour": "19877",
+        "Conservative": "16078",
+        "Reform": "6397",
+        "Liberal Democrat": "3117",
+        "Green": "2986"
+    },
+    "Luton South and South Bedfordshire": {
+        "Labour": "13593",
+        "Conservative": "6735",
+        "Independent": "5384",
+        "Reform": "4759",
+        "Workers Party of Britain": "3110",
+        "Green": "2401",
+        "Liberal Democrat": "2400"
+    },
+    "Leicester East": {
+        "Conservative": "14526",
+        "Labour": "10100",
+        "Liberal Democrat": "6329",
+        "Independent": "115",
+        "One Leicester": "3681",
+        "Reform": "2611",
+        "Green": "2143"
+    },
+    "Bermondsey and Old Southwark": {
+        "Labour": "16857",
+        "Liberal Democrat": "9070",
+        "Green": "4477",
+        "Reform": "3397",
+        "Conservative": "2879",
+        "Independent": "247"
+    },
+    "Brent East": {
+        "Labour": "19370",
+        "Conservative": "6323",
+        "Green": "3729",
+        "Liberal Democrat": "2635",
+        "Reform": "2024",
+        "Independent": "169",
+        "Workers Party of Britain": "1052"
+    },
+    "Brentwood and Ongar": {
+        "Conservative": "17731",
+        "Reform": "11751",
+        "Labour": "11082",
+        "Liberal Democrat": "5809",
+        "Green": "1770",
+        "English Democrats": "189"
+    },
+    "Newport East": {
+        "Labour": "16370",
+        "Reform": "7361",
+        "Conservative": "6487",
+        "Plaid Cymru": "2239",
+        "Green": "2092",
+        "Liberal Democrat": "2045",
+        "Independent": "1802",
+        "Heritage Party": "135"
+    },
+    "North Warwickshire and Bedworth": {
+        "Labour": "14727",
+        "Conservative": "12529",
+        "Reform": "10701",
+        "Green": "1755",
+        "Liberal Democrat": "1228"
+    },
+    "Rawmarsh and Conisbrough": {
+        "Labour": "16612",
+        "Reform": "9704",
+        "Conservative": "4496",
+        "Green": "1687",
+        "Liberal Democrat": "1137",
+        "Workers Party of Britain": "268"
+    },
+    "Lothian East": {
+        "Labour": "23555",
+        "Scottish National Party": "10290",
+        "Conservative": "5535",
+        "Reform": "3039",
+        "Liberal Democrat": "2649",
+        "Green": "2477",
+        "Alba": "557"
+    },
+    "Bracknell": {
+        "Labour": "14783",
+        "Conservative": "13999",
+        "Reform": "7445",
+        "Liberal Democrat": "4768",
+        "Green": "2166",
+        "Independent": "480",
+        "Heritage Party": "196"
+    },
+    "Hexham": {
+        "Labour": "23988",
+        "Conservative": "20275",
+        "Green": "2467",
+        "Liberal Democrat": "2376",
+        "Independent": "1511",
+        "Social Democratic Party": "1211"
+    },
+    "Newton Aycliffe and Spennymoor": {
+        "Labour": "18394",
+        "Reform": "9555",
+        "Conservative": "8195",
+        "Green": "1701",
+        "Liberal Democrat": "1491",
+        "Transform Party": "264",
+        "Workers Party of Britain": "246"
+    },
+    "Sutton and Cheam": {
+        "Liberal Democrat": "17576",
+        "Conservative": "13775",
+        "Labour": "8430",
+        "Reform": "5787",
+        "Green": "1721",
+        "Independent": "317"
+    },
+    "West Bromwich": {
+        "Labour": "16872",
+        "Conservative": "7318",
+        "Reform": "7101",
+        "Green": "2036",
+        "Independent": "1707",
+        "Liberal Democrat": "1314",
+        "UK Independence Party": "133"
+    },
+    "Wyre Forest": {
+        "Conservative": "14489",
+        "Labour": "13677",
+        "Reform": "9682",
+        "Liberal Democrat": "2809",
+        "Green": "2443",
+        "Independent": "523"
+    },
+    "Ynys M\u00c3\u00b4n": {
+        "Plaid Cymru": "10590",
+        "Conservative": "9953",
+        "Labour": "7619",
+        "Reform": "3223",
+        "Green": "604",
+        "Liberal Democrat": "439",
+        "Monster Raving Loony Party": "156",
+        "Libertarian Party": "44"
+    },
+    "Aberdeen North": {
+        "Scottish National Party": "14533",
+        "Labour": "12773",
+        "Conservative": "5881",
+        "Reform": "3781",
+        "Liberal Democrat": "2583",
+        "Green": "1275",
+        "Alba": "703",
+        "Scottish Family Party": "352",
+        "Trade Unionist and Socialist Coalition": "214"
+    },
+    "Chingford and Woodford Green": {
+        "Conservative": "17281",
+        "Labour": "12524",
+        "Independent": "12445",
+        "Reform": "3653",
+        "Green": "1334",
+        "Liberal Democrat": "1275"
+    },
+    "Stalybridge and Hyde": {
+        "Labour": "16320",
+        "Reform": "7781",
+        "Conservative": "6872",
+        "Green": "2745",
+        "Workers Party of Britain": "1227",
+        "Independent": "1214",
+        "Liberal Democrat": "1080"
+    },
+    "Worcester": {
+        "Labour": "18622",
+        "Conservative": "11506",
+        "Reform": "6723",
+        "Green": "4789",
+        "Liberal Democrat": "3986",
+        "Trade Unionist and Socialist Coalition": "280",
+        "Social Democratic Party": "130"
+    },
+    "Brent West": {
+        "Labour": "17258",
+        "Conservative": "13465",
+        "Liberal Democrat": "3013",
+        "Green": "2805",
+        "Workers Party of Britain": "2774",
+        "Reform": "2061"
+    },
+    "East Renfrewshire": {
+        "Labour": "21935",
+        "Scottish National Party": "13514",
+        "Conservative": "8494",
+        "Reform": "2360",
+        "Green": "1510",
+        "Liberal Democrat": "1150",
+        "Scottish Family Party": "487",
+        "Liberal Party": "481",
+        "Independence for Scotland Party": "296"
+    },
+    "Enfield North": {
+        "Labour": "21368",
+        "Conservative": "8632",
+        "Reform": "5146",
+        "Green": "3713",
+        "Liberal Democrat": "2517",
+        "Independent": "1448",
+        "Workers Party of Britain": "668"
+    },
+    "South Cambridgeshire": {
+        "Liberal Democrat": "25704",
+        "Conservative": "15063",
+        "Labour": "6106",
+        "Reform": "4897",
+        "Green": "2656",
+        "Independent": "459"
+    },
+    "Grantham and Bourne": {
+        "Conservative": "16770",
+        "Labour": "12274",
+        "Reform": "9393",
+        "Green": "2570",
+        "Liberal Democrat": "2027",
+        "Independent": "1642",
+        "Lincolnshire Independents": "1245",
+        "Social Democratic Party": "204"
+    },
+    "Bolton South and Walkden": {
+        "Labour": "15093",
+        "Reform": "8350",
+        "Workers Party of Britain": "4673",
+        "Conservative": "4170",
+        "Green": "2827",
+        "Liberal Democrat": "1384",
+        "Independent": "433"
+    },
+    "Ealing Southall": {
+        "Labour": "23000",
+        "Conservative": "7207",
+        "Green": "4356",
+        "Workers Party of Britain": "4237",
+        "Liberal Democrat": "2832",
+        "Reform": "2585",
+        "Independent": "213",
+        "Rejoin EU": "475"
+    },
+    "Burton and Uttoxeter": {
+        "Labour": "16222",
+        "Conservative": "13956",
+        "Reform": "9611",
+        "Green": "2119",
+        "Workers Party of Britain": "2056",
+        "Liberal Democrat": "1663"
+    },
+    "Richmond Park": {
+        "Liberal Democrat": "28528",
+        "Conservative": "11373",
+        "Labour": "5048",
+        "Reform": "3258",
+        "Green": "2728",
+        "The Mitre TW9": "349",
+        "Social Democratic Party": "233"
+    },
+    "Liverpool Riverside": {
+        "Labour": "20039",
+        "Green": "5246",
+        "Reform": "3272",
+        "Liberal Democrat": "1544",
+        "Conservative": "1155",
+        "Trade Unionist and Socialist Coalition": "622",
+        "Liberal Party": "256",
+        "National Health Action Party": "247"
+    },
+    "Cambridge": {
+        "Labour": "19614",
+        "Liberal Democrat": "8536",
+        "Green": "6842",
+        "Conservative": "5073",
+        "Workers Party of Britain": "951",
+        "Independent": "819",
+        "Rebooting Democracy": "265"
+    },
+    "Newcastle upon Tyne East and Wallsend": {
+        "Labour": "21200",
+        "Reform": "8383",
+        "Green": "5257",
+        "Conservative": "3522",
+        "Liberal Democrat": "2965",
+        "Workers Party of Britain": "430",
+        "Party of Women": "283",
+        "Communist Party of Britain": "186",
+        "Social Democratic Party": "95"
+    },
+    "Sefton Central": {
+        "Labour": "26772",
+        "Conservative": "8490",
+        "Reform": "5767",
+        "Green": "3294",
+        "Liberal Democrat": "2630",
+        "Independent": "496"
+    },
+    "St Helens North": {
+        "Labour": "21284",
+        "Reform": "9115",
+        "Conservative": "4507",
+        "Green": "3495",
+        "Liberal Democrat": "1799",
+        "English Constitution Party": "274"
+    },
+    "Newton Abbot": {
+        "Liberal Democrat": "15201",
+        "Conservative": "12955",
+        "Reform": "8494",
+        "Labour": "7115",
+        "Green": "2083",
+        "South Devon Alliance": "1924",
+        "Heritage Party": "116",
+        "Volt United Kingdom": "104"
+    },
+    "Stratford-on-Avon": {
+        "Liberal Democrat": "23450",
+        "Conservative": "16328",
+        "Reform": "7753",
+        "Labour": "3753",
+        "Green": "1197",
+        "Independent": "292",
+        "New Open Non-Political Organised Leadership": "166"
+    },
+    "Bangor Aberconwy": {
+        "Labour": "14008",
+        "Plaid Cymru": "9112",
+        "Conservative": "9036",
+        "Reform": "6091",
+        "Liberal Democrat": "1524",
+        "Green": "1361",
+        "Socialist Labour Party": "424",
+        "Climate Party": "104"
+    },
+    "Mid Norfolk": {
+        "Conservative": "16770",
+        "Labour": "13716",
+        "Reform": "9427",
+        "Liberal Democrat": "3126",
+        "Green": "2858"
+    },
+    "South Ribble": {
+        "Labour": "19840",
+        "Conservative": "13339",
+        "Reform": "8995",
+        "Liberal Democrat": "2972",
+        "Green": "1574"
+    },
+    "East Kilbride and Strathaven": {
+        "Labour": "22682",
+        "Scottish National Party": "13625",
+        "Conservative": "3547",
+        "Reform": "3377",
+        "Green": "1811",
+        "Liberal Democrat": "1074",
+        "Scottish Family Party": "505",
+        "UK Independence Party": "86"
+    },
+    "Ipswich": {
+        "Labour": "19099",
+        "Conservative": "11696",
+        "Reform": "7027",
+        "Green": "3652",
+        "Liberal Democrat": "2241",
+        "Communist Party of Britain": "205",
+        "Heritage Party": "151"
+    },
+    "Islington North": {
+        "Independent": "24152",
+        "Labour": "16873",
+        "Green": "2660",
+        "Conservative": "1950",
+        "Reform": "1710",
+        "Liberal Democrat": "1661"
+    },
+    "City of Durham": {
+        "Labour": "19131",
+        "Reform": "7374",
+        "Liberal Democrat": "5920",
+        "Conservative": "5221",
+        "Green": "2803",
+        "Social Democratic Party": "178"
+    },
+    "North Durham": {
+        "Labour": "16562",
+        "Reform": "10689",
+        "Conservative": "6492",
+        "Liberal Democrat": "4208",
+        "Green": "2366",
+        "Workers Party of Britain": "928",
+        "Social Democratic Party": "320"
+    },
+    "Buckingham and Bletchley": {
+        "Labour": "17602",
+        "Conservative": "15181",
+        "Reform": "7468",
+        "Liberal Democrat": "4300",
+        "Green": "2590",
+        "Independent": "500"
+    },
+    "Clacton": {
+        "Reform": "21225",
+        "Conservative": "12820",
+        "Labour": "7448",
+        "Liberal Democrat": "2016",
+        "Green": "1935",
+        "Independent": "317",
+        "UK Independence Party": "116",
+        "Climate Party": "48",
+        "Heritage Party": "33"
+    },
+    "Paisley and Renfrewshire North": {
+        "Labour": "19561",
+        "Scottish National Party": "13228",
+        "Reform": "3228",
+        "Conservative": "2659",
+        "Green": "1469",
+        "Liberal Democrat": "1374"
+    },
+    "St Helens South and Whiston": {
+        "Labour": "18919",
+        "Reform": "6974",
+        "Independent": "4244",
+        "Conservative": "3057",
+        "Green": "2642",
+        "Liberal Democrat": "2199"
+    },
+    "Liverpool West Derby": {
+        "Labour": "25302",
+        "Reform": "4879",
+        "Green": "2647",
+        "Liberal Party": "2336",
+        "Conservative": "1566",
+        "Liberal Democrat": "1276"
+    },
+    "Midlothian": {
+        "Labour": "21480",
+        "Scottish National Party": "13313",
+        "Reform": "3276",
+        "Conservative": "3248",
+        "Liberal Democrat": "2589",
+        "Scottish Libertarian Party": "259"
+    },
+    "Rugby": {
+        "Labour": "19533",
+        "Conservative": "15105",
+        "Reform": "8225",
+        "Liberal Democrat": "3252",
+        "Green": "2556",
+        "Independent": "118"
+    },
+    "Stockport": {
+        "Labour": "21787",
+        "Reform": "6517",
+        "Conservative": "4967",
+        "Green": "4865",
+        "Liberal Democrat": "3724",
+        "Workers Party of Britain": "1630",
+        "Stockport Fights Austerity No to Cuts": "193"
+    },
+    "Gravesham": {
+        "Labour": "16623",
+        "Conservative": "13911",
+        "Reform": "8910",
+        "Green": "2254",
+        "Liberal Democrat": "1534"
+    },
+    "Rother Valley": {
+        "Labour": "16023",
+        "Conservative": "15025",
+        "Reform": "7679",
+        "Green": "1706",
+        "Liberal Democrat": "1175"
+    },
+    "South Holland and the Deepings": {
+        "Conservative": "17462",
+        "Reform": "10606",
+        "Labour": "9086",
+        "Independent": "5031",
+        "Liberal Democrat": "1945",
+        "Green": "1800"
+    },
+    "Bolton West": {
+        "Labour": "17363",
+        "Conservative": "12418",
+        "Reform": "8517",
+        "Green": "4132",
+        "Liberal Democrat": "1966",
+        "English Democrats": "202"
+    },
+    "Croydon East": {
+        "Labour": "18541",
+        "Conservative": "11716",
+        "Reform": "5862",
+        "Green": "4097",
+        "Liberal Democrat": "3563"
+    },
+    "Nottingham South": {
+        "Labour": "15579",
+        "Conservative": "5285",
+        "Reform": "4936",
+        "Green": "2923",
+        "Liberal Democrat": "2059",
+        "Workers Party of Britain": "1496",
+        "Independent": "152"
+    },
+    "Penrith and Solway": {
+        "Labour": "19986",
+        "Conservative": "14729",
+        "Reform": "7624",
+        "Liberal Democrat": "4742",
+        "Green": "1730",
+        "Independent": "119",
+        "Social Democratic Party": "156"
+    },
+    "Aberafan Maesteg": {
+        "Labour": "17838",
+        "Reform": "7484",
+        "Plaid Cymru": "4719",
+        "Conservative": "2903",
+        "Green": "1094",
+        "Liberal Democrat": "916",
+        "Independent": "618",
+        "Heritage Party": "183"
+    },
+    "Eastbourne": {
+        "Liberal Democrat": "23742",
+        "Conservative": "11538",
+        "Reform": "6061",
+        "Labour": "2689",
+        "Green": "1421",
+        "UK Independence Party": "154"
+    },
+    "Mid Bedfordshire": {
+        "Conservative": "16912",
+        "Labour": "15591",
+        "Reform": "8594",
+        "Liberal Democrat": "4068",
+        "Green": "2584",
+        "Independent": "1700",
+        "Social Democratic Party": "172"
+    },
+    "North West Essex": {
+        "Conservative": "19360",
+        "Labour": "16750",
+        "Reform": "7668",
+        "Liberal Democrat": "6055",
+        "Green": "2846",
+        "Independent": "156"
+    },
+    "St Neots and Mid Cambridgeshire": {
+        "Liberal Democrat": "19517",
+        "Conservative": "14896",
+        "Labour": "6918",
+        "Reform": "5673",
+        "Independent": "2941",
+        "Green": "2663",
+        "Party of Women": "274"
+    },
+    "Falkirk": {
+        "Labour": "18343",
+        "Scottish National Party": "13347",
+        "Conservative": "3576",
+        "Reform": "3375",
+        "Green": "1711",
+        "Liberal Democrat": "1092",
+        "Independent": "600",
+        "Alba": "581"
+    },
+    "Slough": {
+        "Labour": "14666",
+        "Independent Network ": "11019",
+        "Conservative": "7457",
+        "Reform": "3352",
+        "Liberal Democrat": "2060",
+        "Green": "1873",
+        "Workers Party of Britain": "1105",
+        "Independent": "204",
+        "Heritage Party": "145"
+    },
+    "Aberdeen South": {
+        "Scottish National Party": "15213",
+        "Labour": "11455",
+        "Conservative": "11300",
+        "Reform": "3199",
+        "Liberal Democrat": "2921",
+        "Green": "1609",
+        "Scottish Family Party": "423",
+        "Independent": "225"
+    },
+    "Hampstead and Highgate": {
+        "Labour": "23432",
+        "Conservative": "8462",
+        "Green": "6630",
+        "Liberal Democrat": "6181",
+        "Reform": "2940",
+        "Rejoin EU": "532",
+        "Independent": "373"
+    },
+    "Southend East and Rochford": {
+        "Labour": "15395",
+        "Conservative": "11368",
+        "Reform": "7214",
+        "Green": "2716",
+        "Liberal Democrat": "2269",
+        "Confelicity": "488",
+        "Heritage Party": "206"
+    },
+    "Birkenhead": {
+        "Labour": "22468",
+        "Green": "8670",
+        "Reform": "6142",
+        "Conservative": "3238",
+        "Liberal Democrat": "2292",
+        "Freedom Alliance": "324"
+    },
+    "Orpington": {
+        "Conservative": "17504",
+        "Labour": "12386",
+        "Reform": "8896",
+        "Liberal Democrat": "4728",
+        "Green": "2319",
+        "Social Democratic Party": "240"
+    },
+    "Romsey and Southampton North": {
+        "Conservative": "19893",
+        "Liberal Democrat": "17702",
+        "Reform": "5716",
+        "Labour": "4640",
+        "Green": "1893",
+        "Independent": "183"
+    },
+    "Leicester South": {
+        "Independent": "15068",
+        "Labour": "13760",
+        "Conservative": "4820",
+        "Green": "3826",
+        "Reform": "2470",
+        "Liberal Democrat": "1425",
+        "Communist Party of Britain": "279",
+        "Monster Raving Loony Party": "189"
+    },
+    "Hamilton and Clyde Valley": {
+        "Labour": "21020",
+        "Scottish National Party": "11548",
+        "Conservative": "4589",
+        "Reform": "3299",
+        "Liberal Democrat": "1511",
+        "UK Independence Party": "117"
+    },
+    "Redditch": {
+        "Labour": "14810",
+        "Conservative": "14021",
+        "Reform": "8516",
+        "Liberal Democrat": "2165",
+        "Green": "2098",
+        "Workers Party of Britain": "765"
+    },
+    "Newport West and Islwyn": {
+        "Labour": "17409",
+        "Reform": "8541",
+        "Conservative": "6710",
+        "Plaid Cymru": "3529",
+        "Liberal Democrat": "2087",
+        "Green": "2078",
+        "Independent": "1597"
+    },
+    "Mitcham and Morden": {
+        "Labour": "25085",
+        "Conservative": "6324",
+        "Green": "4635",
+        "Reform": "4135",
+        "Liberal Democrat": "3622",
+        "Workers Party of Britain": "1091",
+        "Christian Peoples Alliance": "363"
+    },
+    "Coventry South": {
+        "Labour": "20361",
+        "Conservative": "10160",
+        "Reform": "5711",
+        "Liberal Democrat": "2531",
+        "Green": "2363",
+        "Workers Party of Britain": "777",
+        "Social Democratic Party": "334",
+        "Independent": "231"
+    },
+    "Edmonton and Winchmore Hill": {
+        "Labour": "20520",
+        "Conservative": "7888",
+        "Green": "3681",
+        "Reform": "3501",
+        "Liberal Democrat": "2721",
+        "Independent": "1700",
+        "Workers Party of Britain": "668",
+        "Christian Peoples Alliance": "366"
+    },
+    "Stockton North": {
+        "Labour": "17128",
+        "Reform": "9189",
+        "Conservative": "8028",
+        "Green": "1923",
+        "Liberal Democrat": "1133"
+    },
+    "Aldridge-Brownhills": {
+        "Conservative": "15901",
+        "Labour": "11607",
+        "Reform": "9903",
+        "Liberal Democrat": "1755",
+        "Green": "1746"
+    },
+    "Carlisle": {
+        "Labour": "18129",
+        "Conservative": "12929",
+        "Reform": "9295",
+        "Liberal Democrat": "2982",
+        "Green": "1922",
+        "Independent": "175",
+        "Social Democratic Party": "244"
+    },
+    "Hyndburn": {
+        "Labour": "12186",
+        "Conservative": "10499",
+        "Reform": "7541",
+        "Green": "4938",
+        "Liberal Democrat": "1210"
+    },
+    "New Forest East": {
+        "Conservative": "17412",
+        "Labour": "8917",
+        "Reform": "7646",
+        "Liberal Democrat": "7198",
+        "Green": "3118",
+        "Monster Raving Loony Party": "529",
+        "Animal Welfare Party": "410"
+    },
+    "Bristol South": {
+        "Labour": "18521",
+        "Green": "10855",
+        "Reform": "6195",
+        "Conservative": "4947",
+        "Liberal Democrat": "2721",
+        "Social Democratic Party": "164"
+    },
+    "Great Yarmouth": {
+        "Reform": "14385",
+        "Labour": "12959",
+        "Conservative": "10034",
+        "Green": "1736",
+        "Liberal Democrat": "1102",
+        "Independent": "131",
+        "English Democrats": "171"
+    },
+    "Hertsmere": {
+        "Conservative": "21451",
+        "Labour": "13459",
+        "Reform": "6584",
+        "Liberal Democrat": "3710",
+        "Green": "2267",
+        "Independent": "536"
+    },
+    "High Peak": {
+        "Labour": "22533",
+        "Conservative": "14625",
+        "Reform": "6959",
+        "Green": "3382",
+        "Liberal Democrat": "1707"
+    },
+    "Warrington North": {
+        "Labour": "18730",
+        "Reform": "9540",
+        "Conservative": "6486",
+        "Liberal Democrat": "2737",
+        "Green": "1889",
+        "Independent": "659"
+    },
+    "Amber Valley": {
+        "Labour": "15746",
+        "Reform": "12192",
+        "Conservative": "10725",
+        "Green": "2278",
+        "Liberal Democrat": "1590"
+    },
+    "Cheadle": {
+        "Liberal Democrat": "23681",
+        "Conservative": "11446",
+        "Labour": "7909",
+        "Reform": "5149",
+        "Green": "1630",
+        "Workers Party of Britain": "811",
+        "Independent": "105"
+    },
+    "East Thanet": {
+        "Labour": "17054",
+        "Conservative": "10083",
+        "Reform": "8591",
+        "Green": "4590",
+        "Liberal Democrat": "1365",
+        "Independent": "98"
+    },
+    "Mid Ulster": {
+        "Sinn Fein": "24085",
+        "Democratic Unionist Party": "9162",
+        "Social Democratic & Labour Party": "3722",
+        "Traditional Unionist Voice": "2978",
+        "Ulster Unionist Party ": "2269",
+        "Alliance Party": "2001",
+        "Aont\u00c3\u00ba": "1047",
+        "Independent": "181"
+    },
+    "Nottingham North and Kimberley": {
+        "Labour": "16480",
+        "Reform": "7053",
+        "Conservative": "6787",
+        "Green": "3351",
+        "Liberal Democrat": "1336"
+    },
+    "Burnley": {
+        "Labour": "12598",
+        "Liberal Democrat": "9178",
+        "Conservative": "8058",
+        "Reform": "7755",
+        "Green": "1518",
+        "Independent": "151"
+    },
+    "Caerfyrddin": {
+        "Plaid Cymru": "15520",
+        "Labour": "10985",
+        "Conservative": "8825",
+        "Reform": "6944",
+        "Liberal Democrat": "1461",
+        "Green": "1371",
+        "Women's Equality Party": "282",
+        "Workers Party of Britain": "216"
+    },
+    "Lichfield": {
+        "Labour": "17232",
+        "Conservative": "16422",
+        "Reform": "9734",
+        "Liberal Democrat": "3572",
+        "Green": "1724",
+        "Independent": "98"
+    },
+    "Lewisham North": {
+        "Labour": "25467",
+        "Green": "9685",
+        "Liberal Democrat": "3284",
+        "Conservative": "2701",
+        "Reform": "2000",
+        "Workers Party of Britain": "457",
+        "Independent": "243",
+        "Communist Party of Britain": "211",
+        "Alliance for Green Socialism": "119"
+    },
+    "Meriden and Solihull East": {
+        "Conservative": "16792",
+        "Labour": "12208",
+        "Reform": "8753",
+        "Liberal Democrat": "3353",
+        "Green": "2929"
+    },
+    "Neath and Swansea East": {
+        "Labour": "16797",
+        "Reform": "10170",
+        "Plaid Cymru": "5350",
+        "Conservative": "3765",
+        "Liberal Democrat": "2344",
+        "Green": "1711"
+    },
+    "Havant": {
+        "Conservative": "12986",
+        "Labour": "12894",
+        "Reform": "9959",
+        "Liberal Democrat": "3275",
+        "Green": "2861",
+        "Workers Party of Britain": "211"
+    },
+    "Milton Keynes North": {
+        "Labour": "19318",
+        "Conservative": "13888",
+        "Reform": "6164",
+        "Liberal Democrat": "3365",
+        "Green": "3242"
+    },
+    "Rotherham": {
+        "Labour": "16671",
+        "Reform": "11181",
+        "Liberal Democrat": "2824",
+        "Green": "2632",
+        "Workers Party of Britain": "1714",
+        "The Yorkshire Party": "1363",
+        "Independent": "547"
+    },
+    "Southend West and Leigh": {
+        "Labour": "16739",
+        "Conservative": "14790",
+        "Reform": "8273",
+        "Green": "3262",
+        "Liberal Democrat": "3174",
+        "Confelicity": "262",
+        "Independent": "98",
+        "Heritage Party": "99",
+        "Psychedelic Movement": "99"
+    },
+    "Wokingham": {
+        "Liberal Democrat": "25743",
+        "Conservative": "17398",
+        "Reform": "5274",
+        "Labour": "3631",
+        "Green": "1953"
+    },
+    "Bassetlaw": {
+        "Labour": "18476",
+        "Conservative": "12708",
+        "Reform": "9751",
+        "Liberal Democrat": "1996",
+        "Green": "1947"
+    },
+    "Clwyd North": {
+        "Labour": "14794",
+        "Conservative": "13598",
+        "Reform": "7000",
+        "Plaid Cymru": "3159",
+        "Liberal Democrat": "1685",
+        "Green": "1391"
+    },
+    "Lagan Valley": {
+        "Alliance Party": "18618",
+        "Democratic Unionist Party": "15659",
+        "Ulster Unionist Party ": "11157",
+        "Traditional Unionist Voice": "2186",
+        "Social Democratic & Labour Party": "1028",
+        "Green": "433"
+    },
+    "Wolverhampton South East": {
+        "Labour": "16800",
+        "Reform": "7612",
+        "Conservative": "5654",
+        "Green": "1643",
+        "Workers Party of Britain": "915",
+        "Liberal Democrat": "758"
+    },
+    "Bridgwater": {
+        "Conservative": "12281",
+        "Labour": "10932",
+        "Reform": "8913",
+        "Liberal Democrat": "5781",
+        "Green": "1720",
+        "Independent": "334",
+        "Workers Party of Britain": "168"
+    },
+    "West Lancashire": {
+        "Labour": "22305",
+        "Conservative": "8680",
+        "Reform": "7909",
+        "Green": "3263",
+        "Liberal Democrat": "2043"
+    },
+    "Rutherglen": {
+        "Labour": "21460",
+        "Scottish National Party": "12693",
+        "Reform": "2685",
+        "Conservative": "2420",
+        "Liberal Democrat": "1714",
+        "Scottish Socialist Party": "541",
+        "Alba": "497",
+        "Scottish Family Party": "321",
+        "Independent": "153"
+    },
+    "Mid and South Pembrokeshire": {
+        "Labour": "16505",
+        "Conservative": "14627",
+        "Reform": "7828",
+        "Plaid Cymru": "2962",
+        "Liberal Democrat": "2372",
+        "Green": "1654",
+        "Independent": "427",
+        "Women's Equality Party": "254"
+    },
+    "Staffordshire Moorlands": {
+        "Conservative": "15310",
+        "Labour": "14135",
+        "Reform": "10065",
+        "Green": "2293",
+        "Liberal Democrat": "1499"
+    },
+    "North Devon": {
+        "Liberal Democrat": "21820",
+        "Conservative": "15076",
+        "Reform": "8137",
+        "Labour": "3216",
+        "Green": "2348",
+        "Independent": "820"
+    },
+    "Bristol Central": {
+        "Green": "24539",
+        "Labour": "14132",
+        "Conservative": "1998",
+        "Reform": "1338",
+        "Liberal Democrat": "1162",
+        "Party of Women": "196"
+    },
+    "Feltham and Heston": {
+        "Labour": "16139",
+        "Conservative": "8195",
+        "Reform": "5130",
+        "Green": "2543",
+        "Workers Party of Britain": "2201",
+        "Liberal Democrat": "1821",
+        "Independent": "373"
+    },
+    "Hemel Hempstead": {
+        "Labour": "16844",
+        "Conservative": "11987",
+        "Reform": "7689",
+        "Liberal Democrat": "5096",
+        "Green": "2492"
+    },
+    "Perth and Kinross-shire": {
+        "Scottish National Party": "18928",
+        "Conservative": "14801",
+        "Labour": "9018",
+        "Liberal Democrat": "3681",
+        "Reform": "2970",
+        "Independent": "679"
+    },
+    "Rossendale and Darwen": {
+        "Labour": "18247",
+        "Conservative": "12619",
+        "Reform": "9695",
+        "Green": "2325",
+        "Liberal Democrat": "1241",
+        "Workers Party of Britain": "491"
+    },
+    "Tottenham": {
+        "Labour": "23066",
+        "Green": "7632",
+        "Independent": "2348",
+        "Conservative": "2320",
+        "Liberal Democrat": "1928",
+        "Reform": "1602",
+        "Workers Party of Britain": "659",
+        "Rejoin EU": "306",
+        "Christian Peoples Alliance": "224",
+        "Communist League": "63"
+    },
+    "Ellesmere Port and Bromborough": {
+        "Labour": "24186",
+        "Reform": "7278",
+        "Conservative": "5210",
+        "Green": "2706",
+        "Liberal Democrat": "2328",
+        "Independent": "256"
+    },
+    "Hackney South and Shoreditch": {
+        "Labour": "24724",
+        "Green": "9987",
+        "Conservative": "2076",
+        "Liberal Democrat": "1996",
+        "Reform": "1601",
+        "Workers Party of Britain": "1007",
+        "Workers Revolutionary Party": "310"
+    },
+    "Peckham": {
+        "Labour": "22813",
+        "Green": "7585",
+        "Liberal Democrat": "2724",
+        "Conservative": "2276",
+        "Reform": "1790",
+        "Independent": "153",
+        "Workers Revolutionary Party": "355",
+        "Rejoin EU": "285",
+        "Yoruba Party in the UK": "261"
+    },
+    "Isle of Wight West": {
+        "Labour": "13240",
+        "Conservative": "10063",
+        "Reform": "5834",
+        "Liberal Democrat": "2726",
+        "Green": "2310",
+        "Alliance for Democracy and Freedom": "117"
+    },
+    "Dunstable and Leighton Buzzard": {
+        "Labour": "14976",
+        "Conservative": "14309",
+        "Reform": "8071",
+        "Liberal Democrat": "6497",
+        "Green": "2115",
+        "English Democrats": "77"
+    },
+    "Bolton North East": {
+        "Labour": "16166",
+        "Conservative": "9513",
+        "Reform": "9428",
+        "Green": "4683",
+        "Liberal Democrat": "1507",
+        "Workers Party of Britain": "1463",
+        "Independent": "254"
+    },
+    "Brentford and Isleworth": {
+        "Labour": "20007",
+        "Conservative": "10183",
+        "Green": "4029",
+        "Reform": "3940",
+        "Liberal Democrat": "3863",
+        "Workers Party of Britain": "2746",
+        "Independent": "486"
+    },
+    "Hull East": {
+        "Labour": "13047",
+        "Reform": "9127",
+        "Liberal Democrat": "3252",
+        "Conservative": "2715",
+        "Green": "1675"
+    },
+    "Chichester": {
+        "Liberal Democrat": "25540",
+        "Conservative": "13368",
+        "Reform": "7859",
+        "Labour": "3175",
+        "Green": "1815",
+        "Independent": "190"
+    },
+    "Dundee Central": {
+        "Scottish National Party": "15544",
+        "Labour": "14869",
+        "Liberal Democrat": "2402",
+        "Reform": "2363",
+        "Conservative": "1569",
+        "Alba": "813",
+        "Trade Unionist and Socialist Coalition": "600",
+        "Scottish Family Party": "357",
+        "Workers Party of Britain": "192",
+        "Independent": "139"
+    },
+    "North East Hampshire": {
+        "Liberal Democrat": "21178",
+        "Conservative": "20544",
+        "Reform": "6673",
+        "Labour": "5057",
+        "Green": "1425",
+        "Monster Raving Loony Party": "340",
+        "Hampshire Independents": "274",
+        "Libertarian Party": "69"
+    },
+    "Motherwell, Wishaw and Carluke": {
+        "Labour": "19168",
+        "Scottish National Party": "12083",
+        "Reform": "3004",
+        "Conservative": "2415",
+        "Green": "1200",
+        "Liberal Democrat": "822",
+        "British Unionist Party": "158",
+        "UK Independence Party": "110",
+        "Scottish Libertarian Party": "66"
+    },
+    "North Ayrshire and Arran": {
+        "Labour": "16821",
+        "Scottish National Party": "13270",
+        "Conservative": "5954",
+        "Reform": "3415",
+        "Green": "1327",
+        "Liberal Democrat": "1005",
+        "Social Democratic Party": "238",
+        "Socialist Labour Party": "232"
+    },
+    "Penistone and Stocksbridge": {
+        "Labour": "19169",
+        "Conservative": "10430",
+        "Reform": "9456",
+        "Liberal Democrat": "2866",
+        "Green": "2044"
+    },
+    "Stoke-on-Trent North": {
+        "Labour": "14579",
+        "Conservative": "9497",
+        "Reform": "8824",
+        "Green": "1236",
+        "Independent": "1103",
+        "Liberal Democrat": "911"
+    },
+    "Nottingham East": {
+        "Labour": "19494",
+        "Green": "4332",
+        "Conservative": "3925",
+        "Reform": "3578",
+        "Workers Party of Britain": "2465",
+        "Liberal Democrat": "1741",
+        "Independent": "372"
+    },
+    "Tunbridge Wells": {
+        "Liberal Democrat": "23661",
+        "Conservative": "14974",
+        "Reform": "6484",
+        "Labour": "6178",
+        "Green": "2344",
+        "Independent": "609"
+    },
+    "Ilford South": {
+        "Labour": "16537",
+        "Independent": "9643",
+        "Conservative": "6142",
+        "Green": "3437",
+        "Reform": "2329",
+        "Workers Party of Britain": "1366",
+        "Liberal Democrat": "1340",
+        "Trade Unionist and Socialist Coalition": "376"
+    },
+    "Louth and Horncastle": {
+        "Conservative": "17441",
+        "Reform": "11935",
+        "Labour": "10475",
+        "Green": "2504",
+        "Liberal Democrat": "2364",
+        "Independent": "1359",
+        "Monster Raving Loony Party": "309",
+        "Social Democratic Party": "92"
+    },
+    "Upper Bann": {
+        "Democratic Unionist Party": "21642",
+        "Sinn Fein": "14236",
+        "Alliance Party": "6322",
+        "Ulster Unionist Party ": "3662",
+        "Social Democratic & Labour Party": "1496"
+    },
+    "Alyn and Deeside": {
+        "Labour": "18395",
+        "Reform": "9601",
+        "Conservative": "7892",
+        "Liberal Democrat": "2065",
+        "Plaid Cymru": "1938",
+        "Green": "1926",
+        "Independent": "1575"
+    },
+    "Fareham and Waterlooville": {
+        "Conservative": "17561",
+        "Labour": "11482",
+        "Liberal Democrat": "9533",
+        "Reform": "9084",
+        "Green": "2036",
+        "Hampshire Independents": "217",
+        "Rejoin EU": "210"
+    },
+    "Lincoln": {
+        "Labour": "18470",
+        "Conservative": "9677",
+        "Reform": "7602",
+        "Green": "2751",
+        "Liberal Democrat": "2580",
+        "Workers Party of Britain": "479",
+        "Liberal Party": "278",
+        "Independent": "243",
+        "Social Democratic Party": "80"
+    },
+    "Derby North": {
+        "Labour": "18619",
+        "Conservative": "9704",
+        "Reform": "7488",
+        "Green": "3286",
+        "Liberal Democrat": "1822"
+    },
+    "Oldham West, Chadderton and Royton": {
+        "Labour": "13232",
+        "Independent": "573",
+        "Reform": "6848",
+        "Conservative": "4066",
+        "Green": "1857",
+        "Liberal Democrat": "1271"
+    },
+    "South Leicestershire": {
+        "Conservative": "18264",
+        "Labour": "12758",
+        "Reform": "10235",
+        "Liberal Democrat": "7621",
+        "Green": "2481"
+    },
+    "Southgate and Wood Green": {
+        "Labour": "23337",
+        "Conservative": "8037",
+        "Green": "5607",
+        "Liberal Democrat": "3925",
+        "Reform": "3147",
+        "Workers Party of Britain": "833",
+        "Trade Unionist and Socialist Coalition": "785"
+    },
+    "Hackney North and Stoke Newington": {
+        "Labour": "24355",
+        "Green": "9275",
+        "Conservative": "3457",
+        "Liberal Democrat": "1562",
+        "Reform": "1283",
+        "Independent": "182",
+        "Monster Raving Loony Party": "224"
+    },
+    "Thornbury and Yate": {
+        "Liberal Democrat": "20815",
+        "Conservative": "17801",
+        "Reform": "7529",
+        "Labour": "5057",
+        "Green": "2165"
+    },
+    "Llanelli": {
+        "Labour": "12751",
+        "Reform": "11247",
+        "Plaid Cymru": "9511",
+        "Conservative": "4275",
+        "Liberal Democrat": "1254",
+        "Green": "1106",
+        "UK Independence Party": "600"
+    },
+    "Glasgow North East": {
+        "Labour": "15639",
+        "Scottish National Party": "11002",
+        "Green": "2471",
+        "Reform": "2272",
+        "Conservative": "1182",
+        "Liberal Democrat": "592",
+        "Alba": "551",
+        "Trade Unionist and Socialist Coalition": "236",
+        "Communist Party of Britain": "146"
+    },
+    "Hertford and Stortford": {
+        "Labour": "20808",
+        "Conservative": "16060",
+        "Reform": "8325",
+        "Green": "4373",
+        "Liberal Democrat": "4167",
+        "Alliance for Democracy and Freedom": "139",
+        "Heritage Party": "137"
+    },
+    "Newark": {
+        "Conservative": "20968",
+        "Labour": "17396",
+        "Reform": "8280",
+        "Liberal Democrat": "3026",
+        "Green": "2345",
+        "Independent Network ": "809",
+        "Independent": "329",
+        "English Democrats": "156",
+        "Workers Party of Britain": "150"
+    },
+    "North West Leicestershire": {
+        "Labour": "16871",
+        "Conservative": "15859",
+        "Reform": "9678",
+        "Green": "2831",
+        "Liberal Democrat": "1629",
+        "Independent": "136"
+    },
+    "Norwich North": {
+        "Labour": "20794",
+        "Conservative": "9944",
+        "Reform": "8229",
+        "Green": "4372",
+        "Liberal Democrat": "2073",
+        "Independent": "353"
+    },
+    "South Derbyshire": {
+        "Labour": "17734",
+        "Conservative": "13566",
+        "Reform": "8979",
+        "Liberal Democrat": "2134",
+        "Green": "1941",
+        "Independent": "1200",
+        "Socialist Labour Party": "183"
+    },
+    "Watford": {
+        "Labour": "15708",
+        "Conservative": "10985",
+        "Liberal Democrat": "7577",
+        "Reform": "4930",
+        "Workers Party of Britain": "2659",
+        "Green": "2428",
+        "Heritage Party": "168"
+    },
+    "Wolverhampton North East": {
+        "Labour": "14282",
+        "Conservative": "8860",
+        "Reform": "7721",
+        "Green": "1424",
+        "Liberal Democrat": "1002"
+    },
+    "Cardiff West": {
+        "Labour": "16442",
+        "Plaid Cymru": "9423",
+        "Conservative": "6835",
+        "Reform": "5626",
+        "Green": "3157",
+        "Liberal Democrat": "1921",
+        "Propel": "1041",
+        "Independent": "241",
+        "Heritage Party": "71"
+    },
+    "East Surrey": {
+        "Conservative": "17502",
+        "Labour": "10052",
+        "Liberal Democrat": "8833",
+        "Reform": "8380",
+        "Green": "2957",
+        "Independent": "1145",
+        "Monster Raving Loony Party": "327"
+    },
+    "Milton Keynes Central": {
+        "Labour": "20209",
+        "Conservative": "12918",
+        "Reform": "6245",
+        "Liberal Democrat": "4931",
+        "Green": "3226",
+        "Heritage Party": "200"
+    },
+    "Sheffield Central": {
+        "Labour": "16569",
+        "Green": "8283",
+        "Conservative": "2339",
+        "Liberal Democrat": "2174",
+        "Independent": "1039",
+        "Workers Party of Britain": "656",
+        "Trade Unionist and Socialist Coalition": "409",
+        "Social Democratic Party": "334"
+    },
+    "Stirling and Strathallan": {
+        "Labour": "16856",
+        "Scottish National Party": "15462",
+        "Conservative": "9469",
+        "Reform": "3145",
+        "Liberal Democrat": "2530",
+        "Green": "2320"
+    },
+    "Edinburgh West": {
+        "Liberal Democrat": "26645",
+        "Scottish National Party": "10175",
+        "Labour": "7854",
+        "Conservative": "2897",
+        "Reform": "2209",
+        "Green": "2100",
+        "Independent": "143",
+        "Scottish Libertarian Party": "85"
+    },
+    "Lewisham West and East Dulwich": {
+        "Labour": "27406",
+        "Green": "9009",
+        "Liberal Democrat": "3558",
+        "Conservative": "3477",
+        "Reform": "2234",
+        "Workers Party of Britain": "427",
+        "Christian Peoples Alliance": "303"
+    },
+    "Beckenham and Penge": {
+        "Labour": "25753",
+        "Conservative": "12848",
+        "Reform": "5355",
+        "Liberal Democrat": "4436",
+        "Green": "3830"
+    },
+    "Gedling": {
+        "Labour": "23278",
+        "Conservative": "11397",
+        "Reform": "8211",
+        "Green": "3122",
+        "Liberal Democrat": "2473",
+        "Independent": "241"
+    },
+    "Liverpool Wavertree": {
+        "Labour": "23077",
+        "Green": "6773",
+        "Reform": "3454",
+        "Liberal Democrat": "2759",
+        "Conservative": "1887",
+        "Independent": "108"
+    },
+    "Oxford East": {
+        "Labour": "19541",
+        "Green": "5076",
+        "Conservative": "4739",
+        "Liberal Democrat": "3437",
+        "Independent Oxford Alliance": "2381",
+        "Independent": "600",
+        "Workers Party of Britain": "615",
+        "Rejoin EU": "425",
+        "Party of Women": "337",
+        "Social Democratic Party": "232",
+        "Workers Revolutionary Party": "197"
+    },
+    "Great Grimsby and Cleethorpes": {
+        "Labour": "15336",
+        "Reform": "10533",
+        "Conservative": "8269",
+        "Green": "1115",
+        "Liberal Democrat": "1036",
+        "Trade Unionist and Socialist Coalition": "222",
+        "Social Democratic Party": "108"
+    },
+    "York Central": {
+        "Labour": "24537",
+        "Conservative": "5383",
+        "Green": "5185",
+        "Reform": "4721",
+        "Liberal Democrat": "3051",
+        "Independent": "84"
+    },
+    "Chester North and Neston": {
+        "Labour": "22258",
+        "Conservative": "10388",
+        "Reform": "5870",
+        "Green": "4102",
+        "Liberal Democrat": "2076"
+    },
+    "Southampton Test": {
+        "Labour": "15945",
+        "Conservative": "6612",
+        "Reform": "5261",
+        "Green": "3594",
+        "Liberal Democrat": "3252",
+        "Workers Party of Britain": "775",
+        "Trade Unionist and Socialist Coalition": "366"
+    },
+    "Sevenoaks": {
+        "Conservative": "18328",
+        "Liberal Democrat": "12888",
+        "Reform": "9341",
+        "Labour": "6802",
+        "Green": "2033",
+        "Rejoin EU": "298",
+        "Social Democratic Party": "209"
+    },
+    "Suffolk Coastal": {
+        "Labour": "15672",
+        "Conservative": "14602",
+        "Reform": "7850",
+        "Liberal Democrat": "6947",
+        "Green": "4380"
+    },
+    "Warrington South": {
+        "Labour": "23201",
+        "Conservative": "11861",
+        "Reform": "7913",
+        "Liberal Democrat": "3829",
+        "Green": "2313",
+        "Independent": "445",
+        "Social Democratic Party": "110"
+    },
+    "Droitwich and Evesham": {
+        "Conservative": "19975",
+        "Labour": "10980",
+        "Reform": "9456",
+        "Liberal Democrat": "5131",
+        "Green": "3828",
+        "Social Democratic Party": "239"
+    },
+    "Inverclyde and Renfrewshire West": {
+        "Labour": "18931",
+        "Scottish National Party": "12560",
+        "Conservative": "2863",
+        "Reform": "2476",
+        "Liberal Democrat": "1259",
+        "Green": "1173",
+        "Alba": "723",
+        "Independent": "365"
+    },
+    "Basildon and Billericay": {
+        "Conservative": "12905",
+        "Labour": "12885",
+        "Reform": "11354",
+        "Liberal Democrat": "2292",
+        "Green": "2123",
+        "British Democratic Party": "373",
+        "Trade Unionist and Socialist Coalition": "192"
+    },
+    "Wirral West": {
+        "Labour": "23156",
+        "Conservative": "13158",
+        "Reform": "6422",
+        "Green": "4160",
+        "Liberal Democrat": "3055"
+    },
+    "Middlesbrough South and East Cleveland": {
+        "Labour": "16468",
+        "Conservative": "16254",
+        "Liberal Democrat": "2032",
+        "Social Democratic Party": "1835",
+        "Green": "1446"
+    },
+    "Portsmouth North": {
+        "Labour": "14495",
+        "Conservative": "13715",
+        "Reform": "8501",
+        "Liberal Democrat": "3031",
+        "Green": "1851"
+    },
+    "Southampton Itchen": {
+        "Labour": "15782",
+        "Conservative": "9677",
+        "Reform": "6853",
+        "Green": "2793",
+        "Liberal Democrat": "2684",
+        "Trade Unionist and Socialist Coalition": "264"
+    },
+    "Sussex Weald": {
+        "Conservative": "16758",
+        "Liberal Democrat": "9916",
+        "Reform": "8920",
+        "Labour": "8239",
+        "Green": "3762",
+        "Independent": "953",
+        "Social Democratic Party": "319",
+        "Heritage Party": "156",
+        "UK Independence Party": "152"
+    },
+    "Livingston": {
+        "Labour": "18324",
+        "Scottish National Party": "14796",
+        "Reform": "3977",
+        "Conservative": "3469",
+        "Liberal Democrat": "2025",
+        "Green": "1704",
+        "Alba": "545"
+    },
+    "Aldershot": {
+        "Labour": "19764",
+        "Conservative": "14081",
+        "Reform": "8210",
+        "Liberal Democrat": "4052",
+        "Green": "2155",
+        "Hampshire Independents": "282"
+    },
+    "Coatbridge and Bellshill": {
+        "Labour": "19291",
+        "Scottish National Party": "12947",
+        "Reform": "2601",
+        "Conservative": "1382",
+        "Green": "1229",
+        "Liberal Democrat": "671",
+        "Scottish Family Party": "429",
+        "Communist Party of Britain": "181"
+    },
+    "Tamworth": {
+        "Labour": "15338",
+        "Conservative": "13956",
+        "Reform": "11004",
+        "Green": "1579",
+        "Liberal Democrat": "1451",
+        "UK Independence Party": "290",
+        "Workers Party of Britain": "170"
+    },
+    "Bury North": {
+        "Labour": "19625",
+        "Conservative": "12681",
+        "Reform": "7385",
+        "Workers Party of Britain": "1917",
+        "Green": "1747",
+        "Liberal Democrat": "1317",
+        "Independent": "277"
+    },
+    "Doncaster Central": {
+        "Labour": "17515",
+        "Conservative": "7964",
+        "Reform": "7886",
+        "Green": "1880",
+        "Liberal Democrat": "1199",
+        "Workers Party of Britain": "758",
+        "The Yorkshire Party": "742"
+    },
+    "Ely and East Cambridgeshire": {
+        "Liberal Democrat": "17127",
+        "Conservative": "16632",
+        "Labour": "9160",
+        "Reform": "6443",
+        "Green": "2359",
+        "Monster Raving Loony Party": "271",
+        "Social Democratic Party": "172",
+        "Independent": "102"
+    },
+    "Mid Dunbartonshire": {
+        "Liberal Democrat": "22349",
+        "Scottish National Party": "12676",
+        "Labour": "10993",
+        "Conservative": "2452",
+        "Reform": "2099",
+        "Green": "1720",
+        "Alba": "449"
+    },
+    "Blackpool North and Fleetwood": {
+        "Labour": "16744",
+        "Conservative": "12097",
+        "Reform": "9913",
+        "Liberal Democrat": "1318",
+        "Green": "1269",
+        "Monster Raving Loony Party": "174",
+        "Independent": "148",
+        "Social Democratic Party": "147"
+    },
+    "West Worcestershire": {
+        "Conservative": "19783",
+        "Liberal Democrat": "13236",
+        "Labour": "8335",
+        "Reform": "7902",
+        "Green": "5068",
+        "Party of Women": "363"
+    },
+    "Bristol North East": {
+        "Labour": "19004",
+        "Green": "7837",
+        "Conservative": "6216",
+        "Reform": "5418",
+        "Liberal Democrat": "1964",
+        "Independent": "1029",
+        "Trade Unionist and Socialist Coalition": "399",
+        "Social Democratic Party": "122"
+    },
+    "Dulwich and West Norwood": {
+        "Labour": "27356",
+        "Green": "8567",
+        "Conservative": "3873",
+        "Liberal Democrat": "3485",
+        "Reform": "1801",
+        "Independent": "296"
+    },
+    "Liverpool Garston": {
+        "Labour": "24510",
+        "Reform": "4406",
+        "Liverpool Community Independents": "3294",
+        "Liberal Democrat": "3239",
+        "Conservative": "2943",
+        "Green": "2816",
+        "Liberal Party": "401",
+        "Independent": "272",
+        "Workers Revolutionary Party": "112"
+    },
+    "Plymouth Moor View": {
+        "Labour": "17665",
+        "Conservative": "12061",
+        "Reform": "9670",
+        "Liberal Democrat": "1766",
+        "Green": "1694"
+    },
+    "Boston and Skegness": {
+        "Reform": "15520",
+        "Conservative": "13510",
+        "Labour": "7629",
+        "Green": "1506",
+        "Liberal Democrat": "1375",
+        "English Democrats": "518",
+        "Blue Revolution": "397"
+    },
+    "Gloucester": {
+        "Labour": "16472",
+        "Conservative": "13041",
+        "Reform": "7307",
+        "Liberal Democrat": "4759",
+        "Green": "2307",
+        "Workers Party of Britain": "974",
+        "Socialist Labour Party": "496",
+        "Independent": "336"
+    },
+    "Romford": {
+        "Conservative": "15339",
+        "Labour": "13876",
+        "Reform": "9624",
+        "Green": "2220",
+        "Liberal Democrat": "1895",
+        "Workers Party of Britain": "898",
+        "English Constitution Party": "195"
+    },
+    "Sheffield Brightside and Hillsborough": {
+        "Labour": "16301",
+        "Green": "4701",
+        "Conservative": "4069",
+        "Independent": "2537",
+        "Liberal Democrat": "1694",
+        "Workers Party of Britain": "1437",
+        "Social Democratic Party": "873"
+    },
+    "Berwickshire, Roxburgh and Selkirk": {
+        "Conservative": "18872",
+        "Scottish National Party": "12273",
+        "Labour": "6311",
+        "Liberal Democrat": "3686",
+        "Reform": "3340",
+        "Green": "1526",
+        "Independent": "329",
+        "Scottish Family Party": "221"
+    },
+    "Glasgow East": {
+        "Labour": "15543",
+        "Scottish National Party": "11759",
+        "Green": "2727",
+        "Reform": "2371",
+        "Conservative": "1707",
+        "Liberal Democrat": "872",
+        "Scottish Socialist Party": "466"
+    },
+    "Walsall and Bloxwich": {
+        "Labour": "12514",
+        "Independent": "7600",
+        "Reform": "7293",
+        "Conservative": "6679",
+        "Green": "2288",
+        "Liberal Democrat": "817"
+    },
+    "Solihull West and Shirley": {
+        "Conservative": "16284",
+        "Labour": "11664",
+        "Liberal Democrat": "7916",
+        "Reform": "7149",
+        "Green": "3270",
+        "Independent": "594"
+    },
+    "Croydon South": {
+        "Conservative": "19757",
+        "Labour": "17444",
+        "Liberal Democrat": "4384",
+        "Reform": "4149",
+        "Green": "2859",
+        "Workers Party of Britain": "612",
+        "Independent": "173"
+    },
+    "Leeds South West and Morley": {
+        "Labour": "17681",
+        "Conservative": "9258",
+        "Reform": "8187",
+        "Green": "2522",
+        "Liberal Democrat": "1798",
+        "The Yorkshire Party": "664",
+        "Social Democratic Party": "99"
+    },
+    "Mid Cheshire": {
+        "Labour": "18457",
+        "Conservative": "9530",
+        "Reform": "7967",
+        "Liberal Democrat": "2465",
+        "Green": "1967",
+        "Independent": "273"
+    },
+    "Eltham and Chislehurst": {
+        "Labour": "20069",
+        "Conservative": "11640",
+        "Reform": "7428",
+        "Green": "3079",
+        "Liberal Democrat": "2423",
+        "Workers Party of Britain": "356",
+        "Independent": "91"
+    },
+    "Shrewsbury": {
+        "Labour": "22932",
+        "Conservative": "11577",
+        "Reform": "7524",
+        "Liberal Democrat": "6722",
+        "Green": "2387",
+        "English Democrats": "241",
+        "Independent": "177"
+    },
+    "Ceredigion Preseli": {
+        "Plaid Cymru": "21738",
+        "Liberal Democrat": "6949",
+        "Labour": "5386",
+        "Reform": "5374",
+        "Conservative": "4763",
+        "Green": "1864",
+        "Workers Party of Britain": "228"
+    },
+    "Filton and Bradley Stoke": {
+        "Labour": "22905",
+        "Conservative": "12905",
+        "Reform": "6819",
+        "Green": "4142",
+        "Liberal Democrat": "3596"
+    },
+    "Hornchurch and Upminster": {
+        "Conservative": "15260",
+        "Reform": "13317",
+        "Labour": "12939",
+        "Green": "2620",
+        "Liberal Democrat": "2381",
+        "Independent": "394"
+    },
+    "Derby South": {
+        "Labour": "14503",
+        "Reform": "8501",
+        "Workers Party of Britain": "5205",
+        "Conservative": "5192",
+        "Green": "1899",
+        "Liberal Democrat": "1807",
+        "Independent": "292"
+    },
+    "North Norfolk": {
+        "Liberal Democrat": "19488",
+        "Conservative": "16903",
+        "Reform": "6368",
+        "Labour": "2878",
+        "Green": "1406"
+    },
+    "Stretford and Urmston": {
+        "Labour": "22642",
+        "Conservative": "6492",
+        "Reform": "5485",
+        "Workers Party of Britain": "4461",
+        "Green": "4398",
+        "Liberal Democrat": "2216",
+        "Rejoin EU": "308"
+    },
+    "Bristol East": {
+        "Labour": "20748",
+        "Green": "14142",
+        "Conservative": "6435",
+        "Liberal Democrat": "2713",
+        "Independent": "257",
+        "Social Democratic Party": "555"
+    },
+    "Cardiff East": {
+        "Labour": "15833",
+        "Liberal Democrat": "6736",
+        "Reform": "4980",
+        "Green": "3916",
+        "Conservative": "3913",
+        "Plaid Cymru": "3550",
+        "Trade Unionist and Socialist Coalition": "195"
+    },
+    "Harrow West": {
+        "Labour": "19833",
+        "Conservative": "13191",
+        "Independent": "616",
+        "Reform": "2639",
+        "Green": "2438",
+        "Liberal Democrat": "2404"
+    },
+    "Ilford North": {
+        "Labour": "15647",
+        "Independent": "15119",
+        "Conservative": "9619",
+        "Reform": "3621",
+        "Green": "1794",
+        "Liberal Democrat": "1088"
+    },
+    "West Tyrone": {
+        "Sinn Fein": "22711",
+        "Democratic Unionist Party": "6794",
+        "Social Democratic & Labour Party": "5821",
+        "Ulster Unionist Party ": "2683",
+        "Traditional Unionist Voice": "2530",
+        "Alliance Party": "2287",
+        "Aont\u00c3\u00ba": "778",
+        "Conservative": "91"
+    },
+    "Alloa and Grangemouth": {
+        "Labour": "18039",
+        "Scottish National Party": "11917",
+        "Reform": "3804",
+        "Conservative": "3127",
+        "Green": "1421",
+        "Liberal Democrat": "1151",
+        "Independent": "881",
+        "Alba": "638",
+        "Workers Party of Britain": "223"
+    },
+    "Finchley and Golders Green": {
+        "Labour": "21857",
+        "Conservative": "17276",
+        "Liberal Democrat": "3375",
+        "Green": "3107",
+        "Reform": "2598",
+        "Rejoin EU": "486",
+        "Party of Women": "318",
+        "Independent": "272"
+    },
+    "Manchester Central": {
+        "Labour": "20184",
+        "Green": "6387",
+        "Reform": "4760",
+        "Liberal Democrat": "3051",
+        "Conservative": "2823",
+        "Workers Party of Britain": "1888",
+        "Social Democratic Party": "240",
+        "Independent": "59",
+        "Communist Future": "131"
+    },
+    "Newcastle-under-Lyme": {
+        "Labour": "15992",
+        "Conservative": "10923",
+        "Reform": "8865",
+        "Liberal Democrat": "1987",
+        "Green": "1851"
+    },
+    "Croydon West": {
+        "Labour": "20612",
+        "Conservative": "6386",
+        "Green": "3851",
+        "Liberal Democrat": "3667",
+        "Reform": "2148",
+        "Workers Party of Britain": "708",
+        "Taking The Initiative Party": "503",
+        "Trade Unionist and Socialist Coalition": "247"
+    },
+    "Bridlington and the Wolds": {
+        "Conservative": "14846",
+        "Labour": "11721",
+        "Reform": "10350",
+        "Liberal Democrat": "3097",
+        "Green": "1595",
+        "The Yorkshire Party": "915",
+        "Independent": "309",
+        "Social Democratic Party": "104"
+    },
+    "Edinburgh South": {
+        "Labour": "24976",
+        "Scottish National Party": "7725",
+        "Green": "4270",
+        "Conservative": "4001",
+        "Liberal Democrat": "2746",
+        "Reform": "1845",
+        "Independent": "76",
+        "Alba": "454",
+        "Scottish Family Party": "267"
+    },
+    "The Wrekin": {
+        "Conservative": "16320",
+        "Labour": "15437",
+        "Reform": "9920",
+        "Liberal Democrat": "4757",
+        "Green": "3028",
+        "Independent": "558"
+    },
+    "Westmorland and Lonsdale": {
+        "Liberal Democrat": "31061",
+        "Conservative": "9589",
+        "Reform": "4842",
+        "Labour": "2306",
+        "Green": "1486",
+        "Independent": "111",
+        "Heritage Party": "81",
+        "Social Democratic Party": "57"
+    },
+    "Hornsey and Friern Barnet": {
+        "Labour": "28535",
+        "Green": "7060",
+        "Liberal Democrat": "6099",
+        "Conservative": "4011",
+        "Reform": "1989",
+        "Workers Party of Britain": "766",
+        "Christian Peoples Alliance": "182"
+    },
+    "Sheffield South East": {
+        "Labour": "18710",
+        "Conservative": "6252",
+        "Liberal Democrat": "3421",
+        "Green": "3158",
+        "Independent": "1716",
+        "Workers Party of Britain": "1453",
+        "Social Democratic Party": "1061"
+    },
+    "Wimbledon": {
+        "Liberal Democrat": "24790",
+        "Conservative": "12180",
+        "Labour": "11733",
+        "Reform": "3221",
+        "Green": "2442",
+        "Workers Party of Britain": "341",
+        "Independent": "80",
+        "Heritage Party": "69"
+    },
+    "Altrincham and Sale West": {
+        "Labour": "20798",
+        "Conservative": "16624",
+        "Reform": "4961",
+        "Liberal Democrat": "4727",
+        "Green": "3699",
+        "Workers Party of Britain": "643"
+    },
+    "Clwyd East": {
+        "Labour": "18484",
+        "Conservative": "13862",
+        "Reform": "7626",
+        "Plaid Cymru": "3733",
+        "Liberal Democrat": "1859",
+        "Green": "1659",
+        "Independent": "599"
+    },
+    "Dorking and Horley": {
+        "Liberal Democrat": "20921",
+        "Conservative": "15530",
+        "Reform": "6898",
+        "Labour": "4053",
+        "Green": "2563"
+    },
+    "Doncaster North": {
+        "Labour": "16231",
+        "Conservative": "7105",
+        "Social Democratic Party": "1960",
+        "Green": "1778",
+        "British Democratic Party": "1160",
+        "The Yorkshire Party": "1059",
+        "Liberal Democrat": "1045",
+        "Party of Women": "452",
+        "Trade Unionist and Socialist Coalition": "212"
+    },
+    "Yeovil": {
+        "Liberal Democrat": "23765",
+        "Conservative": "11497",
+        "Reform": "7677",
+        "Labour": "3002",
+        "Green": "2403",
+        "Independent": "608"
+    },
+    "Bath": {
+        "Liberal Democrat": "19883",
+        "Labour": "8665",
+        "Conservative": "7659",
+        "Green": "5952",
+        "Reform": "3798",
+        "Independent": "25",
+        "Workers Party of Britain": "230"
+    },
+    "Cumbernauld and Kirkintilloch": {
+        "Labour": "18513",
+        "Scottish National Party": "14369",
+        "Reform": "3167",
+        "Conservative": "1939",
+        "Green": "1694",
+        "Liberal Democrat": "1294"
+    },
+    "Glasgow South": {
+        "Labour": "17696",
+        "Scottish National Party": "13542",
+        "Green": "5554",
+        "Reform": "1736",
+        "Conservative": "1617",
+        "Liberal Democrat": "1316",
+        "Trade Unionist and Socialist Coalition": "473",
+        "Alba": "444"
+    },
+    "Merthyr Tydfil and Aberdare": {
+        "Labour": "15791",
+        "Reform": "8344",
+        "Plaid Cymru": "4768",
+        "Conservative": "2687",
+        "Liberal Democrat": "1276",
+        "Green": "1231",
+        "Workers Party of Britain": "531",
+        "Independent": "375",
+        "Communist Party of Britain": "212"
+    },
+    "Bromsgrove": {
+        "Conservative": "16533",
+        "Labour": "13517",
+        "Reform": "9584",
+        "Liberal Democrat": "7391",
+        "Green": "1675",
+        "Independent": "1561",
+        "Workers Party of Britain": "144"
+    },
+    "Pontefract, Castleford and Knottingley": {
+        "Labour": "17089",
+        "Reform": "10459",
+        "Conservative": "5406",
+        "Green": "1651",
+        "Liberal Democrat": "1213",
+        "Social Democratic Party": "139"
+    },
+    "Weston-super-Mare": {
+        "Labour": "16310",
+        "Conservative": "11901",
+        "Reform": "7735",
+        "Liberal Democrat": "3756",
+        "Green": "2688"
+    },
+    "Sutton Coldfield": {
+        "Conservative": "18502",
+        "Labour": "15959",
+        "Reform": "8213",
+        "Liberal Democrat": "2587",
+        "Green": "2419",
+        "Workers Party of Britain": "653"
+    },
+    "Canterbury": {
+        "Labour": "19531",
+        "Conservative": "10878",
+        "Reform": "6805",
+        "Green": "5920",
+        "Liberal Democrat": "3812",
+        "Social Democratic Party": "285"
+    },
+    "Erith and Thamesmead": {
+        "Labour": "22246",
+        "Reform": "5944",
+        "Conservative": "5564",
+        "Green": "3482",
+        "Liberal Democrat": "1872",
+        "Workers Party of Britain": "1071",
+        "Independent": "200"
+    },
+    "Glastonbury and Somerton": {
+        "Liberal Democrat": "20364",
+        "Conservative": "13753",
+        "Reform": "7678",
+        "Labour": "3111",
+        "Green": "2736"
+    },
+    "Harborough, Oadby and Wigston": {
+        "Conservative": "18614",
+        "Labour": "16236",
+        "Reform": "6332",
+        "Liberal Democrat": "4732",
+        "Green": "4269",
+        "Social Democratic Party": "203"
+    },
+    "Oldham East and Saddleworth": {
+        "Labour": "14091",
+        "Reform": "7734",
+        "Conservative": "6838",
+        "Workers Party of Britain": "4647",
+        "Liberal Democrat": "3386",
+        "Green": "1490",
+        "Independent": "517"
+    },
+    "Poplar and Limehouse": {
+        "Labour": "18535",
+        "Green": "5975",
+        "Conservative": "4738",
+        "Independent": "4554",
+        "Liberal Democrat": "4189",
+        "Reform": "3403",
+        "Workers Party of Britain": "1463",
+        "Social Democratic Party": "194"
+    },
+    "Sheffield Hallam": {
+        "Labour": "23875",
+        "Liberal Democrat": "15686",
+        "Conservative": "6205",
+        "Green": "4491",
+        "Social Democratic Party": "654",
+        "Rejoin EU": "409",
+        "Workers Party of Britain": "281"
+    },
+    "Wolverhampton West": {
+        "Labour": "19331",
+        "Conservative": "11463",
+        "Reform": "6078",
+        "Green": "2550",
+        "Independent Network ": "1395",
+        "Liberal Democrat": "1376",
+        "Independent": "888",
+        "Workers Party of Britain": "576"
+    },
+    "Bristol North West": {
+        "Labour": "24058",
+        "Green": "8389",
+        "Conservative": "6773",
+        "Reform": "4863",
+        "Liberal Democrat": "4159",
+        "Social Democratic Party": "222"
+    },
+    "Bury South": {
+        "Labour": "19247",
+        "Conservative": "9886",
+        "Reform": "6865",
+        "Green": "2715",
+        "Liberal Democrat": "1796",
+        "Workers Party of Britain": "1023",
+        "Independent": "277",
+        "English Democrats": "224",
+        "Communist Party of Britain": "181"
+    },
+    "Clapham and Brixton Hill": {
+        "Labour": "24166",
+        "Liberal Democrat": "6161",
+        "Green": "5768",
+        "Conservative": "4360",
+        "Reform": "1758",
+        "Independent": "406",
+        "Socialist Party of Great Britain": "122"
+    },
+    "Leeds South": {
+        "Labour": "17117",
+        "Green": "5838",
+        "Conservative": "4172",
+        "Social Democratic Party": "1874",
+        "Liberal Democrat": "1340",
+        "Workers Party of Britain": "719",
+        "Christian Peoples Alliance": "341",
+        "Independent": "277"
+    },
+    "Portsmouth South": {
+        "Labour": "18857",
+        "Reform": "5702",
+        "Conservative": "5643",
+        "Liberal Democrat": "4886",
+        "Green": "3107",
+        "Portsmouth Independent Party": "733"
+    },
+    "Stockton West": {
+        "Conservative": "20372",
+        "Labour": "18233",
+        "Reform": "6833",
+        "Green": "1477",
+        "Liberal Democrat": "1203",
+        "Independent": "106",
+        "Independents for Direct Democracy": "45"
+    },
+    "Bathgate and Linlithgow": {
+        "Labour": "19774",
+        "Scottish National Party": "11451",
+        "Reform": "3524",
+        "Conservative": "3144",
+        "Liberal Democrat": "2171",
+        "Green": "1390",
+        "Independence for Scotland Party": "382",
+        "Independent": "229"
+    },
+    "Broadland and Fakenham": {
+        "Conservative": "16322",
+        "Labour": "15603",
+        "Reform": "8859",
+        "Liberal Democrat": "5526",
+        "Green": "3203"
+    },
+    "Warwick and Leamington": {
+        "Labour": "23975",
+        "Conservative": "11563",
+        "Reform": "5154",
+        "Green": "4471",
+        "Liberal Democrat": "3881",
+        "UK Independence Party": "154"
+    },
+    "Central Ayrshire": {
+        "Labour": "18091",
+        "Scottish National Party": "11222",
+        "Conservative": "6147",
+        "Reform": "3420",
+        "Green": "1039",
+        "Liberal Democrat": "983",
+        "Socialist Labour Party": "329",
+        "Social Democratic Party": "188"
+    },
+    "Cardiff North": {
+        "Labour": "20849",
+        "Conservative": "9642",
+        "Reform": "5985",
+        "Plaid Cymru": "4669",
+        "Liberal Democrat": "3168",
+        "Green": "3160"
+    },
+    "Newry and Armagh": {
+        "Sinn Fein": "22299",
+        "Social Democratic & Labour Party": "6806",
+        "Democratic Unionist Party": "5900",
+        "Traditional Unionist Voice": "4099",
+        "Ulster Unionist Party ": "3175",
+        "Alliance Party": "2692",
+        "Aont\u00c3\u00ba": "888",
+        "Conservative": "83"
+    },
+    "Streatham and Croydon North": {
+        "Labour": "23232",
+        "Green": "7629",
+        "Conservative": "5328",
+        "Liberal Democrat": "5031",
+        "Reform": "1994",
+        "Workers Party of Britain": "910",
+        "Christian Peoples Alliance": "290",
+        "Social Democratic Party": "139"
+    },
+    "Belfast North": {
+        "Sinn Fein": "17674",
+        "Democratic Unionist Party": "12062",
+        "Alliance Party": "4274",
+        "Traditional Unionist Voice": "2877",
+        "Social Democratic & Labour Party": "1413",
+        "Green": "1206",
+        "People Before Profit": "946"
+    },
+    "Bexleyheath and Crayford": {
+        "Labour": "15717",
+        "Conservative": "13603",
+        "Reform": "9861",
+        "Liberal Democrat": "2204",
+        "Green": "2076"
+    },
+    "York Outer": {
+        "Labour": "23161",
+        "Conservative": "13770",
+        "Reform": "5912",
+        "Liberal Democrat": "5496",
+        "Green": "2212",
+        "The Yorkshire Party": "260",
+        "Independent": "66"
+    },
+    "Bexhill and Battle": {
+        "Conservative": "16186",
+        "Labour": "13529",
+        "Reform": "7929",
+        "Liberal Democrat": "3473",
+        "Green": "2972",
+        "Independent": "769",
+        "Party of Women": "332",
+        "Independent Network ": "210",
+        "UK Independence Party": "144"
+    },
+    "Hastings and Rye": {
+        "Labour": "19134",
+        "Conservative": "10481",
+        "Reform": "7401",
+        "Green": "5761",
+        "Liberal Democrat": "2586",
+        "Workers Party of Britain": "362",
+        "Communist Party of Britain": "136",
+        "Independent": "129"
+    },
+    "Isle of Wight East": {
+        "Conservative": "10427",
+        "Reform": "7104",
+        "Green": "6313",
+        "Labour": "6264",
+        "Liberal Democrat": "3550",
+        "Independent": "420"
+    },
+    "Salford": {
+        "Labour": "21132",
+        "Reform": "6031",
+        "Green": "5188",
+        "Conservative": "3583",
+        "Liberal Democrat": "2752",
+        "Workers Party of Britain": "791",
+        "Social Democratic Party": "227"
+    },
+    "Dwyfor Meirionnydd": {
+        "Plaid Cymru": "21788",
+        "Labour": "5912",
+        "Reform": "4857",
+        "Conservative": "4712",
+        "Green": "1448",
+        "Liberal Democrat": "1381",
+        "Heritage Party": "297"
+    },
+    "Wells and Mendip Hills": {
+        "Liberal Democrat": "23622",
+        "Conservative": "12501",
+        "Reform": "6611",
+        "Labour": "3527",
+        "Green": "2068",
+        "Independent": "190"
+    },
+    "Barking": {
+        "Labour": "16227",
+        "Reform": "5173",
+        "Green": "4988",
+        "Conservative": "4294",
+        "Workers Party of Britain": "3578",
+        "Liberal Democrat": "1015",
+        "Independent": "753",
+        "Christian Peoples Alliance": "449"
+    },
+    "Greenwich and Woolwich": {
+        "Labour": "23999",
+        "Green": "5633",
+        "Conservative": "4863",
+        "Liberal Democrat": "3865",
+        "Reform": "3305",
+        "Workers Party of Britain": "570",
+        "Independent": "311",
+        "Climate Party": "173"
+    },
+    "Leeds Central and Headingley": {
+        "Labour": "15853",
+        "Green": "7431",
+        "Liberal Democrat": "2611",
+        "Reform": "2399",
+        "Conservative": "2237",
+        "Workers Party of Britain": "691",
+        "Social Democratic Party": "187",
+        "Trade Unionist and Socialist Coalition": "186"
+    },
+    "Mansfield": {
+        "Labour": "16048",
+        "Conservative": "12563",
+        "Reform": "9385",
+        "Green": "1326",
+        "Liberal Democrat": "799",
+        "Socialist Labour Party": "423",
+        "Independent": "85",
+        "Trade Unionist and Socialist Coalition": "123"
+    },
+    "East Ham": {
+        "Labour": "19570",
+        "Independent": "385",
+        "Green": "4226",
+        "Conservative": "3876",
+        "Reform": "1340",
+        "Liberal Democrat": "1210"
+    },
+    "Airdrie and Shotts": {
+        "Labour": "18871",
+        "Scottish National Party": "11324",
+        "Reform": "2971",
+        "Conservative": "1696",
+        "Liberal Democrat": "725",
+        "Alba": "623",
+        "British Unionist Party": "456"
+    },
+    "Dagenham and Rainham": {
+        "Labour": "16571",
+        "Reform": "9398",
+        "Conservative": "6926",
+        "Green": "4184",
+        "Liberal Democrat": "1033",
+        "Independent": "755"
+    },
+    "Glasgow West": {
+        "Labour": "18621",
+        "Scottish National Party": "12175",
+        "Green": "3662",
+        "Reform": "2098",
+        "Conservative": "1720",
+        "Liberal Democrat": "1316",
+        "Christian Party": "310"
+    },
+    "Harrow East": {
+        "Conservative": "25466",
+        "Labour": "13786",
+        "Reform": "2188",
+        "Independent": "2097",
+        "Green": "2006",
+        "Liberal Democrat": "1511",
+        "Workers Party of Britain": "723"
+    },
+    "South Dorset": {
+        "Labour": "15659",
+        "Conservative": "14611",
+        "Reform": "8168",
+        "Liberal Democrat": "8017",
+        "Green": "2153",
+        "Independent": "52"
+    },
+    "Tiverton and Minehead": {
+        "Liberal Democrat": "18326",
+        "Conservative": "14819",
+        "Reform": "7787",
+        "Labour": "4325",
+        "Green": "2234"
+    },
+    "Winchester": {
+        "Liberal Democrat": "29939",
+        "Conservative": "16118",
+        "Reform": "4797",
+        "Labour": "3023",
+        "Green": "2740",
+        "Social Democratic Party": "146",
+        "Independent": "127",
+        "Hampshire Independents": "44"
+    },
+    "Vauxhall and Camberwell Green": {
+        "Labour": "21528",
+        "Green": "6416",
+        "Liberal Democrat": "4549",
+        "Conservative": "2809",
+        "Reform": "2033",
+        "Social Democratic Party": "201"
+    },
+    "Cardiff South and Penarth": {
+        "Labour": "17428",
+        "Green": "5661",
+        "Conservative": "5459",
+        "Reform": "4493",
+        "Plaid Cymru": "3227",
+        "Liberal Democrat": "2908"
+    },
+    "Harpenden and Berkhamsted": {
+        "Liberal Democrat": "27282",
+        "Conservative": "16574",
+        "Reform": "4245",
+        "Labour": "4061",
+        "Green": "1951",
+        "Social Democratic Party": "223"
+    },
+    "Kensington and Bayswater": {
+        "Labour": "17025",
+        "Conservative": "14122",
+        "Liberal Democrat": "2910",
+        "Green": "2732",
+        "Reform": "2514",
+        "Independent": "65",
+        "Rejoin EU": "486",
+        "Party of Women": "116",
+        "Christian Peoples Alliance": "114"
+    },
+    "Lancaster and Wyre": {
+        "Labour": "19315",
+        "Conservative": "10062",
+        "Reform": "6866",
+        "Green": "5236",
+        "Liberal Democrat": "1529"
+    },
+    "Castle Point": {
+        "Conservative": "15485",
+        "Reform": "12234",
+        "Labour": "9455",
+        "Green": "2118",
+        "Liberal Democrat": "1341"
+    },
+    "Chesterfield": {
+        "Labour": "19316",
+        "Conservative": "8496",
+        "Reform": "7897",
+        "Green": "2682",
+        "Liberal Democrat": "2553",
+        "Chesterfield And North Derbyshire Independents": "363",
+        "Workers Party of Britain": "248"
+    },
+    "Gainsborough": {
+        "Conservative": "16636",
+        "Labour": "13104",
+        "Reform": "9916",
+        "Liberal Democrat": "5001",
+        "Green": "1832",
+        "Social Democratic Party": "196"
+    },
+    "Godalming and Ash": {
+        "Conservative": "23293",
+        "Liberal Democrat": "22402",
+        "Reform": "4815",
+        "Labour": "2748",
+        "Green": "1243",
+        "Women's Equality Party": "195"
+    },
+    "Reigate": {
+        "Conservative": "18822",
+        "Labour": "15635",
+        "Reform": "7240",
+        "Liberal Democrat": "6773",
+        "Green": "4691"
+    },
+    "Sheffield Heeley": {
+        "Labour": "21230",
+        "Green": "5926",
+        "Conservative": "5242",
+        "Liberal Democrat": "3863",
+        "Social Democratic Party": "711",
+        "Workers Party of Britain": "594",
+        "Party of Women": "482",
+        "Trade Unionist and Socialist Coalition": "398"
+    },
+    "Richmond and Northallerton": {
+        "Conservative": "23059",
+        "Labour": "10874",
+        "Reform": "7142",
+        "Liberal Democrat": "4322",
+        "Green": "2058",
+        "Count Binface Party": "308",
+        "Independent": "27",
+        "The Yorkshire Party": "132",
+        "Monster Raving Loony Party": "99",
+        "Workers Party of Britain": "90"
+    },
+    "Edinburgh North and Leith": {
+        "Labour": "20805",
+        "Scottish National Party": "13537",
+        "Green": "5417",
+        "Liberal Democrat": "3879",
+        "Conservative": "3254",
+        "Reform": "1818",
+        "Socialist Labour Party": "227",
+        "Scottish Family Party": "210",
+        "Communist Party of Britain": "189",
+        "Independent": "139"
+    },
+    "Worsley and Eccles": {
+        "Labour": "20277",
+        "Reform": "9186",
+        "Conservative": "6791",
+        "Green": "3283",
+        "Liberal Democrat": "1851",
+        "Workers Party of Britain": "466",
+        "Independent": "448",
+        "Trade Unionist and Socialist Coalition": "241"
+    },
+    "North East Derbyshire": {
+        "Labour": "17591",
+        "Conservative": "15838",
+        "Reform": "7899",
+        "Green": "2271",
+        "Liberal Democrat": "2159",
+        "Freedom Alliance": "108"
+    },
+    "Ribble Valley": {
+        "Labour": "18177",
+        "Conservative": "17321",
+        "Reform": "8524",
+        "Liberal Democrat": "5001",
+        "Green": "1727",
+        "Independent": "1273"
+    },
+    "East Antrim": {
+        "Democratic Unionist Party": "11462",
+        "Alliance Party": "10156",
+        "Ulster Unionist Party ": "9476",
+        "Traditional Unionist Voice": "4135",
+        "Sinn Fein": "2986",
+        "Social Democratic & Labour Party": "892",
+        "Green": "568"
+    },
+    "Gillingham and Rainham": {
+        "Labour": "15562",
+        "Conservative": "11590",
+        "Reform": "8792",
+        "Green": "2318",
+        "Liberal Democrat": "2248",
+        "Independent": "344",
+        "Christian Peoples Alliance": "175",
+        "Social Democratic Party": "111"
+    },
+    "Manchester Withington": {
+        "Labour": "22066",
+        "Green": "8084",
+        "Liberal Democrat": "5412",
+        "Conservative": "2280",
+        "Reform": "1961",
+        "Workers Party of Britain": "1774",
+        "Social Democratic Party": "154"
+    },
+    "Montgomeryshire and Glyndwr": {
+        "Labour": "12709",
+        "Reform": "8894",
+        "Conservative": "7775",
+        "Liberal Democrat": "6470",
+        "Plaid Cymru": "5667",
+        "Green": "1744"
+    },
+    "South West Wiltshire": {
+        "Conservative": "15617",
+        "Labour": "12374",
+        "Reform": "7840",
+        "Liberal Democrat": "7205",
+        "Green": "2243",
+        "Independent": "441"
+    },
+    "Birmingham Hodge Hill and Solihull North": {
+        "Labour": "10655",
+        "Workers Party of Britain": "9089",
+        "Reform": "6456",
+        "Conservative": "4634",
+        "Green": "2360",
+        "Liberal Democrat": "942"
+    },
+    "Camborne and Redruth": {
+        "Labour": "19360",
+        "Conservative": "11554",
+        "Reform": "8952",
+        "Liberal Democrat": "4113",
+        "Green": "2840",
+        "Liberal Party": "624",
+        "Socialist Labour Party": "342"
+    },
+    "Hamble Valley": {
+        "Conservative": "19671",
+        "Liberal Democrat": "14869",
+        "Labour": "8753",
+        "Reform": "8216",
+        "Green": "2310",
+        "Hampshire Independents": "185"
+    },
+    "Maldon": {
+        "Conservative": "19374",
+        "Reform": "12468",
+        "Labour": "9817",
+        "Liberal Democrat": "5882",
+        "Green": "2300"
+    },
+    "Mid Buckinghamshire": {
+        "Conservative": "20150",
+        "Liberal Democrat": "14278",
+        "Labour": "9171",
+        "Reform": "6926",
+        "Green": "2942",
+        "Social Democratic Party": "337",
+        "Climate Party": "147"
+    },
+    "Melksham and Devizes": {
+        "Liberal Democrat": "20031",
+        "Conservative": "17630",
+        "Reform": "6726",
+        "Labour": "4587",
+        "Green": "2229"
+    },
+    "South Devon": {
+        "Liberal Democrat": "22540",
+        "Conservative": "15413",
+        "Reform": "6363",
+        "Labour": "3066",
+        "Green": "1497",
+        "Heritage Party": "125"
+    },
+    "South West Hertfordshire": {
+        "Conservative": "16458",
+        "Liberal Democrat": "12002",
+        "Labour": "9637",
+        "Reform": "6790",
+        "Green": "2532",
+        "Party of Women": "295",
+        "Rejoin EU": "232",
+        "Social Democratic Party": "158",
+        "UK Voice": "150"
+    },
+    "Bournemouth East": {
+        "Labour": "18316",
+        "Conservative": "12837",
+        "Reform": "6268",
+        "Liberal Democrat": "3082",
+        "Green": "2790",
+        "Independent": "1529",
+        "Social Democratic Party": "88"
+    },
+    "Hayes and Harlington": {
+        "Labour": "20405",
+        "Conservative": "8374",
+        "Reform": "4114",
+        "Green": "2131",
+        "Workers Party of Britain": "1975",
+        "Liberal Democrat": "1316"
+    },
+    "Old Bexley and Sidcup": {
+        "Conservative": "17910",
+        "Labour": "14362",
+        "Reform": "10384",
+        "Green": "2601",
+        "Liberal Democrat": "1927",
+        "Rejoin EU": "251",
+        "Independent": "198"
+    },
+    "Ossett and Denby Dale": {
+        "Labour": "17232",
+        "Conservative": "12690",
+        "Reform": "9224",
+        "Green": "2132",
+        "Liberal Democrat": "1785",
+        "The Yorkshire Party": "810"
+    },
+    "Hull North & Cottingham": {
+        "Labour": "18480",
+        "Reform": "7801",
+        "Conservative": "4897",
+        "Liberal Democrat": "3246",
+        "Green": "2322",
+        "Independent": "161",
+        "The Yorkshire Party": "339",
+        "Trade Unionist and Socialist Coalition": "262"
+    },
+    "South Down": {
+        "Sinn Fein": "19698",
+        "Social Democratic & Labour Party": "10418",
+        "Democratic Unionist Party": "7349",
+        "Alliance Party": "3187",
+        "Traditional Unionist Voice": "1893",
+        "Ulster Unionist Party ": "1411",
+        "Aont\u00c3\u00ba": "797",
+        "Green": "444",
+        "Conservative": "46"
+    },
+    "Bromley and Biggin Hill": {
+        "Conservative": "15929",
+        "Labour": "15627",
+        "Reform": "8203",
+        "Liberal Democrat": "4352",
+        "Green": "2583",
+        "Climate Party": "94"
+    },
+    "Doncaster East and the Isle of Axholme": {
+        "Labour": "15122",
+        "Conservative": "12811",
+        "Reform": "8487",
+        "Green": "1400",
+        "Liberal Democrat": "1166",
+        "Climate Party": "146"
+    },
+    "Lewes": {
+        "Liberal Democrat": "26895",
+        "Conservative": "14271",
+        "Reform": "6335",
+        "Labour": "3574",
+        "Green": "1869",
+        "Social Democratic Party": "229"
+    },
+    "Worthing West": {
+        "Labour": "20519",
+        "Conservative": "16570",
+        "Reform": "7562",
+        "Green": "3274",
+        "Liberal Democrat": "2708",
+        "Independent": "364"
+    },
+    "Brigg and Immingham": {
+        "Conservative": "15905",
+        "Labour": "12662",
+        "Reform": "10594",
+        "Green": "1905",
+        "Liberal Democrat": "1442"
+    },
+    "Glasgow South West": {
+        "Labour": "15552",
+        "Scottish National Party": "12267",
+        "Green": "2727",
+        "Reform": "2236",
+        "Conservative": "1387",
+        "Liberal Democrat": "958",
+        "Alba": "542"
+    },
+    "Halifax": {
+        "Labour": "14135",
+        "Conservative": "7866",
+        "Reform": "7811",
+        "Green": "4133",
+        "Workers Party of Britain": "2543",
+        "Liberal Democrat": "2359",
+        "Independent": "1367"
+    },
+    "Belfast South and Mid Down": {
+        "Social Democratic & Labour Party": "21345",
+        "Alliance Party": "8839",
+        "Democratic Unionist Party": "6859",
+        "Ulster Unionist Party ": "2653",
+        "Traditional Unionist Voice": "2218",
+        "Green": "1577"
+    },
+    "Edinburgh South West": {
+        "Labour": "18663",
+        "Scottish National Party": "12446",
+        "Conservative": "5558",
+        "Green": "3450",
+        "Liberal Democrat": "3014",
+        "Reform": "2087",
+        "Scottish Family Party": "265",
+        "Independent": "181"
+    },
+    "Melton and Syston": {
+        "Conservative": "17526",
+        "Labour": "12130",
+        "Reform": "8945",
+        "Green": "3685",
+        "Liberal Democrat": "2547",
+        "Independent": "517",
+        "Alliance for Democracy and Freedom": "348",
+        "Rejoin EU": "288"
+    },
+    "St Albans": {
+        "Liberal Democrat": "29222",
+        "Conservative": "9388",
+        "Labour": "5189",
+        "Reform": "4336",
+        "Green": "3272",
+        "Heritage Party": "104",
+        "Social Democratic Party": "103"
+    },
+    "Ayr, Carrick and Cumnock": {
+        "Labour": "14930",
+        "Scottish National Party": "10776",
+        "Conservative": "9247",
+        "Reform": "3544",
+        "Liberal Democrat": "1081",
+        "Green": "886",
+        "Alba": "472"
+    },
+    "Birmingham Northfield": {
+        "Labour": "14929",
+        "Conservative": "9540",
+        "Reform": "7895",
+        "Green": "2809",
+        "Liberal Democrat": "1791",
+        "Independent": "163",
+        "Common Good ": "215"
+    },
+    "Dartford": {
+        "Labour": "15392",
+        "Conservative": "14200",
+        "Reform": "9523",
+        "Green": "3189",
+        "Liberal Democrat": "2184"
+    },
+    "Dover and Deal": {
+        "Labour": "18940",
+        "Reform": "11355",
+        "Conservative": "10370",
+        "Green": "3106",
+        "Liberal Democrat": "2595",
+        "Independent": "104",
+        "English Democrats": "185",
+        "Heritage Party": "168",
+        "Workers Party of Britain": "98"
+    },
+    "Kenilworth and Southam": {
+        "Conservative": "19395",
+        "Labour": "12821",
+        "Liberal Democrat": "10464",
+        "Reform": "6920",
+        "Green": "3125",
+        "Monster Raving Loony Party": "442",
+        "UK Independence Party": "153"
+    },
+    "Earley and Woodley": {
+        "Labour": "18209",
+        "Conservative": "17361",
+        "Liberal Democrat": "6142",
+        "Green": "3418",
+        "Social Democratic Party": "784"
+    },
+    "Blaenau Gwent and Rhymney": {
+        "Labour": "16027",
+        "Plaid Cymru": "3844",
+        "Conservative": "3776",
+        "Independent": "2409",
+        "Green": "1719",
+        "Liberal Democrat": "1268",
+        "Workers Party of Britain": "570",
+        "Communist Party of Britain": "309"
+    },
+    "East Worthing and Shoreham": {
+        "Labour": "22120",
+        "Conservative": "12601",
+        "Reform": "7169",
+        "Green": "3246",
+        "Liberal Democrat": "3180",
+        "Independent": "169"
+    },
+    "New Forest West": {
+        "Conservative": "16412",
+        "Labour": "10812",
+        "Liberal Democrat": "8186",
+        "Reform": "7577",
+        "Green": "2800",
+        "Animal Welfare Party": "393",
+        "Social Democratic Party": "157"
+    },
+    "Blackley and Middleton South": {
+        "Labour": "16864",
+        "Reform": "6614",
+        "Green": "3197",
+        "Conservative": "3073",
+        "Liberal Democrat": "1592"
+    },
+    "Leeds East": {
+        "Labour": "18610",
+        "Reform": "7345",
+        "Conservative": "6898",
+        "Green": "3506",
+        "Liberal Democrat": "1445",
+        "The Yorkshire Party": "664",
+        "Social Democratic Party": "519",
+        "Independent": "179"
+    },
+    "North Northumberland": {
+        "Labour": "17855",
+        "Conservative": "12788",
+        "Reform": "7688",
+        "Liberal Democrat": "5169",
+        "Independent": "288",
+        "Green": "1743",
+        "Social Democratic Party": "92"
+    },
+    "Preston": {
+        "Labour": "14006",
+        "Independent": "891",
+        "Reform": "5738",
+        "Conservative": "5212",
+        "Liberal Democrat": "3195",
+        "Green": "1751",
+        "Rejoin EU": "216",
+        "Alliance for Democracy and Freedom": "145",
+        "UK Independence Party": "124"
+    },
+    "Oxford West and Abingdon": {
+        "Liberal Democrat": "23414",
+        "Conservative": "8520",
+        "Labour": "5981",
+        "Reform": "4164",
+        "Green": "3236",
+        "Social Democratic Party": "259",
+        "Christian Peoples Alliance": "256",
+        "Independent": "168"
+    },
+    "Peterborough": {
+        "Labour": "13418",
+        "Conservative": "13300",
+        "Reform": "5379",
+        "Workers Party of Britain": "5051",
+        "Green": "2542",
+        "Liberal Democrat": "1746",
+        "Christian Peoples Alliance": "225",
+        "Independent": "211"
+    },
+    "Chatham and Aylesford": {
+        "Labour": "13689",
+        "Conservative": "11691",
+        "Reform": "9989",
+        "Green": "2504",
+        "Liberal Democrat": "2175",
+        "Workers Party of Britain": "340",
+        "Christian Peoples Alliance": "316",
+        "Social Democratic Party": "141"
+    },
+    "North West Hampshire": {
+        "Conservative": "17770",
+        "Labour": "14482",
+        "Reform": "7734",
+        "Liberal Democrat": "7626",
+        "Green": "2745",
+        "Hampshire Independents": "466"
+    },
+    "South Norfolk": {
+        "Labour": "17353",
+        "Conservative": "14527",
+        "Reform": "7583",
+        "Liberal Democrat": "5746",
+        "Green": "3987",
+        "Independent": "254",
+        "Social Democratic Party": "129"
+    },
+    "Taunton and Wellington": {
+        "Liberal Democrat": "24331",
+        "Conservative": "12392",
+        "Reform": "8053",
+        "Labour": "3552",
+        "Green": "1832",
+        "Communist Party of Britain": "134"
+    },
+    "Bognor Regis and Littlehampton": {
+        "Conservative": "15678",
+        "Labour": "13913",
+        "Reform": "10262",
+        "Liberal Democrat": "5081",
+        "Green": "2185",
+        "Heritage Party": "708"
+    },
+    "Bradford South": {
+        "Labour": "11833",
+        "Reform": "7441",
+        "Conservative": "4853",
+        "Green": "3366",
+        "Independent": "3345",
+        "Liberal Democrat": "954",
+        "Workers Party of Britain": "513",
+        "The Yorkshire Party": "489",
+        "English Democrats": "248"
+    },
+    "Na h-Eileanan an Iar": {
+        "Labour": "6692",
+        "Scottish National Party": "2856",
+        "Independent": "1370",
+        "Reform": "697",
+        "Conservative": "647",
+        "Christian Party": "496",
+        "Scottish Family Party": "388",
+        "Liberal Democrat": "382"
+    },
+    "North East Somerset and Hanham": {
+        "Labour": "20739",
+        "Conservative": "15420",
+        "Reform": "7424",
+        "Liberal Democrat": "3878",
+        "Green": "3222",
+        "Independent": "231",
+        "Monster Raving Loony Party": "211"
+    },
+    "Ashford": {
+        "Labour": "15262",
+        "Conservative": "13483",
+        "Reform": "10141",
+        "Green": "4355",
+        "Liberal Democrat": "2445",
+        "Consensus": "1289"
+    },
+    "Chippenham": {
+        "Liberal Democrat": "22552",
+        "Conservative": "14414",
+        "Reform": "6127",
+        "Labour": "3925",
+        "Green": "1954",
+        "Independent": "540"
+    },
+    "Blackburn": {
+        "Independent": "10973",
+        "Labour": "10386",
+        "Workers Party of Britain": "7105",
+        "Reform": "4844",
+        "Conservative": "3474",
+        "Green": "1416",
+        "Liberal Democrat": "689"
+    },
+    "West Ham and Beckton": {
+        "Labour": "16434",
+        "Newham Independents Party": "7180",
+        "Green": "3897",
+        "Conservative": "3781",
+        "Reform": "2800",
+        "Liberal Democrat": "1606",
+        "Christian Peoples Alliance": "460",
+        "Trade Unionist and Socialist Coalition": "190"
+    },
+    "Sherwood Forest": {
+        "Labour": "18841",
+        "Conservative": "13398",
+        "Reform": "11320",
+        "Green": "2216",
+        "Liberal Democrat": "1838",
+        "Independent": "183"
+    },
+    "Bournemouth West": {
+        "Labour": "14365",
+        "Conservative": "11141",
+        "Reform": "6647",
+        "Liberal Democrat": "4311",
+        "Green": "2614",
+        "Christian Peoples Alliance": "201",
+        "Social Democratic Party": "139"
+    },
+    "Leeds North East": {
+        "Labour": "23260",
+        "Conservative": "7177",
+        "Green": "5911",
+        "Reform": "3426",
+        "Liberal Democrat": "2168",
+        "Workers Party of Britain": "2067",
+        "The Yorkshire Party": "574",
+        "Alliance for Green Socialism": "259",
+        "Social Democratic Party": "125",
+        "Christian Peoples Alliance": "109",
+        "Climate Party": "91"
+    },
+    "Edinburgh East and Musselburgh": {
+        "Labour": "18790",
+        "Scottish National Party": "15075",
+        "Green": "4669",
+        "Conservative": "2598",
+        "Reform": "2129",
+        "Liberal Democrat": "1949",
+        "Independent": "365"
+    },
+    "Dewsbury and Batley": {
+        "Independent": "15641",
+        "Labour": "8707",
+        "Reform": "6152",
+        "Conservative": "4182",
+        "Green": "2048",
+        "Liberal Democrat": "1340"
+    },
+    "Fermanagh and South Tyrone": {
+        "Sinn Fein": "24844",
+        "Ulster Unionist Party ": "20273",
+        "Alliance Party": "2420",
+        "Social Democratic & Labour Party": "2386",
+        "Cross-Community Labour Alternative": "624",
+        "Aont\u00c3\u00ba": "529"
+    },
+    "Glasgow North": {
+        "Labour": "14655",
+        "Scottish National Party": "11116",
+        "Green": "4233",
+        "Reform": "1655",
+        "Conservative": "1366",
+        "Liberal Democrat": "1142",
+        "Alba": "572"
+    },
+    "Goole and Pocklington": {
+        "Conservative": "18981",
+        "Labour": "15409",
+        "Reform": "9054",
+        "Liberal Democrat": "3380",
+        "Green": "2451",
+        "Independent": "467"
+    },
+    "North Shropshire": {
+        "Liberal Democrat": "26214",
+        "Conservative": "10903",
+        "Reform": "7687",
+        "Labour": "3423",
+        "Green": "1234",
+        "Independent": "133"
+    },
+    "Surrey Heath": {
+        "Liberal Democrat": "21387",
+        "Conservative": "15747",
+        "Reform": "6252",
+        "Labour": "3148",
+        "Green": "1162",
+        "Heritage Party": "92"
+    },
+    "North West Norfolk": {
+        "Conservative": "16097",
+        "Labour": "11143",
+        "Reform": "8697",
+        "Liberal Democrat": "6492",
+        "Green": "2137"
+    },
+    "Strangford": {
+        "Democratic Unionist Party": "15559",
+        "Alliance Party": "10428",
+        "Ulster Unionist Party ": "3941",
+        "Traditional Unionist Voice": "3143",
+        "Sinn Fein": "2793",
+        "Social Democratic & Labour Party": "1783",
+        "Green": "703",
+        "Independent": "157",
+        "Conservative": "146"
+    },
+    "Bedford": {
+        "Labour": "18342",
+        "Conservative": "8912",
+        "Reform": "4548",
+        "Liberal Democrat": "4025",
+        "Green": "2394",
+        "Independent": "1442",
+        "Workers Party of Britain": "996"
+    },
+    "Birmingham Selly Oak": {
+        "Labour": "17371",
+        "Conservative": "5834",
+        "Reform": "5732",
+        "Green": "4320",
+        "Independent": "2842",
+        "Liberal Democrat": "2324"
+    },
+    "Cowdenbeath and Kirkcaldy": {
+        "Labour": "18662",
+        "Scottish National Party": "11414",
+        "Conservative": "3203",
+        "Reform": "3128",
+        "Liberal Democrat": "1593",
+        "Green": "1556",
+        "Alba": "1132",
+        "Scottish Libertarian Party": "126"
+    },
+    "Stoke-on-Trent Central": {
+        "Labour": "14950",
+        "Reform": "8541",
+        "Conservative": "6221",
+        "Independent": "279",
+        "Green": "1703",
+        "Liberal Democrat": "999"
+    },
+    "Rochester and Strood": {
+        "Labour": "15403",
+        "Conservative": "12473",
+        "Reform": "9966",
+        "Green": "2427",
+        "Liberal Democrat": "1894",
+        "Workers Party of Britain": "245",
+        "Heritage Party": "190"
+    },
+    "Morecambe and Lunesdale": {
+        "Labour": "19603",
+        "Conservative": "13788",
+        "Reform": "7810",
+        "Liberal Democrat": "4769",
+        "Green": "2089"
+    },
+    "Halesowen": {
+        "Labour": "15023",
+        "Conservative": "10659",
+        "Reform": "8484",
+        "Liberal Democrat": "2261",
+        "Green": "2151"
+    },
+    "Birmingham Edgbaston": {
+        "Labour": "16599",
+        "Conservative": "8231",
+        "Reform": "4363",
+        "Independent": "3336",
+        "Green": "2797",
+        "Liberal Democrat": "2102"
+    },
+    "Brecon, Radnor and Cwm Tawe": {
+        "Liberal Democrat": "13736",
+        "Conservative": "12264",
+        "Labour": "9904",
+        "Reform": "6567",
+        "Plaid Cymru": "2280",
+        "Green": "1188",
+        "Abolish the Welsh Assembly Party": "372",
+        "Monster Raving Loony Party": "237"
+    },
+    "Wakefield and Rothwell": {
+        "Labour": "17773",
+        "Reform": "8427",
+        "Conservative": "7322",
+        "Liberal Democrat": "3249",
+        "Green": "2389",
+        "Workers Party of Britain": "705",
+        "The Yorkshire Party": "606",
+        "Social Democratic Party": "185"
+    },
+    "Hammersmith and Chiswick": {
+        "Labour": "24073",
+        "Conservative": "8783",
+        "Green": "4468",
+        "Liberal Democrat": "4292",
+        "Reform": "2929",
+        "Rejoin EU": "821",
+        "Workers Party of Britain": "439",
+        "Workers Revolutionary Party": "216"
+    },
+    "Loughborough": {
+        "Labour": "17249",
+        "Conservative": "12289",
+        "Reform": "7204",
+        "Green": "2956",
+        "Liberal Democrat": "2561"
+    },
+    "Mid Derbyshire": {
+        "Labour": "17346",
+        "Conservative": "15468",
+        "Reform": "8356",
+        "Green": "3547",
+        "Liberal Democrat": "2361",
+        "Independent": "315",
+        "Workers Party of Britain": "150"
+    },
+    "Cities of London and Westminster": {
+        "Labour": "15302",
+        "Conservative": "12594",
+        "Liberal Democrat": "4335",
+        "Green": "2844",
+        "Reform": "2752",
+        "Workers Party of Britain": "727",
+        "Rejoin EU": "352",
+        "Social Democratic Party": "110",
+        "Independent": "34"
+    },
+    "Stone, Great Wyrley and Penkridge": {
+        "Conservative": "19880",
+        "Labour": "14414",
+        "Liberal Democrat": "2952",
+        "UK Independence Party": "2638",
+        "Green": "2236",
+        "Social Democratic Party": "650"
+    },
+    "Hull West & Haltemprice": {
+        "Labour": "17875",
+        "Reform": "8896",
+        "Conservative": "6924",
+        "Liberal Democrat": "2625",
+        "Green": "1748",
+        "Social Democratic Party": "110"
+    },
+    "Basingstoke": {
+        "Labour": "20922",
+        "Conservative": "14438",
+        "Reform": "6314",
+        "Green": "3568",
+        "Liberal Democrat": "3176",
+        "Hampshire Independents": "571"
+    },
+    "Chester South and Eddisbury": {
+        "Conservative": "19905",
+        "Labour": "16848",
+        "Reform": "6414",
+        "Liberal Democrat": "5430",
+        "Green": "2278",
+        "Independent": "1611"
+    },
+    "Manchester Rusholme": {
+        "Labour": "15054",
+        "Green": "6819",
+        "Workers Party of Britain": "3660",
+        "Conservative": "1678",
+        "Reform": "1313",
+        "Independent": "342",
+        "Communist League": "167"
+    },
+    "Normanton and Hemsworth": {
+        "Labour": "17275",
+        "Reform": "10613",
+        "Conservative": "4995",
+        "Green": "2147",
+        "Liberal Democrat": "1319"
+    },
+    "North Down": {
+        "Independent": "21030",
+        "Alliance Party": "13608",
+        "Ulster Unionist Party ": "6754",
+        "Green": "1247",
+        "Social Democratic & Labour Party": "657"
+    },
+    "Scarborough and Whitby": {
+        "Labour": "17758",
+        "Conservative": "12350",
+        "Reform": "9657",
+        "Liberal Democrat": "1899",
+        "Green": "1719",
+        "The Yorkshire Party": "477",
+        "Social Justice Party": "285",
+        "Social Democratic Party": "76"
+    },
+    "Birmingham Erdington": {
+        "Labour": "14774",
+        "Reform": "7755",
+        "Conservative": "5402",
+        "Green": "2452",
+        "Independent": "2250",
+        "Liberal Democrat": "1128",
+        "Trade Unionist and Socialist Coalition": "37"
+    },
+    "Glenrothes and Mid Fife": {
+        "Labour": "15994",
+        "Scottish National Party": "13040",
+        "Reform": "3528",
+        "Conservative": "1973",
+        "Liberal Democrat": "1604"
+    },
+    "Truro and Falmouth": {
+        "Labour": "20783",
+        "Conservative": "12632",
+        "Liberal Democrat": "6552",
+        "Reform": "6163",
+        "Green": "3470",
+        "Independent": "498",
+        "Liberal Party": "166"
+    },
+    "Wallasey": {
+        "Labour": "24674",
+        "Reform": "6678",
+        "Conservative": "4987",
+        "Green": "3905",
+        "Liberal Democrat": "1843",
+        "Workers Party of Britain": "462",
+        "Freedom Alliance": "197"
+    },
+    "Calder Valley": {
+        "Labour": "22046",
+        "Conservative": "13055",
+        "Reform": "7644",
+        "Green": "3701",
+        "Liberal Democrat": "2587",
+        "The Yorkshire Party": "404",
+        "Social Democratic Party": "171"
+    },
+    "Leeds North West": {
+        "Labour": "22882",
+        "Conservative": "10986",
+        "Reform": "5935",
+        "Liberal Democrat": "5641",
+        "Green": "3231",
+        "The Yorkshire Party": "1024",
+        "Social Democratic Party": "78"
+    },
+    "North Dorset": {
+        "Conservative": "18208",
+        "Liberal Democrat": "16619",
+        "Reform": "7894",
+        "Labour": "4370",
+        "Green": "2082",
+        "Independent": "317",
+        "UK Independence Party": "119",
+        "Social Democratic Party": "74"
+    },
+    "North East Hertfordshire": {
+        "Labour": "18358",
+        "Conservative": "16435",
+        "Reform": "8462",
+        "Liberal Democrat": "5463",
+        "Green": "3802"
+    },
+    "Mid Sussex": {
+        "Liberal Democrat": "21136",
+        "Conservative": "14474",
+        "Labour": "9397",
+        "Reform": "5921",
+        "Green": "2048",
+        "Monster Raving Loony Party": "352"
+    },
+    "Harwich and North Essex": {
+        "Conservative": "16522",
+        "Labour": "15360",
+        "Reform": "9806",
+        "Liberal Democrat": "3561",
+        "Green": "2794"
+    },
+    "Pendle and Clitheroe": {
+        "Labour": "16129",
+        "Conservative": "15227",
+        "Reform": "8171",
+        "Independent": "133",
+        "Liberal Democrat": "2039",
+        "Green": "1421",
+        "Workers Party of Britain": "336",
+        "Rejoin EU": "190"
+    },
+    "Tatton": {
+        "Conservative": "19956",
+        "Labour": "18820",
+        "Reform": "5948",
+        "Liberal Democrat": "4614",
+        "Green": "2571"
+    },
+    "South Shropshire": {
+        "Conservative": "17628",
+        "Liberal Democrat": "16004",
+        "Reform": "9171",
+        "Labour": "6939",
+        "Green": "1911"
+    },
+    "East Hampshire": {
+        "Conservative": "18509",
+        "Liberal Democrat": "17234",
+        "Reform": "6476",
+        "Labour": "4967",
+        "Green": "2404",
+        "Hampshire Independents": "364",
+        "Social Democratic Party": "152"
+    },
+    "Central Suffolk and North Ipswich": {
+        "Conservative": "15144",
+        "Labour": "10854",
+        "Reform": "8806",
+        "Green": "5652",
+        "Liberal Democrat": "5407",
+        "Independent": "194"
+    },
+    "Stourbridge": {
+        "Labour": "15338",
+        "Conservative": "12265",
+        "Reform": "7869",
+        "Green": "1732",
+        "Liberal Democrat": "1607",
+        "Workers Party of Britain": "1067"
+    },
+    "Tewkesbury": {
+        "Liberal Democrat": "20730",
+        "Conservative": "14468",
+        "Reform": "6000",
+        "Labour": "4298",
+        "Green": "2873",
+        "Christian Peoples Alliance": "170"
+    },
+    "Frome and East Somerset": {
+        "Liberal Democrat": "16580",
+        "Conservative": "11165",
+        "Reform": "6441",
+        "Labour": "6416",
+        "Green": "5083",
+        "Independent": "294"
+    },
+    "Moray West, Nairn and Strathspey": {
+        "Scottish National Party": "14961",
+        "Conservative": "13960",
+        "Labour": "8259",
+        "Liberal Democrat": "3785",
+        "Reform": "3490",
+        "Green": "1676",
+        "Scottish Family Party": "423"
+    },
+    "Salisbury": {
+        "Conservative": "17110",
+        "Labour": "13303",
+        "Liberal Democrat": "11825",
+        "Reform": "5235",
+        "Green": "2115",
+        "Independent": "458",
+        "Climate Party": "127"
+    },
+    "South Suffolk": {
+        "Conservative": "16082",
+        "Labour": "13035",
+        "Reform": "9252",
+        "Liberal Democrat": "6424",
+        "Green": "4008"
+    },
+    "Plymouth Sutton and Devonport": {
+        "Labour": "20795",
+        "Reform": "7467",
+        "Conservative": "6873",
+        "Green": "3186",
+        "Liberal Democrat": "2441",
+        "Independent": "619",
+        "Workers Party of Britain": "311",
+        "Trade Unionist and Socialist Coalition": "220",
+        "Socialist Labour Party": "183"
+    },
+    "Spen Valley": {
+        "Labour": "16076",
+        "Reform": "9888",
+        "Conservative": "9859",
+        "Green": "2284",
+        "Independent": "1526",
+        "Liberal Democrat": "1425"
+    },
+    "Belfast East": {
+        "Democratic Unionist Party": "19894",
+        "Alliance Party": "17218",
+        "Traditional Unionist Voice": "1918",
+        "Ulster Unionist Party ": "1818",
+        "Green": "1077",
+        "Social Democratic & Labour Party": "619",
+        "Independent": "162"
+    },
+    "Arbroath and Broughty Ferry": {
+        "Scottish National Party": "15581",
+        "Labour": "14722",
+        "Conservative": "6841",
+        "Reform": "3800",
+        "Liberal Democrat": "2249",
+        "Alba": "693",
+        "Sovereignty": "231"
+    },
+    "Esher and Walton": {
+        "Liberal Democrat": "28315",
+        "Conservative": "16312",
+        "Reform": "4777",
+        "Labour": "2846",
+        "Green": "1396",
+        "Social Democratic Party": "234"
+    },
+    "Foyle": {
+        "Social Democratic & Labour Party": "15647",
+        "Sinn Fein": "11481",
+        "Democratic Unionist Party": "3915",
+        "People Before Profit": "2444",
+        "Independent": "1519",
+        "Ulster Unionist Party ": "1422",
+        "Alliance Party": "1268",
+        "Aont\u00c3\u00ba": "662"
+    },
+    "Ruislip, Northwood and Pinner": {
+        "Conservative": "21366",
+        "Labour": "13785",
+        "Reform": "4671",
+        "Liberal Democrat": "4343",
+        "Green": "2926"
+    },
+    "Macclesfield": {
+        "Labour": "24672",
+        "Conservative": "15552",
+        "Reform": "6592",
+        "Green": "2493",
+        "Liberal Democrat": "2482",
+        "Independent": "779",
+        "Social Democratic Party": "222"
+    },
+    "Rutland and Stamford": {
+        "Conservative": "21248",
+        "Labour": "10854",
+        "Reform": "7008",
+        "Liberal Democrat": "6252",
+        "Green": "2806",
+        "Rejoin EU": "409"
+    },
+    "Dunfermline and Dollar": {
+        "Labour": "20336",
+        "Scottish National Party": "12095",
+        "Conservative": "3297",
+        "Liberal Democrat": "3181",
+        "Reform": "2887",
+        "Green": "2078",
+        "Independent": "88",
+        "Scottish Family Party": "251"
+    },
+    "Monmouthshire": {
+        "Labour": "21010",
+        "Conservative": "17672",
+        "Reform": "5438",
+        "Green": "2357",
+        "Liberal Democrat": "2279",
+        "Plaid Cymru": "1273",
+        "Independent": "457",
+        "True & Fair Party": "255",
+        "Heritage Party": "103"
+    },
+    "Chipping Barnet": {
+        "Labour": "21585",
+        "Conservative": "18671",
+        "Reform": "3986",
+        "Green": "3442",
+        "Liberal Democrat": "2614",
+        "Rejoin EU": "379",
+        "Independent": "182"
+    },
+    "Tonbridge": {
+        "Conservative": "20517",
+        "Labour": "9351",
+        "Green": "7596",
+        "Reform": "7548",
+        "Liberal Democrat": "4234",
+        "Independent Alliance (Kent)": "926",
+        "Social Democratic Party": "156"
+    },
+    "Bury St Edmunds and Stowmarket": {
+        "Labour": "16745",
+        "Conservative": "15293",
+        "Reform": "8595",
+        "Green": "5761",
+        "Liberal Democrat": "3154",
+        "Independent": "819",
+        "Rejoin EU": "350",
+        "Communist Party of Britain": "176"
+    },
+    "North Bedfordshire": {
+        "Conservative": "19981",
+        "Labour": "14567",
+        "Reform": "8433",
+        "Liberal Democrat": "5553",
+        "Green": "3027"
+    },
+    "South West Devon": {
+        "Conservative": "17916",
+        "Labour": "15804",
+        "Reform": "9361",
+        "Liberal Democrat": "5551",
+        "Green": "2925",
+        "Independent": "438",
+        "Trade Unionist and Socialist Coalition": "141",
+        "Heritage Party": "106"
+    },
+    "Bradford West": {
+        "Labour": "11724",
+        "Independent": "334",
+        "Green": "3690",
+        "Conservative": "3055",
+        "Reform": "2958",
+        "Liberal Democrat": "756"
+    },
+    "Crewe and Nantwich": {
+        "Labour": "20837",
+        "Conservative": "11110",
+        "Reform": "9602",
+        "Liberal Democrat": "2286",
+        "Green": "2151",
+        "Putting Crewe First": "588",
+        "Workers Party of Britain": "373",
+        "Monster Raving Loony Party": "250"
+    },
+    "Thirsk and Malton": {
+        "Conservative": "19544",
+        "Labour": "11994",
+        "Reform": "8963",
+        "Liberal Democrat": "5379",
+        "Green": "2986",
+        "The Yorkshire Party": "931"
+    },
+    "Kingswinford and South Staffordshire": {
+        "Conservative": "18199",
+        "Labour": "11896",
+        "Reform": "9928",
+        "Liberal Democrat": "2080",
+        "Green": "2077",
+        "Independent": "1000"
+    },
+    "Wythenshawe and Sale East": {
+        "Labour": "20596",
+        "Reform": "5986",
+        "Conservative": "5392",
+        "Green": "4133",
+        "Liberal Democrat": "1985",
+        "Workers Party of Britain": "714",
+        "Social Democratic Party": "326"
+    },
+    "East Grinstead and Uckfield": {
+        "Conservative": "19319",
+        "Liberal Democrat": "10839",
+        "Labour": "10440",
+        "Green": "5277",
+        "Independent": "2482",
+        "English Democrats": "2036"
+    },
+    "Waveney Valley": {
+        "Green": "20467",
+        "Conservative": "14873",
+        "Reform": "7779",
+        "Labour": "4621",
+        "Liberal Democrat": "1214",
+        "Social Democratic Party": "118"
+    },
+    "Hitchin": {
+        "Labour": "22067",
+        "Conservative": "14958",
+        "Reform": "6760",
+        "Liberal Democrat": "4913",
+        "Green": "2631",
+        "Christian Peoples Alliance": "181"
+    },
+    "North East Fife": {
+        "Liberal Democrat": "23384",
+        "Scottish National Party": "9905",
+        "Labour": "4026",
+        "Reform": "2094",
+        "Conservative": "1666",
+        "Green": "1653"
+    },
+    "St Austell and Newquay": {
+        "Labour": "15958",
+        "Conservative": "13488",
+        "Reform": "9212",
+        "Liberal Democrat": "4805",
+        "Green": "2337",
+        "Liberal Party": "490",
+        "Independent": "442"
+    },
+    "Belfast West": {
+        "Sinn Fein": "21009",
+        "People Before Profit": "5048",
+        "Social Democratic & Labour Party": "4318",
+        "Democratic Unionist Party": "4304",
+        "Traditional Unionist Voice": "2010",
+        "Alliance Party": "1077",
+        "Aont\u00c3\u00ba": "904",
+        "Ulster Unionist Party ": "461",
+        "Green": "451",
+        "Independent": "161"
+    },
+    "Huddersfield": {
+        "Labour": "15101",
+        "Green": "10568",
+        "Conservative": "6559",
+        "Reform": "6196",
+        "Liberal Democrat": "1741"
+    },
+    "Aberdeenshire North and Moray East": {
+        "Scottish National Party": "13455",
+        "Conservative": "12513",
+        "Reform": "5562",
+        "Labour": "3876",
+        "Liberal Democrat": "2782"
+    },
+    "East Wiltshire": {
+        "Conservative": "16849",
+        "Labour": "12133",
+        "Liberal Democrat": "8204",
+        "Reform": "7885",
+        "Green": "1844",
+        "True & Fair Party": "278"
+    },
+    "Gorton and Denton": {
+        "Labour": "18555",
+        "Reform": "5142",
+        "Green": "4810",
+        "Workers Party of Britain": "3766",
+        "Conservative": "2888",
+        "Liberal Democrat": "1399"
+    },
+    "Bethnal Green and Stepney": {
+        "Labour": "15896",
+        "Independent": "271",
+        "Green": "6391",
+        "Liberal Democrat": "4777",
+        "Reform": "1964",
+        "Conservative": "1920",
+        "Animal Welfare Party": "348",
+        "Social Democratic Party": "233"
+    },
+    "Weald of Kent": {
+        "Conservative": "20202",
+        "Labour": "11780",
+        "Reform": "10208",
+        "Green": "4547",
+        "Liberal Democrat": "3975"
+    },
+    "Birmingham Hall Green and Moseley": {
+        "Labour": "12798",
+        "Independent": "733",
+        "Liberal Democrat": "4711",
+        "Green": "3913",
+        "Conservative": "3845",
+        "Reform": "2305"
+    },
+    "Brighton Kemptown and Peacehaven": {
+        "Labour": "17893",
+        "Conservative": "8230",
+        "Green": "7997",
+        "Liberal Democrat": "3949",
+        "Independent": "1833",
+        "Social Democratic Party": "784"
+    },
+    "Henley and Thame": {
+        "Liberal Democrat": "23904",
+        "Conservative": "17637",
+        "Reform": "5213",
+        "Labour": "3574",
+        "Green": "2008",
+        "Social Democratic Party": "515",
+        "Independent": "306"
+    },
+    "Dudley": {
+        "Labour": "12215",
+        "Conservative": "10315",
+        "Reform": "9442",
+        "Green": "1154",
+        "Liberal Democrat": "1056",
+        "Independent": "136",
+        "Workers Party of Britain": "621"
+    },
+    "Caithness, Sutherland and Easter Ross": {
+        "Liberal Democrat": "22736",
+        "Scottish National Party": "12247",
+        "Labour": "3409",
+        "Reform": "3360",
+        "Conservative": "1860",
+        "Green": "1641",
+        "Alba": "795"
+    },
+    "Queen's Park and Maida Vale": {
+        "Labour": "20126",
+        "Green": "5213",
+        "Conservative": "5088",
+        "Liberal Democrat": "3417",
+        "Reform": "2106",
+        "Workers Party of Britain": "1792",
+        "Independent": "601"
+    },
+    "Shipley": {
+        "Labour": "21738",
+        "Conservative": "13135",
+        "Reform": "7238",
+        "Green": "3605",
+        "Liberal Democrat": "1341",
+        "The Yorkshire Party": "447",
+        "Independent": "297",
+        "Workers Party of Britain": "269",
+        "Social Democratic Party": "137",
+        "Christian Peoples Alliance": "96"
+    },
+    "North West Cambridgeshire": {
+        "Labour": "14785",
+        "Conservative": "14746",
+        "Reform": "8741",
+        "Liberal Democrat": "3192",
+        "Green": "2960"
+    },
+    "South Antrim": {
+        "Ulster Unionist Party ": "16311",
+        "Democratic Unionist Party": "8799",
+        "Sinn Fein": "8034",
+        "Alliance Party": "4574",
+        "Traditional Unionist Voice": "2693",
+        "Social Democratic & Labour Party": "1589",
+        "Green": "541",
+        "Aont\u00c3\u00ba": "367"
+    },
+    "Bradford East": {
+        "Labour": "14098",
+        "Independent": "683",
+        "Reform": "4952",
+        "Conservative": "3450",
+        "Green": "2571",
+        "Liberal Democrat": "1910",
+        "The Yorkshire Party": "761",
+        "Social Democratic Party": "65"
+    },
+    "Colne Valley": {
+        "Labour": "18970",
+        "Conservative": "14007",
+        "Reform": "7298",
+        "Green": "3480",
+        "Liberal Democrat": "2007",
+        "The Yorkshire Party": "459"
+    },
+    "Stratford and Bow": {
+        "Labour": "19145",
+        "Green": "7511",
+        "Workers Party of Britain": "3274",
+        "Conservative": "3114",
+        "Independent": "375",
+        "Reform": "2093",
+        "Liberal Democrat": "1926"
+    },
+    "St Ives": {
+        "Liberal Democrat": "25033",
+        "Conservative": "11247",
+        "Reform": "6492",
+        "Labour": "2788",
+        "Green": "1797",
+        "Independent": "360",
+        "Liberal Party": "187",
+        "UK Independence Party": "111",
+        "The Common People": "91"
+    },
+    "North Somerset": {
+        "Labour": "19138",
+        "Conservative": "18499",
+        "Liberal Democrat": "7121",
+        "Reform": "5602",
+        "Green": "3273",
+        "Workers Party of Britain": "133"
+    },
+    "Sittingbourne and Sheppey": {
+        "Labour": "11919",
+        "Conservative": "11564",
+        "Reform": "10512",
+        "Swale Independents": "3238",
+        "Green": "1692",
+        "Liberal Democrat": "1321",
+        "Independent": "529",
+        "Monster Raving Loony Party": "223"
+    },
+    "Witney": {
+        "Liberal Democrat": "20832",
+        "Conservative": "16493",
+        "Reform": "6307",
+        "Labour": "4773",
+        "Green": "1661",
+        "Independent": "350",
+        "Heritage Party": "168"
+    },
+    "Guildford": {
+        "Liberal Democrat": "22937",
+        "Conservative": "14508",
+        "Reform": "4395",
+        "Labour": "3931",
+        "Green": "2268",
+        "The Peace Party": "255"
+    },
+    "Gordon and Buchan": {
+        "Conservative": "14418",
+        "Scottish National Party": "13540",
+        "Liberal Democrat": "7307",
+        "Labour": "4686",
+        "Reform": "3897"
+    },
+    "Birmingham Yardley": {
+        "Labour": "11275",
+        "Workers Party of Britain": "10582",
+        "Reform": "5061",
+        "Conservative": "3634",
+        "Liberal Democrat": "3634",
+        "Green": "1958"
+    },
+    "Honiton and Sidmouth": {
+        "Liberal Democrat": "23007",
+        "Conservative": "16307",
+        "Reform": "6289",
+        "Labour": "2947",
+        "Green": "1394",
+        "Independent": "467",
+        "Party of Women": "244"
+    },
+    "Keighley and Ilkley": {
+        "Conservative": "18589",
+        "Labour": "16964",
+        "Reform": "4782",
+        "Green": "2447",
+        "Independent": "2036",
+        "Liberal Democrat": "970",
+        "The Yorkshire Party": "389"
+    },
+    "Hove and Portslade": {
+        "Labour": "27209",
+        "Green": "7418",
+        "Conservative": "6630",
+        "Reform": "4558",
+        "Independent": "3048",
+        "Liberal Democrat": "3046"
+    },
+    "Northampton South": {
+        "Labour": "16890",
+        "Conservative": "12819",
+        "Reform": "8210",
+        "Liberal Democrat": "3193",
+        "Green": "2398",
+        "Trade Unionist and Socialist Coalition": "296",
+        "Climate Party": "98"
+    },
+    "Maidstone and Malling": {
+        "Conservative": "14146",
+        "Labour": "12472",
+        "Reform": "9316",
+        "Liberal Democrat": "6375",
+        "Green": "3727",
+        "Independent": "197",
+        "British Democratic Party": "156"
+    },
+    "West Aberdeenshire and Kincardine": {
+        "Conservative": "17428",
+        "Scottish National Party": "13987",
+        "Labour": "6397",
+        "Liberal Democrat": "6342",
+        "Reform": "3497",
+        "Green": "1032",
+        "Independent": "56"
+    },
+    "Arundel and South Downs": {
+        "Conservative": "22001",
+        "Liberal Democrat": "9867",
+        "Labour": "9782",
+        "Reform": "7391",
+        "Green": "5515",
+        "Social Democratic Party": "184"
+    },
+    "Woking": {
+        "Liberal Democrat": "24019",
+        "Conservative": "12773",
+        "Reform": "4888",
+        "Labour": "4444",
+        "Green": "1853",
+        "Heritage Party": "168"
+    },
+    "Didcot and Wantage": {
+        "Liberal Democrat": "21793",
+        "Conservative": "15560",
+        "Labour": "8045",
+        "Reform": "6400",
+        "Green": "2693",
+        "Social Democratic Party": "242"
+    },
+    "Banbury": {
+        "Labour": "18468",
+        "Conservative": "15212",
+        "Reform": "6284",
+        "Liberal Democrat": "4352",
+        "Green": "2615",
+        "Independent": "850",
+        "Climate Party": "242",
+        "Social Democratic Party": "155"
+    },
+    "Corby and East Northamptonshire": {
+        "Labour": "21020",
+        "Conservative": "14689",
+        "Reform": "8760",
+        "Green": "2507",
+        "Liberal Democrat": "2191",
+        "Independent": "422"
+    },
+    "Mid Leicestershire": {
+        "Conservative": "17735",
+        "Labour": "15534",
+        "Reform": "8923",
+        "Green": "3414",
+        "Liberal Democrat": "2444"
+    },
+    "North Cotswolds": {
+        "Conservative": "17426",
+        "Liberal Democrat": "14069",
+        "Labour": "8593",
+        "Reform": "6502",
+        "Green": "3191",
+        "Independent": "448"
+    },
+    "Congleton": {
+        "Labour": "18875",
+        "Conservative": "15488",
+        "Reform": "8245",
+        "Liberal Democrat": "2785",
+        "Independent": "2181",
+        "Green": "2007",
+        "Women's Equality Party": "544"
+    },
+    "Mid Dorset and North Poole": {
+        "Liberal Democrat": "21442",
+        "Conservative": "20090",
+        "Labour": "4566",
+        "Green": "2355",
+        "Social Democratic Party": "1061"
+    },
+    "Spelthorne": {
+        "Conservative": "14038",
+        "Labour": "12448",
+        "Liberal Democrat": "8710",
+        "Reform": "8284",
+        "Green": "2413",
+        "Social Democratic Party": "273"
+    },
+    "Brighton Pavilion": {
+        "Green": "28809",
+        "Labour": "14519",
+        "Conservative": "3975",
+        "Reform": "2836",
+        "Liberal Democrat": "1604",
+        "Monster Raving Loony Party": "257",
+        "Social Democratic Party": "184",
+        "Independent": "179"
+    },
+    "Christchurch": {
+        "Conservative": "16941",
+        "Liberal Democrat": "9486",
+        "Reform": "8961",
+        "Labour": "7762",
+        "Green": "1900",
+        "Independent": "1728",
+        "Animal Welfare Party": "335",
+        "UK Independence Party": "163",
+        "Social Democratic Party": "59"
+    },
+    "Newbury": {
+        "Liberal Democrat": "19645",
+        "Conservative": "17268",
+        "Reform": "5357",
+        "Labour": "3662",
+        "Green": "2714",
+        "Freedom Alliance": "153",
+        "UK Independence Party": "131"
+    },
+    "Horsham": {
+        "Liberal Democrat": "21632",
+        "Conservative": "19115",
+        "Reform": "6116",
+        "Labour": "5979",
+        "Green": "2137",
+        "The Peace Party": "276",
+        "Social Democratic Party": "244"
+    },
+    "Epsom and Ewell": {
+        "Liberal Democrat": "20674",
+        "Conservative": "16988",
+        "Labour": "8325",
+        "Reform": "5795",
+        "Green": "1745",
+        "True & Fair Party": "845",
+        "Social Democratic Party": "153"
+    },
+    "Faversham and Mid Kent": {
+        "Conservative": "14816",
+        "Labour": "13347",
+        "Reform": "9884",
+        "Green": "4218",
+        "Liberal Democrat": "4158",
+        "British Democratic Party": "171"
+    },
+    "Braintree": {
+        "Conservative": "17414",
+        "Labour": "13744",
+        "Reform": "11346",
+        "Liberal Democrat": "2879",
+        "Green": "2878",
+        "Independent": "767"
+    },
+    "Northampton North": {
+        "Labour": "18209",
+        "Conservative": "9195",
+        "Reform": "7010",
+        "Green": "2558",
+        "Liberal Democrat": "2251",
+        "Workers Party of Britain": "1531",
+        "Independent": "1059"
+    },
+    "Reading West and Mid Berkshire": {
+        "Labour": "16273",
+        "Conservative": "14912",
+        "Reform": "6260",
+        "Liberal Democrat": "5103",
+        "Green": "3169",
+        "Independent": "272"
+    },
+    "Beverley and Holderness": {
+        "Conservative": "15501",
+        "Labour": "15377",
+        "Reform": "8198",
+        "Liberal Democrat": "3386",
+        "Green": "1647",
+        "The Yorkshire Party": "625",
+        "Social Democratic Party": "89",
+        "Alliance for Democracy and Freedom": "74"
+    },
+    "Orkney and Shetland": {
+        "Liberal Democrat": "11392",
+        "Scottish National Party": "3585",
+        "Green": "2046",
+        "Reform": "1586",
+        "Labour": "1493",
+        "Conservative": "586"
+    },
+    "Stoke-on-Trent South": {
+        "Labour": "14221",
+        "Conservative": "13594",
+        "Reform": "8851",
+        "Liberal Democrat": "1577",
+        "Independent": "120",
+        "Green": "1207"
+    },
+    "Wellingborough and Rushden": {
+        "Labour": "17734",
+        "Conservative": "12248",
+        "Reform": "9456",
+        "Green": "2704",
+        "Liberal Democrat": "1570",
+        "Social Democratic Party": "273"
+    },
+    "South Cotswolds": {
+        "Liberal Democrat": "22961",
+        "Conservative": "17988",
+        "Reform": "5146",
+        "Labour": "3942",
+        "Green": "1564",
+        "Liberal Party": "225",
+        "Independent": "122",
+        "Social Democratic Party": "156"
+    },
+    "Forest of Dean": {
+        "Labour": "16373",
+        "Conservative": "16095",
+        "Reform": "8194",
+        "Green": "4735",
+        "Liberal Democrat": "2604",
+        "Socialist Labour Party": "90"
+    },
+    "West Dorset": {
+        "Liberal Democrat": "26999",
+        "Conservative": "19210",
+        "Labour": "3086",
+        "Green": "2288",
+        "Independent": "289"
+    },
+    "Skipton and Ripon": {
+        "Conservative": "18833",
+        "Labour": "17183",
+        "Reform": "8516",
+        "Liberal Democrat": "4194",
+        "Green": "3446",
+        "The Yorkshire Party": "627",
+        "Independent": "493",
+        "Heritage Party": "158"
+    },
+    "Windsor": {
+        "Conservative": "16483",
+        "Labour": "10026",
+        "Liberal Democrat": "9539",
+        "Reform": "4660",
+        "Green": "2288",
+        "Independent": "1629",
+        "Workers Party of Britain": "621"
+    },
+    "Runnymede and Weybridge": {
+        "Conservative": "18442",
+        "Liberal Democrat": "10815",
+        "Labour": "9963",
+        "Reform": "6419",
+        "Green": "1954",
+        "Independent": "518",
+        "UK Independence Party": "142"
+    },
+    "Aylesbury": {
+        "Labour": "15081",
+        "Conservative": "14451",
+        "Liberal Democrat": "10440",
+        "Reform": "6746",
+        "Green": "2590",
+        "Workers Party of Britain": "516",
+        "Social Democratic Party": "116"
+    },
+    "Witham": {
+        "Conservative": "18827",
+        "Labour": "13682",
+        "Reform": "9870",
+        "Green": "3539",
+        "Liberal Democrat": "3439",
+        "Independent": "1246"
+    },
+    "Selby": {
+        "Labour": "22788",
+        "Conservative": "12593",
+        "Reform": "9565",
+        "Green": "2484",
+        "Liberal Democrat": "1792"
+    },
+    "Stafford": {
+        "Labour": "18531",
+        "Conservative": "13936",
+        "Reform": "8612",
+        "Green": "2856",
+        "Liberal Democrat": "1676",
+        "Monster Raving Loony Party": "307",
+        "Heritage Party": "91"
+    },
+    "Kettering": {
+        "Labour": "18009",
+        "Conservative": "14189",
+        "Reform": "8468",
+        "Green": "7004",
+        "Liberal Democrat": "1357",
+        "Independent": "1057",
+        "Social Democratic Party": "85",
+        "Alliance for Democracy and Freedom": "62"
+    },
+    "Birmingham Ladywood": {
+        "Labour": "15558",
+        "Independent": "12137",
+        "Green": "3478",
+        "Conservative": "2218",
+        "Liberal Democrat": "1711",
+        "Reform": "1477"
+    },
+    "Maidenhead": {
+        "Liberal Democrat": "21895",
+        "Conservative": "18932",
+        "Labour": "5766",
+        "Green": "1996",
+        "Independent": "431",
+        "Social Democratic Party": "518"
+    },
+    "Chelsea and Fulham": {
+        "Labour": "18556",
+        "Conservative": "18404",
+        "Liberal Democrat": "3611",
+        "Reform": "3144",
+        "Green": "2798",
+        "Workers Party of Britain": "538",
+        "Heritage Party": "65"
+    },
+    "North Herefordshire": {
+        "Green": "21736",
+        "Conservative": "15842",
+        "Reform": "8048",
+        "Labour": "3205",
+        "Liberal Democrat": "1436",
+        "Social Democratic Party": "95"
+    },
+    "Sleaford and North Hykeham": {
+        "Conservative": "17348",
+        "Labour": "13002",
+        "Reform": "10484",
+        "Lincolnshire Independents": "3032",
+        "Green": "2435",
+        "Liberal Democrat": "2264"
+    },
+    "Hereford and South Herefordshire": {
+        "Conservative": "14871",
+        "Labour": "13592",
+        "Reform": "8395",
+        "Liberal Democrat": "5325",
+        "Green": "3175",
+        "Independent": "214"
+    },
+    "Argyll, Bute and South Lochaber": {
+        "Scottish National Party": "15582",
+        "Conservative": "9350",
+        "Labour": "8585",
+        "Liberal Democrat": "7359",
+        "Reform": "3045",
+        "Independent": "941"
+    },
+    "Derbyshire Dales": {
+        "Labour": "17759",
+        "Conservative": "17409",
+        "Reform": "7728",
+        "Liberal Democrat": "4860",
+        "Green": "2830",
+        "Independent": "369",
+        "True & Fair Party": "317"
+    },
+    "Wetherby and Easingwold": {
+        "Conservative": "20597",
+        "Labour": "15751",
+        "Reform": "7288",
+        "Green": "4529",
+        "Liberal Democrat": "3351",
+        "The Yorkshire Party": "743"
+    },
+    "Lowestoft": {
+        "Labour": "14464",
+        "Conservative": "12448",
+        "Reform": "10328",
+        "Green": "3095",
+        "Liberal Democrat": "1489"
+    },
+    "Bicester and Woodstock": {
+        "Liberal Democrat": "19419",
+        "Conservative": "14461",
+        "Labour": "8236",
+        "Reform": "5408",
+        "Green": "2404",
+        "Social Democratic Party": "291"
+    },
+    "North Antrim": {
+        "Traditional Unionist Voice": "11642",
+        "Democratic Unionist Party": "11192",
+        "Sinn Fein": "7714",
+        "Alliance Party": "4488",
+        "Ulster Unionist Party ": "3901",
+        "Social Democratic & Labour Party": "1661",
+        "Aont\u00c3\u00ba": "451",
+        "Independent": "136"
+    },
+    "Torridge and Tavistock": {
+        "Conservative": "16049",
+        "Liberal Democrat": "12099",
+        "Labour": "10765",
+        "Reform": "9152",
+        "Green": "2350",
+        "Independent": "405"
+    },
+    "South West Norfolk": {
+        "Labour": "11847",
+        "Conservative": "11217",
+        "Reform": "9958",
+        "Independent": "6282",
+        "Liberal Democrat": "2618",
+        "Green": "1838",
+        "Monster Raving Loony Party": "338",
+        "Heritage Party": "160",
+        "Communist Party of Britain": "77"
+    },
+    "Crawley": {
+        "Labour": "17453",
+        "Conservative": "12218",
+        "Reform": "8447",
+        "Green": "2621",
+        "Workers Party of Britain": "2407",
+        "Liberal Democrat": "2205",
+        "Trade Unionist and Socialist Coalition": "153",
+        "Heritage Party": "138"
+    },
+    "Uxbridge and South Ruislip": {
+        "Labour": "16599",
+        "Conservative": "16012",
+        "Reform": "6610",
+        "Green": "4354",
+        "Liberal Democrat": "1752",
+        "Trade Unionist and Socialist Coalition": "223",
+        "Social Democratic Party": "200",
+        "UK Independence Party": "164"
+    },
+    "Exmouth and Exeter East": {
+        "Conservative": "14728",
+        "Labour": "14607",
+        "Liberal Democrat": "11387",
+        "Reform": "7085",
+        "Green": "2331",
+        "Independent": "454",
+        "Climate Party": "134"
+    },
+    "North Cornwall": {
+        "Liberal Democrat": "24904",
+        "Conservative": "14137",
+        "Reform": "8444",
+        "Labour": "2958",
+        "Green": "1335",
+        "Heritage Party": "277"
+    },
+    "South East Cornwall": {
+        "Labour": "15670",
+        "Conservative": "13759",
+        "Reform": "9311",
+        "Liberal Democrat": "8284",
+        "Green": "1999",
+        "Heritage Party": "263"
+    },
+    "Wycombe": {
+        "Labour": "16035",
+        "Conservative": "11444",
+        "Reform": "4769",
+        "Liberal Democrat": "4236",
+        "Workers Party of Britain": "3344",
+        "Green": "2193",
+        "Independent": "214",
+        "Climate Party": "489"
+    },
+    "Central Devon": {
+        "Conservative": "16831",
+        "Labour": "16770",
+        "Liberal Democrat": "8232",
+        "Reform": "7784",
+        "Green": "3338",
+        "Independent": "477"
+    },
+    "Farnham and Bordon": {
+        "Conservative": "18951",
+        "Liberal Democrat": "17602",
+        "Labour": "7328",
+        "Reform": "6217",
+        "Green": "2496",
+        "Hampshire Independents": "421"
+    },
+    "Herne Bay and Sandwich": {
+        "Conservative": "17243",
+        "Labour": "14744",
+        "Reform": "10602",
+        "Green": "3529",
+        "Liberal Democrat": "2709"
+    },
+    "Beaconsfield": {
+        "Conservative": "18494",
+        "Liberal Democrat": "13039",
+        "Labour": "7216",
+        "Reform": "6055",
+        "Green": "1977",
+        "Independent": "104",
+        "Social Democratic Party": "131"
+    },
+    "South Northamptonshire": {
+        "Conservative": "19191",
+        "Labour": "15504",
+        "Reform": "8962",
+        "Liberal Democrat": "4989",
+        "Green": "3040",
+        "Independent": "209",
+        "Workers Party of Britain": "246"
+    },
+    "Angus and Perthshire Glens": {
+        "Scottish National Party": "19142",
+        "Conservative": "14272",
+        "Labour": "6799",
+        "Reform": "3246",
+        "Liberal Democrat": "3156",
+        "Independent": "733"
+    },
+    "Birmingham Perry Barr": {
+        "Independent": "13812",
+        "Labour": "12796",
+        "Conservative": "4227",
+        "Reform": "2446",
+        "Green": "2440",
+        "Liberal Democrat": "1302",
+        "Socialist Labour Party": "453"
+    },
+    "Chesham and Amersham": {
+        "Liberal Democrat": "24422",
+        "Conservative": "18971",
+        "Reform": "5310",
+        "Labour": "3502",
+        "Green": "1673",
+        "Workers Party of Britain": "466",
+        "Heritage Party": "111"
+    },
+    "Daventry": {
+        "Conservative": "17872",
+        "Labour": "14860",
+        "Reform": "10636",
+        "Liberal Democrat": "6755",
+        "Green": "2959"
+    },
+    "East Londonderry": {
+        "Democratic Unionist Party": "11506",
+        "Sinn Fein": "11327",
+        "Social Democratic & Labour Party": "5260",
+        "Traditional Unionist Voice": "4363",
+        "Alliance Party": "3734",
+        "Ulster Unionist Party ": "3412",
+        "Aont\u00c3\u00ba": "1043",
+        "Green": "445",
+        "Conservative": "187"
+    },
+    "Hendon": {
+        "Labour": "15855",
+        "Conservative": "15840",
+        "Reform": "3038",
+        "Green": "2667",
+        "Liberal Democrat": "1966",
+        "Workers Party of Britain": "1518",
+        "Rejoin EU": "233",
+        "Social Democratic Party": "139"
+    },
+    "Dumfriesshire, Clydesdale and Tweeddale": {
+        "Conservative": "14999",
+        "Scottish National Party": "10757",
+        "Labour": "10140",
+        "Reform": "3822",
+        "Liberal Democrat": "2800",
+        "Green": "1488",
+        "Scottish Family Party": "208"
+    },
+    "Poole": {
+        "Labour": "14168",
+        "Conservative": "14150",
+        "Reform": "7429",
+        "Liberal Democrat": "5507",
+        "Green": "2218",
+        "Independent": "698",
+        "UK Independence Party": "325"
+    },
+    "Dumfries and Galloway": {
+        "Conservative": "13527",
+        "Scottish National Party": "12597",
+        "Labour": "11767",
+        "Reform": "4313",
+        "Liberal Democrat": "2092",
+        "Green": "1249",
+        "Heritage Party": "230"
+    },
+    "Inverness, Skye and West Ross-shire": {
+        "Liberal Democrat": "18159",
+        "Scottish National Party": "15999",
+        "Labour": "6246",
+        "Reform": "2934",
+        "Conservative": "2502",
+        "Green": "2038",
+        "Socialist Equality": "178"
+    },
+    "South Basildon and East Thurrock": {
+        "Reform": "12178",
+        "Labour": "12080",
+        "Conservative": "10159",
+        "Independent": "275",
+        "Green": "1718",
+        "Liberal Democrat": "1071",
+        "Social Democratic Party": "140"
+    }
+}
