@@ -1,0 +1,7897 @@
+{
+  "election": "UKGeneralElection",
+  "month": "December",
+  "year": 2019,
+  "constituencies": [
+    {
+      "constituency": "Aberafan Maesteg",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 10052,
+        "Lab": 23509,
+        "LibDem": 1645,
+        "Green": 701,
+        "Reform": 3794,
+        "Plaid": 3991,
+        "Others": 731
+      }
+    },
+    {
+      "constituency": "Aberdeen North",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 12306,
+        "Lab": 6005,
+        "LibDem": 3875,
+        "Green": 612,
+        "Reform": 813,
+        "SNP": 26516
+      }
+    },
+    {
+      "constituency": "Aberdeen South",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 17220,
+        "Lab": 4394,
+        "LibDem": 5358,
+        "Green": 268,
+        "Reform": 195,
+        "SNP": 22683
+      }
+    },
+    {
+      "constituency": "Aberdeenshire North and Moray East",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 22174,
+        "Lab": 1914,
+        "LibDem": 2028,
+        "SNP": 19775
+      }
+    },
+    {
+      "constituency": "Airdrie and Shotts",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 8000,
+        "Lab": 15343,
+        "LibDem": 1652,
+        "Green": 676,
+        "SNP": 20667
+      }
+    },
+    {
+      "constituency": "Aldershot",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29453,
+        "Lab": 11468,
+        "LibDem": 9068,
+        "Green": 1839,
+        "Reform": 334
+      }
+    },
+    {
+      "constituency": "Aldridge-Brownhills",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32941,
+        "Lab": 10183,
+        "LibDem": 2654,
+        "Green": 873,
+        "Reform": 334,
+        "Others": 336
+      }
+    },
+    {
+      "constituency": "Alloa and Grangemouth",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 11323,
+        "Lab": 6622,
+        "LibDem": 2426,
+        "Green": 678,
+        "Reform": 177,
+        "SNP": 24050,
+        "Others": 382
+      }
+    },
+    {
+      "constituency": "Altrincham and Sale West",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 26311,
+        "Lab": 20172,
+        "LibDem": 6036,
+        "Green": 1566,
+        "Others": 678
+      }
+    },
+    {
+      "constituency": "Alyn and Deeside",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 21963,
+        "Lab": 22374,
+        "LibDem": 3095,
+        "Reform": 3137,
+        "Plaid": 1781
+      }
+    },
+    {
+      "constituency": "Amber Valley",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29118,
+        "Lab": 12227,
+        "LibDem": 2875,
+        "Green": 1389
+      }
+    },
+    {
+      "constituency": "Angus and Perthshire Glens",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 22504,
+        "Lab": 2402,
+        "LibDem": 2803,
+        "Reform": 329,
+        "SNP": 28509
+      }
+    },
+    {
+      "constituency": "Arbroath and Broughty Ferry",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 15773,
+        "Lab": 5321,
+        "LibDem": 4168,
+        "SNP": 26550,
+        "Others": 312
+      }
+    },
+    {
+      "constituency": "Argyll, Bute and South Lochaber",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 17506,
+        "Lab": 3592,
+        "LibDem": 7172,
+        "Reform": 54,
+        "SNP": 22403
+      }
+    },
+    {
+      "constituency": "Arundel and South Downs",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 35117,
+        "Lab": 9108,
+        "LibDem": 11012,
+        "Green": 2312,
+        "Others": 556
+      }
+    },
+    {
+      "constituency": "Ashfield",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 16838,
+        "Lab": 10986,
+        "LibDem": 890,
+        "Green": 563,
+        "Reform": 2137,
+        "Others": 11535
+      }
+    },
+    {
+      "constituency": "Ashford",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28759,
+        "Lab": 11548,
+        "LibDem": 5176,
+        "Green": 2234,
+        "Others": 862
+      }
+    },
+    {
+      "constituency": "Ashton-under-Lyne",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 14978,
+        "Lab": 19667,
+        "LibDem": 1774,
+        "Green": 1440,
+        "Reform": 3518
+      }
+    },
+    {
+      "constituency": "Aylesbury",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29924,
+        "Lab": 13284,
+        "LibDem": 12670,
+        "Green": 1701,
+        "Reform": 309
+      }
+    },
+    {
+      "constituency": "Ayr, Carrick and Cumnock",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 17943,
+        "Lab": 6219,
+        "LibDem": 2158,
+        "SNP": 20272
+      }
+    },
+    {
+      "constituency": "Banbury",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 26397,
+        "Lab": 12598,
+        "LibDem": 10335,
+        "Green": 1480
+      }
+    },
+    {
+      "constituency": "Bangor Aberconwy",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 19355,
+        "Lab": 18606,
+        "LibDem": 2142,
+        "Reform": 455,
+        "Plaid": 7849
+      }
+    },
+    {
+      "constituency": "Barking",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 11003,
+        "Lab": 24996,
+        "LibDem": 1356,
+        "Green": 750,
+        "Reform": 2914
+      }
+    },
+    {
+      "constituency": "Barnsley North",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 10663,
+        "Lab": 17141,
+        "LibDem": 1588,
+        "Green": 1051,
+        "Reform": 13139,
+        "Others": 898
+      }
+    },
+    {
+      "constituency": "Barnsley South",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 8497,
+        "Lab": 15684,
+        "LibDem": 1311,
+        "Green": 773,
+        "Reform": 10964,
+        "Others": 279
+      }
+    },
+    {
+      "constituency": "Barrow and Furness",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 26551,
+        "Lab": 19115,
+        "LibDem": 2256,
+        "Green": 770,
+        "Reform": 1355
+      }
+    },
+    {
+      "constituency": "Basildon and Billericay",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 30867,
+        "Lab": 10118,
+        "LibDem": 3947,
+        "Green": 1395,
+        "Others": 526
+      }
+    },
+    {
+      "constituency": "Basingstoke",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 26966,
+        "Lab": 14665,
+        "LibDem": 6797,
+        "Green": 2007,
+        "Others": 746
+      }
+    },
+    {
+      "constituency": "Bassetlaw",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25941,
+        "Lab": 13353,
+        "LibDem": 3210,
+        "Reform": 5173
+      }
+    },
+    {
+      "constituency": "Bath",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 18251,
+        "Lab": 7120,
+        "LibDem": 30376,
+        "Green": 146,
+        "Reform": 642,
+        "Others": 341
+      }
+    },
+    {
+      "constituency": "Bathgate and Linlithgow",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 11635,
+        "Lab": 8874,
+        "LibDem": 3881,
+        "Green": 1029,
+        "Reform": 904,
+        "SNP": 20306,
+        "Others": 588
+      }
+    },
+    {
+      "constituency": "Battersea",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 19431,
+        "Lab": 25457,
+        "LibDem": 8316,
+        "Green": 1364,
+        "Reform": 350
+      }
+    },
+    {
+      "constituency": "Beaconsfield",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29211,
+        "Lab": 5211,
+        "Green": 1935,
+        "Others": 16276
+      }
+    },
+    {
+      "constituency": "Beckenham and Penge",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 23487,
+        "Lab": 24118,
+        "LibDem": 9657,
+        "Green": 2416,
+        "Reform": 464
+      }
+    },
+    {
+      "constituency": "Bedford",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 19550,
+        "Lab": 20663,
+        "LibDem": 4672,
+        "Green": 924,
+        "Reform": 794
+      }
+    },
+    {
+      "constituency": "Belfast East",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 21616,
+        "APNI": 18990,
+        "SDLP": 1939,
+        "UUP": 2581
+      }
+    },
+    {
+      "constituency": "Belfast North",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 19419,
+        "SF": 23158,
+        "APNI": 5099,
+        "SDLP": 225,
+        "UUP": 161,
+        "Aontu": 16,
+        "PBP": 57,
+        "Con": 5
+      }
+    },
+    {
+      "constituency": "Belfast South and Mid Down",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 12087,
+        "SF": 247,
+        "APNI": 7348,
+        "SDLP": 25409,
+        "UUP": 1703,
+        "Aontu": 568,
+        "PBP": 67,
+        "Con": 167,
+        "Green": 73
+      }
+    },
+    {
+      "constituency": "Belfast West",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 7789,
+        "SF": 20786,
+        "APNI": 3060,
+        "SDLP": 3195,
+        "UUP": 370,
+        "Aontu": 1599,
+        "PBP": 6059,
+        "Con": 41
+      }
+    },
+    {
+      "constituency": "Bermondsey and Old Southwark",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 7710,
+        "Lab": 22776,
+        "LibDem": 14261,
+        "Green": 25,
+        "Reform": 1113
+      }
+    },
+    {
+      "constituency": "Berwickshire, Roxburgh and Selkirk",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 25747,
+        "Lab": 2513,
+        "LibDem": 4287,
+        "SNP": 20599
+      }
+    },
+    {
+      "constituency": "Bethnal Green and Stepney",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 5065,
+        "Lab": 36720,
+        "LibDem": 4634,
+        "Green": 2101,
+        "Reform": 992,
+        "Others": 439
+      }
+    },
+    {
+      "constituency": "Beverley and Holderness",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 30179,
+        "Lab": 12203,
+        "LibDem": 4579,
+        "Green": 1234,
+        "Others": 1288
+      }
+    },
+    {
+      "constituency": "Bexhill and Battle",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30716,
+        "Lab": 10332,
+        "LibDem": 6658,
+        "Green": 2031
+      }
+    },
+    {
+      "constituency": "Bexleyheath and Crayford",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 28750,
+        "Lab": 13712,
+        "LibDem": 2832,
+        "Green": 1070,
+        "Reform": 416,
+        "Others": 520
+      }
+    },
+    {
+      "constituency": "Bicester and Woodstock",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28030,
+        "Lab": 8762,
+        "LibDem": 13825,
+        "Green": 1225,
+        "Reform": 149
+      }
+    },
+    {
+      "constituency": "Birkenhead",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 8063,
+        "Lab": 31056,
+        "LibDem": 2062,
+        "Green": 1552,
+        "Reform": 1744,
+        "Others": 7285
+      }
+    },
+    {
+      "constituency": "Birmingham Edgbaston",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 16167,
+        "Lab": 23858,
+        "LibDem": 3306,
+        "Green": 1172,
+        "Reform": 1096
+      }
+    },
+    {
+      "constituency": "Birmingham Erdington",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 17213,
+        "Lab": 20518,
+        "LibDem": 1349,
+        "Green": 746,
+        "Reform": 1673
+      }
+    },
+    {
+      "constituency": "Birmingham Hall Green and Moseley",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 7772,
+        "Lab": 34279,
+        "LibDem": 3703,
+        "Green": 869,
+        "Reform": 997,
+        "Others": 4119
+      }
+    },
+    {
+      "constituency": "Birmingham Hodge Hill and Solihull North",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 11793,
+        "Lab": 24744,
+        "LibDem": 1788,
+        "Green": 1441,
+        "Reform": 1271,
+        "Others": 257
+      }
+    },
+    {
+      "constituency": "Birmingham Ladywood",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 4381,
+        "Lab": 36964,
+        "LibDem": 1233,
+        "Green": 823,
+        "Reform": 980,
+        "Others": 154
+      }
+    },
+    {
+      "constituency": "Birmingham Northfield",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 20135,
+        "Lab": 18657,
+        "LibDem": 2013,
+        "Green": 972,
+        "Reform": 1661,
+        "Others": 254
+      }
+    },
+    {
+      "constituency": "Birmingham Perry Barr",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 9582,
+        "Lab": 31907,
+        "LibDem": 3062,
+        "Green": 883,
+        "Reform": 1333,
+        "Others": 148
+      }
+    },
+    {
+      "constituency": "Birmingham Selly Oak",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 15291,
+        "Lab": 26936,
+        "LibDem": 3018,
+        "Green": 1783,
+        "Reform": 1319
+      }
+    },
+    {
+      "constituency": "Birmingham Yardley",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 11208,
+        "Lab": 24349,
+        "LibDem": 3743,
+        "Green": 503,
+        "Reform": 2103
+      }
+    },
+    {
+      "constituency": "Bishop Auckland",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 26239,
+        "Lab": 18126,
+        "LibDem": 1782,
+        "Green": 300,
+        "Reform": 2739,
+        "Others": 325
+      }
+    },
+    {
+      "constituency": "Blackburn",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 10182,
+        "Lab": 28798,
+        "LibDem": 1058,
+        "Green": 698,
+        "Reform": 2590,
+        "Others": 319
+      }
+    },
+    {
+      "constituency": "Blackley and Middleton South",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 10599,
+        "Lab": 22157,
+        "LibDem": 1130,
+        "Green": 764,
+        "Reform": 2898
+      }
+    },
+    {
+      "constituency": "Blackpool North and Fleetwood",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 27946,
+        "Lab": 17827,
+        "LibDem": 2020,
+        "Green": 954,
+        "Reform": 858,
+        "Others": 443
+      }
+    },
+    {
+      "constituency": "Blackpool South",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 20715,
+        "Lab": 17015,
+        "LibDem": 1497,
+        "Green": 810,
+        "Reform": 2009,
+        "Others": 368
+      }
+    },
+    {
+      "constituency": "Blaenau Gwent and Rhymney",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 8246,
+        "Lab": 21215,
+        "LibDem": 1576,
+        "Green": 418,
+        "Reform": 7574,
+        "Plaid": 2687,
+        "Others": 378
+      }
+    },
+    {
+      "constituency": "Blaydon and Consett",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 16371,
+        "Lab": 20656,
+        "LibDem": 2146,
+        "Green": 1421,
+        "Reform": 4555,
+        "Others": 1816
+      }
+    },
+    {
+      "constituency": "Blyth and Ashington",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 14382,
+        "Lab": 20500,
+        "LibDem": 2761,
+        "Green": 1248,
+        "Reform": 3921,
+        "Others": 178
+      }
+    },
+    {
+      "constituency": "Bognor Regis and Littlehampton",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 32645,
+        "Lab": 9963,
+        "LibDem": 6978,
+        "Green": 1711,
+        "Others": 1213
+      }
+    },
+    {
+      "constituency": "Bolsover",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 21792,
+        "Lab": 16519,
+        "LibDem": 1741,
+        "Green": 717,
+        "Reform": 3920,
+        "Others": 987
+      }
+    },
+    {
+      "constituency": "Bolton North East",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 22436,
+        "Lab": 21158,
+        "LibDem": 2188,
+        "Green": 803,
+        "Reform": 3259
+      }
+    },
+    {
+      "constituency": "Bolton South and Walkden",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 13961,
+        "Lab": 24890,
+        "LibDem": 1695,
+        "Green": 1077,
+        "Reform": 2361
+      }
+    },
+    {
+      "constituency": "Bolton West",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 28197,
+        "Lab": 17578,
+        "LibDem": 2815,
+        "Green": 893,
+        "Reform": 385
+      }
+    },
+    {
+      "constituency": "Bootle",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 4510,
+        "Lab": 39066,
+        "LibDem": 1822,
+        "Green": 1166,
+        "Reform": 2610
+      }
+    },
+    {
+      "constituency": "Boston and Skegness",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34406,
+        "Lab": 7004,
+        "LibDem": 2180,
+        "Others": 1428
+      }
+    },
+    {
+      "constituency": "Bournemouth East",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 24957,
+        "Lab": 16140,
+        "LibDem": 5418,
+        "Green": 2052,
+        "Others": 761
+      }
+    },
+    {
+      "constituency": "Bournemouth West",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 24512,
+        "Lab": 14571,
+        "LibDem": 4603,
+        "Green": 2066
+      }
+    },
+    {
+      "constituency": "Bracknell",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 26022,
+        "Lab": 11893,
+        "LibDem": 6555,
+        "Green": 1865,
+        "Others": 553
+      }
+    },
+    {
+      "constituency": "Bradford East",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 9344,
+        "Lab": 27105,
+        "LibDem": 3302,
+        "Green": 638,
+        "Reform": 2647
+      }
+    },
+    {
+      "constituency": "Bradford South",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 16381,
+        "Lab": 19110,
+        "LibDem": 1519,
+        "Green": 1007,
+        "Reform": 2872
+      }
+    },
+    {
+      "constituency": "Bradford West",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 6717,
+        "Lab": 33736,
+        "LibDem": 1349,
+        "Green": 813,
+        "Reform": 1556,
+        "Others": 90
+      }
+    },
+    {
+      "constituency": "Braintree",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 34863,
+        "Lab": 9397,
+        "LibDem": 5013,
+        "Green": 233,
+        "Others": 2169
+      }
+    },
+    {
+      "constituency": "Brecon, Radnor and Cwm Tawe",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 24368,
+        "Lab": 9164,
+        "LibDem": 15277,
+        "Green": 221,
+        "Reform": 964,
+        "Plaid": 1692,
+        "Others": 590
+      }
+    },
+    {
+      "constituency": "Brent East",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 10344,
+        "Lab": 28100,
+        "LibDem": 3972,
+        "Green": 1426,
+        "Reform": 175
+      }
+    },
+    {
+      "constituency": "Brent West",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 16361,
+        "Lab": 25792,
+        "LibDem": 4408,
+        "Green": 826,
+        "Reform": 750,
+        "Others": 270
+      }
+    },
+    {
+      "constituency": "Brentford and Isleworth",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 14609,
+        "Lab": 25978,
+        "LibDem": 8425,
+        "Green": 1540,
+        "Reform": 1063
+      }
+    },
+    {
+      "constituency": "Brentwood and Ongar",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 36202,
+        "Lab": 7228,
+        "LibDem": 7179,
+        "Green": 1675,
+        "Others": 532
+      }
+    },
+    {
+      "constituency": "Bridgend",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 20531,
+        "Lab": 17978,
+        "LibDem": 2453,
+        "Green": 868,
+        "Reform": 2437,
+        "Plaid": 2441
+      }
+    },
+    {
+      "constituency": "Bridgwater",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 26058,
+        "Lab": 9334,
+        "LibDem": 7932,
+        "Green": 925,
+        "Others": 755
+      }
+    },
+    {
+      "constituency": "Bridlington and The Wolds",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 30916,
+        "Lab": 9231,
+        "LibDem": 3479,
+        "Green": 1323,
+        "Others": 1491
+      }
+    },
+    {
+      "constituency": "Brigg and Immingham",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 33989,
+        "Lab": 9545,
+        "LibDem": 2067,
+        "Green": 1315,
+        "Reform": 329
+      }
+    },
+    {
+      "constituency": "Brighton Kemptown and Peacehaven",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 17019,
+        "Lab": 25299,
+        "LibDem": 2964,
+        "Green": 2813,
+        "Reform": 1335
+      }
+    },
+    {
+      "constituency": "Brighton Pavilion",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 10129,
+        "Lab": 12945,
+        "Green": 32575,
+        "Reform": 762,
+        "Others": 690
+      }
+    },
+    {
+      "constituency": "Bristol Central",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 7376,
+        "Lab": 30077,
+        "Green": 13381,
+        "Reform": 593
+      }
+    },
+    {
+      "constituency": "Bristol East",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 12887,
+        "Lab": 32280,
+        "LibDem": 3840,
+        "Green": 4664,
+        "Reform": 1615
+      }
+    },
+    {
+      "constituency": "Bristol North East",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 19134,
+        "Lab": 24598,
+        "LibDem": 2494,
+        "Green": 1948,
+        "Reform": 731
+      }
+    },
+    {
+      "constituency": "Bristol North West",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 21312,
+        "Lab": 28547,
+        "LibDem": 4735,
+        "Green": 3728,
+        "Reform": 83
+      }
+    },
+    {
+      "constituency": "Bristol South",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 15840,
+        "Lab": 24917,
+        "LibDem": 3012,
+        "Green": 2445,
+        "Reform": 2054
+      }
+    },
+    {
+      "constituency": "Broadland and Fakenham",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31239,
+        "Lab": 11414,
+        "LibDem": 8480,
+        "Green": 1318,
+        "Others": 363
+      }
+    },
+    {
+      "constituency": "Bromley and Biggin Hill",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 26710,
+        "Lab": 12330,
+        "LibDem": 7838,
+        "Green": 1806,
+        "Others": 374
+      }
+    },
+    {
+      "constituency": "Bromsgrove",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34408,
+        "Lab": 11302,
+        "LibDem": 6779,
+        "Green": 1783
+      }
+    },
+    {
+      "constituency": "Broxbourne",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 30627,
+        "Lab": 11435,
+        "LibDem": 4292,
+        "Green": 1321
+      }
+    },
+    {
+      "constituency": "Broxtowe",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 24083,
+        "Lab": 20264,
+        "LibDem": 270,
+        "Green": 1606,
+        "Reform": 364,
+        "Others": 6734
+      }
+    },
+    {
+      "constituency": "Buckingham and Bletchley",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27912,
+        "Lab": 14567,
+        "LibDem": 8118,
+        "Green": 629,
+        "Reform": 508,
+        "Others": 875
+      }
+    },
+    {
+      "constituency": "Burnley",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 19056,
+        "Lab": 18929,
+        "LibDem": 3614,
+        "Green": 847,
+        "Reform": 3362,
+        "Others": 1294
+      }
+    },
+    {
+      "constituency": "Burton and Uttoxeter",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29560,
+        "Lab": 15064,
+        "LibDem": 2681,
+        "Green": 1433
+      }
+    },
+    {
+      "constituency": "Bury North",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 25285,
+        "Lab": 24003,
+        "LibDem": 1639,
+        "Green": 939,
+        "Reform": 1446,
+        "Others": 158
+      }
+    },
+    {
+      "constituency": "Bury South",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 21574,
+        "Lab": 20639,
+        "LibDem": 3059,
+        "Green": 900,
+        "Reform": 1847,
+        "Others": 1615
+      }
+    },
+    {
+      "constituency": "Bury St Edmunds and Stowmarket",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 33023,
+        "Lab": 10938,
+        "LibDem": 565,
+        "Green": 6520,
+        "Others": 1435
+      }
+    },
+    {
+      "constituency": "Caerfyrddin",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 20891,
+        "Lab": 13380,
+        "LibDem": 686,
+        "Reform": 2023,
+        "Plaid": 16362
+      }
+    },
+    {
+      "constituency": "Caerphilly",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 12882,
+        "Lab": 19783,
+        "LibDem": 323,
+        "Green": 164,
+        "Reform": 5287,
+        "Plaid": 6630
+      }
+    },
+    {
+      "constituency": "Caithness, Sutherland and Easter Ross",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 9139,
+        "Lab": 2799,
+        "LibDem": 17710,
+        "Green": 336,
+        "Reform": 1510,
+        "SNP": 20498,
+        "Others": 728
+      }
+    },
+    {
+      "constituency": "Calder Valley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 28991,
+        "Lab": 23884,
+        "LibDem": 2858,
+        "Others": 721
+      }
+    },
+    {
+      "constituency": "Camborne and Redruth",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27471,
+        "Lab": 17623,
+        "LibDem": 4370,
+        "Green": 1441,
+        "Others": 676
+      }
+    },
+    {
+      "constituency": "Cambridge",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 7344,
+        "Lab": 23600,
+        "LibDem": 15501,
+        "Green": 2068,
+        "Reform": 958,
+        "Others": 269
+      }
+    },
+    {
+      "constituency": "Cannock Chase",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31636,
+        "Lab": 11757,
+        "Green": 2920
+      }
+    },
+    {
+      "constituency": "Canterbury",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 25622,
+        "Lab": 27782,
+        "LibDem": 3257,
+        "Others": 505
+      }
+    },
+    {
+      "constituency": "Cardiff East",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 10626,
+        "Lab": 27705,
+        "LibDem": 5752,
+        "Green": 300,
+        "Reform": 1617,
+        "Plaid": 294,
+        "Others": 487
+      }
+    },
+    {
+      "constituency": "Cardiff North",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 19551,
+        "Lab": 27130,
+        "LibDem": 3582,
+        "Green": 820,
+        "Reform": 1450,
+        "Plaid": 1888,
+        "Others": 288
+      }
+    },
+    {
+      "constituency": "Cardiff South and Penarth",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 15179,
+        "Lab": 27030,
+        "LibDem": 3528,
+        "Green": 1153,
+        "Reform": 1389,
+        "Plaid": 2091
+      }
+    },
+    {
+      "constituency": "Cardiff West",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 15505,
+        "Lab": 26051,
+        "LibDem": 2749,
+        "Green": 1141,
+        "Reform": 1917,
+        "Plaid": 4419,
+        "Others": 159
+      }
+    },
+    {
+      "constituency": "Carlisle",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 28959,
+        "Lab": 17669,
+        "LibDem": 2560,
+        "Green": 823,
+        "Others": 1229
+      }
+    },
+    {
+      "constituency": "Carshalton and Wallington",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 20822,
+        "Lab": 6081,
+        "LibDem": 20193,
+        "Green": 759,
+        "Reform": 1043,
+        "Others": 200
+      }
+    },
+    {
+      "constituency": "Castle Point",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 34611,
+        "Lab": 7602,
+        "LibDem": 3004
+      }
+    },
+    {
+      "constituency": "Central Ayrshire",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 16182,
+        "Lab": 6583,
+        "LibDem": 2283,
+        "SNP": 21486
+      }
+    },
+    {
+      "constituency": "Central Devon",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31366,
+        "Lab": 14066,
+        "LibDem": 8503,
+        "Green": 2789
+      }
+    },
+    {
+      "constituency": "Central Suffolk and North Ipswich",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31222,
+        "Lab": 11009,
+        "LibDem": 5365,
+        "Green": 2816
+      }
+    },
+    {
+      "constituency": "Ceredigion Preseli",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 14602,
+        "Lab": 10733,
+        "LibDem": 7561,
+        "Green": 663,
+        "Reform": 2063,
+        "Plaid": 16045
+      }
+    },
+    {
+      "constituency": "Chatham and Aylesford",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30183,
+        "Lab": 11191,
+        "LibDem": 3085,
+        "Green": 1138,
+        "Others": 212
+      }
+    },
+    {
+      "constituency": "Cheadle",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 25694,
+        "Lab": 6851,
+        "LibDem": 23358
+      }
+    },
+    {
+      "constituency": "Chelmsford",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 29447,
+        "Lab": 9768,
+        "LibDem": 14031,
+        "Others": 580
+      }
+    },
+    {
+      "constituency": "Chelsea and Fulham",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 24909,
+        "Lab": 15916,
+        "LibDem": 13053,
+        "Green": 228,
+        "Reform": 175,
+        "Others": 500
+      }
+    },
+    {
+      "constituency": "Cheltenham",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27563,
+        "Lab": 2733,
+        "LibDem": 26142,
+        "Others": 445
+      }
+    },
+    {
+      "constituency": "Chesham and Amersham",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30264,
+        "Lab": 7473,
+        "LibDem": 12048,
+        "Green": 2600,
+        "Others": 1326
+      }
+    },
+    {
+      "constituency": "Chester North and Neston",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 20746,
+        "Lab": 27137,
+        "LibDem": 3337,
+        "Green": 1202,
+        "Reform": 1502
+      }
+    },
+    {
+      "constituency": "Chester South and Eddisbury",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 32703,
+        "Lab": 11877,
+        "LibDem": 8446,
+        "Green": 1163,
+        "Reform": 569,
+        "Others": 451
+      }
+    },
+    {
+      "constituency": "Chesterfield",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 16720,
+        "Lab": 18171,
+        "LibDem": 3985,
+        "Green": 1148,
+        "Reform": 4771,
+        "Others": 391
+      }
+    },
+    {
+      "constituency": "Chichester",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29981,
+        "Lab": 7850,
+        "LibDem": 10359,
+        "Green": 2499,
+        "Others": 333
+      }
+    },
+    {
+      "constituency": "Chingford and Woodford Green",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 26322,
+        "Lab": 24718,
+        "LibDem": 3193,
+        "Green": 213,
+        "Reform": 160
+      }
+    },
+    {
+      "constituency": "Chippenham",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 28485,
+        "Lab": 5896,
+        "LibDem": 15285,
+        "Green": 853
+      }
+    },
+    {
+      "constituency": "Chipping Barnet",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 27777,
+        "Lab": 23568,
+        "LibDem": 5745,
+        "Green": 1261,
+        "Others": 71
+      }
+    },
+    {
+      "constituency": "Chorley",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Green": 3600,
+        "Others": 36270
+      }
+    },
+    {
+      "constituency": "Christchurch",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 34037,
+        "Lab": 6676,
+        "LibDem": 9003,
+        "Green": 2174
+      }
+    },
+    {
+      "constituency": "Cities of London and Westminster",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 21020,
+        "Lab": 15044,
+        "LibDem": 14713,
+        "Green": 1010,
+        "Reform": 103,
+        "Others": 226
+      }
+    },
+    {
+      "constituency": "City of Durham",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 16340,
+        "Lab": 20997,
+        "LibDem": 8686,
+        "Green": 1688,
+        "Reform": 3382,
+        "Others": 196
+      }
+    },
+    {
+      "constituency": "Clacton",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 32825,
+        "Lab": 7108,
+        "LibDem": 2829,
+        "Green": 1341,
+        "Others": 1566
+      }
+    },
+    {
+      "constituency": "Clapham and Brixton Hill",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9481,
+        "Lab": 26924,
+        "LibDem": 9633,
+        "Green": 2045,
+        "Reform": 549
+      }
+    },
+    {
+      "constituency": "Clwyd East",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 25324,
+        "Lab": 20040,
+        "LibDem": 2823,
+        "Reform": 2173,
+        "Plaid": 2460
+      }
+    },
+    {
+      "constituency": "Clwyd North",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 23479,
+        "Lab": 20645,
+        "LibDem": 2501,
+        "Reform": 951,
+        "Plaid": 3713
+      }
+    },
+    {
+      "constituency": "Coatbridge and Bellshill",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 5444,
+        "Lab": 16646,
+        "LibDem": 1375,
+        "Green": 701,
+        "SNP": 21730
+      }
+    },
+    {
+      "constituency": "Colchester",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 25693,
+        "Lab": 14753,
+        "LibDem": 7209,
+        "Green": 1436
+      }
+    },
+    {
+      "constituency": "Colne Valley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 26517,
+        "Lab": 18756,
+        "LibDem": 3630,
+        "Green": 893,
+        "Reform": 1089,
+        "Others": 880
+      }
+    },
+    {
+      "constituency": "Congleton",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 30207,
+        "Lab": 12004,
+        "LibDem": 5521,
+        "Green": 1423,
+        "Others": 658
+      }
+    },
+    {
+      "constituency": "Corby and East Northamptonshire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29443,
+        "Lab": 20767,
+        "LibDem": 3680
+      }
+    },
+    {
+      "constituency": "Coventry East",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 14950,
+        "Lab": 22238,
+        "LibDem": 2307,
+        "Green": 995,
+        "Reform": 2194
+      }
+    },
+    {
+      "constituency": "Coventry North West",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 20710,
+        "Lab": 20918,
+        "LibDem": 2717,
+        "Green": 1443,
+        "Reform": 1956
+      }
+    },
+    {
+      "constituency": "Coventry South",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 19912,
+        "Lab": 20720,
+        "LibDem": 3152,
+        "Green": 1238,
+        "Reform": 1348,
+        "Others": 435
+      }
+    },
+    {
+      "constituency": "Cowdenbeath and Kirkcaldy",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 10482,
+        "Lab": 13902,
+        "LibDem": 3048,
+        "Green": 1655,
+        "Reform": 939,
+        "SNP": 17122
+      }
+    },
+    {
+      "constituency": "Cramlington and Killingworth",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 19174,
+        "Lab": 21331,
+        "LibDem": 2520,
+        "Green": 1192,
+        "Reform": 3855
+      }
+    },
+    {
+      "constituency": "Crawley",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27040,
+        "Lab": 18680,
+        "LibDem": 2728,
+        "Green": 1451
+      }
+    },
+    {
+      "constituency": "Crewe and Nantwich",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 25511,
+        "Lab": 19695,
+        "LibDem": 2573,
+        "Green": 951,
+        "Reform": 1317,
+        "Others": 149
+      }
+    },
+    {
+      "constituency": "Croydon East",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 20927,
+        "Lab": 24340,
+        "LibDem": 3341,
+        "Green": 1177,
+        "Reform": 837
+      }
+    },
+    {
+      "constituency": "Croydon South",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 27725,
+        "Lab": 14317,
+        "LibDem": 6885,
+        "Green": 1466,
+        "Reform": 59,
+        "Others": 442
+      }
+    },
+    {
+      "constituency": "Croydon West",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9561,
+        "Lab": 29651,
+        "LibDem": 3097,
+        "Green": 1205,
+        "Reform": 587,
+        "Others": 348
+      }
+    },
+    {
+      "constituency": "Cumbernauld and Kirkintilloch",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 7243,
+        "Lab": 13079,
+        "LibDem": 2691,
+        "Green": 115,
+        "SNP": 25084
+      }
+    },
+    {
+      "constituency": "Dagenham and Rainham",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 18970,
+        "Lab": 19676,
+        "LibDem": 1338,
+        "Green": 674,
+        "Reform": 2913,
+        "Others": 421
+      }
+    },
+    {
+      "constituency": "Darlington",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 22994,
+        "Lab": 18026,
+        "LibDem": 2139,
+        "Green": 1166,
+        "Reform": 1684,
+        "Others": 292
+      }
+    },
+    {
+      "constituency": "Dartford",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28413,
+        "Lab": 13709,
+        "LibDem": 3251,
+        "Green": 1115
+      }
+    },
+    {
+      "constituency": "Daventry",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 36735,
+        "Lab": 10123,
+        "LibDem": 7474,
+        "Green": 2624
+      }
+    },
+    {
+      "constituency": "Derby North",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 21259,
+        "Lab": 18719,
+        "LibDem": 3450,
+        "Green": 1046,
+        "Reform": 1908,
+        "Others": 635
+      }
+    },
+    {
+      "constituency": "Derby South",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 15671,
+        "Lab": 21690,
+        "LibDem": 2621,
+        "Reform": 2480
+      }
+    },
+    {
+      "constituency": "Derbyshire Dales",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31820,
+        "Lab": 13023,
+        "LibDem": 6880,
+        "Green": 2207
+      }
+    },
+    {
+      "constituency": "Dewsbury and Batley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 13232,
+        "Lab": 27241,
+        "LibDem": 1156,
+        "Green": 512,
+        "Reform": 1565,
+        "Others": 2395
+      }
+    },
+    {
+      "constituency": "Didcot and Wantage",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27045,
+        "Lab": 8708,
+        "LibDem": 17022,
+        "Green": 370,
+        "Others": 1201
+      }
+    },
+    {
+      "constituency": "Doncaster Central",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 16853,
+        "Lab": 18124,
+        "LibDem": 1884,
+        "Green": 1038,
+        "Reform": 7173,
+        "Others": 971
+      }
+    },
+    {
+      "constituency": "Doncaster East and the Isle of Axholme",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 22460,
+        "Lab": 12375,
+        "LibDem": 1912,
+        "Green": 1015,
+        "Reform": 4452,
+        "Others": 870
+      }
+    },
+    {
+      "constituency": "Doncaster North",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 13286,
+        "Lab": 15356,
+        "LibDem": 1446,
+        "Green": 18,
+        "Reform": 8151,
+        "Others": 1813
+      }
+    },
+    {
+      "constituency": "Dorking and Horley",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27883,
+        "Lab": 5415,
+        "LibDem": 17502,
+        "Green": 2302,
+        "Others": 1393
+      }
+    },
+    {
+      "constituency": "Dover and Deal",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29117,
+        "Lab": 16696,
+        "LibDem": 2927,
+        "Green": 1404,
+        "Others": 1053
+      }
+    },
+    {
+      "constituency": "Droitwich and Evesham",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34614,
+        "Lab": 8983,
+        "LibDem": 6340,
+        "Green": 2114,
+        "Others": 638
+      }
+    },
+    {
+      "constituency": "Dudley",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 26668,
+        "Lab": 13059,
+        "LibDem": 1600,
+        "Green": 897
+      }
+    },
+    {
+      "constituency": "Dulwich and West Norwood",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 8686,
+        "Lab": 33649,
+        "LibDem": 503,
+        "Green": 8475,
+        "Reform": 566,
+        "Others": 315
+      }
+    },
+    {
+      "constituency": "Dumfries and Galloway",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 22999,
+        "Lab": 4923,
+        "LibDem": 3135,
+        "SNP": 21443
+      }
+    },
+    {
+      "constituency": "Dumfriesshire, Clydesdale and Tweeddale",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 23649,
+        "Lab": 4223,
+        "LibDem": 3713,
+        "SNP": 19311
+      }
+    },
+    {
+      "constituency": "Dundee Central",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 5161,
+        "Lab": 11126,
+        "LibDem": 2586,
+        "Reform": 1191,
+        "SNP": 26347,
+        "Others": 240
+      }
+    },
+    {
+      "constituency": "Dunfermline and Dollar",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 10429,
+        "Lab": 11463,
+        "LibDem": 4105,
+        "Green": 1085,
+        "Reform": 1,
+        "SNP": 21536
+      }
+    },
+    {
+      "constituency": "Dunstable and Leighton Buzzard",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 28341,
+        "Lab": 12955,
+        "LibDem": 5210,
+        "Green": 1764
+      }
+    },
+    {
+      "constituency": "Dwyfor Meirionnydd",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 13230,
+        "Lab": 11541,
+        "LibDem": 79,
+        "Reform": 2558,
+        "Plaid": 23110
+      }
+    },
+    {
+      "constituency": "Ealing Central and Acton",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 13574,
+        "Lab": 27707,
+        "LibDem": 9191,
+        "Green": 1793,
+        "Reform": 720
+      }
+    },
+    {
+      "constituency": "Ealing North",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 15555,
+        "Lab": 27463,
+        "LibDem": 4311,
+        "Green": 1435
+      }
+    },
+    {
+      "constituency": "Ealing Southall",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 12203,
+        "Lab": 30469,
+        "LibDem": 4995,
+        "Green": 1928,
+        "Reform": 946,
+        "Others": 457
+      }
+    },
+    {
+      "constituency": "Earley and Woodley",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 24922,
+        "Lab": 13629,
+        "LibDem": 11147,
+        "Green": 1134,
+        "Reform": 278
+      }
+    },
+    {
+      "constituency": "Easington",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 10782,
+        "Lab": 18634,
+        "LibDem": 1650,
+        "Green": 104,
+        "Reform": 7230,
+        "Others": 1448
+      }
+    },
+    {
+      "constituency": "East Antrim",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 16818,
+        "SF": 3120,
+        "APNI": 10423,
+        "SDLP": 1432,
+        "UUP": 6671,
+        "Con": 1007,
+        "Green": 685
+      }
+    },
+    {
+      "constituency": "East Grinstead and Uckfield",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 33462,
+        "Lab": 7768,
+        "LibDem": 13171,
+        "Green": 2830
+      }
+    },
+    {
+      "constituency": "East Ham",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6885,
+        "Lab": 36748,
+        "LibDem": 1685,
+        "Green": 755,
+        "Reform": 924,
+        "Others": 250
+      }
+    },
+    {
+      "constituency": "East Hampshire",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31965,
+        "Lab": 6662,
+        "LibDem": 11765,
+        "Green": 2971,
+        "Others": 812
+      }
+    },
+    {
+      "constituency": "East Kilbride and Strathaven",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 11042,
+        "Lab": 11142,
+        "LibDem": 3556,
+        "Green": 1074,
+        "SNP": 24311,
+        "Others": 559
+      }
+    },
+    {
+      "constituency": "East Londonderry",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 16456,
+        "SF": 6343,
+        "APNI": 5970,
+        "SDLP": 6749,
+        "UUP": 3756,
+        "Aontu": 1776,
+        "PBP": 51
+      }
+    },
+    {
+      "constituency": "East Renfrewshire",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 19451,
+        "Lab": 6855,
+        "LibDem": 4174,
+        "SNP": 24877
+      }
+    },
+    {
+      "constituency": "East Surrey",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31063,
+        "Lab": 6787,
+        "LibDem": 10498,
+        "Green": 1534,
+        "Others": 1593
+      }
+    },
+    {
+      "constituency": "East Thanet",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 25616,
+        "Lab": 18031,
+        "LibDem": 2486,
+        "Green": 1791
+      }
+    },
+    {
+      "constituency": "East Wiltshire",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 32301,
+        "Lab": 7778,
+        "LibDem": 7100,
+        "Green": 1809
+      }
+    },
+    {
+      "constituency": "East Worthing and Shoreham",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27107,
+        "Lab": 19633,
+        "LibDem": 4127,
+        "Green": 2006,
+        "Others": 255
+      }
+    },
+    {
+      "constituency": "Eastbourne",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 24137,
+        "Lab": 3560,
+        "LibDem": 21969,
+        "Reform": 1408,
+        "Others": 185
+      }
+    },
+    {
+      "constituency": "Eastleigh",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 25711,
+        "Lab": 5778,
+        "LibDem": 17070,
+        "Green": 1013
+      }
+    },
+    {
+      "constituency": "Edinburgh East and Musselburgh",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 7354,
+        "Lab": 13791,
+        "LibDem": 3642,
+        "Green": 1879,
+        "SNP": 25587
+      }
+    },
+    {
+      "constituency": "Edinburgh North and Leith",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 10362,
+        "Lab": 12790,
+        "LibDem": 7364,
+        "Green": 1920,
+        "Reform": 508,
+        "SNP": 25773,
+        "Others": 138
+      }
+    },
+    {
+      "constituency": "Edinburgh South",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 8922,
+        "Lab": 24508,
+        "LibDem": 4344,
+        "Green": 1542,
+        "SNP": 13713
+      }
+    },
+    {
+      "constituency": "Edinburgh South West",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 12848,
+        "Lab": 7478,
+        "LibDem": 4971,
+        "Green": 1265,
+        "Reform": 625,
+        "SNP": 24830,
+        "Others": 114
+      }
+    },
+    {
+      "constituency": "Edinburgh West",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 9922,
+        "Lab": 4787,
+        "LibDem": 21037,
+        "Green": 1079,
+        "Reform": 50,
+        "SNP": 18149
+      }
+    },
+    {
+      "constituency": "Edmonton and Winchmore Hill",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 15008,
+        "Lab": 28075,
+        "LibDem": 3249,
+        "Green": 994,
+        "Reform": 846,
+        "Others": 75
+      }
+    },
+    {
+      "constituency": "Ellesmere Port and Bromborough",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 12234,
+        "Lab": 26811,
+        "LibDem": 3355,
+        "Green": 859,
+        "Reform": 1957
+      }
+    },
+    {
+      "constituency": "Eltham and Chislehurst",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 23936,
+        "Lab": 20492,
+        "LibDem": 3826,
+        "Green": 1516,
+        "Reform": 1317
+      }
+    },
+    {
+      "constituency": "Ely and East Cambridgeshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 29385,
+        "Lab": 7825,
+        "LibDem": 15936,
+        "Green": 310,
+        "Others": 1009
+      }
+    },
+    {
+      "constituency": "Enfield North",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 18250,
+        "Lab": 27103,
+        "LibDem": 3319,
+        "Green": 1228,
+        "Reform": 908
+      }
+    },
+    {
+      "constituency": "Epping Forest",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 32364,
+        "Lab": 10191,
+        "LibDem": 5387,
+        "Green": 1975,
+        "Others": 351
+      }
+    },
+    {
+      "constituency": "Epsom and Ewell",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30752,
+        "Lab": 9653,
+        "LibDem": 13896,
+        "Green": 1896,
+        "Others": 1200
+      }
+    },
+    {
+      "constituency": "Erewash",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 27560,
+        "Lab": 16954,
+        "LibDem": 2487,
+        "Green": 1115,
+        "Others": 698
+      }
+    },
+    {
+      "constituency": "Erith and Thamesmead",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 12153,
+        "Lab": 25141,
+        "LibDem": 2119,
+        "Green": 1226,
+        "Reform": 2174,
+        "Others": 272
+      }
+    },
+    {
+      "constituency": "Esher and Walton",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27819,
+        "Lab": 2698,
+        "LibDem": 24804,
+        "Green": 132,
+        "Others": 725
+      }
+    },
+    {
+      "constituency": "Exeter",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 15512,
+        "Lab": 26500,
+        "LibDem": 8,
+        "Green": 4516,
+        "Reform": 1257,
+        "Others": 565
+      }
+    },
+    {
+      "constituency": "Exmouth and Exeter East",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27828,
+        "Lab": 5878,
+        "LibDem": 1691,
+        "Green": 970,
+        "Reform": 171,
+        "Others": 19294
+      }
+    },
+    {
+      "constituency": "Falkirk",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 12632,
+        "Lab": 5880,
+        "LibDem": 3304,
+        "Green": 1511,
+        "Reform": 176,
+        "SNP": 25210
+      }
+    },
+    {
+      "constituency": "Fareham and Waterlooville",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30819,
+        "Lab": 7951,
+        "LibDem": 9543,
+        "Green": 2065
+      }
+    },
+    {
+      "constituency": "Farnham and Bordon",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30376,
+        "Lab": 3487,
+        "LibDem": 16799,
+        "Green": 479
+      }
+    },
+    {
+      "constituency": "Faversham and Mid Kent",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30187,
+        "Lab": 9569,
+        "LibDem": 6011,
+        "Green": 1974,
+        "Others": 474
+      }
+    },
+    {
+      "constituency": "Feltham and Heston",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 15705,
+        "Lab": 22698,
+        "LibDem": 2907,
+        "Green": 1049,
+        "Reform": 1524
+      }
+    },
+    {
+      "constituency": "Fermanagh and South Tyrone",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 896,
+        "SF": 21968,
+        "APNI": 2784,
+        "SDLP": 3717,
+        "UUP": 21458,
+        "Aontu": 61,
+        "Others": 751
+      }
+    },
+    {
+      "constituency": "Filton and Bradley Stoke",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 26263,
+        "Lab": 18421,
+        "LibDem": 5153,
+        "Green": 1402,
+        "Others": 256
+      }
+    },
+    {
+      "constituency": "Finchley and Golders Green",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 24267,
+        "Lab": 13500,
+        "LibDem": 17638,
+        "Green": 7
+      }
+    },
+    {
+      "constituency": "Folkestone and Hythe",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 25227,
+        "Lab": 11988,
+        "LibDem": 4481,
+        "Green": 2184,
+        "Others": 915
+      }
+    },
+    {
+      "constituency": "Forest of Dean",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30680,
+        "Lab": 14811,
+        "Green": 4681,
+        "Others": 1303
+      }
+    },
+    {
+      "constituency": "Foyle",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 3852,
+        "SF": 9372,
+        "APNI": 1189,
+        "SDLP": 25785,
+        "UUP": 878,
+        "Aontu": 1949,
+        "PBP": 1251
+      }
+    },
+    {
+      "constituency": "Frome and East Somerset",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 23646,
+        "Lab": 10156,
+        "LibDem": 11251,
+        "Green": 2917
+      }
+    },
+    {
+      "constituency": "Fylde",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 32329,
+        "Lab": 13075,
+        "LibDem": 3816,
+        "Green": 1800,
+        "Others": 927
+      }
+    },
+    {
+      "constituency": "Gainsborough",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32568,
+        "Lab": 10396,
+        "LibDem": 5088,
+        "Others": 1070
+      }
+    },
+    {
+      "constituency": "Gateshead Central and Whickham",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 13876,
+        "Lab": 19787,
+        "LibDem": 5138,
+        "Green": 1591,
+        "Reform": 1629
+      }
+    },
+    {
+      "constituency": "Gedling",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25537,
+        "Lab": 23130,
+        "LibDem": 2429,
+        "Green": 1184,
+        "Reform": 1820
+      }
+    },
+    {
+      "constituency": "Gillingham and Rainham",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28173,
+        "Lab": 13054,
+        "LibDem": 2503,
+        "Green": 1043,
+        "Others": 1185
+      }
+    },
+    {
+      "constituency": "Glasgow East",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 5071,
+        "Lab": 13779,
+        "LibDem": 1689,
+        "Green": 566,
+        "Reform": 25,
+        "SNP": 20055
+      }
+    },
+    {
+      "constituency": "Glasgow North",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 3658,
+        "Lab": 14172,
+        "LibDem": 2156,
+        "Green": 1553,
+        "Reform": 246,
+        "SNP": 19754
+      }
+    },
+    {
+      "constituency": "Glasgow North East",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 4686,
+        "Lab": 16098,
+        "LibDem": 1449,
+        "Green": 65,
+        "SNP": 20375
+      }
+    },
+    {
+      "constituency": "Glasgow South",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 6161,
+        "Lab": 14298,
+        "LibDem": 2922,
+        "Green": 1266,
+        "Reform": 452,
+        "SNP": 23449
+      }
+    },
+    {
+      "constituency": "Glasgow South West",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 5423,
+        "Lab": 14561,
+        "LibDem": 1892,
+        "Green": 358,
+        "Reform": 695,
+        "SNP": 20094
+      }
+    },
+    {
+      "constituency": "Glasgow West",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 7254,
+        "Lab": 13236,
+        "LibDem": 3554,
+        "Green": 180,
+        "Reform": 74,
+        "SNP": 22964
+      }
+    },
+    {
+      "constituency": "Glastonbury and Somerton",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30606,
+        "Lab": 5095,
+        "LibDem": 16423,
+        "Green": 1070
+      }
+    },
+    {
+      "constituency": "Glenrothes and Mid Fife",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 6482,
+        "Lab": 11569,
+        "LibDem": 1876,
+        "Green": 146,
+        "Reform": 1284,
+        "SNP": 20921
+      }
+    },
+    {
+      "constituency": "Gloucester",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27887,
+        "Lab": 18007,
+        "LibDem": 3920,
+        "Green": 1279
+      }
+    },
+    {
+      "constituency": "Godalming and Ash",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29728,
+        "Lab": 4964,
+        "LibDem": 19008,
+        "Green": 903,
+        "Others": 1071
+      }
+    },
+    {
+      "constituency": "Goole and Pocklington",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 32492,
+        "Lab": 10190,
+        "LibDem": 3882,
+        "Green": 1950,
+        "Others": 1387
+      }
+    },
+    {
+      "constituency": "Gordon and Buchan",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 21874,
+        "Lab": 1666,
+        "LibDem": 5401,
+        "SNP": 18650
+      }
+    },
+    {
+      "constituency": "Gorton and Denton",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 8639,
+        "Lab": 30814,
+        "LibDem": 2671,
+        "Green": 1155,
+        "Reform": 2225,
+        "Others": 324
+      }
+    },
+    {
+      "constituency": "Gosport",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 32226,
+        "Lab": 8948,
+        "LibDem": 5473,
+        "Green": 1806
+      }
+    },
+    {
+      "constituency": "Gower",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 21631,
+        "Lab": 24812,
+        "LibDem": 3182,
+        "Green": 2,
+        "Reform": 1863,
+        "Plaid": 2741
+      }
+    },
+    {
+      "constituency": "Grantham and Bourne",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32152,
+        "Lab": 9759,
+        "LibDem": 4407,
+        "Green": 2108,
+        "Others": 426
+      }
+    },
+    {
+      "constituency": "Gravesham",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29580,
+        "Lab": 13999,
+        "LibDem": 2584,
+        "Green": 1397
+      }
+    },
+    {
+      "constituency": "Great Grimsby and Cleethorpes",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 23178,
+        "Lab": 13419,
+        "LibDem": 2052,
+        "Green": 821,
+        "Reform": 2049,
+        "Others": 156
+      }
+    },
+    {
+      "constituency": "Great Yarmouth",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 28593,
+        "Lab": 10930,
+        "LibDem": 1661,
+        "Green": 1064,
+        "Others": 1214
+      }
+    },
+    {
+      "constituency": "Greenwich and Woolwich",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 10760,
+        "Lab": 26043,
+        "LibDem": 6902,
+        "Green": 2176,
+        "Reform": 1089,
+        "Others": 370
+      }
+    },
+    {
+      "constituency": "Guildford",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 23708,
+        "Lab": 4411,
+        "LibDem": 20591,
+        "Green": 197,
+        "Others": 3677
+      }
+    },
+    {
+      "constituency": "Hackney North and Stoke Newington",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6694,
+        "Lab": 35856,
+        "LibDem": 3973,
+        "Green": 4117,
+        "Reform": 489,
+        "Others": 227
+      }
+    },
+    {
+      "constituency": "Hackney South and Shoreditch",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 4968,
+        "Lab": 35109,
+        "LibDem": 3900,
+        "Green": 3081,
+        "Reform": 648,
+        "Others": 111
+      }
+    },
+    {
+      "constituency": "Halesowen",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 26341,
+        "Lab": 14259,
+        "LibDem": 1525,
+        "Green": 1066,
+        "Others": 533
+      }
+    },
+    {
+      "constituency": "Halifax",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 19917,
+        "Lab": 21819,
+        "LibDem": 2302,
+        "Green": 946,
+        "Reform": 2813
+      }
+    },
+    {
+      "constituency": "Hamble Valley",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 35497,
+        "Lab": 7739,
+        "LibDem": 12009,
+        "Green": 1796
+      }
+    },
+    {
+      "constituency": "Hamilton and Clyde Valley",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 12076,
+        "Lab": 12846,
+        "LibDem": 1816,
+        "Green": 79,
+        "SNP": 20604
+      }
+    },
+    {
+      "constituency": "Hammersmith and Chiswick",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 16228,
+        "Lab": 27051,
+        "LibDem": 7390,
+        "Green": 1632,
+        "Reform": 976
+      }
+    },
+    {
+      "constituency": "Hampstead and Highgate",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 13296,
+        "Lab": 27338,
+        "LibDem": 13938,
+        "Green": 2096,
+        "Reform": 719
+      }
+    },
+    {
+      "constituency": "Harborough, Oadby and Wigston",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 28636,
+        "Lab": 13028,
+        "LibDem": 8911,
+        "Green": 1621,
+        "Others": 389
+      }
+    },
+    {
+      "constituency": "Harlow",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 30573,
+        "Lab": 13879,
+        "LibDem": 2783,
+        "Green": 125
+      }
+    },
+    {
+      "constituency": "Harpenden and Berkhamsted",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 29136,
+        "Lab": 5908,
+        "LibDem": 14092,
+        "Green": 907,
+        "Others": 5695
+      }
+    },
+    {
+      "constituency": "Harrogate and Knaresborough",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 28873,
+        "Lab": 5349,
+        "LibDem": 20086,
+        "Green": 27,
+        "Others": 1208
+      }
+    },
+    {
+      "constituency": "Harrow East",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 28555,
+        "Lab": 19568,
+        "LibDem": 3930,
+        "Green": 136,
+        "Reform": 98
+      }
+    },
+    {
+      "constituency": "Harrow West",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 17339,
+        "Lab": 26437,
+        "LibDem": 4107,
+        "Green": 1028,
+        "Reform": 882
+      }
+    },
+    {
+      "constituency": "Hartlepool",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 11869,
+        "Lab": 15464,
+        "LibDem": 1696,
+        "Reform": 10603,
+        "Others": 1405
+      }
+    },
+    {
+      "constituency": "Harwich and North Essex",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31668,
+        "Lab": 14017,
+        "LibDem": 5801,
+        "Green": 1924,
+        "Others": 674
+      }
+    },
+    {
+      "constituency": "Hastings and Rye",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 25804,
+        "Lab": 22272,
+        "LibDem": 3892,
+        "Green": 33,
+        "Others": 565
+      }
+    },
+    {
+      "constituency": "Havant",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30051,
+        "Lab": 8259,
+        "LibDem": 5708,
+        "Green": 1597,
+        "Others": 344
+      }
+    },
+    {
+      "constituency": "Hayes and Harlington",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 15284,
+        "Lab": 24545,
+        "LibDem": 1947,
+        "Green": 739,
+        "Reform": 1292,
+        "Others": 187
+      }
+    },
+    {
+      "constituency": "Hazel Grove",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 22994,
+        "Lab": 8208,
+        "LibDem": 18775,
+        "Green": 154,
+        "Reform": 310
+      }
+    },
+    {
+      "constituency": "Hemel Hempstead",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 26963,
+        "Lab": 13802,
+        "LibDem": 5569,
+        "Green": 1432,
+        "Others": 1299
+      }
+    },
+    {
+      "constituency": "Hendon",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 22299,
+        "Lab": 18638,
+        "LibDem": 3909,
+        "Green": 747
+      }
+    },
+    {
+      "constituency": "Henley and Thame",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29333,
+        "Lab": 4809,
+        "LibDem": 17432,
+        "Green": 2268
+      }
+    },
+    {
+      "constituency": "Hereford and South Herefordshire",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 28539,
+        "Lab": 9218,
+        "LibDem": 6154,
+        "Green": 2355
+      }
+    },
+    {
+      "constituency": "Herne Bay and Sandwich",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 32807,
+        "Lab": 12435,
+        "LibDem": 3799,
+        "Green": 1921
+      }
+    },
+    {
+      "constituency": "Hertford and Stortford",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 30979,
+        "Lab": 13173,
+        "LibDem": 7907,
+        "Green": 2587,
+        "Others": 989
+      }
+    },
+    {
+      "constituency": "Hertsmere",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 34083,
+        "Lab": 11103,
+        "LibDem": 5713,
+        "Green": 1614
+      }
+    },
+    {
+      "constituency": "Hexham",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 29313,
+        "Lab": 17127,
+        "LibDem": 5078,
+        "Green": 1954,
+        "Reform": 473
+      }
+    },
+    {
+      "constituency": "Heywood and Middleton North",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 17601,
+        "Lab": 18281,
+        "LibDem": 1787,
+        "Green": 1196,
+        "Reform": 3581
+      }
+    },
+    {
+      "constituency": "High Peak",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 24844,
+        "Lab": 24254,
+        "LibDem": 2750,
+        "Green": 1148,
+        "Reform": 1177
+      }
+    },
+    {
+      "constituency": "Hinckley and Bosworth",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31800,
+        "Lab": 6997,
+        "LibDem": 8949,
+        "Green": 1446
+      }
+    },
+    {
+      "constituency": "Hitchin",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 25419,
+        "Lab": 14155,
+        "LibDem": 12798,
+        "Green": 818,
+        "Others": 871
+      }
+    },
+    {
+      "constituency": "Holborn and St Pancras",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6771,
+        "Lab": 29537,
+        "LibDem": 5473,
+        "Green": 1790,
+        "Reform": 836,
+        "Others": 175
+      }
+    },
+    {
+      "constituency": "Honiton and Sidmouth",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 34307,
+        "Lab": 8078,
+        "LibDem": 5432,
+        "Green": 1174,
+        "Others": 7818
+      }
+    },
+    {
+      "constituency": "Hornchurch and Upminster",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 33404,
+        "Lab": 11669,
+        "LibDem": 3634,
+        "Green": 1836,
+        "Others": 510
+      }
+    },
+    {
+      "constituency": "Hornsey and Friern Barnet",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6200,
+        "Lab": 30077,
+        "LibDem": 13470,
+        "Green": 1983,
+        "Reform": 494,
+        "Others": 311
+      }
+    },
+    {
+      "constituency": "Horsham",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31155,
+        "Lab": 8736,
+        "LibDem": 13802,
+        "Green": 1680,
+        "Others": 477
+      }
+    },
+    {
+      "constituency": "Houghton and Sunderland South",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 14425,
+        "Lab": 17696,
+        "LibDem": 2602,
+        "Green": 1183,
+        "Reform": 6895,
+        "Others": 997
+      }
+    },
+    {
+      "constituency": "Hove and Portslade",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 15832,
+        "Lab": 32876,
+        "LibDem": 3731,
+        "Green": 2496,
+        "Reform": 1111,
+        "Others": 345
+      }
+    },
+    {
+      "constituency": "Huddersfield",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 17945,
+        "Lab": 25386,
+        "LibDem": 2449,
+        "Green": 1884,
+        "Reform": 1696
+      }
+    },
+    {
+      "constituency": "Huntingdon",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 33352,
+        "Lab": 11707,
+        "LibDem": 7899,
+        "Green": 1952,
+        "Others": 1407
+      }
+    },
+    {
+      "constituency": "Hyndburn",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 20565,
+        "Lab": 17614,
+        "LibDem": 1226,
+        "Green": 845,
+        "Reform": 2156
+      }
+    },
+    {
+      "constituency": "Ilford North",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 18994,
+        "Lab": 28024,
+        "LibDem": 2056,
+        "Green": 709,
+        "Reform": 968,
+        "Others": 1010
+      }
+    },
+    {
+      "constituency": "Ilford South",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9837,
+        "Lab": 30246,
+        "LibDem": 1546,
+        "Green": 623,
+        "Reform": 1034,
+        "Others": 3082
+      }
+    },
+    {
+      "constituency": "Inverclyde and Renfrewshire West",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 8284,
+        "Lab": 13062,
+        "LibDem": 2982,
+        "SNP": 21995
+      }
+    },
+    {
+      "constituency": "Inverness, Skye and West Ross-shire",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 11852,
+        "Lab": 4771,
+        "LibDem": 7677,
+        "Green": 724,
+        "Reform": 1042,
+        "SNP": 24717
+      }
+    },
+    {
+      "constituency": "Ipswich",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 24952,
+        "Lab": 19473,
+        "LibDem": 2439,
+        "Green": 1283,
+        "Reform": 1432
+      }
+    },
+    {
+      "constituency": "Isle of Wight East",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 20866,
+        "Lab": 8747,
+        "Green": 5093,
+        "Others": 1633
+      }
+    },
+    {
+      "constituency": "Isle of Wight West",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 20949,
+        "Lab": 9331,
+        "Green": 6245,
+        "Others": 1578
+      }
+    },
+    {
+      "constituency": "Islington North",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 5483,
+        "Lab": 34603,
+        "LibDem": 8415,
+        "Green": 4326,
+        "Reform": 742,
+        "Others": 236
+      }
+    },
+    {
+      "constituency": "Islington South and Finsbury",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 8518,
+        "Lab": 29728,
+        "LibDem": 10270,
+        "Green": 2252,
+        "Reform": 1193,
+        "Others": 182
+      }
+    },
+    {
+      "constituency": "Jarrow and Gateshead East",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 9600,
+        "Lab": 19917,
+        "LibDem": 2649,
+        "Green": 1009,
+        "Reform": 3843,
+        "Others": 3488
+      }
+    },
+    {
+      "constituency": "Keighley and Ilkley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 25298,
+        "Lab": 23080,
+        "LibDem": 2573,
+        "Reform": 850,
+        "Others": 799
+      }
+    },
+    {
+      "constituency": "Kenilworth and Southam",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32890,
+        "Lab": 10587,
+        "LibDem": 9425,
+        "Green": 2334,
+        "Reform": 86,
+        "Others": 457
+      }
+    },
+    {
+      "constituency": "Kensington and Bayswater",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 21004,
+        "Lab": 21394,
+        "LibDem": 11048,
+        "Green": 769,
+        "Reform": 453,
+        "Others": 145
+      }
+    },
+    {
+      "constituency": "Kettering",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31369,
+        "Lab": 14006,
+        "LibDem": 3477,
+        "Green": 1543,
+        "Others": 1642
+      }
+    },
+    {
+      "constituency": "Kilmarnock and Loudoun",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 11557,
+        "Lab": 9009,
+        "LibDem": 2444,
+        "SNP": 24216,
+        "Others": 405
+      }
+    },
+    {
+      "constituency": "Kingston and Surbiton",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 18884,
+        "Lab": 5829,
+        "LibDem": 30058,
+        "Green": 900,
+        "Reform": 649,
+        "Others": 775
+      }
+    },
+    {
+      "constituency": "Kingston upon Hull East",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 11639,
+        "Lab": 14134,
+        "LibDem": 1685,
+        "Green": 785,
+        "Reform": 5710
+      }
+    },
+    {
+      "constituency": "Kingston upon Hull North and Cottingham",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 15037,
+        "Lab": 20959,
+        "LibDem": 2915,
+        "Green": 1173,
+        "Reform": 4857
+      }
+    },
+    {
+      "constituency": "Kingston upon Hull West and Haltemprice",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 17686,
+        "Lab": 14060,
+        "LibDem": 3837,
+        "Green": 442,
+        "Reform": 5606
+      }
+    },
+    {
+      "constituency": "Kingswinford and South Staffordshire",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 37942,
+        "Lab": 8587,
+        "LibDem": 2715,
+        "Green": 1803
+      }
+    },
+    {
+      "constituency": "Knowsley",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 4060,
+        "Lab": 36961,
+        "LibDem": 1165,
+        "Green": 915,
+        "Reform": 2913,
+        "Others": 405
+      }
+    },
+    {
+      "constituency": "Lagan Valley",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 19840,
+        "SF": 1994,
+        "APNI": 12365,
+        "SDLP": 1855,
+        "UUP": 8460,
+        "Con": 878,
+        "Others": 315
+      }
+    },
+    {
+      "constituency": "Lancaster and Wyre",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 23683,
+        "Lab": 20671,
+        "LibDem": 1946,
+        "Green": 2192,
+        "Reform": 890
+      }
+    },
+    {
+      "constituency": "Leeds Central and Headingley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 7817,
+        "Lab": 27696,
+        "LibDem": 4884,
+        "Green": 1508,
+        "Reform": 1757
+      }
+    },
+    {
+      "constituency": "Leeds East",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 18156,
+        "Lab": 20879,
+        "LibDem": 1626,
+        "Green": 946,
+        "Reform": 2601,
+        "Others": 243
+      }
+    },
+    {
+      "constituency": "Leeds North East",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 11935,
+        "Lab": 29024,
+        "LibDem": 5665,
+        "Green": 1931,
+        "Reform": 1769,
+        "Others": 176
+      }
+    },
+    {
+      "constituency": "Leeds North West",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 23311,
+        "Lab": 21310,
+        "LibDem": 8212,
+        "Green": 1266,
+        "Reform": 729,
+        "Others": 844
+      }
+    },
+    {
+      "constituency": "Leeds South",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 11377,
+        "Lab": 25263,
+        "LibDem": 1922,
+        "Green": 1635,
+        "Reform": 2771,
+        "Others": 281
+      }
+    },
+    {
+      "constituency": "Leeds South West and Morley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 23166,
+        "Lab": 16052,
+        "LibDem": 1207,
+        "Green": 1440,
+        "Reform": 780,
+        "Others": 957
+      }
+    },
+    {
+      "constituency": "Leeds West and Pudsey",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 20257,
+        "Lab": 23220,
+        "LibDem": 1747,
+        "Green": 687,
+        "Reform": 1330,
+        "Others": 727
+      }
+    },
+    {
+      "constituency": "Leicester East",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 18564,
+        "Lab": 24563,
+        "LibDem": 2716,
+        "Green": 858,
+        "Reform": 1210,
+        "Others": 329
+      }
+    },
+    {
+      "constituency": "Leicester South",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 10373,
+        "Lab": 32396,
+        "LibDem": 2054,
+        "Green": 1585,
+        "Reform": 1100
+      }
+    },
+    {
+      "constituency": "Leicester West",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 14145,
+        "Lab": 19027,
+        "LibDem": 2592,
+        "Green": 1091,
+        "Reform": 1740
+      }
+    },
+    {
+      "constituency": "Leigh and Atherton",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 19410,
+        "Lab": 19117,
+        "LibDem": 2031,
+        "Green": 154,
+        "Reform": 2572,
+        "Others": 999
+      }
+    },
+    {
+      "constituency": "Lewes",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 26977,
+        "Lab": 3930,
+        "LibDem": 22851,
+        "Green": 1587,
+        "Reform": 122,
+        "Others": 113
+      }
+    },
+    {
+      "constituency": "Lewisham East",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9365,
+        "Lab": 29344,
+        "LibDem": 4736,
+        "Green": 1653,
+        "Reform": 1212,
+        "Others": 522
+      }
+    },
+    {
+      "constituency": "Lewisham North",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6175,
+        "Lab": 35124,
+        "LibDem": 5620,
+        "Green": 2656,
+        "Reform": 810,
+        "Others": 201
+      }
+    },
+    {
+      "constituency": "Lewisham West and East Dulwich",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6711,
+        "Lab": 30534,
+        "LibDem": 4568,
+        "Green": 3368,
+        "Reform": 832,
+        "Others": 213
+      }
+    },
+    {
+      "constituency": "Leyton and Wanstead",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9702,
+        "Lab": 30823,
+        "LibDem": 5209,
+        "Green": 1868,
+        "Reform": 836,
+        "Others": 427
+      }
+    },
+    {
+      "constituency": "Lichfield",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 33638,
+        "Lab": 11029,
+        "LibDem": 5528,
+        "Green": 1702,
+        "Others": 568
+      }
+    },
+    {
+      "constituency": "Lincoln",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 24267,
+        "Lab": 20753,
+        "LibDem": 2422,
+        "Green": 1195,
+        "Reform": 1079,
+        "Others": 913
+      }
+    },
+    {
+      "constituency": "Liverpool Garston",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 5729,
+        "Lab": 34457,
+        "LibDem": 4854,
+        "Green": 1310,
+        "Reform": 2402,
+        "Others": 344
+      }
+    },
+    {
+      "constituency": "Liverpool Riverside",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 3297,
+        "Lab": 36097,
+        "LibDem": 936,
+        "Green": 997,
+        "Reform": 1089
+      }
+    },
+    {
+      "constituency": "Liverpool Walton",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 4607,
+        "Lab": 38336,
+        "LibDem": 1059,
+        "Green": 849,
+        "Reform": 1040,
+        "Others": 660
+      }
+    },
+    {
+      "constituency": "Liverpool Wavertree",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 4926,
+        "Lab": 36852,
+        "LibDem": 4123,
+        "Green": 3167,
+        "Reform": 1897,
+        "Others": 501
+      }
+    },
+    {
+      "constituency": "Liverpool West Derby",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 4015,
+        "Lab": 36336,
+        "LibDem": 1270,
+        "Green": 908,
+        "Reform": 2293,
+        "Others": 1826
+      }
+    },
+    {
+      "constituency": "Livingston",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 10800,
+        "Lab": 10851,
+        "LibDem": 3056,
+        "Green": 1272,
+        "SNP": 23275
+      }
+    },
+    {
+      "constituency": "Llanelli",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 13463,
+        "Lab": 17256,
+        "Reform": 3893,
+        "Plaid": 9280
+      }
+    },
+    {
+      "constituency": "Lothian East",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 13956,
+        "Lab": 15464,
+        "LibDem": 3193,
+        "SNP": 17671,
+        "Others": 493
+      }
+    },
+    {
+      "constituency": "Loughborough",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 26088,
+        "Lab": 19997,
+        "LibDem": 3935,
+        "Green": 1342,
+        "Others": 235
+      }
+    },
+    {
+      "constituency": "Louth and Horncastle",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 36903,
+        "Lab": 9020,
+        "LibDem": 3966,
+        "Others": 1044
+      }
+    },
+    {
+      "constituency": "Lowestoft",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 27648,
+        "Lab": 12798,
+        "LibDem": 2333,
+        "Green": 2362,
+        "Others": 245
+      }
+    },
+    {
+      "constituency": "Luton North",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 15275,
+        "Lab": 24015,
+        "LibDem": 2063,
+        "Green": 832,
+        "Reform": 1319,
+        "Others": 1086
+      }
+    },
+    {
+      "constituency": "Luton South and South Bedfordshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 15876,
+        "Lab": 21942,
+        "LibDem": 225,
+        "Green": 1201,
+        "Reform": 1497,
+        "Others": 4359
+      }
+    },
+    {
+      "constituency": "Macclesfield",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 28292,
+        "Lab": 17581,
+        "LibDem": 5684,
+        "Green": 2310
+      }
+    },
+    {
+      "constituency": "Maidenhead",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29223,
+        "Lab": 7652,
+        "LibDem": 12122,
+        "Green": 1917
+      }
+    },
+    {
+      "constituency": "Maidstone and Malling",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28562,
+        "Lab": 8993,
+        "LibDem": 9114,
+        "Green": 1880,
+        "Others": 358
+      }
+    },
+    {
+      "constituency": "Makerfield",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 15477,
+        "Lab": 20432,
+        "LibDem": 2161,
+        "Green": 1166,
+        "Reform": 5902
+      }
+    },
+    {
+      "constituency": "Maldon",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 38791,
+        "Lab": 6790,
+        "LibDem": 6272,
+        "Green": 1851
+      }
+    },
+    {
+      "constituency": "Manchester Central",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 8500,
+        "Lab": 26470,
+        "LibDem": 2449,
+        "Green": 1159,
+        "Reform": 1795,
+        "Others": 107
+      }
+    },
+    {
+      "constituency": "Manchester Rusholme",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 3653,
+        "Lab": 31554,
+        "LibDem": 1612,
+        "Green": 1709,
+        "Reform": 1621
+      }
+    },
+    {
+      "constituency": "Manchester Withington",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 5607,
+        "Lab": 33100,
+        "LibDem": 7803,
+        "Green": 2015,
+        "Reform": 1269
+      }
+    },
+    {
+      "constituency": "Mansfield",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30718,
+        "Lab": 14471,
+        "LibDem": 1571,
+        "Others": 985
+      }
+    },
+    {
+      "constituency": "Melksham and Devizes",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 32227,
+        "Lab": 6686,
+        "LibDem": 15199,
+        "Green": 1652
+      }
+    },
+    {
+      "constituency": "Melton and Syston",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30232,
+        "Lab": 11228,
+        "LibDem": 3685,
+        "Green": 2647
+      }
+    },
+    {
+      "constituency": "Meriden and Solihull East",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30438,
+        "Lab": 10168,
+        "LibDem": 6613,
+        "Green": 1559
+      }
+    },
+    {
+      "constituency": "Merthyr Tydfil and Aberdare",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 8882,
+        "Lab": 22292,
+        "LibDem": 1434,
+        "Reform": 4621,
+        "Plaid": 3513,
+        "Others": 2364
+      }
+    },
+    {
+      "constituency": "Mid Bedfordshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31034,
+        "Lab": 10525,
+        "LibDem": 6420,
+        "Green": 1998,
+        "Others": 1348
+      }
+    },
+    {
+      "constituency": "Mid Buckinghamshire",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 33321,
+        "Lab": 8283,
+        "LibDem": 10673,
+        "Green": 1477,
+        "Reform": 469
+      }
+    },
+    {
+      "constituency": "Mid Cheshire",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 22022,
+        "Lab": 19528,
+        "LibDem": 3934,
+        "Green": 921,
+        "Reform": 502
+      }
+    },
+    {
+      "constituency": "Mid Derbyshire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30724,
+        "Lab": 13908,
+        "LibDem": 4960,
+        "Green": 1990
+      }
+    },
+    {
+      "constituency": "Mid Dorset and North Poole",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 32965,
+        "Lab": 3982,
+        "LibDem": 16395,
+        "Green": 1565
+      }
+    },
+    {
+      "constituency": "Mid Dunbartonshire",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 9118,
+        "Lab": 5520,
+        "LibDem": 20193,
+        "Green": 916,
+        "SNP": 22179,
+        "Others": 626
+      }
+    },
+    {
+      "constituency": "Mid Leicestershire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34343,
+        "Lab": 14155,
+        "LibDem": 4417,
+        "Green": 2278
+      }
+    },
+    {
+      "constituency": "Mid Norfolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31639,
+        "Lab": 11251,
+        "LibDem": 5127,
+        "Green": 154,
+        "Others": 939
+      }
+    },
+    {
+      "constituency": "Mid Sussex",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 27154,
+        "Lab": 9530,
+        "LibDem": 13489,
+        "Green": 2179,
+        "Others": 597
+      }
+    },
+    {
+      "constituency": "Mid Ulster",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 10566,
+        "SF": 20372,
+        "APNI": 3395,
+        "SDLP": 6194,
+        "UUP": 3317,
+        "Others": 690
+      }
+    },
+    {
+      "constituency": "Mid and South Pembrokeshire",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 29072,
+        "Lab": 20451,
+        "LibDem": 2531,
+        "Plaid": 2917
+      }
+    },
+    {
+      "constituency": "Middlesbrough South and East Cleveland",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 26050,
+        "Lab": 15751,
+        "LibDem": 1823,
+        "Green": 1005,
+        "Reform": 128,
+        "Others": 266
+      }
+    },
+    {
+      "constituency": "Middlesbrough and Thornaby East",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 9149,
+        "Lab": 20290,
+        "LibDem": 991,
+        "Green": 553,
+        "Reform": 2324,
+        "Others": 4282
+      }
+    },
+    {
+      "constituency": "Midlothian",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 10467,
+        "Lab": 14328,
+        "LibDem": 3393,
+        "SNP": 20033
+      }
+    },
+    {
+      "constituency": "Milton Keynes Central",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 25035,
+        "Lab": 20083,
+        "LibDem": 5489,
+        "Green": 1297,
+        "Others": 746
+      }
+    },
+    {
+      "constituency": "Milton Keynes North",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 24933,
+        "Lab": 18606,
+        "LibDem": 3246,
+        "Green": 1499
+      }
+    },
+    {
+      "constituency": "Mitcham and Morden",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 13792,
+        "Lab": 29671,
+        "LibDem": 5592,
+        "Green": 1160,
+        "Reform": 1202,
+        "Others": 216
+      }
+    },
+    {
+      "constituency": "Monmouthshire",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 27568,
+        "Lab": 16731,
+        "LibDem": 5071,
+        "Green": 1333,
+        "Reform": 451,
+        "Plaid": 1283,
+        "Others": 435
+      }
+    },
+    {
+      "constituency": "Montgomeryshire and Glyndwr",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 27466,
+        "Lab": 12701,
+        "LibDem": 8595,
+        "Reform": 700,
+        "Plaid": 1019,
+        "Others": 727
+      }
+    },
+    {
+      "constituency": "Moray West, Nairn and Strathspey",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 23035,
+        "Lab": 2606,
+        "LibDem": 3307,
+        "Green": 649,
+        "Reform": 321,
+        "SNP": 25941,
+        "Others": 413
+      }
+    },
+    {
+      "constituency": "Morecambe and Lunesdale",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 29834,
+        "Lab": 15646,
+        "LibDem": 8689,
+        "Green": 704,
+        "Reform": 231,
+        "Others": 548
+      }
+    },
+    {
+      "constituency": "Motherwell, Wishaw and Carluke",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 9537,
+        "Lab": 12344,
+        "LibDem": 1781,
+        "SNP": 20638,
+        "Others": 619
+      }
+    },
+    {
+      "constituency": "Na h-Eileanan an Iar",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 3216,
+        "Lab": 4093,
+        "LibDem": 637,
+        "SNP": 6531
+      }
+    },
+    {
+      "constituency": "Neath and Swansea East",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 12651,
+        "Lab": 21102,
+        "LibDem": 1849,
+        "Green": 776,
+        "Reform": 3965,
+        "Plaid": 3820,
+        "Others": 661
+      }
+    },
+    {
+      "constituency": "New Forest East",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 32769,
+        "Lab": 7518,
+        "LibDem": 7390,
+        "Green": 2434,
+        "Others": 675
+      }
+    },
+    {
+      "constituency": "New Forest West",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 32113,
+        "Lab": 6595,
+        "LibDem": 7710,
+        "Green": 3888
+      }
+    },
+    {
+      "constituency": "Newark",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34935,
+        "Lab": 13238,
+        "LibDem": 5298,
+        "Green": 1723,
+        "Reform": 193
+      }
+    },
+    {
+      "constituency": "Newbury",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28075,
+        "Lab": 3929,
+        "LibDem": 16615,
+        "Green": 2027,
+        "Others": 325
+      }
+    },
+    {
+      "constituency": "Newcastle upon Tyne Central and West",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 12789,
+        "Lab": 28520,
+        "LibDem": 1430,
+        "Green": 1462,
+        "Reform": 3934
+      }
+    },
+    {
+      "constituency": "Newcastle upon Tyne East and Wallsend",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 11817,
+        "Lab": 29610,
+        "LibDem": 4161,
+        "Green": 1923,
+        "Reform": 2452
+      }
+    },
+    {
+      "constituency": "Newcastle upon Tyne North",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 17207,
+        "Lab": 24030,
+        "LibDem": 7595,
+        "Green": 2193,
+        "Reform": 3118
+      }
+    },
+    {
+      "constituency": "Newcastle-under-Lyme",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25008,
+        "Lab": 16743,
+        "LibDem": 2670,
+        "Green": 1021,
+        "Reform": 1921
+      }
+    },
+    {
+      "constituency": "Newport East",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 16799,
+        "Lab": 22038,
+        "LibDem": 2651,
+        "Green": 871,
+        "Reform": 2843,
+        "Plaid": 1203
+      }
+    },
+    {
+      "constituency": "Newport West and Islwyn",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 18285,
+        "Lab": 20286,
+        "LibDem": 2474,
+        "Green": 947,
+        "Reform": 4301,
+        "Plaid": 2244
+      }
+    },
+    {
+      "constituency": "Newry and Armagh",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 9415,
+        "SF": 19088,
+        "APNI": 3913,
+        "SDLP": 9019,
+        "UUP": 3605,
+        "Aontu": 1531
+      }
+    },
+    {
+      "constituency": "Newton Abbot",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 29117,
+        "Lab": 9287,
+        "LibDem": 11661,
+        "Green": 1505,
+        "Others": 840
+      }
+    },
+    {
+      "constituency": "Newton Aycliffe and Spennymoor",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 20014,
+        "Lab": 16606,
+        "LibDem": 2340,
+        "Green": 644,
+        "Reform": 3374,
+        "Others": 394
+      }
+    },
+    {
+      "constituency": "Normanton and Hemsworth",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 13632,
+        "Lab": 17152,
+        "LibDem": 1831,
+        "Green": 782,
+        "Reform": 6609,
+        "Others": 3361
+      }
+    },
+    {
+      "constituency": "North Antrim",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 20650,
+        "SF": 4609,
+        "APNI": 5811,
+        "SDLP": 2404,
+        "UUP": 6885,
+        "Con": 17,
+        "Others": 246
+      }
+    },
+    {
+      "constituency": "North Ayrshire and Arran",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 14855,
+        "Lab": 6702,
+        "LibDem": 2107,
+        "Green": 1114,
+        "SNP": 23376
+      }
+    },
+    {
+      "constituency": "North Bedfordshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 34360,
+        "Lab": 10729,
+        "LibDem": 7403,
+        "Green": 1585,
+        "Reform": 102,
+        "Others": 2023
+      }
+    },
+    {
+      "constituency": "North Cornwall",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31941,
+        "Lab": 5201,
+        "LibDem": 16158,
+        "Green": 101,
+        "Others": 676
+      }
+    },
+    {
+      "constituency": "North Cotswolds",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30140,
+        "Lab": 8391,
+        "LibDem": 9143,
+        "Green": 2944,
+        "Reform": 175
+      }
+    },
+    {
+      "constituency": "North Devon",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31479,
+        "Lab": 5097,
+        "LibDem": 16666,
+        "Green": 1759,
+        "Others": 580
+      }
+    },
+    {
+      "constituency": "North Dorset",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 34085,
+        "Lab": 6379,
+        "LibDem": 10890,
+        "Green": 2110
+      }
+    },
+    {
+      "constituency": "North Down",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 16541,
+        "APNI": 19182,
+        "UUP": 5075,
+        "Con": 1959
+      }
+    },
+    {
+      "constituency": "North Durham",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 16457,
+        "Lab": 20881,
+        "LibDem": 3042,
+        "Green": 1249,
+        "Reform": 5106,
+        "Others": 1063
+      }
+    },
+    {
+      "constituency": "North East Cambridgeshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 32934,
+        "Lab": 7155,
+        "LibDem": 2992,
+        "Green": 1503
+      }
+    },
+    {
+      "constituency": "North East Derbyshire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 28896,
+        "Lab": 15994,
+        "LibDem": 3039,
+        "Green": 1319,
+        "Reform": 231
+      }
+    },
+    {
+      "constituency": "North East Fife",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 7126,
+        "Lab": 2859,
+        "LibDem": 20643,
+        "Reform": 184,
+        "SNP": 21371
+      }
+    },
+    {
+      "constituency": "North East Hampshire",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 35124,
+        "Lab": 5808,
+        "LibDem": 12691,
+        "Green": 1700,
+        "Others": 1407
+      }
+    },
+    {
+      "constituency": "North East Hertfordshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31293,
+        "Lab": 13104,
+        "LibDem": 8563,
+        "Green": 2367
+      }
+    },
+    {
+      "constituency": "North East Somerset and Hanham",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31435,
+        "Lab": 15046,
+        "LibDem": 8625,
+        "Green": 1370,
+        "Others": 961
+      }
+    },
+    {
+      "constituency": "North Herefordshire",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34009,
+        "Lab": 8290,
+        "LibDem": 7329,
+        "Green": 4785
+      }
+    },
+    {
+      "constituency": "North Norfolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 30145,
+        "Lab": 3980,
+        "LibDem": 15653,
+        "Green": 45,
+        "Reform": 1739
+      }
+    },
+    {
+      "constituency": "North Northumberland",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 29497,
+        "Lab": 12191,
+        "LibDem": 8484,
+        "Green": 1793,
+        "Reform": 775
+      }
+    },
+    {
+      "constituency": "North Shropshire",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32248,
+        "Lab": 11705,
+        "LibDem": 5458,
+        "Green": 1719,
+        "Others": 1141
+      }
+    },
+    {
+      "constituency": "North Somerset",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30411,
+        "Lab": 14227,
+        "LibDem": 9425,
+        "Green": 2801
+      }
+    },
+    {
+      "constituency": "North Warwickshire and Bedworth",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30249,
+        "Lab": 12293,
+        "LibDem": 2069,
+        "Green": 1303
+      }
+    },
+    {
+      "constituency": "North West Cambridgeshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 28201,
+        "Lab": 11169,
+        "LibDem": 5173,
+        "Green": 2464,
+        "Reform": 25
+      }
+    },
+    {
+      "constituency": "North West Essex",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 34105,
+        "Lab": 7616,
+        "LibDem": 10878,
+        "Green": 2678
+      }
+    },
+    {
+      "constituency": "North West Hampshire",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31051,
+        "Lab": 8730,
+        "LibDem": 9544,
+        "Green": 2362
+      }
+    },
+    {
+      "constituency": "North West Leicestershire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31402,
+        "Lab": 12854,
+        "LibDem": 3465,
+        "Green": 2366,
+        "Others": 507
+      }
+    },
+    {
+      "constituency": "North West Norfolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 32075,
+        "Lab": 10998,
+        "LibDem": 3779,
+        "Green": 1717
+      }
+    },
+    {
+      "constituency": "Northampton North",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25427,
+        "Lab": 21495,
+        "LibDem": 2906,
+        "Green": 1256
+      }
+    },
+    {
+      "constituency": "Northampton South",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 28652,
+        "Lab": 15328,
+        "LibDem": 3931,
+        "Green": 1697
+      }
+    },
+    {
+      "constituency": "Norwich North",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 25997,
+        "Lab": 19632,
+        "LibDem": 3141,
+        "Green": 1144,
+        "Reform": 21,
+        "Others": 488
+      }
+    },
+    {
+      "constituency": "Norwich South",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 14881,
+        "Lab": 27464,
+        "LibDem": 4851,
+        "Green": 2477,
+        "Reform": 1635
+      }
+    },
+    {
+      "constituency": "Nottingham East",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 9336,
+        "Lab": 28278,
+        "LibDem": 2824,
+        "Green": 1394,
+        "Reform": 1527,
+        "Others": 1447
+      }
+    },
+    {
+      "constituency": "Nottingham North and Kimberley",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 17309,
+        "Lab": 19799,
+        "LibDem": 1615,
+        "Green": 1068,
+        "Reform": 2424,
+        "Others": 822
+      }
+    },
+    {
+      "constituency": "Nottingham South",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 14240,
+        "Lab": 24281,
+        "LibDem": 3032,
+        "Green": 1483,
+        "Reform": 2090
+      }
+    },
+    {
+      "constituency": "Nuneaton",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 27390,
+        "Lab": 14246,
+        "LibDem": 1862,
+        "Green": 1692
+      }
+    },
+    {
+      "constituency": "Old Bexley and Sidcup",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 33158,
+        "Lab": 12389,
+        "LibDem": 4303,
+        "Green": 1791,
+        "Others": 226
+      }
+    },
+    {
+      "constituency": "Oldham East and Saddleworth",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 18589,
+        "Lab": 20088,
+        "LibDem": 2423,
+        "Green": 778,
+        "Reform": 2980,
+        "Others": 1306
+      }
+    },
+    {
+      "constituency": "Oldham West, Chadderton and Royton",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 13452,
+        "Lab": 24579,
+        "LibDem": 1484,
+        "Green": 681,
+        "Reform": 3316,
+        "Others": 922
+      }
+    },
+    {
+      "constituency": "Orkney and Shetland",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 2287,
+        "Lab": 1550,
+        "LibDem": 10381,
+        "Reform": 900,
+        "SNP": 7874,
+        "Others": 168
+      }
+    },
+    {
+      "constituency": "Orpington",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 30308,
+        "Lab": 9681,
+        "LibDem": 7145,
+        "Green": 1824
+      }
+    },
+    {
+      "constituency": "Ossett and Denby Dale",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 26177,
+        "Lab": 15150,
+        "LibDem": 2400,
+        "Green": 602,
+        "Reform": 2484,
+        "Others": 1795
+      }
+    },
+    {
+      "constituency": "Oxford East",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 9779,
+        "Lab": 25738,
+        "LibDem": 6391,
+        "Green": 2143,
+        "Reform": 1048,
+        "Others": 499
+      }
+    },
+    {
+      "constituency": "Oxford West and Abingdon",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 18039,
+        "Lab": 6242,
+        "LibDem": 27616,
+        "Green": 249,
+        "Reform": 769
+      }
+    },
+    {
+      "constituency": "Paisley and Renfrewshire North",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 9134,
+        "Lab": 11103,
+        "LibDem": 3539,
+        "Reform": 146,
+        "SNP": 22856
+      }
+    },
+    {
+      "constituency": "Paisley and Renfrewshire South",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 8366,
+        "Lab": 11910,
+        "LibDem": 2869,
+        "SNP": 22933
+      }
+    },
+    {
+      "constituency": "Peckham",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 4999,
+        "Lab": 31552,
+        "LibDem": 4626,
+        "Green": 2232,
+        "Reform": 1011,
+        "Others": 127
+      }
+    },
+    {
+      "constituency": "Pendle and Clitheroe",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 27619,
+        "Lab": 16051,
+        "LibDem": 3562,
+        "Green": 1010,
+        "Others": 268
+      }
+    },
+    {
+      "constituency": "Penistone and Stocksbridge",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 23688,
+        "Lab": 16478,
+        "LibDem": 5054,
+        "Reform": 4300
+      }
+    },
+    {
+      "constituency": "Penrith and Solway",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 30576,
+        "Lab": 16816,
+        "LibDem": 4556,
+        "Green": 1733,
+        "Reform": 1000,
+        "Others": 1097
+      }
+    },
+    {
+      "constituency": "Perth and Kinross-shire",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 23198,
+        "Lab": 2818,
+        "LibDem": 4505,
+        "Reform": 402,
+        "SNP": 25562
+      }
+    },
+    {
+      "constituency": "Peterborough",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 21955,
+        "Lab": 19622,
+        "LibDem": 2316,
+        "Green": 713,
+        "Reform": 2102,
+        "Others": 524
+      }
+    },
+    {
+      "constituency": "Plymouth Moor View",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 28810,
+        "Lab": 15548,
+        "LibDem": 2430,
+        "Green": 1254,
+        "Reform": 110
+      }
+    },
+    {
+      "constituency": "Plymouth Sutton and Devonport",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 18725,
+        "Lab": 23847,
+        "LibDem": 2416,
+        "Green": 1476,
+        "Reform": 2799
+      }
+    },
+    {
+      "constituency": "Pontefract, Castleford and Knottingley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 14677,
+        "Lab": 15759,
+        "LibDem": 2799,
+        "Reform": 6518,
+        "Others": 1515
+      }
+    },
+    {
+      "constituency": "Pontypridd",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 12456,
+        "Lab": 21254,
+        "LibDem": 639,
+        "Green": 101,
+        "Reform": 3855,
+        "Plaid": 4963,
+        "Others": 2311
+      }
+    },
+    {
+      "constituency": "Poole",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 28695,
+        "Lab": 10087,
+        "LibDem": 7490,
+        "Green": 1681,
+        "Others": 848
+      }
+    },
+    {
+      "constituency": "Poplar and Limehouse",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9129,
+        "Lab": 31176,
+        "LibDem": 8009,
+        "Green": 1756,
+        "Reform": 1219,
+        "Others": 376
+      }
+    },
+    {
+      "constituency": "Portsmouth North",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28172,
+        "Lab": 12392,
+        "LibDem": 3419,
+        "Green": 1304,
+        "Others": 623
+      }
+    },
+    {
+      "constituency": "Portsmouth South",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 17705,
+        "Lab": 23068,
+        "LibDem": 5418,
+        "Reform": 994,
+        "Others": 240
+      }
+    },
+    {
+      "constituency": "Preston",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 12847,
+        "Lab": 24697,
+        "LibDem": 2913,
+        "Green": 862,
+        "Reform": 1793
+      }
+    },
+    {
+      "constituency": "Putney",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 20197,
+        "Lab": 24613,
+        "LibDem": 9382,
+        "Green": 1298,
+        "Reform": 36
+      }
+    },
+    {
+      "constituency": "Queen's Park and Maida Vale",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 8865,
+        "Lab": 27739,
+        "LibDem": 6230,
+        "Green": 1437,
+        "Reform": 413,
+        "Others": 115
+      }
+    },
+    {
+      "constituency": "Rawmarsh and Conisbrough",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 14992,
+        "Lab": 16249,
+        "LibDem": 1500,
+        "Green": 194,
+        "Reform": 6535,
+        "Others": 1074
+      }
+    },
+    {
+      "constituency": "Rayleigh and Wickford",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 38652,
+        "Lab": 8304,
+        "LibDem": 4081,
+        "Green": 1960
+      }
+    },
+    {
+      "constituency": "Reading Central",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 18756,
+        "Lab": 27107,
+        "LibDem": 3288,
+        "Green": 1603,
+        "Reform": 574,
+        "Others": 202
+      }
+    },
+    {
+      "constituency": "Reading West and Mid Berkshire",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28078,
+        "Lab": 11320,
+        "LibDem": 8356,
+        "Green": 1690
+      }
+    },
+    {
+      "constituency": "Redcar",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 21255,
+        "Lab": 16377,
+        "LibDem": 2152,
+        "Green": 698,
+        "Reform": 2915,
+        "Others": 1323
+      }
+    },
+    {
+      "constituency": "Redditch",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30719,
+        "Lab": 12296,
+        "LibDem": 3039,
+        "Green": 1447
+      }
+    },
+    {
+      "constituency": "Reigate",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29846,
+        "Lab": 9045,
+        "LibDem": 10626,
+        "Green": 3092,
+        "Others": 860
+      }
+    },
+    {
+      "constituency": "Rhondda and Ogmore",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 6572,
+        "Lab": 23949,
+        "LibDem": 969,
+        "Green": 590,
+        "Reform": 4902,
+        "Plaid": 5290,
+        "Others": 277
+      }
+    },
+    {
+      "constituency": "Ribble Valley",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 31261,
+        "Lab": 14422,
+        "LibDem": 4179,
+        "Green": 1486,
+        "Reform": 6,
+        "Others": 886
+      }
+    },
+    {
+      "constituency": "Richmond Park",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 23970,
+        "Lab": 3109,
+        "LibDem": 31695,
+        "Others": 308
+      }
+    },
+    {
+      "constituency": "Richmond and Northallerton",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 32861,
+        "Lab": 8530,
+        "LibDem": 6475,
+        "Green": 1976,
+        "Others": 2038
+      }
+    },
+    {
+      "constituency": "Rochdale",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 13270,
+        "Lab": 21379,
+        "LibDem": 3168,
+        "Green": 790,
+        "Reform": 3451
+      }
+    },
+    {
+      "constituency": "Rochester and Strood",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 26098,
+        "Lab": 12545,
+        "LibDem": 3170,
+        "Green": 1155,
+        "Others": 1667
+      }
+    },
+    {
+      "constituency": "Romford",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 31322,
+        "Lab": 12786,
+        "LibDem": 2789,
+        "Green": 1462
+      }
+    },
+    {
+      "constituency": "Romsey and Southampton North",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31647,
+        "Lab": 6630,
+        "LibDem": 15396,
+        "Green": 391,
+        "Others": 640
+      }
+    },
+    {
+      "constituency": "Rossendale and Darwen",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 28124,
+        "Lab": 18290,
+        "LibDem": 2083,
+        "Green": 1236,
+        "Reform": 180
+      }
+    },
+    {
+      "constituency": "Rother Valley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 20975,
+        "Lab": 14840,
+        "LibDem": 2195,
+        "Green": 1124,
+        "Reform": 5314,
+        "Others": 1040
+      }
+    },
+    {
+      "constituency": "Rotherham",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 14402,
+        "Lab": 17699,
+        "LibDem": 2717,
+        "Green": 50,
+        "Reform": 7408,
+        "Others": 1245
+      }
+    },
+    {
+      "constituency": "Rugby",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29308,
+        "Lab": 15913,
+        "LibDem": 4236,
+        "Green": 1662
+      }
+    },
+    {
+      "constituency": "Ruislip, Northwood and Pinner",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 28916,
+        "Lab": 13106,
+        "LibDem": 7920,
+        "Green": 1381,
+        "Reform": 49,
+        "Others": 884
+      }
+    },
+    {
+      "constituency": "Runcorn and Helsby",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 17838,
+        "Lab": 23617,
+        "LibDem": 3247,
+        "Green": 1414,
+        "Reform": 2302
+      }
+    },
+    {
+      "constituency": "Runnymede and Weybridge",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28028,
+        "Lab": 9347,
+        "LibDem": 11956,
+        "Green": 1415,
+        "Others": 1923
+      }
+    },
+    {
+      "constituency": "Rushcliffe",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 28168,
+        "Lab": 20814,
+        "LibDem": 9496,
+        "Others": 1018
+      }
+    },
+    {
+      "constituency": "Rutherglen",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 8462,
+        "Lab": 15272,
+        "LibDem": 3526,
+        "SNP": 21127,
+        "Others": 629
+      }
+    },
+    {
+      "constituency": "Rutland and Stamford",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34052,
+        "Lab": 7882,
+        "LibDem": 8515,
+        "Green": 1950,
+        "Others": 1375
+      }
+    },
+    {
+      "constituency": "Salford",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 9729,
+        "Lab": 23977,
+        "LibDem": 2571,
+        "Green": 1783,
+        "Reform": 3703
+      }
+    },
+    {
+      "constituency": "Salisbury",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 29138,
+        "Lab": 9884,
+        "LibDem": 10290,
+        "Green": 2685,
+        "Others": 745
+      }
+    },
+    {
+      "constituency": "Scarborough and Whitby",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 27593,
+        "Lab": 17323,
+        "LibDem": 3038,
+        "Others": 1770
+      }
+    },
+    {
+      "constituency": "Scunthorpe",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 26616,
+        "Lab": 16483,
+        "LibDem": 1249,
+        "Green": 866,
+        "Reform": 2044
+      }
+    },
+    {
+      "constituency": "Sefton Central",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 19600,
+        "Lab": 30014,
+        "LibDem": 3789,
+        "Green": 1183,
+        "Reform": 2081,
+        "Others": 422
+      }
+    },
+    {
+      "constituency": "Selby",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 30575,
+        "Lab": 15737,
+        "LibDem": 3165,
+        "Green": 1602,
+        "Others": 1678
+      }
+    },
+    {
+      "constituency": "Sevenoaks",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31780,
+        "Lab": 6958,
+        "LibDem": 9987,
+        "Green": 1773,
+        "Others": 990
+      }
+    },
+    {
+      "constituency": "Sheffield Brightside and Hillsborough",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 10247,
+        "Lab": 22838,
+        "LibDem": 1570,
+        "Green": 1210,
+        "Reform": 3916,
+        "Others": 585
+      }
+    },
+    {
+      "constituency": "Sheffield Central",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 4722,
+        "Lab": 25495,
+        "LibDem": 2070,
+        "Green": 4136,
+        "Reform": 1170,
+        "Others": 474
+      }
+    },
+    {
+      "constituency": "Sheffield Hallam",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 15435,
+        "Lab": 21004,
+        "LibDem": 19896,
+        "Green": 1799,
+        "Reform": 1641,
+        "Others": 291
+      }
+    },
+    {
+      "constituency": "Sheffield Heeley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 12399,
+        "Lab": 24619,
+        "LibDem": 3070,
+        "Green": 1964,
+        "Reform": 3643
+      }
+    },
+    {
+      "constituency": "Sheffield South East",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 16709,
+        "Lab": 21923,
+        "LibDem": 2186,
+        "Green": 80,
+        "Reform": 5032,
+        "Others": 966
+      }
+    },
+    {
+      "constituency": "Sherwood Forest",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31688,
+        "Lab": 15398,
+        "LibDem": 2969,
+        "Green": 1354,
+        "Others": 700
+      }
+    },
+    {
+      "constituency": "Shipley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 27437,
+        "Lab": 21195,
+        "LibDem": 3188,
+        "Green": 1301,
+        "Others": 883
+      }
+    },
+    {
+      "constituency": "Shrewsbury",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25454,
+        "Lab": 18279,
+        "LibDem": 5574,
+        "Green": 1675,
+        "Others": 572
+      }
+    },
+    {
+      "constituency": "Sittingbourne and Sheppey",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31106,
+        "Lab": 9769,
+        "LibDem": 2962,
+        "Green": 1043,
+        "Others": 1883
+      }
+    },
+    {
+      "constituency": "Skipton and Ripon",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 33416,
+        "Lab": 10899,
+        "LibDem": 8634,
+        "Green": 2693,
+        "Others": 1131
+      }
+    },
+    {
+      "constituency": "Sleaford and North Hykeham",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34258,
+        "Lab": 9578,
+        "LibDem": 4225,
+        "Green": 1246,
+        "Others": 2230
+      }
+    },
+    {
+      "constituency": "Slough",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 13443,
+        "Lab": 26790,
+        "LibDem": 3099,
+        "Green": 948,
+        "Reform": 1280
+      }
+    },
+    {
+      "constituency": "Smethwick",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 12365,
+        "Lab": 23339,
+        "LibDem": 1841,
+        "Green": 956,
+        "Reform": 2469
+      }
+    },
+    {
+      "constituency": "Solihull West and Shirley",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30558,
+        "Lab": 9760,
+        "LibDem": 7861,
+        "Green": 2000
+      }
+    },
+    {
+      "constituency": "South Antrim",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 15432,
+        "SF": 4858,
+        "APNI": 7837,
+        "SDLP": 2113,
+        "UUP": 12396,
+        "Aontu": 3,
+        "PBP": 11,
+        "Con": 18
+      }
+    },
+    {
+      "constituency": "South Basildon and East Thurrock",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 29271,
+        "Lab": 10540,
+        "LibDem": 1836,
+        "Green": 68,
+        "Others": 3014
+      }
+    },
+    {
+      "constituency": "South Cambridgeshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 26153,
+        "Lab": 9091,
+        "LibDem": 24655,
+        "Green": 96,
+        "Reform": 83
+      }
+    },
+    {
+      "constituency": "South Cotswolds",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30798,
+        "Lab": 5669,
+        "LibDem": 14706,
+        "Green": 2016
+      }
+    },
+    {
+      "constituency": "South Derbyshire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29319,
+        "Lab": 12836,
+        "LibDem": 3465,
+        "Green": 1579
+      }
+    },
+    {
+      "constituency": "South Devon",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 29027,
+        "Lab": 9228,
+        "LibDem": 15308,
+        "Green": 82,
+        "Others": 544
+      }
+    },
+    {
+      "constituency": "South Dorset",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31209,
+        "Lab": 13062,
+        "LibDem": 5628,
+        "Green": 2335,
+        "Others": 485
+      }
+    },
+    {
+      "constituency": "South Down",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 8162,
+        "SF": 13863,
+        "APNI": 6212,
+        "SDLP": 12240,
+        "UUP": 3460,
+        "Aontu": 1070
+      }
+    },
+    {
+      "constituency": "South East Cornwall",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30839,
+        "Lab": 10614,
+        "LibDem": 8520,
+        "Green": 1405,
+        "Others": 869
+      }
+    },
+    {
+      "constituency": "South Holland and the Deepings",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 37338,
+        "Lab": 6500,
+        "LibDem": 3225,
+        "Green": 1613,
+        "Others": 503
+      }
+    },
+    {
+      "constituency": "South Leicestershire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 36452,
+        "Lab": 10918,
+        "LibDem": 5243,
+        "Green": 2173
+      }
+    },
+    {
+      "constituency": "South Norfolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 29298,
+        "Lab": 12123,
+        "LibDem": 8799,
+        "Green": 1637
+      }
+    },
+    {
+      "constituency": "South Northamptonshire",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 35270,
+        "Lab": 11599,
+        "LibDem": 6205,
+        "Green": 2119,
+        "Others": 634
+      }
+    },
+    {
+      "constituency": "South Ribble",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 26348,
+        "Lab": 17833,
+        "LibDem": 3812,
+        "Green": 1237
+      }
+    },
+    {
+      "constituency": "South Shields",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 11827,
+        "Lab": 20192,
+        "LibDem": 1625,
+        "Green": 1442,
+        "Reform": 6725,
+        "Others": 3987
+      }
+    },
+    {
+      "constituency": "South Shropshire",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 37752,
+        "Lab": 9116,
+        "LibDem": 8869,
+        "Green": 1999
+      }
+    },
+    {
+      "constituency": "South Suffolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31094,
+        "Lab": 9621,
+        "LibDem": 6360,
+        "Green": 3031
+      }
+    },
+    {
+      "constituency": "South West Devon",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 35102,
+        "Lab": 12012,
+        "LibDem": 6807,
+        "Green": 2179
+      }
+    },
+    {
+      "constituency": "South West Hertfordshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 26548,
+        "Lab": 8182,
+        "LibDem": 6460,
+        "Green": 763,
+        "Others": 8925
+      }
+    },
+    {
+      "constituency": "South West Norfolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 32988,
+        "Lab": 8808,
+        "LibDem": 3965,
+        "Green": 1452,
+        "Others": 836
+      }
+    },
+    {
+      "constituency": "South West Wiltshire",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27546,
+        "Lab": 10168,
+        "LibDem": 7787,
+        "Green": 1736
+      }
+    },
+    {
+      "constituency": "Southampton Itchen",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 23952,
+        "Lab": 19454,
+        "LibDem": 2503,
+        "Green": 1040,
+        "Others": 472
+      }
+    },
+    {
+      "constituency": "Southampton Test",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 16043,
+        "Lab": 22256,
+        "LibDem": 3449,
+        "Green": 1433,
+        "Reform": 1591,
+        "Others": 222
+      }
+    },
+    {
+      "constituency": "Southend East and Rochford",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 25463,
+        "Lab": 13521,
+        "LibDem": 2775,
+        "Green": 42,
+        "Others": 1356
+      }
+    },
+    {
+      "constituency": "Southend West and Leigh",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 30367,
+        "Lab": 14913,
+        "LibDem": 5449,
+        "Others": 692
+      }
+    },
+    {
+      "constituency": "Southgate and Wood Green",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 15051,
+        "Lab": 30465,
+        "LibDem": 5242,
+        "Green": 1294,
+        "Reform": 660
+      }
+    },
+    {
+      "constituency": "Southport",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 25092,
+        "Lab": 18321,
+        "LibDem": 6217,
+        "Green": 178
+      }
+    },
+    {
+      "constituency": "Spelthorne",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29141,
+        "Lab": 10748,
+        "LibDem": 7499,
+        "Green": 2122
+      }
+    },
+    {
+      "constituency": "Spen Valley",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 21886,
+        "Lab": 15822,
+        "LibDem": 2755,
+        "Green": 830,
+        "Reform": 1627,
+        "Others": 4289
+      }
+    },
+    {
+      "constituency": "St Albans",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 21705,
+        "Lab": 4878,
+        "LibDem": 27610,
+        "Green": 950,
+        "Others": 154
+      }
+    },
+    {
+      "constituency": "St Austell and Newquay",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30620,
+        "Lab": 14678,
+        "LibDem": 5964,
+        "Green": 1690,
+        "Others": 2146
+      }
+    },
+    {
+      "constituency": "St Helens North",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 12661,
+        "Lab": 24870,
+        "LibDem": 2668,
+        "Green": 1966,
+        "Reform": 5396
+      }
+    },
+    {
+      "constituency": "St Helens South and Whiston",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 9666,
+        "Lab": 26386,
+        "LibDem": 2579,
+        "Green": 1944,
+        "Reform": 4822
+      }
+    },
+    {
+      "constituency": "St Ives",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 26403,
+        "Lab": 4893,
+        "LibDem": 21176,
+        "Green": 981,
+        "Others": 446
+      }
+    },
+    {
+      "constituency": "St Neots and Mid Cambridgeshire",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 25670,
+        "Lab": 9414,
+        "LibDem": 13420,
+        "Green": 853,
+        "Others": 686
+      }
+    },
+    {
+      "constituency": "Stafford",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29731,
+        "Lab": 16011,
+        "LibDem": 3272,
+        "Green": 2297
+      }
+    },
+    {
+      "constituency": "Staffordshire Moorlands",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 30260,
+        "Lab": 12601,
+        "LibDem": 2898,
+        "Green": 1450
+      }
+    },
+    {
+      "constituency": "Stalybridge and Hyde",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 16079,
+        "Lab": 19025,
+        "LibDem": 1827,
+        "Green": 1411,
+        "Reform": 3591,
+        "Others": 435
+      }
+    },
+    {
+      "constituency": "Stevenage",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 25328,
+        "Lab": 16766,
+        "LibDem": 4132,
+        "Green": 1457
+      }
+    },
+    {
+      "constituency": "Stirling and Strathallan",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 20254,
+        "Lab": 4424,
+        "LibDem": 3381,
+        "Green": 942,
+        "SNP": 28810
+      }
+    },
+    {
+      "constituency": "Stockport",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 12968,
+        "Lab": 24980,
+        "LibDem": 3986,
+        "Green": 1635,
+        "Reform": 2448
+      }
+    },
+    {
+      "constituency": "Stockton North",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 16164,
+        "Lab": 20136,
+        "LibDem": 1723,
+        "Reform": 3896,
+        "Others": 1189
+      }
+    },
+    {
+      "constituency": "Stockton West",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 29397,
+        "Lab": 17648,
+        "LibDem": 2316,
+        "Green": 262,
+        "Reform": 2427
+      }
+    },
+    {
+      "constituency": "Stoke-on-Trent Central",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 19133,
+        "Lab": 17418,
+        "LibDem": 1526,
+        "Green": 802,
+        "Reform": 1731
+      }
+    },
+    {
+      "constituency": "Stoke-on-Trent North",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 22657,
+        "Lab": 14580,
+        "LibDem": 1383,
+        "Green": 572,
+        "Reform": 2334,
+        "Others": 322
+      }
+    },
+    {
+      "constituency": "Stoke-on-Trent South",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29255,
+        "Lab": 13862,
+        "LibDem": 2916,
+        "Green": 749
+      }
+    },
+    {
+      "constituency": "Stone, Great Wyrley and Penkridge",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32010,
+        "Lab": 10088,
+        "LibDem": 3046,
+        "Green": 1597
+      }
+    },
+    {
+      "constituency": "Stourbridge",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 28614,
+        "Lab": 13481,
+        "LibDem": 2677,
+        "Green": 918,
+        "Others": 621
+      }
+    },
+    {
+      "constituency": "Strangford",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 16128,
+        "SF": 3017,
+        "APNI": 10451,
+        "SDLP": 4002,
+        "UUP": 3677,
+        "Aontu": 193,
+        "Con": 1341,
+        "Green": 717,
+        "Others": 308
+      }
+    },
+    {
+      "constituency": "Stratford and Bow",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6877,
+        "Lab": 33368,
+        "LibDem": 4265,
+        "Green": 1758,
+        "Reform": 1107
+      }
+    },
+    {
+      "constituency": "Stratford-on-Avon",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32236,
+        "Lab": 6074,
+        "LibDem": 13216,
+        "Green": 2031
+      }
+    },
+    {
+      "constituency": "Streatham and Croydon North",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 9666,
+        "Lab": 29704,
+        "LibDem": 9002,
+        "Green": 2278,
+        "Reform": 658
+      }
+    },
+    {
+      "constituency": "Stretford and Urmston",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 13778,
+        "Lab": 30195,
+        "LibDem": 2969,
+        "Green": 1357,
+        "Reform": 1768
+      }
+    },
+    {
+      "constituency": "Stroud",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27733,
+        "Lab": 25266,
+        "LibDem": 1356,
+        "Green": 4857,
+        "Reform": 909,
+        "Others": 567
+      }
+    },
+    {
+      "constituency": "Suffolk Coastal",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 29558,
+        "Lab": 11203,
+        "LibDem": 7921,
+        "Green": 2308,
+        "Others": 1375
+      }
+    },
+    {
+      "constituency": "Sunderland Central",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 15372,
+        "Lab": 18336,
+        "LibDem": 3025,
+        "Green": 1212,
+        "Reform": 5047,
+        "Others": 484
+      }
+    },
+    {
+      "constituency": "Surrey Heath",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30161,
+        "Lab": 4888,
+        "LibDem": 14609,
+        "Green": 1845,
+        "Others": 628
+      }
+    },
+    {
+      "constituency": "Sussex Weald",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 31486,
+        "Lab": 7349,
+        "LibDem": 8322,
+        "Green": 2261
+      }
+    },
+    {
+      "constituency": "Sutton Coldfield",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31604,
+        "Lab": 12332,
+        "LibDem": 6358,
+        "Green": 2031
+      }
+    },
+    {
+      "constituency": "Sutton and Cheam",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 25235,
+        "Lab": 7200,
+        "LibDem": 16884,
+        "Green": 1168
+      }
+    },
+    {
+      "constituency": "Swansea West",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 12672,
+        "Lab": 22709,
+        "LibDem": 2834,
+        "Green": 367,
+        "Reform": 3022,
+        "Plaid": 2595
+      }
+    },
+    {
+      "constituency": "Swindon North",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 27719,
+        "Lab": 14469,
+        "LibDem": 3744,
+        "Green": 1449
+      }
+    },
+    {
+      "constituency": "Swindon South",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 25564,
+        "Lab": 19914,
+        "LibDem": 3788,
+        "Green": 261
+      }
+    },
+    {
+      "constituency": "Tamworth",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 31748,
+        "Lab": 11085,
+        "LibDem": 2530,
+        "Green": 976,
+        "Others": 1245
+      }
+    },
+    {
+      "constituency": "Tatton",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 31732,
+        "Lab": 12451,
+        "LibDem": 8966,
+        "Green": 2046,
+        "Reform": 199
+      }
+    },
+    {
+      "constituency": "Taunton and Wellington",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 28298,
+        "Lab": 4299,
+        "LibDem": 19762,
+        "Others": 2081
+      }
+    },
+    {
+      "constituency": "Telford",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25842,
+        "Lab": 14942,
+        "LibDem": 2714,
+        "Green": 27
+      }
+    },
+    {
+      "constituency": "Tewkesbury",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31291,
+        "Lab": 8448,
+        "LibDem": 11848,
+        "Green": 2271
+      }
+    },
+    {
+      "constituency": "The Wrekin",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 33929,
+        "Lab": 12756,
+        "LibDem": 4212,
+        "Green": 1535
+      }
+    },
+    {
+      "constituency": "Thirsk and Malton",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 32624,
+        "Lab": 9287,
+        "LibDem": 6502,
+        "Green": 2348,
+        "Others": 1437
+      }
+    },
+    {
+      "constituency": "Thornbury and Yate",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 32798,
+        "Lab": 4899,
+        "LibDem": 18260,
+        "Green": 126
+      }
+    },
+    {
+      "constituency": "Thurrock",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 26580,
+        "Lab": 14618,
+        "LibDem": 1390,
+        "Green": 739,
+        "Others": 1042
+      }
+    },
+    {
+      "constituency": "Tipton and Wednesbury",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 19371,
+        "Lab": 14678,
+        "LibDem": 1195,
+        "Green": 722,
+        "Reform": 2234
+      }
+    },
+    {
+      "constituency": "Tiverton and Minehead",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30297,
+        "Lab": 7070,
+        "LibDem": 9632,
+        "Green": 2103,
+        "Others": 309
+      }
+    },
+    {
+      "constituency": "Tonbridge",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 35262,
+        "Lab": 8210,
+        "LibDem": 6690,
+        "Green": 4288
+      }
+    },
+    {
+      "constituency": "Tooting",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 16504,
+        "Lab": 30811,
+        "LibDem": 8305,
+        "Green": 2314,
+        "Reform": 462,
+        "Others": 77
+      }
+    },
+    {
+      "constituency": "Torbay",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 30109,
+        "Lab": 6620,
+        "LibDem": 12358,
+        "Green": 1236,
+        "Others": 648
+      }
+    },
+    {
+      "constituency": "Torfaen",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 14506,
+        "Lab": 18616,
+        "LibDem": 2157,
+        "Green": 966,
+        "Reform": 5742,
+        "Plaid": 1566
+      }
+    },
+    {
+      "constituency": "Torridge and Tavistock",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 32708,
+        "Lab": 9761,
+        "LibDem": 9809,
+        "Green": 1843,
+        "Others": 547
+      }
+    },
+    {
+      "constituency": "Tottenham",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 5076,
+        "Lab": 35564,
+        "LibDem": 2306,
+        "Green": 1965,
+        "Reform": 588,
+        "Others": 221
+      }
+    },
+    {
+      "constituency": "Truro and Falmouth",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 25842,
+        "Lab": 21383,
+        "LibDem": 5981,
+        "Green": 1522,
+        "Others": 450
+      }
+    },
+    {
+      "constituency": "Tunbridge Wells",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30119,
+        "Lab": 8098,
+        "LibDem": 15474,
+        "Others": 959
+      }
+    },
+    {
+      "constituency": "Twickenham",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 19742,
+        "Lab": 5051,
+        "LibDem": 32816,
+        "Reform": 743
+      }
+    },
+    {
+      "constituency": "Tynemouth",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 21696,
+        "Lab": 25208,
+        "LibDem": 3622,
+        "Green": 1318,
+        "Reform": 2096
+      }
+    },
+    {
+      "constituency": "Upper Bann",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 18931,
+        "SF": 11454,
+        "APNI": 5880,
+        "SDLP": 4351,
+        "UUP": 5788,
+        "Aontu": 38
+      }
+    },
+    {
+      "constituency": "Uxbridge and South Ruislip",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 26712,
+        "Lab": 18773,
+        "LibDem": 3371,
+        "Green": 1347,
+        "Others": 579
+      }
+    },
+    {
+      "constituency": "Vale of Glamorgan",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 24535,
+        "Lab": 21969,
+        "Green": 2981,
+        "Others": 508
+      }
+    },
+    {
+      "constituency": "Vauxhall and Camberwell Green",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6746,
+        "Lab": 28073,
+        "LibDem": 8848,
+        "Green": 1915,
+        "Reform": 722,
+        "Others": 136
+      }
+    },
+    {
+      "constituency": "Wakefield and Rothwell",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 22022,
+        "Lab": 19396,
+        "LibDem": 5361,
+        "Green": 490,
+        "Reform": 1586,
+        "Others": 238
+      }
+    },
+    {
+      "constituency": "Wallasey",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 13347,
+        "Lab": 32769,
+        "LibDem": 2007,
+        "Green": 1219,
+        "Reform": 2128
+      }
+    },
+    {
+      "constituency": "Walsall and Bloxwich",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 22453,
+        "Lab": 20267,
+        "LibDem": 1338,
+        "Green": 696,
+        "Reform": 588,
+        "Others": 288
+      }
+    },
+    {
+      "constituency": "Walthamstow",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 5922,
+        "Lab": 36784,
+        "LibDem": 2874,
+        "Green": 1733,
+        "Reform": 768,
+        "Others": 254
+      }
+    },
+    {
+      "constituency": "Warrington North",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 19054,
+        "Lab": 20567,
+        "LibDem": 3055,
+        "Green": 1253,
+        "Reform": 2617
+      }
+    },
+    {
+      "constituency": "Warrington South",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 24008,
+        "Lab": 24073,
+        "LibDem": 4415,
+        "Green": 4,
+        "Reform": 1461,
+        "Others": 168
+      }
+    },
+    {
+      "constituency": "Warwick and Leamington",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 21444,
+        "Lab": 22613,
+        "LibDem": 5693,
+        "Green": 1517,
+        "Reform": 721,
+        "Others": 220
+      }
+    },
+    {
+      "constituency": "Washington and Gateshead South",
+      "region": "North East",
+      "country": "England",
+      "votes": {
+        "Con": 14152,
+        "Lab": 18090,
+        "LibDem": 2067,
+        "Green": 1122,
+        "Reform": 5784,
+        "Others": 739
+      }
+    },
+    {
+      "constituency": "Watford",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 20285,
+        "Lab": 18985,
+        "LibDem": 8570,
+        "Green": 125,
+        "Others": 333
+      }
+    },
+    {
+      "constituency": "Waveney Valley",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31898,
+        "Lab": 9534,
+        "LibDem": 4696,
+        "Green": 4775,
+        "Others": 377
+      }
+    },
+    {
+      "constituency": "Weald of Kent",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 35730,
+        "Lab": 6979,
+        "LibDem": 5018,
+        "Green": 1925
+      }
+    },
+    {
+      "constituency": "Wellingborough and Rushden",
+      "region": "East Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 29333,
+        "Lab": 13295,
+        "LibDem": 3140,
+        "Green": 1276
+      }
+    },
+    {
+      "constituency": "Wells and Mendip Hills",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31678,
+        "Lab": 6076,
+        "LibDem": 17383,
+        "Green": 661,
+        "Others": 643
+      }
+    },
+    {
+      "constituency": "Welwyn Hatfield",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 27188,
+        "Lab": 16415,
+        "LibDem": 6583,
+        "Green": 1611
+      }
+    },
+    {
+      "constituency": "West Aberdeenshire and Kincardine",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 22752,
+        "Lab": 2431,
+        "LibDem": 6253,
+        "SNP": 21909
+      }
+    },
+    {
+      "constituency": "West Bromwich",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 19580,
+        "Lab": 17430,
+        "LibDem": 1468,
+        "Green": 791,
+        "Reform": 1563,
+        "Others": 545
+      }
+    },
+    {
+      "constituency": "West Dorset",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31375,
+        "Lab": 5414,
+        "LibDem": 18987,
+        "Green": 2037
+      }
+    },
+    {
+      "constituency": "West Dunbartonshire",
+      "region": "Scotland",
+      "country": "Scotland",
+      "votes": {
+        "Con": 6606,
+        "Lab": 13322,
+        "LibDem": 1949,
+        "Green": 867,
+        "SNP": 23163,
+        "Others": 708
+      }
+    },
+    {
+      "constituency": "West Ham and Beckton",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 6648,
+        "Lab": 28585,
+        "LibDem": 2450,
+        "Green": 1023,
+        "Reform": 1118,
+        "Others": 606
+      }
+    },
+    {
+      "constituency": "West Lancashire",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 19122,
+        "Lab": 27458,
+        "LibDem": 2560,
+        "Green": 1248,
+        "Reform": 2275
+      }
+    },
+    {
+      "constituency": "West Suffolk",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 31738,
+        "Lab": 10941,
+        "LibDem": 4462,
+        "Green": 2199
+      }
+    },
+    {
+      "constituency": "West Tyrone",
+      "region": "Northern Ireland",
+      "country": "Northern Ireland",
+      "votes": {
+        "DUP": 9530,
+        "SF": 17604,
+        "APNI": 4206,
+        "SDLP": 8108,
+        "UUP": 2882,
+        "Aontu": 1010,
+        "PBP": 30,
+        "Green": 521
+      }
+    },
+    {
+      "constituency": "West Worcestershire",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 34909,
+        "Lab": 9496,
+        "LibDem": 10410,
+        "Green": 2715
+      }
+    },
+    {
+      "constituency": "Westmorland and Lonsdale",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 27188,
+        "Lab": 3752,
+        "LibDem": 22048,
+        "Green": 287,
+        "Reform": 601,
+        "Others": 324
+      }
+    },
+    {
+      "constituency": "Weston-super-Mare",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 26210,
+        "Lab": 12900,
+        "LibDem": 5382,
+        "Green": 1380
+      }
+    },
+    {
+      "constituency": "Wetherby and Easingwold",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 37091,
+        "Lab": 9927,
+        "LibDem": 4305,
+        "Green": 2137,
+        "Others": 937
+      }
+    },
+    {
+      "constituency": "Whitehaven and Workington",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 23904,
+        "Lab": 21760,
+        "LibDem": 1953,
+        "Green": 609,
+        "Reform": 749,
+        "Others": 394
+      }
+    },
+    {
+      "constituency": "Widnes and Halewood",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 9829,
+        "Lab": 31371,
+        "LibDem": 1312,
+        "Green": 1105,
+        "Reform": 3592
+      }
+    },
+    {
+      "constituency": "Wigan",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 14314,
+        "Lab": 21042,
+        "LibDem": 2428,
+        "Green": 1299,
+        "Reform": 5959
+      }
+    },
+    {
+      "constituency": "Wimbledon",
+      "region": "Greater London",
+      "country": "England",
+      "votes": {
+        "Con": 22617,
+        "Lab": 11834,
+        "LibDem": 21778,
+        "Green": 138,
+        "Reform": 139,
+        "Others": 366
+      }
+    },
+    {
+      "constituency": "Winchester",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 34522,
+        "Lab": 3039,
+        "LibDem": 25472,
+        "Green": 586,
+        "Others": 292
+      }
+    },
+    {
+      "constituency": "Windsor",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28036,
+        "Lab": 9789,
+        "LibDem": 9441,
+        "Green": 1729,
+        "Reform": 152,
+        "Others": 884
+      }
+    },
+    {
+      "constituency": "Wirral West",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 24863,
+        "Lab": 25318,
+        "LibDem": 3204,
+        "Green": 1416,
+        "Reform": 1245
+      }
+    },
+    {
+      "constituency": "Witham",
+      "region": "East of England",
+      "country": "England",
+      "votes": {
+        "Con": 34777,
+        "Lab": 9108,
+        "LibDem": 5214,
+        "Green": 3006
+      }
+    },
+    {
+      "constituency": "Witney",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 28355,
+        "Lab": 7520,
+        "LibDem": 12681,
+        "Reform": 9,
+        "Others": 274
+      }
+    },
+    {
+      "constituency": "Woking",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 24358,
+        "Lab": 8444,
+        "LibDem": 15675,
+        "Green": 1398,
+        "Others": 600
+      }
+    },
+    {
+      "constituency": "Wokingham",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 30524,
+        "Lab": 5423,
+        "LibDem": 17774,
+        "Green": 1211,
+        "Others": 80
+      }
+    },
+    {
+      "constituency": "Wolverhampton North East",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 22034,
+        "Lab": 14187,
+        "LibDem": 1412,
+        "Green": 725,
+        "Reform": 1206
+      }
+    },
+    {
+      "constituency": "Wolverhampton South East",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 15743,
+        "Lab": 18116,
+        "LibDem": 1457,
+        "Green": 648,
+        "Reform": 2263
+      }
+    },
+    {
+      "constituency": "Wolverhampton West",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 24131,
+        "Lab": 23197,
+        "LibDem": 2222,
+        "Green": 124,
+        "Reform": 1264
+      }
+    },
+    {
+      "constituency": "Worcester",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 25856,
+        "Lab": 19098,
+        "LibDem": 3666,
+        "Green": 1694,
+        "Others": 584
+      }
+    },
+    {
+      "constituency": "Worsley and Eccles",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 19097,
+        "Lab": 23058,
+        "LibDem": 2607,
+        "Green": 1260,
+        "Reform": 3541
+      }
+    },
+    {
+      "constituency": "Worthing West",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 29433,
+        "Lab": 15521,
+        "LibDem": 5213,
+        "Green": 1904,
+        "Others": 489
+      }
+    },
+    {
+      "constituency": "Wrexham",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 21933,
+        "Lab": 17994,
+        "LibDem": 2013,
+        "Green": 445,
+        "Reform": 1778,
+        "Plaid": 2960
+      }
+    },
+    {
+      "constituency": "Wycombe",
+      "region": "South East",
+      "country": "England",
+      "votes": {
+        "Con": 20213,
+        "Lab": 18719,
+        "LibDem": 5310,
+        "Green": 1209,
+        "Others": 1441
+      }
+    },
+    {
+      "constituency": "Wyre Forest",
+      "region": "West Midlands",
+      "country": "England",
+      "votes": {
+        "Con": 32960,
+        "Lab": 11547,
+        "LibDem": 4081,
+        "Green": 1973
+      }
+    },
+    {
+      "constituency": "Wythenshawe and Sale East",
+      "region": "North West",
+      "country": "England",
+      "votes": {
+        "Con": 13459,
+        "Lab": 23855,
+        "LibDem": 3111,
+        "Green": 1559,
+        "Reform": 2717,
+        "Others": 58
+      }
+    },
+    {
+      "constituency": "Yeovil",
+      "region": "South West",
+      "country": "England",
+      "votes": {
+        "Con": 31477,
+        "Lab": 3419,
+        "LibDem": 16839,
+        "Green": 1518,
+        "Others": 875
+      }
+    },
+    {
+      "constituency": "Ynys Môn",
+      "region": "Wales",
+      "country": "Wales",
+      "votes": {
+        "Con": 12959,
+        "Lab": 10991,
+        "Reform": 2184,
+        "Plaid": 10418
+      }
+    },
+    {
+      "constituency": "York Central",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 13918,
+        "Lab": 28260,
+        "LibDem": 3919,
+        "Green": 2098,
+        "Reform": 1216,
+        "Others": 691
+      }
+    },
+    {
+      "constituency": "York Outer",
+      "region": "Yorkshire and the Humber",
+      "country": "England",
+      "votes": {
+        "Con": 27173,
+        "Lab": 16391,
+        "LibDem": 10222,
+        "Green": 9,
+        "Reform": 263,
+        "Others": 692
+      }
+    }
+  ]
+}
