@@ -62,11 +62,11 @@ class ReplayTests(unittest.TestCase):
         self.assertEqual(len(self.results["ni_declared"]), 18)
         self.assertEqual(self.results["skipped"], [])
 
-    def test_starts_at_2019_and_ends_at_actual_2024(self):
-        first = {p: n for p, n in self.results["steps"][0]["seats"].items() if n}
-        last = {p: n for p, n in self.results["steps"][-1]["seats"].items() if n}
-        self.assertEqual(first, {"Con": 372, "Lab": 200, "SNP": 48, "LibDem": 8,
-                                 "Plaid": 2, "Green": 1, "Others": 1})
+    def test_starts_at_first_declaration_and_ends_at_actual_2024(self):
+        steps = self.results["steps"]
+        self.assertEqual([s["n"] for s in steps], list(range(1, 633)))
+        self.assertEqual(steps[0]["seat"], "Sunderland Central")
+        last = {p: n for p, n in steps[-1]["seats"].items() if n}
         self.assertEqual(last, {"Lab": 411, "Con": 121, "LibDem": 72, "SNP": 9,
                                 "Reform": 5, "Independent": 5, "Green": 4,
                                 "Plaid": 4, "Others": 1})

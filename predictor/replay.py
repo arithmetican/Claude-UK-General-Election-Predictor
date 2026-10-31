@@ -90,7 +90,7 @@ def replay(baseline_seats, live_results):
             "swing": {p: round(100 * c, 2) for p, c in swing.changes().items()},
         }
 
-    steps = [step()]
+    steps = []  # one entry per GB declaration, starting at n = 1
     for live_name, live_votes in live_results:
         seat = matcher.match(live_name)
         if seat is None:
@@ -164,7 +164,7 @@ def main():
 
     first, last = results["steps"][0], results["steps"][-1]
     print(f"GB declarations used: {last['n']} of {results['gb_seats']}")
-    print("n=0   ", _fmt(first["seats"]))
+    print(f"n={first['n']}  ", _fmt(first["seats"]))
     print(f"n={last['n']}", _fmt(last["seats"]))
     if results["skipped"]:
         print("Skipped:", results["skipped"])

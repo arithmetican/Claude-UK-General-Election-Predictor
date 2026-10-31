@@ -36,33 +36,6 @@
  ],
  "steps": [
   {
-   "n": 0,
-   "seat": null,
-   "live_name": null,
-   "winner": null,
-   "seats": {
-    "Lab": 200,
-    "Con": 372,
-    "LibDem": 8,
-    "Reform": 0,
-    "Green": 1,
-    "SNP": 48,
-    "Plaid": 2,
-    "Independent": 0,
-    "Others": 1
-   },
-   "swing": {
-    "Lab": 0.0,
-    "Con": 0.0,
-    "LibDem": 0.0,
-    "Reform": 0.0,
-    "Green": 0.0,
-    "SNP": 0.0,
-    "Plaid": 0.0,
-    "Others": 0.0
-   }
-  },
-  {
    "n": 1,
    "seat": "Sunderland Central",
    "live_name": "Sunderland Central",

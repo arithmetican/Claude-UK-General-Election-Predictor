@@ -83,7 +83,7 @@ function draw() {
   const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
   const yMax = Math.max(R.majority + 30, d3.max(steps, s => d3.max(parties, p => s.seats[p])) * 1.05);
 
-  const x = d3.scaleLinear().domain([0, gb]).range([0, iw]);
+  const x = d3.scaleLinear().domain([1, gb]).range([0, iw]);
   const y = d3.scaleLinear().domain([0, yMax]).nice().range([ih, 0]);
 
   const svg = d3.select("#chart").append("svg")
@@ -127,8 +127,8 @@ function draw() {
   g.append("rect").attr("width", iw).attr("height", ih).attr("fill", "transparent")
     .on("pointermove", event => {
       const [mx] = d3.pointer(event);
-      const n = Math.max(0, Math.min(steps.length - 1, Math.round(x.invert(mx))));
-      const s = steps[n];
+      const i = Math.round(x.invert(mx)) - steps[0].n;
+      const s = steps[Math.max(0, Math.min(steps.length - 1, i))];
       rule.style("display", null).attr("x1", x(s.n)).attr("x2", x(s.n));
       const rows = parties.slice().sort((a, b) => (s.seats[b] || 0) - (s.seats[a] || 0)).map(p =>
         `<tr><td><span class="swatch" style="background:${COLOURS[p]}"></span>${NAMES[p]}</td>` +
@@ -137,7 +137,7 @@ function draw() {
       ).join("");
       tip.innerHTML =
         `<h3>After ${s.n} declaration${s.n === 1 ? "" : "s"}</h3>` +
-        `<div class="seat">${s.seat ? `${s.seat}: ${NAMES[s.winner] || s.winner}` : "Before any results (previous election)"}</div>` +
+        `<div class="seat">${s.seat}: ${NAMES[s.winner] || s.winner}</div>` +
         `<table><tr><th>Party</th><th>Seats</th><th>Swing</th></tr>${rows}</table>`;
       tip.style.display = "block";
       const box = chart.getBoundingClientRect(), scale = box.width / W;
