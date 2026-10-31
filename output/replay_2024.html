@@ -31,6 +31,8 @@
   .line { fill: none; stroke-width: 2.25; stroke-linejoin: round; }
   .end-label { font-size: 12px; font-weight: 600; }
   .rule { stroke: var(--muted); stroke-width: 1; }
+  .first-marker line { stroke: var(--text); stroke-opacity: .55; stroke-dasharray: 2 4; stroke-width: 1.25; }
+  .first-marker text { fill: var(--muted); font-size: 11px; }
   .tooltip {
     position: absolute; pointer-events: none; background: var(--panel);
     border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
@@ -89,7 +91,7 @@ function draw() {
   // Only draw parties that hold at least one seat at some point.
   const parties = R.parties.filter(p => steps.some(s => s.seats[p] > 0));
 
-  const W = 1000, H = 560, m = { top: 20, right: 130, bottom: 48, left: 52 };
+  const W = 1000, H = 588, m = { top: 48, right: 130, bottom: 48, left: 52 };
   const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
   const yMax = Math.max(R.majority + 30, d3.max(steps, s => d3.max(parties, p => s.seats[p])) * 1.05);
 
@@ -115,8 +117,22 @@ function draw() {
 
   g.append("line").attr("class", "majority")
     .attr("x1", 0).attr("x2", iw).attr("y1", y(R.majority)).attr("y2", y(R.majority));
-  g.append("text").attr("class", "majority-label").attr("x", 4).attr("y", y(R.majority) - 6)
+  g.append("text").attr("class", "majority-label").attr("x", iw - 4).attr("y", y(R.majority) + 15)
+    .attr("text-anchor", "end")
     .text(`Majority ${R.majority} of ${R.total_seats}`);
+
+  // Vertical markers where the first Scottish and Welsh seats declare.
+  const firsts = [["Scotland", "Scottish"], ["Wales", "Welsh"]]
+    .map(([c, adj]) => ({ adj, s: steps.find(s => (s.declared_by_country || {})[c] >= 1) }))
+    .filter(d => d.s)
+    .sort((a, b) => a.s.n - b.s.n);  // earliest on the top row, so later lines miss its label
+  const markers = g.selectAll(".first-marker").data(firsts).join("g")
+    .attr("class", "first-marker").attr("transform", d => `translate(${x(d.s.n)},0)`);
+  // Labels sit above the graph, one row each so they never overlap.
+  const rowY = i => -m.top + 14 + 15 * i;
+  markers.append("line").attr("y1", (d, i) => rowY(i) + 3).attr("y2", ih);
+  markers.append("text").attr("x", 4).attr("y", (d, i) => rowY(i))
+    .text(d => `First ${d.adj} seat: ${d.s.seat} (n = ${d.s.n})`);
 
   const line = p => d3.line().x(s => x(s.n)).y(s => y(s.seats[p] || 0))(steps);
   g.selectAll(".line").data(parties).join("path")
