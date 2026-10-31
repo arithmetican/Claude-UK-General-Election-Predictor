@@ -7,6 +7,11 @@ Usage:
 
 Writes <out>.json (the numbers) and <out>.html (the graph).
 
+Methods (--method):
+    uniform  average change in share, per country (default; output/replay_2024)
+    theta    proportional for losers, complement for gainers, one theta per
+             party per country (output/replay_2024_theta)
+
 After n Great Britain declarations, each party's total is:
     seats it actually won among the n declared seats
   + seats it is predicted to win among the 632 - n undeclared GB seats.
@@ -19,7 +24,7 @@ import json
 import logging
 from pathlib import Path
 
-from .forecast import SwingByCountry
+from .forecast import SwingByCountry, ThetaByCountry
 from .matching import ConstituencyMatcher
 from .parties import GB_PARTIES, INDEPENDENT, read_votes, vote_shares
 
@@ -65,11 +70,32 @@ def totals(declared, predicted):
     return counts
 
 
-def replay(baseline_seats, live_results):
+METHODS = {
+    "uniform": {
+        "make": SwingByCountry,
+        "out": "replay_2024",
+        "description": "Great Britain seats won plus seats predicted by swing (measured separately "
+                       "in England, Scotland and Wales), after each declaration.",
+        "swing_label": "Swing", "swing_scale": 100, "swing_decimals": 1, "round": 2,
+    },
+    "theta": {
+        "make": ThetaByCountry,
+        "out": "replay_2024_theta",
+        "description": "Great Britain seats won plus seats predicted by the theta method "
+                       "(proportional for parties losing ground, proportional on the non-vote for "
+                       "parties gaining; one theta per party, measured separately in England, "
+                       "Scotland and Wales), after each declaration.",
+        "swing_label": "θ", "swing_scale": 1, "swing_decimals": 3, "round": 4,
+    },
+}
+
+
+def replay(baseline_seats, live_results, method="uniform"):
     """Run the forecast after every GB declaration. Returns a results dict."""
+    spec = METHODS[method]
     matcher = ConstituencyMatcher(baseline_seats)
     gb_seats = [n for n, s in baseline_seats.items() if s["country"] != "Northern Ireland"]
-    swing = SwingByCountry()
+    swing = spec["make"]()
     declared = {}          # seat -> actual winner
     ni_declared = {}       # NI seat -> live party name of winner
     skipped = []           # declarations we could not use
@@ -87,7 +113,7 @@ def replay(baseline_seats, live_results):
             "live_name": live_name,
             "winner": winner,
             "seats": totals(declared, predicted()),
-            "swing": {c: {p: round(100 * v, 2) for p, v in ch.items()}
+            "swing": {c: {p: round(spec["swing_scale"] * v, spec["round"]) for p, v in ch.items()}
                       for c, ch in swing.changes().items()},
             "declared_by_country": swing.declared(),
         }
@@ -124,6 +150,10 @@ def replay(baseline_seats, live_results):
         "ni_seats": len(baseline_seats) - len(gb_seats),
         "ni_declared": ni_declared,
         "parties": list(GRAPH_PARTIES),
+        "method": method,
+        "description": spec["description"],
+        "swing_label": spec["swing_label"],
+        "swing_decimals": spec["swing_decimals"],
         "steps": steps,
         "skipped": skipped,
     }
@@ -153,12 +183,16 @@ def main():
     parser.add_argument("--baseline", default=ROOT / "data" / "UKDecember2019.json")
     parser.add_argument("--live", default=ROOT / "data" / "UKJuly2024.json")
     parser.add_argument("--title", default="UK general election, July 2024 (replay)")
-    parser.add_argument("--out", default=ROOT / "output" / "replay_2024")
+    parser.add_argument("--method", choices=sorted(METHODS), default="uniform")
+    parser.add_argument("--out", default=None,
+                        help="output path without extension (default depends on --method)")
     args = parser.parse_args()
     logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 
     _, baseline_seats = load_baseline(args.baseline)
-    results = replay(baseline_seats, load_live(args.live))
+    if args.out is None:
+        args.out = ROOT / "output" / METHODS[args.method]["out"]
+    results = replay(baseline_seats, load_live(args.live), args.method)
     results["title"] = args.title
     results["baseline"] = Path(args.baseline).name
     results["live"] = Path(args.live).name

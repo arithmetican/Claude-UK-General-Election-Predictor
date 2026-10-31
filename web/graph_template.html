@@ -85,7 +85,7 @@ function draw() {
   const R = RESULTS, steps = R.steps, gb = R.gb_seats;
   document.getElementById("title").textContent = R.title || "Election night forecast";
   document.getElementById("subtitle").textContent =
-    `Great Britain seats won plus seats predicted by swing (measured separately in England, Scotland and Wales), after each declaration. ` +
+    (R.description || `Great Britain seats won plus seats predicted by swing (measured separately in England, Scotland and Wales), after each declaration.`) + ` ` +
     `${steps[steps.length - 1].n} of ${gb} GB seats declared.`;
 
   // Only draw parties that hold at least one seat at some point.
@@ -165,7 +165,8 @@ function draw() {
       const s = steps[Math.max(0, Math.min(steps.length - 1, i))];
       rule.style("display", null).attr("x1", x(s.n)).attr("x2", x(s.n));
       const countries = ["England", "Scotland", "Wales"];
-      const fmt = v => v === undefined ? "" : (v > 0 ? "+" : "") + v.toFixed(1);
+      const dp = R.swing_decimals === undefined ? 1 : R.swing_decimals;
+      const fmt = v => v === undefined ? "" : (v > 0 ? "+" : "") + v.toFixed(dp);
       const rows = parties.slice().sort((a, b) => (s.seats[b] || 0) - (s.seats[a] || 0)).map(p =>
         `<tr><td><span class="swatch" style="background:${background(p)}"></span>${NAMES[p]}</td>` +
         `<td class="num">${s.seats[p] || 0}</td>` +
@@ -175,7 +176,7 @@ function draw() {
       tip.innerHTML =
         `<h3>After ${s.n} declaration${s.n === 1 ? "" : "s"}</h3>` +
         `<div class="seat">${s.seat}: ${NAMES[s.winner] || s.winner}</div>` +
-        `<table><tr><th>Party</th><th>Seats</th><th colspan="3" class="group">Swing</th></tr>` +
+        `<table><tr><th>Party</th><th>Seats</th><th colspan="3" class="group">${R.swing_label || "Swing"}</th></tr>` +
         `<tr><th></th><th></th>${countries.map(c => `<th>${c.slice(0, 3)} <span class="count">${dc[c] || 0}</span></th>`).join("")}</tr>` +
         `${rows}</table>`;
       tip.style.display = "block";
@@ -190,7 +191,9 @@ function draw() {
   const ni = Object.keys(R.ni_declared || {}).length;
   document.getElementById("notes").innerHTML =
     `<p>Each line is a party's seats won so far plus seats predicted for the GB seats still to declare. ` +
-    `Swing is the average change in vote share (percentage points) across the declared seats in each country; each country's undeclared seats are predicted from its own swing only. The small number beside each country is how many of its seats have declared.</p>` +
+    (R.method === "theta"
+      ? `θ is each party's average across the declared seats in each country: negative means losing ground (it keeps a fraction e<sup>θ</sup> of its previous share), positive means gaining (it wins a fraction 1 − e<sup>−θ</sup> of the vote it previously lacked). Each country's undeclared seats are predicted from its own θ only. The small number beside each country is how many of its seats have declared.</p>`
+      : `Swing is the average change in vote share (percentage points) across the declared seats in each country; each country's undeclared seats are predicted from its own swing only. The small number beside each country is how many of its seats have declared.</p>`) +
     `<p>Northern Ireland's ${R.ni_seats} seats are not used in the forecast or shown here ` +
     `(${ni} declared), but they count towards the ${R.total_seats} seats in the House.</p>` +
     `<p>Baseline: ${R.baseline || "previous election"}. Live results: ${R.live || "live feed"}.` +

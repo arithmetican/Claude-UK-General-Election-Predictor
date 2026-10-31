@@ -19,6 +19,8 @@ Deliberately simple (to be refined later):
 - Northern Ireland is not used at all.
 """
 
+import math
+
 from .parties import GB_PARTIES
 
 COUNTRIES = ("England", "Scotland", "Wales")
@@ -83,3 +85,84 @@ class SwingByCountry:
 
     def declared(self):
         return {c: s.declared for c, s in self.by_country.items()}
+
+
+# ---------------------------------------------------------------------------
+# Theta method: proportional for losers, proportional on the complement for
+# gainers, combined into one number per party.
+#
+# For a declared seat with previous share x and new share y (0 to 1):
+#     theta = ln(y / x)                       if y < x   (losing ground)
+#     theta = -ln((1 - y) / (1 - x))          if y >= x  (gaining ground)
+# theta is 0 for no change, negative for a loss, positive for a gain.
+# A country's theta for a party is the average over its declared seats.
+#
+# Applied to an undeclared seat with previous share x:
+#     theta < 0:  predicted = x * e^theta                (keeps a fixed fraction)
+#     theta >= 0: predicted = 1 - (1 - x) * e^(-theta)   (gains a fixed fraction
+#                                                         of the vote it lacked)
+# Only the order of the predicted shares matters for the winner, so they are
+# not rescaled.
+# ---------------------------------------------------------------------------
+
+
+def theta(old, new):
+    """Theta for one party in one declared seat, or None if it tells us nothing.
+
+    A party that did not stand this time (new share 0) gives no information,
+    nor does a share of exactly 100% (unopposed).
+    """
+    if new <= 0 or new >= 1 or old >= 1:
+        return None
+    if new < old:
+        return math.log(new / old)
+    return -math.log((1 - new) / (1 - old))
+
+
+def apply_theta(old, th):
+    """Predicted share from previous share old and theta th."""
+    if th < 0:
+        return old * math.exp(th)
+    return 1 - (1 - old) * math.exp(-th)
+
+
+class ThetaSwing:
+    """Running average theta per party across a set of declared seats."""
+
+    def __init__(self):
+        self._total = dict.fromkeys(GB_PARTIES, 0.0)
+        self._seats = dict.fromkeys(GB_PARTIES, 0)
+        self.declared = 0
+
+    def add(self, old_shares, new_shares):
+        self.declared += 1
+        for p in GB_PARTIES:
+            th = theta(old_shares[p], new_shares[p])
+            if th is not None:
+                self._total[p] += th
+                self._seats[p] += 1
+
+    def change(self, party):
+        """Average theta so far (0 if the party has no information yet)."""
+        seats = self._seats[party]
+        return self._total[party] / seats if seats else 0.0
+
+    def changes(self):
+        return {p: self.change(p) for p in GB_PARTIES}
+
+    def predict(self, old_shares, country):
+        best, best_share = None, -1.0
+        for p in GB_PARTIES:
+            if p in ONLY_STANDS_IN and ONLY_STANDS_IN[p] != country:
+                continue
+            share = apply_theta(old_shares[p], self.change(p))
+            if share > best_share:
+                best, best_share = p, share
+        return best
+
+
+class ThetaByCountry(SwingByCountry):
+    """A separate ThetaSwing for each of England, Scotland and Wales."""
+
+    def __init__(self):
+        self.by_country = {c: ThetaSwing() for c in COUNTRIES}

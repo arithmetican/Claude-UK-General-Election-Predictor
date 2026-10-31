@@ -27,6 +27,26 @@ December 2019 notional results and writes:
 - `output/replay_2024.json`: seat totals and swing after every declaration
 - `output/replay_2024.html`: the graph (open it in a browser)
 
+To use the theta method instead (written to separate files, so the
+uniform-swing graph is kept):
+
+```
+python -m predictor.replay --method theta
+```
+
+writes `output/replay_2024_theta.json` and `output/replay_2024_theta.html`.
+
+The theta method gives each party one number per country, the average over
+that country's declared seats of
+
+- θ = ln(y ÷ x) if the party lost ground (y < x), or
+- θ = −ln((1 − y) ÷ (1 − x)) if it gained (y ≥ x),
+
+where x and y are its previous and new shares. An undeclared seat with
+previous share x is predicted as x·e^θ if θ < 0 (a loser keeps a fixed
+fraction of its vote) or 1 − (1 − x)·e^(−θ) if θ ≥ 0 (a gainer wins a fixed
+fraction of the vote it lacked).
+
 ## Scatter of vote share change
 
 ```
@@ -45,7 +65,7 @@ per party per GB seat, 2019 share across, change by 2024 up or down.
 | `data/raw/` | The original files, unchanged |
 | `predictor/matching.py` | Matches live constituency names to our seat names |
 | `predictor/parties.py` | Translates live party names to our party codes |
-| `predictor/forecast.py` | The swing forecast (one swing each for England, Scotland and Wales) |
+| `predictor/forecast.py` | The forecasts: uniform swing and the theta method (each measured separately for England, Scotland and Wales) |
 | `predictor/replay.py` | Runs the forecast after every declaration and writes the outputs |
 | `predictor/scatter.py` | Builds the vote share change scatter |
 | `web/graph_template.html` | The D3 graph page |
