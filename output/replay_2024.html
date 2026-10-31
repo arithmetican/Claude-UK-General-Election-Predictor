@@ -93,6 +93,8 @@ function draw() {
 
   g.append("g").attr("class", "grid")
     .call(d3.axisLeft(y).ticks(8).tickSize(-iw).tickFormat(""));
+  g.append("g").attr("class", "grid").attr("transform", `translate(0,${ih})`)
+    .call(d3.axisBottom(x).ticks(10).tickSize(-ih).tickFormat(""));
   g.append("g").attr("class", "axis").attr("transform", `translate(0,${ih})`)
     .call(d3.axisBottom(x).ticks(10));
   g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(8));
