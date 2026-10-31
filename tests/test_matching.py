@@ -27,6 +27,18 @@ class NameKeyTests(unittest.TestCase):
         self.assertEqual(name_key("Ynys Mon"), "mon ynys")
 
 
+class OwnDataTests(unittest.TestCase):
+    """Faults in our own seat list must stop the program."""
+
+    def test_clashing_names_stop_the_program(self):
+        with self.assertRaises(ValueError) as caught:
+            ConstituencyMatcher(["Hull North & Cottingham", "Cottingham and Hull North"])
+        self.assertIn("Cottingham and Hull North", str(caught.exception))
+
+    def test_our_2019_names_do_not_clash(self):
+        ConstituencyMatcher(known_seats())  # would raise if two names clashed
+
+
 class MatcherTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
