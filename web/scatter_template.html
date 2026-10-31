@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vote Share Change</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #1B2333; --text: #F2F4F8; --muted: #A9B1C2; --grid: #2C3547;
+    --panel: #232C3E; --border: #3A4458; --zero: #C9CFDB;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 16px 40px; background: var(--bg); color: var(--text);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 14px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin-bottom: 10px; }
+  .group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .group-label { color: var(--muted); font-size: 13px; margin-right: 2px; }
+  button {
+    font: inherit; font-size: 13px; font-weight: 600; border-radius: 4px; padding: 3px 9px;
+    cursor: pointer; border: 1px solid transparent;
+  }
+  button.party.off { opacity: .3; }
+  button.country { background: transparent; color: var(--muted); border-color: var(--border); }
+  button.country.on { background: var(--panel); color: var(--text); border-color: var(--muted); }
+  .chart { position: relative; width: 100%; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .axis text { fill: var(--muted); font-size: 12px; }
+  .axis path, .axis line { stroke: var(--border); }
+  .grid line { stroke: var(--grid); }
+  .grid path { display: none; }
+  .axis-title { fill: var(--muted); font-size: 12px; }
+  .zero { stroke: var(--zero); stroke-width: 1; stroke-opacity: .7; }
+  .floor { stroke: var(--muted); stroke-dasharray: 4 4; stroke-width: 1; }
+  .floor-label { fill: var(--muted); font-size: 11px; }
+  .dot { stroke: rgba(0,0,0,.35); stroke-width: .5; }
+  .dot.hl { stroke: var(--text); stroke-width: 2; }
+  .tooltip {
+    position: absolute; pointer-events: none; background: var(--panel); color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 13px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.5); display: none; white-space: nowrap;
+  }
+  .tooltip .muted { color: var(--muted); }
+  .notes { color: var(--muted); font-size: 13px; margin-top: 14px; }
+  .notes p { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p class="sub" id="subtitle"></p>
+  <div class="controls">
+    <div class="group" id="parties"><span class="group-label">Parties</span></div>
+    <div class="group" id="countries"><span class="group-label">Country</span></div>
+  </div>
+  <div class="chart" id="chart"><div class="tooltip" id="tooltip"></div></div>
+  <div class="notes" id="notes"></div>
+</main>
+<script>
+const RESULTS = /*RESULTS*/null;
+
+// Party colours: background (dots, buttons) and foreground (button text).
+const COLOURS = {
+  Reform: "#12B6CF", Con: "#0087dc", Green: "#008066", Lab: "#d50000",
+  LibDem: "#FDBB30", Plaid: "#3F8428", SNP: "#FFF95D",
+  Independent: "DarkGray", Others: "DarkGray"
+};
+const FOREGROUNDS = {
+  Reform: "white", Con: "white", Green: "white", Lab: "white",
+  LibDem: "black", Plaid: "white", SNP: "black"
+};
+const background = p => COLOURS[p] || "black";
+const foreground = p => FOREGROUNDS[p] || "white";
+const NAMES = {
+  Lab: "Labour", Con: "Conservative", LibDem: "Lib Dem", Reform: "Reform",
+  Green: "Green", SNP: "SNP", Plaid: "Plaid Cymru", Others: "Others"
+};
+
+function draw() {
+  const R = RESULTS, all = R.points;
+  document.getElementById("title").textContent = R.title;
+  document.getElementById("subtitle").textContent =
+    "One dot per party per Great Britain seat. Across: the party's share of the vote in 2019. " +
+    "Up or down: how much that share changed by 2024, in percentage points.";
+
+  const shown = new Set(R.parties);
+  let country = "All";
+
+  const W = 1000, H = 600, m = { top: 16, right: 20, bottom: 48, left: 56 };
+  const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+  const x = d3.scaleLinear().domain([0, d3.max(all, d => d.old)]).nice().range([0, iw]);
+  const ext = d3.extent(all, d => d.new - d.old);
+  const y = d3.scaleLinear().domain([Math.min(ext[0], -5), Math.max(ext[1], 5)]).nice().range([ih, 0]);
+
+  const svg = d3.select("#chart").append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
+    .attr("aria-label", "Scatter of previous vote share against change in vote share");
+  const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
+
+  g.append("g").attr("class", "grid").call(d3.axisLeft(y).ticks(10).tickSize(-iw).tickFormat(""));
+  g.append("g").attr("class", "grid").attr("transform", `translate(0,${ih})`)
+    .call(d3.axisBottom(x).ticks(10).tickSize(-ih).tickFormat(""));
+  g.append("g").attr("class", "axis").attr("transform", `translate(0,${ih})`)
+    .call(d3.axisBottom(x).ticks(10).tickFormat(d => d + "%"));
+  g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(10).tickFormat(d => (d > 0 ? "+" : "") + d));
+  g.append("text").attr("class", "axis-title").attr("x", iw / 2).attr("y", ih + 40)
+    .attr("text-anchor", "middle").text("2019 share of the vote");
+  g.append("text").attr("class", "axis-title").attr("transform", "rotate(-90)")
+    .attr("x", -ih / 2).attr("y", -42).attr("text-anchor", "middle").text("Change by 2024 (percentage points)");
+
+  // No change, and the floor: a party cannot lose more than it had (change = −share).
+  g.append("line").attr("class", "zero").attr("x1", 0).attr("x2", iw).attr("y1", y(0)).attr("y2", y(0));
+  const fx = Math.min(x.domain()[1], -y.domain()[0]);
+  g.append("line").attr("class", "floor").attr("x1", x(0)).attr("y1", y(0)).attr("x2", x(fx)).attr("y2", y(-fx));
+  g.append("text").attr("class", "floor-label")
+    .attr("transform", `translate(${x(fx * 0.55)},${y(-fx * 0.55) + 14}) rotate(${Math.atan2(y(-1) - y(0), x(1) - x(0)) * 180 / Math.PI})`)
+    .text("lost its whole vote");
+
+  const dotsLayer = g.append("g");
+  const tip = document.getElementById("tooltip"), chart = document.getElementById("chart");
+
+  function update() {
+    const pts = all.filter(d => shown.has(d.party) && (country === "All" || d.country === country));
+    dotsLayer.selectAll("circle").data(pts, d => d.seat + "|" + d.party).join("circle")
+      .attr("class", "dot").attr("r", 3)
+      .attr("cx", d => x(d.old)).attr("cy", d => y(d.new - d.old))
+      .attr("fill", d => background(d.party)).attr("fill-opacity", .7)
+      .on("pointerenter", function (event, d) {
+        d3.select(this).classed("hl", true).raise();
+        const ch = d.new - d.old;
+        tip.innerHTML = `<strong>${d.seat}</strong> <span class="muted">(${d.region})</span><br>` +
+          `${NAMES[d.party]}: ${d.old.toFixed(1)}% → ${d.new.toFixed(1)}% ` +
+          `(<strong>${ch > 0 ? "+" : ""}${ch.toFixed(1)}</strong>)<br>` +
+          `<span class="muted">Declared ${ordinal(d.order)}</span>`;
+        tip.style.display = "block";
+        const box = chart.getBoundingClientRect(), scale = box.width / W;
+        const px = (m.left + x(d.old)) * scale, py = (m.top + y(ch)) * scale;
+        tip.style.left = `${px + 12 + tip.offsetWidth > box.width ? px - 12 - tip.offsetWidth : px + 12}px`;
+        tip.style.top = `${Math.max(0, py - tip.offsetHeight - 8)}px`;
+      })
+      .on("pointerleave", function () { d3.select(this).classed("hl", false); tip.style.display = "none"; });
+    document.getElementById("notes").innerHTML =
+      `<p>${pts.length} dots shown. A party is included in a seat if it stood there in 2019 or 2024. ` +
+      `Northern Ireland is not included.</p>` +
+      `<p>Dots on the dashed line lost their whole vote. Dots above the solid line gained share. ` +
+      `Uniform swing assumes each party's dots lie along one horizontal line; proportional swing assumes ` +
+      `they fan out along a line through 0.</p>` +
+      `<p>Baseline: ${R.baseline}. Results: ${R.live}.</p>`;
+  }
+
+  const partyBox = d3.select("#parties");
+  R.parties.forEach(p => {
+    partyBox.append("button").attr("class", "party").text(NAMES[p] || p)
+      .style("background", background(p)).style("color", foreground(p))
+      .on("click", function () {
+        shown.has(p) ? shown.delete(p) : shown.add(p);
+        d3.select(this).classed("off", !shown.has(p));
+        update();
+      });
+  });
+  const countryBox = d3.select("#countries");
+  ["All", "England", "Scotland", "Wales"].forEach(c => {
+    countryBox.append("button").attr("class", "country" + (c === country ? " on" : "")).text(c)
+      .on("click", function () {
+        country = c;
+        countryBox.selectAll("button").classed("on", false);
+        d3.select(this).classed("on", true);
+        update();
+      });
+  });
+  update();
+}
+
+function ordinal(n) {
+  const s = ["th", "st", "nd", "rd"], v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+if (!RESULTS) {
+  document.getElementById("title").textContent = "No data yet";
+  document.getElementById("subtitle").textContent = "Run: python -m predictor.scatter";
+} else if (typeof d3 === "undefined") {
+  document.getElementById("title").textContent = "Could not load D3";
+  document.getElementById("subtitle").textContent = "The graph needs an internet connection to load d3.js.";
+} else {
+  draw();
+}
+</script>
+</body>
+</html>

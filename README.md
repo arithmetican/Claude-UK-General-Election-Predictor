@@ -27,6 +27,15 @@ December 2019 notional results and writes:
 - `output/replay_2024.json`: seat totals and swing after every declaration
 - `output/replay_2024.html`: the graph (open it in a browser)
 
+## Scatter of vote share change
+
+```
+python -m predictor.scatter
+```
+
+Writes `output/scatter_2024.json` and `output/scatter_2024.html`: one dot
+per party per GB seat, 2019 share across, change by 2024 up or down.
+
 ## Project layout
 
 | Path | What it is |
@@ -38,7 +47,9 @@ December 2019 notional results and writes:
 | `predictor/parties.py` | Translates live party names to our party codes |
 | `predictor/forecast.py` | The swing forecast (one swing each for England, Scotland and Wales) |
 | `predictor/replay.py` | Runs the forecast after every declaration and writes the outputs |
+| `predictor/scatter.py` | Builds the vote share change scatter |
 | `web/graph_template.html` | The D3 graph page |
+| `web/scatter_template.html` | The D3 scatter page |
 | `tools/convert_js_to_json.py` | Converts the JavaScript results format to JSON |
 | `tests/` | Checks; run with `python -m unittest` |
 
