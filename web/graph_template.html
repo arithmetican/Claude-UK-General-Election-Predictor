@@ -58,11 +58,18 @@
 <script>
 const RESULTS = /*RESULTS*/null;
 
+// Party colours: background (lines, label fill) and foreground (label text).
 const COLOURS = {
-  Lab: "#E4003B", Con: "#0087DC", LibDem: "#FAA61A", Reform: "#12B6CF",
-  Green: "#02A95B", SNP: "#C9A800", Plaid: "#005B54",
-  Independent: "#8E44AD", Others: "#9A9A9A"
+  Reform: "#12B6CF", Con: "#0087dc", Green: "#008066", Lab: "#d50000",
+  LibDem: "#FDBB30", Plaid: "#3F8428", SNP: "#FFF95D",
+  Independent: "DarkGray", Others: "DarkGray"
 };
+const FOREGROUNDS = {
+  Reform: "white", Con: "white", Green: "white", Lab: "white",
+  LibDem: "black", Plaid: "white", SNP: "black"
+};
+const background = p => COLOURS[p] || "black";
+const foreground = p => FOREGROUNDS[p] || "white";
 const NAMES = {
   Lab: "Labour", Con: "Conservative", LibDem: "Lib Dem", Reform: "Reform",
   Green: "Green", SNP: "SNP", Plaid: "Plaid Cymru",
@@ -79,7 +86,7 @@ function draw() {
   // Only draw parties that hold at least one seat at some point.
   const parties = R.parties.filter(p => steps.some(s => s.seats[p] > 0));
 
-  const W = 1000, H = 560, m = { top: 20, right: 120, bottom: 48, left: 52 };
+  const W = 1000, H = 560, m = { top: 20, right: 130, bottom: 48, left: 52 };
   const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
   const yMax = Math.max(R.majority + 30, d3.max(steps, s => d3.max(parties, p => s.seats[p])) * 1.05);
 
@@ -110,17 +117,23 @@ function draw() {
 
   const line = p => d3.line().x(s => x(s.n)).y(s => y(s.seats[p] || 0))(steps);
   g.selectAll(".line").data(parties).join("path")
-    .attr("class", "line").attr("stroke", p => COLOURS[p] || "#555").attr("d", line);
+    .attr("class", "line").attr("stroke", background).attr("d", line);
 
-  // Labels at the right-hand end of each line, nudged apart so they don't overlap.
+  // Labels at the right-hand end of each line: party colour behind, party text
+  // colour on top, nudged apart so they don't overlap.
   const last = steps[steps.length - 1];
+  const gap = 18;
   const labels = parties.map(p => ({ p, y: y(last.seats[p] || 0) })).sort((a, b) => a.y - b.y);
-  for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 14);
+  for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + gap);
   labels[labels.length - 1].y = Math.min(labels[labels.length - 1].y, ih);  // keep inside the graph
-  for (let i = labels.length - 2; i >= 0; i--) labels[i].y = Math.min(labels[i].y, labels[i + 1].y - 14);
-  g.selectAll(".end-label").data(labels).join("text")
-    .attr("class", "end-label").attr("x", x(last.n) + 8).attr("y", d => d.y + 4)
-    .attr("fill", d => COLOURS[d.p]).text(d => `${NAMES[d.p]} ${last.seats[d.p] || 0}`);
+  for (let i = labels.length - 2; i >= 0; i--) labels[i].y = Math.min(labels[i].y, labels[i + 1].y - gap);
+  const tags = g.selectAll(".end-label").data(labels).join("g")
+    .attr("class", "end-label").attr("transform", d => `translate(${x(last.n) + 8},${d.y})`);
+  const rects = tags.append("rect").attr("y", -8).attr("height", 16).attr("rx", 3)
+    .attr("fill", d => background(d.p));
+  tags.append("text").attr("x", 5).attr("y", 4).attr("fill", d => foreground(d.p))
+    .text(d => `${NAMES[d.p]} ${last.seats[d.p] || 0}`);
+  rects.attr("width", function () { return this.nextSibling.getComputedTextLength() + 10; });
 
   // Hover: a vertical rule and a panel with every party's total at that n.
   const rule = g.append("line").attr("class", "rule").attr("y1", 0).attr("y2", ih).style("display", "none");
@@ -133,7 +146,7 @@ function draw() {
       const s = steps[Math.max(0, Math.min(steps.length - 1, i))];
       rule.style("display", null).attr("x1", x(s.n)).attr("x2", x(s.n));
       const rows = parties.slice().sort((a, b) => (s.seats[b] || 0) - (s.seats[a] || 0)).map(p =>
-        `<tr><td><span class="swatch" style="background:${COLOURS[p]}"></span>${NAMES[p]}</td>` +
+        `<tr><td><span class="swatch" style="background:${background(p)}"></span>${NAMES[p]}</td>` +
         `<td class="num">${s.seats[p] || 0}</td>` +
         `<td class="num">${p in s.swing ? (s.swing[p] > 0 ? "+" : "") + s.swing[p].toFixed(1) : ""}</td></tr>`
       ).join("");
