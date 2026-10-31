@@ -34,7 +34,7 @@
   .tooltip {
     position: absolute; pointer-events: none; background: var(--panel);
     border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
-    font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,.5); min-width: 210px;
+    font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,.5); min-width: 290px;
     display: none;
   }
   .tooltip h3 { margin: 0 0 2px; font-size: 13px; }
@@ -44,6 +44,8 @@
   .tooltip td.num { text-align: right; padding-left: 12px; font-variant-numeric: tabular-nums; }
   .tooltip th { font-weight: 500; color: var(--muted); text-align: right; padding-left: 12px; }
   .tooltip th:first-child { text-align: left; padding-left: 0; }
+  .tooltip th.group { text-align: center; }
+  .tooltip .count { opacity: .7; font-size: 11px; }
   .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
   .notes { color: var(--muted); font-size: 13px; margin-top: 16px; }
   .notes p { margin: 4px 0; }
@@ -81,7 +83,7 @@ function draw() {
   const R = RESULTS, steps = R.steps, gb = R.gb_seats;
   document.getElementById("title").textContent = R.title || "Election night forecast";
   document.getElementById("subtitle").textContent =
-    `Great Britain seats won plus seats predicted by national swing, after each declaration. ` +
+    `Great Britain seats won plus seats predicted by swing (measured separately in England, Scotland and Wales), after each declaration. ` +
     `${steps[steps.length - 1].n} of ${gb} GB seats declared.`;
 
   // Only draw parties that hold at least one seat at some point.
@@ -146,15 +148,20 @@ function draw() {
       const i = Math.round(x.invert(mx)) - steps[0].n;
       const s = steps[Math.max(0, Math.min(steps.length - 1, i))];
       rule.style("display", null).attr("x1", x(s.n)).attr("x2", x(s.n));
+      const countries = ["England", "Scotland", "Wales"];
+      const fmt = v => v === undefined ? "" : (v > 0 ? "+" : "") + v.toFixed(1);
       const rows = parties.slice().sort((a, b) => (s.seats[b] || 0) - (s.seats[a] || 0)).map(p =>
         `<tr><td><span class="swatch" style="background:${background(p)}"></span>${NAMES[p]}</td>` +
         `<td class="num">${s.seats[p] || 0}</td>` +
-        `<td class="num">${p in s.swing ? (s.swing[p] > 0 ? "+" : "") + s.swing[p].toFixed(1) : ""}</td></tr>`
+        countries.map(c => `<td class="num">${fmt((s.swing[c] || {})[p])}</td>`).join("") + `</tr>`
       ).join("");
+      const dc = s.declared_by_country || {};
       tip.innerHTML =
         `<h3>After ${s.n} declaration${s.n === 1 ? "" : "s"}</h3>` +
         `<div class="seat">${s.seat}: ${NAMES[s.winner] || s.winner}</div>` +
-        `<table><tr><th>Party</th><th>Seats</th><th>Swing</th></tr>${rows}</table>`;
+        `<table><tr><th>Party</th><th>Seats</th><th colspan="3" class="group">Swing</th></tr>` +
+        `<tr><th></th><th></th>${countries.map(c => `<th>${c.slice(0, 3)} <span class="count">${dc[c] || 0}</span></th>`).join("")}</tr>` +
+        `${rows}</table>`;
       tip.style.display = "block";
       const box = chart.getBoundingClientRect(), scale = box.width / W;
       const px = (m.left + x(s.n)) * scale;
@@ -167,7 +174,7 @@ function draw() {
   const ni = Object.keys(R.ni_declared || {}).length;
   document.getElementById("notes").innerHTML =
     `<p>Each line is a party's seats won so far plus seats predicted for the GB seats still to declare. ` +
-    `Swing is the average change in vote share (percentage points) across declared GB seats.</p>` +
+    `Swing is the average change in vote share (percentage points) across the declared seats in each country; each country's undeclared seats are predicted from its own swing only. The small number beside each country is how many of its seats have declared.</p>` +
     `<p>Northern Ireland's ${R.ni_seats} seats are not used in the forecast or shown here ` +
     `(${ni} declared), but they count towards the ${R.total_seats} seats in the House.</p>` +
     `<p>Baseline: ${R.baseline || "previous election"}. Live results: ${R.live || "live feed"}.` +

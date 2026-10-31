@@ -19,7 +19,7 @@ import json
 import logging
 from pathlib import Path
 
-from .forecast import NationalSwing
+from .forecast import SwingByCountry
 from .matching import ConstituencyMatcher
 from .parties import GB_PARTIES, INDEPENDENT, read_votes, vote_shares
 
@@ -69,7 +69,7 @@ def replay(baseline_seats, live_results):
     """Run the forecast after every GB declaration. Returns a results dict."""
     matcher = ConstituencyMatcher(baseline_seats)
     gb_seats = [n for n, s in baseline_seats.items() if s["country"] != "Northern Ireland"]
-    swing = NationalSwing()
+    swing = SwingByCountry()
     declared = {}          # seat -> actual winner
     ni_declared = {}       # NI seat -> live party name of winner
     skipped = []           # declarations we could not use
@@ -87,7 +87,9 @@ def replay(baseline_seats, live_results):
             "live_name": live_name,
             "winner": winner,
             "seats": totals(declared, predicted()),
-            "swing": {p: round(100 * c, 2) for p, c in swing.changes().items()},
+            "swing": {c: {p: round(100 * v, 2) for p, v in ch.items()}
+                      for c, ch in swing.changes().items()},
+            "declared_by_country": swing.declared(),
         }
 
     steps = []  # one entry per GB declaration, starting at n = 1
@@ -111,7 +113,7 @@ def replay(baseline_seats, live_results):
             log.warning("No usable votes for %r; skipped", live_name)
             skipped.append({"live_name": live_name, "reason": "no usable votes"})
             continue
-        swing.add(baseline_seats[seat]["shares"], new_shares)
+        swing.add(baseline_seats[seat]["country"], baseline_seats[seat]["shares"], new_shares)
         declared[seat] = winner
         steps.append(step(seat, live_name, winner))
 

@@ -5,9 +5,11 @@ election night.
 
 After **n** Great Britain seats have declared, each party's total is the
 seats it has actually won plus the seats it is predicted to win among the
-632 − n GB seats still to declare. The prediction uses simple national
-swing: the average change in each party's vote share across the declared
-seats, compared with the same seats at the previous election.
+632 − n GB seats still to declare. The prediction uses simple swing,
+measured separately for England, Scotland and Wales: the average change in
+each party's vote share across that country's declared seats, compared with
+the same seats at the previous election, applied to that country's
+undeclared seats. A country with no declarations yet is assumed unchanged.
 
 Northern Ireland's 18 seats are not used in the prediction or drawn on
 the graph, but they still count towards the 650 seats in the House, so a
@@ -34,7 +36,7 @@ December 2019 notional results and writes:
 | `data/raw/` | The original files, unchanged |
 | `predictor/matching.py` | Matches live constituency names to our seat names |
 | `predictor/parties.py` | Translates live party names to our party codes |
-| `predictor/forecast.py` | The national swing forecast |
+| `predictor/forecast.py` | The swing forecast (one swing each for England, Scotland and Wales) |
 | `predictor/replay.py` | Runs the forecast after every declaration and writes the outputs |
 | `web/graph_template.html` | The D3 graph page |
 | `tools/convert_js_to_json.py` | Converts the JavaScript results format to JSON |

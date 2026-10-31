@@ -3,7 +3,7 @@
 import unittest
 from pathlib import Path
 
-from predictor.forecast import NationalSwing
+from predictor.forecast import Swing, SwingByCountry
 from predictor.parties import party_code, read_votes, vote_shares
 from predictor.replay import load_baseline, load_live, replay
 
@@ -37,7 +37,7 @@ class PartyTests(unittest.TestCase):
 
 class SwingTests(unittest.TestCase):
     def test_average_change_applied(self):
-        swing = NationalSwing()
+        swing = Swing()
         old = vote_shares({"Lab": 40, "Con": 50, "Others": 10})
         new = vote_shares({"Lab": 50, "Con": 40, "Others": 10})
         swing.add(old, new)
@@ -45,10 +45,20 @@ class SwingTests(unittest.TestCase):
         self.assertEqual(swing.predict(old, "England"), "Lab")
 
     def test_snp_only_predicted_in_scotland(self):
-        swing = NationalSwing()
+        swing = Swing()
         shares = vote_shares({"SNP": 60, "Lab": 40})
         self.assertEqual(swing.predict(shares, "Scotland"), "SNP")
         self.assertEqual(swing.predict(shares, "England"), "Lab")
+
+    def test_countries_are_independent(self):
+        swing = SwingByCountry()
+        old = vote_shares({"Lab": 40, "Con": 50, "Others": 10})
+        new = vote_shares({"Lab": 60, "Con": 30, "Others": 10})
+        swing.add("England", old, new)
+        self.assertEqual(swing.predict(old, "England"), "Lab")
+        self.assertEqual(swing.predict(old, "Scotland"), "Con")  # no Scottish results
+        self.assertEqual(swing.changes()["Scotland"]["Lab"], 0.0)
+        self.assertNotIn("SNP", swing.changes()["England"])
 
 
 class ReplayTests(unittest.TestCase):
@@ -70,6 +80,19 @@ class ReplayTests(unittest.TestCase):
         self.assertEqual(last, {"Lab": 411, "Con": 121, "LibDem": 72, "SNP": 9,
                                 "Reform": 5, "Independent": 5, "Green": 4,
                                 "Plaid": 4, "Others": 1})
+
+    def test_scotland_unchanged_until_first_scottish_declaration(self):
+        # Kilmarnock and Loudoun (n = 51) is the first Scottish seat to declare,
+        # so before it every Scottish seat keeps its 2019 winner.
+        for step in self.results["steps"][:50]:
+            self.assertEqual(step["declared_by_country"]["Scotland"], 0)
+            self.assertEqual(step["seats"]["SNP"], 48)
+
+    def test_scottish_predictions_only_move_on_scottish_results(self):
+        steps = self.results["steps"]
+        for before, after in zip(steps, steps[1:]):
+            if after["declared_by_country"]["Scotland"] == before["declared_by_country"]["Scotland"]:
+                self.assertEqual(after["swing"]["Scotland"], before["swing"]["Scotland"])
 
     def test_every_step_adds_up_to_632(self):
         for step in self.results["steps"]:
