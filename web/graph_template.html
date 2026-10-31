@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Election Night Forecast</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root {
+    --bg: #ffffff; --text: #1d1d1f; --muted: #6b6b70; --grid: #e6e6e9;
+    --panel: #ffffff; --border: #d9d9de; --majority: #b3261e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 16px 40px; background: var(--bg); color: var(--text);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 16px; }
+  .chart { position: relative; width: 100%; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .axis text { fill: var(--muted); font-size: 12px; }
+  .axis path, .axis line { stroke: var(--border); }
+  .grid line { stroke: var(--grid); }
+  .grid path { display: none; }
+  .axis-title { fill: var(--muted); font-size: 12px; }
+  .majority { stroke: var(--majority); stroke-dasharray: 6 4; stroke-width: 1.5; }
+  .majority-label { fill: var(--majority); font-size: 12px; font-weight: 600; }
+  .line { fill: none; stroke-width: 2.25; stroke-linejoin: round; }
+  .end-label { font-size: 12px; font-weight: 600; }
+  .rule { stroke: var(--muted); stroke-width: 1; }
+  .tooltip {
+    position: absolute; pointer-events: none; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
+    font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,.12); min-width: 210px;
+    display: none;
+  }
+  .tooltip h3 { margin: 0 0 2px; font-size: 13px; }
+  .tooltip .seat { color: var(--muted); margin-bottom: 6px; }
+  .tooltip table { border-collapse: collapse; width: 100%; }
+  .tooltip td { padding: 1px 0; }
+  .tooltip td.num { text-align: right; padding-left: 12px; font-variant-numeric: tabular-nums; }
+  .tooltip th { font-weight: 500; color: var(--muted); text-align: right; padding-left: 12px; }
+  .tooltip th:first-child { text-align: left; padding-left: 0; }
+  .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
+  .notes { color: var(--muted); font-size: 13px; margin-top: 16px; }
+  .notes p { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p class="sub" id="subtitle"></p>
+  <div class="chart" id="chart"><div class="tooltip" id="tooltip"></div></div>
+  <div class="notes" id="notes"></div>
+</main>
+<script>
+const RESULTS = /*RESULTS*/null;
+
+const COLOURS = {
+  Lab: "#E4003B", Con: "#0087DC", LibDem: "#FAA61A", Reform: "#12B6CF",
+  Green: "#02A95B", SNP: "#C9A800", Plaid: "#005B54",
+  Independent: "#8E44AD", Others: "#9A9A9A"
+};
+const NAMES = {
+  Lab: "Labour", Con: "Conservative", LibDem: "Lib Dem", Reform: "Reform",
+  Green: "Green", SNP: "SNP", Plaid: "Plaid Cymru",
+  Independent: "Independent", Others: "Others"
+};
+
+function draw() {
+  const R = RESULTS, steps = R.steps, gb = R.gb_seats;
+  document.getElementById("title").textContent = R.title || "Election night forecast";
+  document.getElementById("subtitle").textContent =
+    `Great Britain seats won plus seats predicted by national swing, after each declaration. ` +
+    `${steps[steps.length - 1].n} of ${gb} GB seats declared.`;
+
+  // Only draw parties that hold at least one seat at some point.
+  const parties = R.parties.filter(p => steps.some(s => s.seats[p] > 0));
+
+  const W = 1000, H = 560, m = { top: 20, right: 120, bottom: 48, left: 52 };
+  const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+  const yMax = Math.max(R.majority + 30, d3.max(steps, s => d3.max(parties, p => s.seats[p])) * 1.05);
+
+  const x = d3.scaleLinear().domain([0, gb]).range([0, iw]);
+  const y = d3.scaleLinear().domain([0, yMax]).nice().range([ih, 0]);
+
+  const svg = d3.select("#chart").append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
+    .attr("aria-label", "Seats per party against number of declarations");
+  const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
+
+  g.append("g").attr("class", "grid")
+    .call(d3.axisLeft(y).ticks(8).tickSize(-iw).tickFormat(""));
+  g.append("g").attr("class", "axis").attr("transform", `translate(0,${ih})`)
+    .call(d3.axisBottom(x).ticks(10));
+  g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(8));
+  g.append("text").attr("class", "axis-title").attr("x", iw / 2).attr("y", ih + 40)
+    .attr("text-anchor", "middle").text("GB seats declared (n)");
+  g.append("text").attr("class", "axis-title").attr("transform", "rotate(-90)")
+    .attr("x", -ih / 2).attr("y", -40).attr("text-anchor", "middle").text("Seats");
+
+  g.append("line").attr("class", "majority")
+    .attr("x1", 0).attr("x2", iw).attr("y1", y(R.majority)).attr("y2", y(R.majority));
+  g.append("text").attr("class", "majority-label").attr("x", 4).attr("y", y(R.majority) - 6)
+    .text(`Majority ${R.majority} of ${R.total_seats}`);
+
+  const line = p => d3.line().x(s => x(s.n)).y(s => y(s.seats[p] || 0))(steps);
+  g.selectAll(".line").data(parties).join("path")
+    .attr("class", "line").attr("stroke", p => COLOURS[p] || "#555").attr("d", line);
+
+  // Labels at the right-hand end of each line, nudged apart so they don't overlap.
+  const last = steps[steps.length - 1];
+  const labels = parties.map(p => ({ p, y: y(last.seats[p] || 0) })).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 14);
+  labels[labels.length - 1].y = Math.min(labels[labels.length - 1].y, ih);  // keep inside the graph
+  for (let i = labels.length - 2; i >= 0; i--) labels[i].y = Math.min(labels[i].y, labels[i + 1].y - 14);
+  g.selectAll(".end-label").data(labels).join("text")
+    .attr("class", "end-label").attr("x", x(last.n) + 8).attr("y", d => d.y + 4)
+    .attr("fill", d => COLOURS[d.p]).text(d => `${NAMES[d.p]} ${last.seats[d.p] || 0}`);
+
+  // Hover: a vertical rule and a panel with every party's total at that n.
+  const rule = g.append("line").attr("class", "rule").attr("y1", 0).attr("y2", ih).style("display", "none");
+  const tip = document.getElementById("tooltip");
+  const chart = document.getElementById("chart");
+  g.append("rect").attr("width", iw).attr("height", ih).attr("fill", "transparent")
+    .on("pointermove", event => {
+      const [mx] = d3.pointer(event);
+      const n = Math.max(0, Math.min(steps.length - 1, Math.round(x.invert(mx))));
+      const s = steps[n];
+      rule.style("display", null).attr("x1", x(s.n)).attr("x2", x(s.n));
+      const rows = parties.slice().sort((a, b) => (s.seats[b] || 0) - (s.seats[a] || 0)).map(p =>
+        `<tr><td><span class="swatch" style="background:${COLOURS[p]}"></span>${NAMES[p]}</td>` +
+        `<td class="num">${s.seats[p] || 0}</td>` +
+        `<td class="num">${p in s.swing ? (s.swing[p] > 0 ? "+" : "") + s.swing[p].toFixed(1) : ""}</td></tr>`
+      ).join("");
+      tip.innerHTML =
+        `<h3>After ${s.n} declaration${s.n === 1 ? "" : "s"}</h3>` +
+        `<div class="seat">${s.seat ? `${s.seat}: ${NAMES[s.winner] || s.winner}` : "Before any results (previous election)"}</div>` +
+        `<table><tr><th>Party</th><th>Seats</th><th>Swing</th></tr>${rows}</table>`;
+      tip.style.display = "block";
+      const box = chart.getBoundingClientRect(), scale = box.width / W;
+      const px = (m.left + x(s.n)) * scale;
+      const left = px + 16 + tip.offsetWidth > box.width ? px - 16 - tip.offsetWidth : px + 16;
+      tip.style.left = `${Math.max(0, left)}px`;
+      tip.style.top = `${m.top * scale}px`;
+    })
+    .on("pointerleave", () => { rule.style("display", "none"); tip.style.display = "none"; });
+
+  const ni = Object.keys(R.ni_declared || {}).length;
+  document.getElementById("notes").innerHTML =
+    `<p>Each line is a party's seats won so far plus seats predicted for the GB seats still to declare. ` +
+    `Swing is the average change in vote share (percentage points) across declared GB seats.</p>` +
+    `<p>Northern Ireland's ${R.ni_seats} seats are not used in the forecast or shown here ` +
+    `(${ni} declared), but they count towards the ${R.total_seats} seats in the House.</p>` +
+    `<p>Baseline: ${R.baseline || "previous election"}. Live results: ${R.live || "live feed"}.` +
+    (R.skipped && R.skipped.length ? ` ${R.skipped.length} declaration(s) could not be used.` : "") + `</p>`;
+}
+
+if (!RESULTS) {
+  document.getElementById("title").textContent = "No results yet";
+  document.getElementById("subtitle").textContent = "Run: python -m predictor.replay";
+} else if (typeof d3 === "undefined") {
+  document.getElementById("title").textContent = "Could not load D3";
+  document.getElementById("subtitle").textContent = "The graph needs an internet connection to load d3.js.";
+} else {
+  draw();
+}
+</script>
+</body>
+</html>
