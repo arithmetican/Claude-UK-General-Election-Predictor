@@ -4,7 +4,7 @@ import json
 import unittest
 from pathlib import Path
 
-from predictor.matching import ConstituencyMatcher, NoMatchError, name_key
+from predictor.matching import ConstituencyMatcher, name_key
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 
@@ -39,13 +39,20 @@ class MatcherTests(unittest.TestCase):
             "Kingston upon Hull West and Haltemprice",
         )
 
-    def test_unknown_name_raises(self):
-        with self.assertRaises(NoMatchError):
-            self.matcher.match("Atlantis Central")
+    def test_unknown_name_returns_none_and_is_recorded(self):
+        with self.assertLogs("predictor.matching", "WARNING"):
+            self.assertIsNone(self.matcher.match("Atlantis Central"))
+        self.assertIn("Atlantis Central", self.matcher.unmatched)
 
-    def test_ambiguous_name_raises(self):
-        with self.assertRaises(NoMatchError):
-            self.matcher.match("Leicester")
+    def test_ambiguous_name_returns_none(self):
+        with self.assertLogs("predictor.matching", "WARNING"):
+            self.assertIsNone(self.matcher.match("Leicester"))
+        self.assertIn("could be any of", self.matcher.unmatched["Leicester"])
+
+    def test_bad_input_never_raises(self):
+        with self.assertLogs("predictor.matching", "WARNING"):
+            for bad in (None, 123, "", "   ", "&", ["a list"], {"a": 1}):
+                self.assertIsNone(self.matcher.match(bad))
 
     def test_every_2024_seat_matches_a_different_seat(self):
         with open(DATA / "raw" / "UKJuly2024.json", encoding="utf-8") as f:

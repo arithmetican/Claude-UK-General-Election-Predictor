@@ -11,9 +11,17 @@ differently from our data, so names are compared by a normalised key:
 3. If no known seat has the same key, fall back to a seat whose name
    contains every word of the live name, provided exactly one seat does.
    e.g. "Hull East" -> "Kingston upon Hull East"
+
+Matching never raises an error, because it runs live on election night.
+A name that matches no seat, or several, returns None, is logged as a
+warning, and is kept in ConstituencyMatcher.unmatched so it can be
+checked and the result added later.
 """
 
+import logging
 import unicodedata
+
+log = logging.getLogger(__name__)
 
 IGNORED_WORDS = {"&", "and", "the"}
 
@@ -39,10 +47,6 @@ def name_key(name):
     return " ".join(name_words(name))
 
 
-class NoMatchError(LookupError):
-    """Raised when a live name matches no known seat, or several."""
-
-
 class ConstituencyMatcher:
     """Finds the known constituency that a live-feed name refers to."""
 
@@ -57,21 +61,33 @@ class ConstituencyMatcher:
                 )
             self._by_key[key] = name
         self._word_sets = {name: set(name_words(name)) for name in self.known_names}
+        # Live names that could not be matched: {live name: reason}.
+        self.unmatched = {}
 
     def match(self, live_name):
-        """Return the known name for live_name, or raise NoMatchError."""
-        exact = self._by_key.get(name_key(live_name))
-        if exact is not None:
-            return exact
+        """Return the known name for live_name, or None if there isn't one."""
+        try:
+            exact = self._by_key.get(name_key(live_name))
+            if exact is not None:
+                return exact
 
-        live_words = set(name_words(live_name))
-        candidates = [
-            name for name, words in self._word_sets.items() if live_words <= words
-        ]
-        if len(candidates) == 1:
-            return candidates[0]
-        if not candidates:
-            raise NoMatchError(f"No constituency matches {live_name!r}")
-        raise NoMatchError(
-            f"{live_name!r} could be any of: {', '.join(sorted(candidates))}"
-        )
+            live_words = set(name_words(live_name))
+            candidates = [
+                name for name, words in self._word_sets.items()
+                if live_words and live_words <= words
+            ]
+            if len(candidates) == 1:
+                return candidates[0]
+            if candidates:
+                reason = "could be any of: " + ", ".join(sorted(candidates))
+            else:
+                reason = "no constituency matches"
+        except Exception as exc:  # e.g. a missing or non-text name in the feed
+            reason = f"could not read name ({exc})"
+
+        # Store text as-is; anything else (None, numbers, lists) as its repr,
+        # so that recording the problem can never itself fail.
+        label = live_name if isinstance(live_name, str) else repr(live_name)
+        self.unmatched[label] = reason
+        log.warning("Unmatched constituency %r: %s", live_name, reason)
+        return None
