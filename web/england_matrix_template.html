@@ -10,7 +10,7 @@
     color-scheme: dark;
     --bg: #1B2333; --text: #F2F4F8; --muted: #A9B1C2; --grid: #2C3547;
     --panel: #232C3E; --border: #3A4458;
-    --uniform: #C9CFDB; --theta: #F28C38; --theta-type: #B58CFF; --matrix: #4FD1A5;
+    --uniform: #C9CFDB; --theta: #F28C38; --theta-type: #B58CFF; --theta-median: #FF7FB0; --matrix: #4FD1A5;
   }
   * { box-sizing: border-box; }
   body {
@@ -68,6 +68,7 @@ const METHODS = [
   { key: "uniform", name: "Uniform swing", short: "Uniform", colour: "var(--uniform)" },
   { key: "theta", name: "Theta", short: "Theta", colour: "var(--theta)" },
   { key: "theta_type", name: "Theta by seat type", short: "θ type", colour: "var(--theta-type)" },
+  { key: "theta_type_median", name: "θ type, median", short: "θ median", colour: "var(--theta-median)" },
   { key: "matrix", name: "Transition matrix", short: "Matrix", colour: "var(--matrix)" },
 ];
 const NAMES = { Lab: "Labour", Con: "Conservative", LibDem: "Lib Dem", Reform: "Reform",
@@ -162,8 +163,8 @@ function draw() {
     .on("pointerleave", () => { rule.style("display", "none"); tip.style.display = "none"; });
 
   document.getElementById("notes").innerHTML =
-    `<p>Each forecast is actual winners in declared English seats plus predicted winners in the rest. Hover to compare all four methods; seat error is the number of seats that would have to change party to turn the forecast into the final result.</p>` +
-    `<p>Only English seats are used, both to measure change and to forecast. Theta by seat type: a separate θ for Con v Lab, Con v LibDem and Lab v LibDem seats (by the 2019 top two), used once 5 seats of that type have declared; other seats, and types with fewer than 5, use the overall θ. Transition matrix: T<sub>ab</sub> is the fraction of party a's 2019 voters now voting for party b; it is refitted from scratch after each declaration (convex least squares, entries ≥ 0, rows summing to 1), so it depends only on the seats declared so far.</p>` +
+    `<p>Each forecast is actual winners in declared English seats plus predicted winners in the rest. Hover to compare all five methods; seat error is the number of seats that would have to change party to turn the forecast into the final result.</p>` +
+    `<p>Only English seats are used, both to measure change and to forecast. Theta by seat type: a separate θ for Con v Lab, Con v LibDem and Lab v LibDem seats (by the 2019 top two), used once 5 seats of that type have declared; other seats, and types with fewer than 5, use the overall θ. The median version is identical except that each party's θ is the median of the per-seat values, not the mean. Transition matrix: T<sub>ab</sub> is the fraction of party a's 2019 voters now voting for party b; it is refitted from scratch after each declaration (convex least squares, entries ≥ 0, rows summing to 1), so it depends only on the seats declared so far.</p>` +
     `<p>Baseline: ${R.baseline}. Results: ${R.live}.</p>`;
 }
 

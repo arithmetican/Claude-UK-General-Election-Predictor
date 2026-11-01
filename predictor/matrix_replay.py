@@ -61,11 +61,13 @@ def run(baseline_seats, live_results, start=START):
     final = Counter(actual)
 
     uniform, theta, theta_type = Swing(), ThetaSwing(), ThetaBySeatType()
+    theta_type_median = ThetaBySeatType("median")
     steps = []
     for n, (seat, old, new, winner) in enumerate(rows, start=1):
         uniform.add(old, new)
         theta.add(old, new)
         theta_type.add(old, new)
+        theta_type_median.add(old, new)
         if n < start:
             continue
         T = fit_matrix(X[:n], Y[:n], M[:n])   # from scratch: depends only on these n seats
@@ -75,6 +77,7 @@ def run(baseline_seats, live_results, start=START):
             "uniform": Counter(uniform.predict(rows[i][1], "England") for i in rest),
             "theta": Counter(theta.predict(rows[i][1], "England") for i in rest),
             "theta_type": Counter(theta_type.predict(rows[i][1], "England") for i in rest),
+            "theta_type_median": Counter(theta_type_median.predict(rows[i][1], "England") for i in rest),
             "matrix": Counter(ENGLAND_PARTIES[k] for k in
                               predict_shares(X[n:], T, M[n:]).argmax(axis=1)) if n < len(rows) else Counter(),
         }

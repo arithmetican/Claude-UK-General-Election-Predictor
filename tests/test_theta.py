@@ -39,6 +39,22 @@ class ThetaFormulaTests(unittest.TestCase):
             self.assertAlmostEqual(apply_theta(old[p], swing.change(p)), new[p])
 
 
+class MedianTests(unittest.TestCase):
+    def test_median_ignores_one_outlier(self):
+        mean, median = ThetaSwing(), ThetaSwing("median")
+        old = vote_shares({"Con": 50, "LibDem": 30, "Lab": 20})
+        for ld in (35, 36, 37, 7):          # last seat: Lib Dem collapse
+            new = vote_shares({"Con": 40, "LibDem": ld, "Lab": 100 - 40 - ld})
+            mean.add(old, new); median.add(old, new)
+        typical = theta(old["LibDem"], vote_shares({"Con": 40, "LibDem": 36, "Lab": 24})["LibDem"])
+        self.assertLess(mean.change("LibDem"), 0)                 # dragged below zero by one seat
+        self.assertGreater(median.change("LibDem"), typical * 0.5)
+
+    def test_unknown_statistic_rejected(self):
+        with self.assertRaises(ValueError):
+            ThetaSwing("mode")
+
+
 class SeatTypeTests(unittest.TestCase):
     def test_types_from_top_two(self):
         self.assertEqual(seat_type({"Con": .5, "Lab": .3, "LibDem": .1}), "Con v Lab")

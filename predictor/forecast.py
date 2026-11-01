@@ -20,6 +20,7 @@ Deliberately simple (to be refined later):
 """
 
 import math
+import statistics
 
 from .parties import GB_PARTIES
 
@@ -95,7 +96,8 @@ class SwingByCountry:
 #     theta = ln(y / x)                       if y < x   (losing ground)
 #     theta = -ln((1 - y) / (1 - x))          if y >= x  (gaining ground)
 # theta is 0 for no change, negative for a loss, positive for a gain.
-# A country's theta for a party is the average over its declared seats.
+# A country's theta for a party is the average (mean, or optionally median)
+# over its declared seats.
 #
 # Applied to an undeclared seat with previous share x:
 #     theta < 0:  predicted = x * e^theta                (keeps a fixed fraction)
@@ -127,11 +129,14 @@ def apply_theta(old, th):
 
 
 class ThetaSwing:
-    """Running average theta per party across a set of declared seats."""
+    """Theta per party across a set of declared seats: the mean (default) or
+    the median of the per-seat values."""
 
-    def __init__(self):
-        self._total = dict.fromkeys(GB_PARTIES, 0.0)
-        self._seats = dict.fromkeys(GB_PARTIES, 0)
+    def __init__(self, stat="mean"):
+        if stat not in ("mean", "median"):
+            raise ValueError(f"unknown statistic {stat!r}")
+        self.stat = stat
+        self._values = {p: [] for p in GB_PARTIES}
         self.declared = 0
 
     def add(self, old_shares, new_shares):
@@ -139,13 +144,16 @@ class ThetaSwing:
         for p in GB_PARTIES:
             th = theta(old_shares[p], new_shares[p])
             if th is not None:
-                self._total[p] += th
-                self._seats[p] += 1
+                self._values[p].append(th)
 
     def change(self, party):
-        """Average theta so far (0 if the party has no information yet)."""
-        seats = self._seats[party]
-        return self._total[party] / seats if seats else 0.0
+        """Theta so far (0 if the party has no information yet)."""
+        v = self._values[party]
+        if not v:
+            return 0.0
+        if self.stat == "mean":
+            return sum(v) / len(v)
+        return statistics.median(v)
 
     def changes(self):
         return {p: self.change(p) for p in GB_PARTIES}
@@ -195,9 +203,9 @@ class ThetaBySeatType:
     uses the overall theta of all declared seats.
     """
 
-    def __init__(self):
-        self.overall = ThetaSwing()
-        self.by_type = {t: ThetaSwing() for t in SEAT_TYPES.values()}
+    def __init__(self, stat="mean"):
+        self.overall = ThetaSwing(stat)
+        self.by_type = {t: ThetaSwing(stat) for t in SEAT_TYPES.values()}
 
     def add(self, old_shares, new_shares):
         self.overall.add(old_shares, new_shares)
