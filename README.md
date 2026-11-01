@@ -47,15 +47,20 @@ previous share x is predicted as x·e^θ if θ < 0 (a loser keeps a fixed
 fraction of its vote) or 1 − (1 − x)·e^(−θ) if θ ≥ 0 (a gainer wins a fixed
 fraction of the vote it lacked).
 
-## GB forecast (base model)
+## GB forecast with switchable options
 
 ```
-python -m predictor.replay --method uniform --title "UK general election, July 2024: forecast" --out output/forecast_2024
+python -m predictor.forecast_page
 ```
 
-writes `output/forecast_2024.json` and `.html`: the base model, uniform swing
-with means, separately for England, Scotland and Wales. This is the page that
-improvements will be added to as independent switchable options.
+writes `output/forecast_2024.json` and `.html`. The base model is uniform
+swing, measured separately for England, Scotland and Wales, using the mean of
+the per-seat changes. Improvements are added as options that can be switched
+independently on the page; every combination is computed in advance.
+
+Options so far:
+
+- **Average:** mean (base) or median of the per-seat changes.
 
 ## England: forecast seats by method
 
@@ -99,10 +104,12 @@ per party per GB seat, 2019 share across, change by 2024 up or down.
 | `predictor/parties.py` | Translates live party names to our party codes |
 | `predictor/forecast.py` | The forecasts: uniform swing and the theta method (each measured separately for England, Scotland and Wales) |
 | `predictor/replay.py` | Runs the forecast after every declaration and writes the outputs |
+| `predictor/forecast_page.py` | Builds the GB forecast page with switchable options |
 | `predictor/scatter.py` | Builds the vote share change scatter |
 | `predictor/matrix.py` | The vote transition matrix fit |
 | `predictor/matrix_replay.py` | England-only comparison of the three methods |
 | `web/graph_template.html` | The D3 graph page |
+| `web/forecast_template.html` | The D3 GB forecast page with option switches |
 | `web/scatter_template.html` | The D3 scatter page |
 | `web/england_matrix_template.html` | The D3 England forecast page |
 | `tools/convert_js_to_json.py` | Converts the JavaScript results format to JSON |

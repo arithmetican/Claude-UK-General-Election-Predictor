@@ -29,11 +29,14 @@ ONLY_STANDS_IN = {"SNP": "Scotland", "Plaid": "Wales"}
 
 
 class Swing:
-    """Running average change in vote share across a set of declared seats."""
+    """Change in vote share across a set of declared seats: the mean
+    (default) or the median of the per-seat changes."""
 
-    def __init__(self):
-        self._total = dict.fromkeys(GB_PARTIES, 0.0)
-        self._seats = dict.fromkeys(GB_PARTIES, 0)
+    def __init__(self, stat="mean"):
+        if stat not in ("mean", "median"):
+            raise ValueError(f"unknown statistic {stat!r}")
+        self.stat = stat
+        self._values = {p: [] for p in GB_PARTIES}
         self.declared = 0
 
     def add(self, old_shares, new_shares):
@@ -41,13 +44,16 @@ class Swing:
         self.declared += 1
         for p in GB_PARTIES:
             if old_shares[p] > 0 or new_shares[p] > 0:
-                self._total[p] += new_shares[p] - old_shares[p]
-                self._seats[p] += 1
+                self._values[p].append(new_shares[p] - old_shares[p])
 
     def change(self, party):
-        """Average change in the party's share so far (0 to 1 scale)."""
-        seats = self._seats[party]
-        return self._total[party] / seats if seats else 0.0
+        """Change in the party's share so far (0 to 1 scale)."""
+        v = self._values[party]
+        if not v:
+            return 0.0
+        if self.stat == "mean":
+            return sum(v) / len(v)
+        return statistics.median(v)
 
     def changes(self):
         return {p: self.change(p) for p in GB_PARTIES}
@@ -67,8 +73,8 @@ class Swing:
 class SwingByCountry:
     """A separate Swing for each of England, Scotland and Wales."""
 
-    def __init__(self):
-        self.by_country = {c: Swing() for c in COUNTRIES}
+    def __init__(self, stat="mean"):
+        self.by_country = {c: Swing(stat) for c in COUNTRIES}
 
     def add(self, country, old_shares, new_shares):
         self.by_country[country].add(old_shares, new_shares)

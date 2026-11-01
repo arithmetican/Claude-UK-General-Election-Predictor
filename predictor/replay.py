@@ -90,12 +90,12 @@ METHODS = {
 }
 
 
-def replay(baseline_seats, live_results, method="uniform"):
+def replay(baseline_seats, live_results, method="uniform", make=None):
     """Run the forecast after every GB declaration. Returns a results dict."""
     spec = METHODS[method]
     matcher = ConstituencyMatcher(baseline_seats)
     gb_seats = [n for n, s in baseline_seats.items() if s["country"] != "Northern Ireland"]
-    swing = spec["make"]()
+    swing = (make or spec["make"])()
     declared = {}          # seat -> actual winner
     ni_declared = {}       # NI seat -> live party name of winner
     skipped = []           # declarations we could not use

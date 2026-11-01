@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Election Forecast</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #1B2333; --text: #F2F4F8; --muted: #A9B1C2; --grid: #2C3547;
+    --panel: #232C3E; --border: #3A4458; --majority: #FF6B6B;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 16px 40px; background: var(--bg); color: var(--text);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 16px; }
+  .chart { position: relative; width: 100%; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .axis text { fill: var(--muted); font-size: 12px; }
+  .axis path, .axis line { stroke: var(--border); }
+  .grid line { stroke: var(--grid); }
+  .grid path { display: none; }
+  .axis-title { fill: var(--muted); font-size: 12px; }
+  .majority { stroke: var(--majority); stroke-dasharray: 6 4; stroke-width: 1.5; }
+  .majority-label { fill: var(--majority); font-size: 12px; font-weight: 600; }
+  .line { fill: none; stroke-width: 2.25; stroke-linejoin: round; }
+  .end-label { font-size: 12px; font-weight: 600; }
+  .rule { stroke: var(--muted); stroke-width: 1; }
+  .first-marker line { stroke: var(--text); stroke-opacity: .55; stroke-dasharray: 2 4; stroke-width: 1.25; }
+  .first-marker text { fill: var(--muted); font-size: 11px; }
+  .tooltip {
+    position: absolute; pointer-events: none; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
+    font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,.5); min-width: 290px;
+    display: none;
+  }
+  .tooltip h3 { margin: 0 0 2px; font-size: 13px; }
+  .tooltip .seat { color: var(--muted); margin-bottom: 6px; }
+  .tooltip table { border-collapse: collapse; width: 100%; }
+  .tooltip td { padding: 1px 0; }
+  .tooltip td.num { text-align: right; padding-left: 12px; font-variant-numeric: tabular-nums; }
+  .tooltip th { font-weight: 500; color: var(--muted); text-align: right; padding-left: 12px; }
+  .tooltip th:first-child { text-align: left; padding-left: 0; }
+  .tooltip th.group { text-align: center; }
+  .tooltip .count { opacity: .7; font-size: 11px; }
+  .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
+  .notes { color: var(--muted); font-size: 13px; margin-top: 16px; }
+  .options { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 12px; }
+  .option { display: flex; gap: 6px; align-items: center; }
+  .option-label { color: var(--muted); font-size: 13px; margin-right: 2px; }
+  .option button {
+    font: inherit; font-size: 13px; font-weight: 600; border-radius: 4px; padding: 3px 10px; cursor: pointer;
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+  }
+  .option button.on { color: var(--text); background: var(--panel); border-color: var(--muted); }
+  .notes p { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p class="sub" id="subtitle"></p>
+  <div class="options" id="options"></div>
+  <div class="chart" id="chart"><div class="tooltip" id="tooltip"></div></div>
+  <div class="notes" id="notes"></div>
+</main>
+<script>
+const DATA = /*RESULTS*/null;
+// The options chosen so far, one value per option; the variant shown is the
+// one whose key matches, e.g. "average=median".
+const chosen = {};
+const variantKey = () => DATA.options.map(o => `${o.name}=${chosen[o.name]}`).join("&");
+let RESULTS = null;
+
+// Party colours: background (lines, label fill) and foreground (label text).
+const COLOURS = {
+  Reform: "#12B6CF", Con: "#0087dc", Green: "#008066", Lab: "#d50000",
+  LibDem: "#FDBB30", Plaid: "#3F8428", SNP: "#FFF95D",
+  Independent: "DarkGray", Others: "DarkGray"
+};
+const FOREGROUNDS = {
+  Reform: "white", Con: "white", Green: "white", Lab: "white",
+  LibDem: "black", Plaid: "white", SNP: "black"
+};
+const background = p => COLOURS[p] || "black";
+const foreground = p => FOREGROUNDS[p] || "white";
+const NAMES = {
+  Lab: "Labour", Con: "Conservative", LibDem: "Lib Dem", Reform: "Reform",
+  Green: "Green", SNP: "SNP", Plaid: "Plaid Cymru",
+  Independent: "Independent", Others: "Others"
+};
+
+function draw() {
+  d3.select("#chart").selectAll("svg").remove();
+  document.getElementById("tooltip").style.display = "none";
+  const R = RESULTS, steps = R.steps, gb = R.gb_seats;
+  document.getElementById("title").textContent = R.title || "Election night forecast";
+  document.getElementById("subtitle").textContent =
+    (R.description || `Great Britain seats won plus seats predicted by swing (measured separately in England, Scotland and Wales), after each declaration.`) + ` ` +
+    `${steps[steps.length - 1].n} of ${gb} GB seats declared.`;
+
+  // Only draw parties that hold at least one seat at some point.
+  const parties = R.parties.filter(p => steps.some(s => s.seats[p] > 0));
+
+  const W = 1000, H = 588, m = { top: 48, right: 130, bottom: 48, left: 52 };
+  const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+  const yMax = Math.max(R.majority + 30, d3.max(steps, s => d3.max(parties, p => s.seats[p])) * 1.05);
+
+  const x = d3.scaleLinear().domain([1, gb]).range([0, iw]);
+  const y = d3.scaleLinear().domain([0, yMax]).nice().range([ih, 0]);
+
+  const svg = d3.select("#chart").append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
+    .attr("aria-label", "Seats per party against number of declarations");
+  const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
+
+  g.append("g").attr("class", "grid")
+    .call(d3.axisLeft(y).ticks(8).tickSize(-iw).tickFormat(""));
+  g.append("g").attr("class", "grid").attr("transform", `translate(0,${ih})`)
+    .call(d3.axisBottom(x).ticks(10).tickSize(-ih).tickFormat(""));
+  g.append("g").attr("class", "axis").attr("transform", `translate(0,${ih})`)
+    .call(d3.axisBottom(x).ticks(10));
+  g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(8));
+  g.append("text").attr("class", "axis-title").attr("x", iw / 2).attr("y", ih + 40)
+    .attr("text-anchor", "middle").text("GB seats declared (n)");
+  g.append("text").attr("class", "axis-title").attr("transform", "rotate(-90)")
+    .attr("x", -ih / 2).attr("y", -40).attr("text-anchor", "middle").text("Seats");
+
+  g.append("line").attr("class", "majority")
+    .attr("x1", 0).attr("x2", iw).attr("y1", y(R.majority)).attr("y2", y(R.majority));
+  g.append("text").attr("class", "majority-label").attr("x", iw - 4).attr("y", y(R.majority) + 15)
+    .attr("text-anchor", "end")
+    .text(`Majority ${R.majority} of ${R.total_seats}`);
+
+  // Vertical markers where the first Scottish and Welsh seats declare.
+  const firsts = [["Scotland", "Scottish"], ["Wales", "Welsh"]]
+    .map(([c, adj]) => ({ adj, s: steps.find(s => (s.declared_by_country || {})[c] >= 1) }))
+    .filter(d => d.s)
+    .sort((a, b) => a.s.n - b.s.n);  // earliest on the top row, so later lines miss its label
+  const markers = g.selectAll(".first-marker").data(firsts).join("g")
+    .attr("class", "first-marker").attr("transform", d => `translate(${x(d.s.n)},0)`);
+  // Labels sit above the graph, one row each so they never overlap.
+  const rowY = i => -m.top + 14 + 15 * i;
+  markers.append("line").attr("y1", (d, i) => rowY(i) + 3).attr("y2", ih);
+  markers.append("text").attr("x", 4).attr("y", (d, i) => rowY(i))
+    .text(d => `First ${d.adj} seat: ${d.s.seat} (n = ${d.s.n})`);
+
+  const line = p => d3.line().x(s => x(s.n)).y(s => y(s.seats[p] || 0))(steps);
+  g.selectAll(".line").data(parties).join("path")
+    .attr("class", "line").attr("stroke", background).attr("d", line);
+
+  // Labels at the right-hand end of each line: party colour behind, party text
+  // colour on top, nudged apart so they don't overlap.
+  const last = steps[steps.length - 1];
+  const gap = 18;
+  const labels = parties.map(p => ({ p, y: y(last.seats[p] || 0) })).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + gap);
+  labels[labels.length - 1].y = Math.min(labels[labels.length - 1].y, ih);  // keep inside the graph
+  for (let i = labels.length - 2; i >= 0; i--) labels[i].y = Math.min(labels[i].y, labels[i + 1].y - gap);
+  const tags = g.selectAll(".end-label").data(labels).join("g")
+    .attr("class", "end-label").attr("transform", d => `translate(${x(last.n) + 8},${d.y})`);
+  const rects = tags.append("rect").attr("y", -8).attr("height", 16).attr("rx", 3)
+    .attr("fill", d => background(d.p));
+  tags.append("text").attr("x", 5).attr("y", 4).attr("fill", d => foreground(d.p))
+    .text(d => `${NAMES[d.p]} ${last.seats[d.p] || 0}`);
+  rects.attr("width", function () { return this.nextSibling.getComputedTextLength() + 10; });
+
+  // Hover: a vertical rule and a panel with every party's total at that n.
+  const rule = g.append("line").attr("class", "rule").attr("y1", 0).attr("y2", ih).style("display", "none");
+  const tip = document.getElementById("tooltip");
+  const chart = document.getElementById("chart");
+  g.append("rect").attr("width", iw).attr("height", ih).attr("fill", "transparent")
+    .on("pointermove", event => {
+      const [mx] = d3.pointer(event);
+      const i = Math.round(x.invert(mx)) - steps[0].n;
+      const s = steps[Math.max(0, Math.min(steps.length - 1, i))];
+      rule.style("display", null).attr("x1", x(s.n)).attr("x2", x(s.n));
+      const countries = ["England", "Scotland", "Wales"];
+      const dp = R.swing_decimals === undefined ? 1 : R.swing_decimals;
+      const fmt = v => v === undefined ? "" : (v > 0 ? "+" : "") + v.toFixed(dp);
+      const rows = parties.slice().sort((a, b) => (s.seats[b] || 0) - (s.seats[a] || 0)).map(p =>
+        `<tr><td><span class="swatch" style="background:${background(p)}"></span>${NAMES[p]}</td>` +
+        `<td class="num">${s.seats[p] || 0}</td>` +
+        countries.map(c => `<td class="num">${fmt((s.swing[c] || {})[p])}</td>`).join("") + `</tr>`
+      ).join("");
+      const dc = s.declared_by_country || {};
+      tip.innerHTML =
+        `<h3>After ${s.n} declaration${s.n === 1 ? "" : "s"}</h3>` +
+        `<div class="seat">${s.seat}: ${NAMES[s.winner] || s.winner}</div>` +
+        `<table><tr><th>Party</th><th>Seats</th><th colspan="3" class="group">${R.swing_label || "Swing"}</th></tr>` +
+        `<tr><th></th><th></th>${countries.map(c => `<th>${c.slice(0, 3)} <span class="count">${dc[c] || 0}</span></th>`).join("")}</tr>` +
+        `${rows}</table>`;
+      tip.style.display = "block";
+      const box = chart.getBoundingClientRect(), scale = box.width / W;
+      const px = (m.left + x(s.n)) * scale;
+      const left = px + 16 + tip.offsetWidth > box.width ? px - 16 - tip.offsetWidth : px + 16;
+      tip.style.left = `${Math.max(0, left)}px`;
+      tip.style.top = `${m.top * scale}px`;
+    })
+    .on("pointerleave", () => { rule.style("display", "none"); tip.style.display = "none"; });
+
+  const ni = Object.keys(R.ni_declared || {}).length;
+  document.getElementById("notes").innerHTML =
+    `<p>Each line is a party's seats won so far plus seats predicted for the GB seats still to declare. ` +
+    (R.method === "theta"
+      ? `θ is each party's average across the declared seats in each country: negative means losing ground (it keeps a fraction e<sup>θ</sup> of its previous share), positive means gaining (it wins a fraction 1 − e<sup>−θ</sup> of the vote it previously lacked). Each country's undeclared seats are predicted from its own θ only. The small number beside each country is how many of its seats have declared.</p>`
+      : `Swing is the ${R.average || "mean"} change in vote share (percentage points) across the declared seats in each country; each country's undeclared seats are predicted from its own swing only. The small number beside each country is how many of its seats have declared.</p>`) +
+    `<p>Northern Ireland's ${R.ni_seats} seats are not used in the forecast or shown here ` +
+    `(${ni} declared), but they count towards the ${R.total_seats} seats in the House.</p>` +
+    `<p>Baseline: ${R.baseline || "previous election"}. Live results: ${R.live || "live feed"}.` +
+    (R.skipped && R.skipped.length ? ` ${R.skipped.length} declaration(s) could not be used.` : "") + `</p>`;
+}
+
+if (!DATA) {
+  document.getElementById("title").textContent = "No results yet";
+  document.getElementById("subtitle").textContent = "Run: python -m predictor.forecast_page";
+} else if (typeof d3 === "undefined") {
+  document.getElementById("title").textContent = "Could not load D3";
+  document.getElementById("subtitle").textContent = "The graph needs an internet connection to load d3.js.";
+} else {
+  // One row of buttons per option.
+  const bar = d3.select("#options");
+  DATA.options.forEach(o => {
+    chosen[o.name] = o.values[0].value;
+    const row = bar.append("div").attr("class", "option");
+    row.append("span").attr("class", "option-label").text(o.label);
+    o.values.forEach((v, i) => row.append("button").attr("class", i === 0 ? "on" : null).text(v.label)
+      .on("click", function () {
+        chosen[o.name] = v.value;
+        row.selectAll("button").classed("on", false);
+        d3.select(this).classed("on", true);
+        RESULTS = DATA.variants[variantKey()];
+        draw();
+      }));
+  });
+  RESULTS = DATA.variants[variantKey()];
+  draw();
+}
+</script>
+</body>
+</html>
