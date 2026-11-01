@@ -8,7 +8,10 @@ measured separately for England, Scotland and Wales, using the mean of the
 per-seat changes. Each option below can be switched independently on the
 page; every combination is computed here in advance.
 
-Options so far:
+Options so far (each independent of the others):
+    transfer  uniform (base) or proportional: a party losing ground keeps a fixed
+              fraction of its previous share; a party gaining wins a fixed
+              fraction of the vote it previously lacked (the theta method)
     average   mean (base) or median of the per-seat changes
 """
 
@@ -16,7 +19,7 @@ import itertools
 import json
 import logging
 
-from .forecast import SwingByCountry
+from .forecast import SwingByCountry, ThetaByCountry
 from .replay import ROOT, load_baseline, load_live, replay
 
 OUT = ROOT / "output" / "forecast_2024"
@@ -24,6 +27,8 @@ TEMPLATE = ROOT / "web" / "forecast_template.html"
 
 # Each option: name, label, and its values; the first value is the base model.
 OPTIONS = [
+    {"name": "transfer", "label": "Swing",
+     "values": [{"value": "uniform", "label": "Uniform"}, {"value": "proportional", "label": "Proportional"}]},
     {"name": "average", "label": "Average",
      "values": [{"value": "mean", "label": "Mean"}, {"value": "median", "label": "Median"}]},
 ]
@@ -31,13 +36,24 @@ OPTIONS = [
 
 def make_model(choice):
     """The forecast object for one combination of option values."""
+    if choice["transfer"] == "proportional":
+        return lambda: ThetaByCountry(choice["average"])
     return lambda: SwingByCountry(choice["average"])
 
 
+def method_for(choice):
+    """Which replay method's labels and number formats to use."""
+    return "theta" if choice["transfer"] == "proportional" else "uniform"
+
+
 def describe(choice):
-    return ("Great Britain seats won plus seats predicted by uniform swing (the "
-            f"{choice['average']} change in vote share, measured separately in England, "
-            "Scotland and Wales), after each declaration.")
+    if choice["transfer"] == "proportional":
+        how = (f"proportional swing (the {choice['average']} θ: parties losing ground keep a fixed "
+               "fraction of their vote, parties gaining win a fixed fraction of the vote they lacked)")
+    else:
+        how = f"uniform swing (the {choice['average']} change in vote share)"
+    return (f"Great Britain seats won plus seats predicted by {how}, measured separately in "
+            "England, Scotland and Wales, after each declaration.")
 
 
 def build(baseline_seats, live_results):
@@ -46,7 +62,7 @@ def build(baseline_seats, live_results):
     for values in itertools.product(*[[v["value"] for v in o["values"]] for o in OPTIONS]):
         choice = dict(zip(names, values))
         key = "&".join(f"{n}={choice[n]}" for n in names)
-        r = replay(baseline_seats, live_results, "uniform", make=make_model(choice))
+        r = replay(baseline_seats, live_results, method_for(choice), make=make_model(choice))
         r.update(title="UK general election, July 2024: forecast",
                  description=describe(choice), average=choice["average"],
                  baseline="UKDecember2019.json", live="UKJuly2024.json")

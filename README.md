@@ -58,9 +58,13 @@ swing, measured separately for England, Scotland and Wales, using the mean of
 the per-seat changes. Improvements are added as options that can be switched
 independently on the page; every combination is computed in advance.
 
-Options so far:
+Options so far (each independent of the others):
 
-- **Average:** mean (base) or median of the per-seat changes.
+- **Swing:** uniform (base) or proportional. Proportional scales both ways: a
+  party losing ground keeps a fixed fraction of its previous share, and a party
+  gaining wins a fixed fraction of the vote it previously lacked (the theta
+  method).
+- **Average:** mean (base) or median of the per-seat changes (or thetas).
 
 ## England: forecast seats by method
 

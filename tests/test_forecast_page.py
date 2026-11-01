@@ -40,9 +40,14 @@ class ForecastPageTests(unittest.TestCase):
         self.assertEqual(len(self.data["variants"]), expected)
 
     def test_base_model_matches_original_uniform_replay(self):
-        base = self.data["variants"]["average=mean"]["steps"]
+        base = self.data["variants"]["transfer=uniform&average=mean"]["steps"]
         original = replay(self.seats, self.live)["steps"]
         self.assertEqual([s["seats"] for s in base], [s["seats"] for s in original])
+
+    def test_proportional_mean_matches_theta_replay(self):
+        prop = self.data["variants"]["transfer=proportional&average=mean"]["steps"]
+        theta = replay(self.seats, self.live, "theta")["steps"]
+        self.assertEqual([s["seats"] for s in prop], [s["seats"] for s in theta])
 
     def test_every_variant_ends_at_actual_result(self):
         finals = {json.dumps(v["steps"][-1]["seats"], sort_keys=True) for v in self.data["variants"].values()}

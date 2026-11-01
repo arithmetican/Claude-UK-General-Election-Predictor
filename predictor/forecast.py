@@ -178,8 +178,8 @@ class ThetaSwing:
 class ThetaByCountry(SwingByCountry):
     """A separate ThetaSwing for each of England, Scotland and Wales."""
 
-    def __init__(self):
-        self.by_country = {c: ThetaSwing() for c in COUNTRIES}
+    def __init__(self, stat="mean"):
+        self.by_country = {c: ThetaSwing(stat) for c in COUNTRIES}
 
 
 # ---------------------------------------------------------------------------

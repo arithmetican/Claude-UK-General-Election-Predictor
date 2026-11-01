@@ -208,7 +208,7 @@ function draw() {
   document.getElementById("notes").innerHTML =
     `<p>Each line is a party's seats won so far plus seats predicted for the GB seats still to declare. ` +
     (R.method === "theta"
-      ? `θ is each party's average across the declared seats in each country: negative means losing ground (it keeps a fraction e<sup>θ</sup> of its previous share), positive means gaining (it wins a fraction 1 − e<sup>−θ</sup> of the vote it previously lacked). Each country's undeclared seats are predicted from its own θ only. The small number beside each country is how many of its seats have declared.</p>`
+      ? `θ is each party's ${R.average || "mean"} across the declared seats in each country: negative means losing ground (it keeps a fraction e<sup>θ</sup> of its previous share), positive means gaining (it wins a fraction 1 − e<sup>−θ</sup> of the vote it previously lacked). Each country's undeclared seats are predicted from its own θ only. The small number beside each country is how many of its seats have declared.</p>`
       : `Swing is the ${R.average || "mean"} change in vote share (percentage points) across the declared seats in each country; each country's undeclared seats are predicted from its own swing only. The small number beside each country is how many of its seats have declared.</p>`) +
     `<p>Northern Ireland's ${R.ni_seats} seats are not used in the forecast or shown here ` +
     `(${ni} declared), but they count towards the ${R.total_seats} seats in the House.</p>` +
