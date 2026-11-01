@@ -47,6 +47,16 @@ previous share x is predicted as x·e^θ if θ < 0 (a loser keeps a fixed
 fraction of its vote) or 1 − (1 − x)·e^(−θ) if θ ≥ 0 (a gainer wins a fixed
 fraction of the vote it lacked).
 
+## GB forecast (base model)
+
+```
+python -m predictor.replay --method uniform --title "UK general election, July 2024: forecast" --out output/forecast_2024
+```
+
+writes `output/forecast_2024.json` and `.html`: the base model, uniform swing
+with means, separately for England, Scotland and Wales. This is the page that
+improvements will be added to as independent switchable options.
+
 ## England: forecast seats by method
 
 ```
