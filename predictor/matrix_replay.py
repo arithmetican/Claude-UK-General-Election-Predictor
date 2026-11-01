@@ -1,6 +1,5 @@
 """England-only replay comparing uniform swing, theta and the transition matrix.
 
-WORK IN PROGRESS: see predictor/matrix.py. The page template is not written yet.
 
 Usage:
     python -m predictor.matrix_replay
@@ -24,7 +23,7 @@ import numpy as np
 
 from .forecast import Swing, ThetaSwing
 from .matching import ConstituencyMatcher
-from .matrix import ENGLAND_PARTIES, TransitionMatrix
+from .matrix import ENGLAND_PARTIES, fit_matrix, predict_shares
 from .parties import INDEPENDENT, read_votes, vote_shares
 from .replay import ROOT, load_baseline, load_live
 
@@ -60,26 +59,26 @@ def run(baseline_seats, live_results, start=START):
     actual = [r[3] for r in rows]
     final = Counter(actual)
 
-    uniform, theta, matrix = Swing(), ThetaSwing(), TransitionMatrix()
+    uniform, theta = Swing(), ThetaSwing()
     steps = []
     for n, (seat, old, new, winner) in enumerate(rows, start=1):
         uniform.add(old, new)
         theta.add(old, new)
         if n < start:
             continue
-        matrix.fit(X[:n], Y[:n], M[:n])
+        T = fit_matrix(X[:n], Y[:n], M[:n])   # from scratch: depends only on these n seats
         declared = Counter(actual[:n])
         rest = range(n, len(rows))
         pred = {
             "uniform": Counter(uniform.predict(rows[i][1], "England") for i in rest),
             "theta": Counter(theta.predict(rows[i][1], "England") for i in rest),
             "matrix": Counter(ENGLAND_PARTIES[k] for k in
-                              matrix.predict(X[n:], M[n:]).argmax(axis=1)) if n < len(rows) else Counter(),
+                              predict_shares(X[n:], T, M[n:]).argmax(axis=1)) if n < len(rows) else Counter(),
         }
         steps.append({
             "n": n, "seat": seat, "winner": winner,
             "seats": {m: {p: declared[p] + c[p] for p in PARTIES} for m, c in pred.items()},
-            "matrix": [[round(float(v), 4) for v in row] for row in matrix.T],
+            "matrix": [[round(float(v), 4) for v in row] for row in T],
         })
     return {
         "title": "England only: does a transition matrix remove the bias?",

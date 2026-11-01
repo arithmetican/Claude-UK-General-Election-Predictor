@@ -47,6 +47,19 @@ previous share x is predicted as x·e^θ if θ < 0 (a loser keeps a fixed
 fraction of its vote) or 1 − (1 − x)·e^(−θ) if θ ≥ 0 (a gainer wins a fixed
 fraction of the vote it lacked).
 
+## England: forecast convergence
+
+```
+python -m predictor.matrix_replay
+```
+
+Writes `output/england_matrix_2024.json` and `.html`: the seat error of
+uniform swing, theta and a vote transition matrix for England's 543 seats
+after each English declaration, from n = 30. The transition matrix
+(T_ab = fraction of party a's 2019 voters now voting for party b) is refitted
+from scratch after each declaration by convex least squares (entries ≥ 0,
+rows sum to 1), so it depends only on the seats declared so far.
+
 ## Scatter of vote share change
 
 ```
@@ -68,8 +81,11 @@ per party per GB seat, 2019 share across, change by 2024 up or down.
 | `predictor/forecast.py` | The forecasts: uniform swing and the theta method (each measured separately for England, Scotland and Wales) |
 | `predictor/replay.py` | Runs the forecast after every declaration and writes the outputs |
 | `predictor/scatter.py` | Builds the vote share change scatter |
+| `predictor/matrix.py` | The vote transition matrix fit |
+| `predictor/matrix_replay.py` | England-only comparison of the three methods |
 | `web/graph_template.html` | The D3 graph page |
 | `web/scatter_template.html` | The D3 scatter page |
+| `web/england_matrix_template.html` | The D3 convergence page |
 | `tools/convert_js_to_json.py` | Converts the JavaScript results format to JSON |
 | `tests/` | Checks; run with `python -m unittest` |
 
