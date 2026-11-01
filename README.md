@@ -55,11 +55,15 @@ python -m predictor.matrix_replay
 
 Writes `output/england_matrix_2024.json` and `.html`: each party's forecast
 of England's 543 seats after each English declaration, from n = 30, for
-uniform swing, theta or a vote transition matrix (chosen with buttons), with
+uniform swing, theta, theta by seat type or a vote transition matrix (chosen
+with buttons), with
 the final result shown as dashed lines. The transition matrix
 (T_ab = fraction of party a's 2019 voters now voting for party b) is refitted
 from scratch after each declaration by convex least squares (entries ≥ 0,
-rows sum to 1), so it depends only on the seats declared so far.
+rows sum to 1), so it depends only on the seats declared so far. Theta by
+seat type uses a separate theta for Con v Lab, Con v LibDem and Lab v LibDem
+seats (by the 2019 top two parties) once 5 seats of that type have declared;
+other seats, and types with fewer than 5 declared, use the overall theta.
 
 ## Scatter of vote share change
 

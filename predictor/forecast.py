@@ -166,3 +166,50 @@ class ThetaByCountry(SwingByCountry):
 
     def __init__(self):
         self.by_country = {c: ThetaSwing() for c in COUNTRIES}
+
+
+# ---------------------------------------------------------------------------
+# Theta by seat type: a separate theta for each type of contest, defined by
+# the top two parties at the previous election.
+# ---------------------------------------------------------------------------
+
+SEAT_TYPES = {
+    frozenset(("Con", "Lab")): "Con v Lab",
+    frozenset(("Con", "LibDem")): "Con v LibDem",
+    frozenset(("Lab", "LibDem")): "Lab v LibDem",
+}
+MIN_TYPE_SEATS = 5   # declared seats a type needs before it uses its own theta
+
+
+def seat_type(old_shares):
+    """The seat's type from its previous top two parties, or None if not one of SEAT_TYPES."""
+    a, b = sorted(old_shares, key=old_shares.get, reverse=True)[:2]
+    return SEAT_TYPES.get(frozenset((a, b)))
+
+
+class ThetaBySeatType:
+    """Theta measured separately for each seat type, within one country.
+
+    A seat of a known type uses that type's theta once MIN_TYPE_SEATS seats of
+    the type have declared; until then, and for seats of no listed type, it
+    uses the overall theta of all declared seats.
+    """
+
+    def __init__(self):
+        self.overall = ThetaSwing()
+        self.by_type = {t: ThetaSwing() for t in SEAT_TYPES.values()}
+
+    def add(self, old_shares, new_shares):
+        self.overall.add(old_shares, new_shares)
+        t = seat_type(old_shares)
+        if t is not None:
+            self.by_type[t].add(old_shares, new_shares)
+
+    def swing_for(self, old_shares):
+        t = seat_type(old_shares)
+        if t is not None and self.by_type[t].declared >= MIN_TYPE_SEATS:
+            return self.by_type[t]
+        return self.overall
+
+    def predict(self, old_shares, country):
+        return self.swing_for(old_shares).predict(old_shares, country)

@@ -1,4 +1,5 @@
-"""England-only replay comparing uniform swing, theta and the transition matrix.
+"""England-only replay comparing uniform swing, theta, theta by seat type and the
+transition matrix.
 
 
 Usage:
@@ -21,7 +22,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .forecast import Swing, ThetaSwing
+from .forecast import Swing, ThetaBySeatType, ThetaSwing
 from .matching import ConstituencyMatcher
 from .matrix import ENGLAND_PARTIES, fit_matrix, predict_shares
 from .parties import INDEPENDENT, read_votes, vote_shares
@@ -59,11 +60,12 @@ def run(baseline_seats, live_results, start=START):
     actual = [r[3] for r in rows]
     final = Counter(actual)
 
-    uniform, theta = Swing(), ThetaSwing()
+    uniform, theta, theta_type = Swing(), ThetaSwing(), ThetaBySeatType()
     steps = []
     for n, (seat, old, new, winner) in enumerate(rows, start=1):
         uniform.add(old, new)
         theta.add(old, new)
+        theta_type.add(old, new)
         if n < start:
             continue
         T = fit_matrix(X[:n], Y[:n], M[:n])   # from scratch: depends only on these n seats
@@ -72,6 +74,7 @@ def run(baseline_seats, live_results, start=START):
         pred = {
             "uniform": Counter(uniform.predict(rows[i][1], "England") for i in rest),
             "theta": Counter(theta.predict(rows[i][1], "England") for i in rest),
+            "theta_type": Counter(theta_type.predict(rows[i][1], "England") for i in rest),
             "matrix": Counter(ENGLAND_PARTIES[k] for k in
                               predict_shares(X[n:], T, M[n:]).argmax(axis=1)) if n < len(rows) else Counter(),
         }

@@ -4,7 +4,7 @@ import math
 import unittest
 from pathlib import Path
 
-from predictor.forecast import ThetaSwing, apply_theta, theta
+from predictor.forecast import MIN_TYPE_SEATS, ThetaBySeatType, ThetaSwing, apply_theta, seat_type, theta
 from predictor.parties import vote_shares
 from predictor.replay import load_baseline, load_live, replay
 
@@ -37,6 +37,25 @@ class ThetaFormulaTests(unittest.TestCase):
         swing.add(old, new)
         for p in ("Lab", "Con", "Reform"):
             self.assertAlmostEqual(apply_theta(old[p], swing.change(p)), new[p])
+
+
+class SeatTypeTests(unittest.TestCase):
+    def test_types_from_top_two(self):
+        self.assertEqual(seat_type({"Con": .5, "Lab": .3, "LibDem": .1}), "Con v Lab")
+        self.assertEqual(seat_type({"Lab": .5, "Con": .3, "LibDem": .1}), "Con v Lab")
+        self.assertEqual(seat_type({"Con": .5, "LibDem": .4, "Lab": .1}), "Con v LibDem")
+        self.assertEqual(seat_type({"LibDem": .5, "Lab": .4, "Con": .1}), "Lab v LibDem")
+        self.assertIsNone(seat_type({"Lab": .5, "Reform": .3, "Con": .1}))
+
+    def test_type_theta_used_only_after_enough_seats(self):
+        swing = ThetaBySeatType()
+        old = {"Con": .5, "LibDem": .4, "Lab": .1}
+        new = {"Con": .3, "LibDem": .6, "Lab": .1}
+        for i in range(MIN_TYPE_SEATS):
+            self.assertIs(swing.swing_for(old), swing.overall)
+            swing.add(old, new)
+        self.assertIs(swing.swing_for(old), swing.by_type["Con v LibDem"])
+        self.assertIs(swing.swing_for({"Lab": .5, "Reform": .3}), swing.overall)
 
 
 class ThetaReplayTests(unittest.TestCase):
