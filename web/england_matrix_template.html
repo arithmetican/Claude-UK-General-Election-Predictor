@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forecast Convergence</title>
+<title>England Forecast Seats</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <style>
   :root {
@@ -28,6 +28,14 @@
   .grid path { display: none; }
   .axis-title { fill: var(--muted); font-size: 12px; }
   .line { fill: none; stroke-width: 2.25; stroke-linejoin: round; }
+  .final { stroke-dasharray: 5 4; stroke-width: 1.25; stroke-opacity: .8; }
+  .methods { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 10px; }
+  .group-label { color: var(--muted); font-size: 13px; margin-right: 4px; }
+  button.method {
+    font: inherit; font-size: 13px; font-weight: 600; border-radius: 4px; padding: 3px 10px; cursor: pointer;
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+  }
+  button.method.on { color: var(--text); border-color: var(--c); box-shadow: inset 0 -3px 0 var(--c); }
   .end-label { font-size: 12px; font-weight: 600; }
   .rule { stroke: var(--muted); stroke-width: 1; }
   .tooltip {
@@ -69,48 +77,72 @@ const NAMES = { Lab: "Labour", Con: "Conservative", LibDem: "Lib Dem", Reform: "
 const seatError = (seats, fin) =>
   Object.keys(fin).reduce((t, p) => t + Math.abs((seats[p] || 0) - fin[p]), 0) / 2;
 
+// Party colours (lines) as on the other pages.
+const COLOURS = { Reform: "#12B6CF", Con: "#0087dc", Green: "#008066", Lab: "#d50000",
+  LibDem: "#FDBB30", Independent: "DarkGray", Others: "#6E7687" };
+
 function draw() {
   const R = RESULTS, steps = R.steps, fin = R.final, E = R.england_seats;
-  document.getElementById("title").textContent = R.title;
+  document.getElementById("title").textContent = "England: forecast seats as results arrive";
   document.getElementById("subtitle").textContent =
-    `How far each method's forecast of England's ${E} seats is from the final result, ` +
-    `after each English declaration. Starts at n = ${R.start}, once the transition matrix is well determined.`;
+    `Each party's forecast of England's ${E} seats after each English declaration, for the chosen method. ` +
+    `Dashed lines are the final result. Starts at n = ${R.start}, once the transition matrix is well determined.`;
 
   steps.forEach(s => { s.err = {}; METHODS.forEach(m => s.err[m.key] = seatError(s.seats[m.key], fin)); });
+  const parties = Object.keys(fin);
+  let method = "matrix";
 
-  const W = 1000, H = 520, m = { top: 16, right: 150, bottom: 48, left: 56 };
+  // Method buttons
+  const bar = d3.select("#chart").insert("div", ":first-child").attr("class", "methods");
+  bar.append("span").attr("class", "group-label").text("Method");
+  METHODS.forEach(k => bar.append("button").attr("class", "method" + (k.key === method ? " on" : ""))
+    .style("--c", k.colour).text(k.name)
+    .on("click", function () {
+      method = k.key; bar.selectAll("button").classed("on", false); d3.select(this).classed("on", true); update();
+    }));
+
+  const W = 1000, H = 540, m = { top: 16, right: 150, bottom: 48, left: 56 };
   const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
   const x = d3.scaleLinear().domain([R.start, E]).range([0, iw]);
-  const y = d3.scaleLinear().domain([0, d3.max(steps, s => d3.max(METHODS, k => s.err[k.key]))]).nice().range([ih, 0]);
+  const yMax = d3.max(steps, s => d3.max(METHODS, k => d3.max(parties, p => s.seats[k.key][p])));
+  const y = d3.scaleLinear().domain([0, yMax]).nice().range([ih, 0]);
 
   const svg = d3.select("#chart").append("svg").attr("viewBox", `0 0 ${W} ${H}`)
-    .attr("role", "img").attr("aria-label", "Seat error of three forecasting methods against declarations");
+    .attr("role", "img").attr("aria-label", "Forecast English seats per party against declarations");
   const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
-  g.append("g").attr("class", "grid").call(d3.axisLeft(y).ticks(8).tickSize(-iw).tickFormat(""));
+  g.append("g").attr("class", "grid").call(d3.axisLeft(y).ticks(10).tickSize(-iw).tickFormat(""));
   g.append("g").attr("class", "grid").attr("transform", `translate(0,${ih})`)
     .call(d3.axisBottom(x).ticks(10).tickSize(-ih).tickFormat(""));
   g.append("g").attr("class", "axis").attr("transform", `translate(0,${ih})`).call(d3.axisBottom(x).ticks(10));
-  g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(8));
+  g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(10));
   g.append("text").attr("class", "axis-title").attr("x", iw / 2).attr("y", ih + 40)
     .attr("text-anchor", "middle").text("English seats declared (n)");
   g.append("text").attr("class", "axis-title").attr("transform", "rotate(-90)")
-    .attr("x", -ih / 2).attr("y", -42).attr("text-anchor", "middle").text("Total seat error");
+    .attr("x", -ih / 2).attr("y", -42).attr("text-anchor", "middle").text("Forecast English seats");
 
-  METHODS.forEach(k => {
-    g.append("path").attr("class", "line").attr("stroke", k.colour)
-      .attr("d", d3.line().x(s => x(s.n)).y(s => y(s.err[k.key]))(steps));
-  });
-  // Labels near the start of each line, where they are furthest apart.
-  const first = steps[0];
-  const labels = METHODS.map(k => ({ k, y: y(first.err[k.key]) })).sort((a, b) => a.y - b.y);
-  for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 16);
+  // Only parties that matter on this scale get lines; the rest are in the hover table.
+  const drawn = parties.filter(p => fin[p] >= 1 || steps.some(s => METHODS.some(k => s.seats[k.key][p] >= 1)));
+  g.selectAll(".final").data(drawn).join("line").attr("class", "final")
+    .attr("x1", 0).attr("x2", iw).attr("y1", p => y(fin[p])).attr("y2", p => y(fin[p]))
+    .attr("stroke", p => COLOURS[p]);
+  const paths = g.selectAll(".line").data(drawn).join("path").attr("class", "line").attr("stroke", p => COLOURS[p]);
+
+  // Labels on the right, at the final values, nudged apart.
+  const labels = drawn.map(p => ({ p, y: y(fin[p]) })).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 15);
+  labels[labels.length - 1].y = Math.min(labels[labels.length - 1].y, ih);
+  for (let i = labels.length - 2; i >= 0; i--) labels[i].y = Math.min(labels[i].y, labels[i + 1].y - 15);
   g.selectAll(".end-label").data(labels).join("text").attr("class", "end-label")
-    .attr("x", 6).attr("y", d => d.y).attr("dy", -6)
-    .attr("fill", d => d.k.colour).text(d => d.k.name);
+    .attr("x", iw + 8).attr("y", d => d.y + 4).attr("fill", d => COLOURS[d.p])
+    .text(d => `${NAMES[d.p]} ${fin[d.p]}`);
+
+  function update() {
+    paths.attr("d", p => d3.line().x(s => x(s.n)).y(s => y(s.seats[method][p]))(steps));
+  }
+  update();
 
   const rule = g.append("line").attr("class", "rule").attr("y1", 0).attr("y2", ih).style("display", "none");
   const tip = document.getElementById("tooltip"), chart = document.getElementById("chart");
-  const parties = Object.keys(fin);
   g.append("rect").attr("width", iw).attr("height", ih).attr("fill", "transparent")
     .on("pointermove", event => {
       const [mx] = d3.pointer(event);
@@ -124,12 +156,12 @@ function draw() {
       tip.style.display = "block";
       const box = chart.getBoundingClientRect(), scale = box.width / W, px = (m.left + x(s.n)) * scale;
       tip.style.left = `${px + 16 + tip.offsetWidth > box.width ? px - 16 - tip.offsetWidth : px + 16}px`;
-      tip.style.top = `${m.top * scale}px`;
+      tip.style.top = `${svg.node().offsetTop + m.top * scale}px`;
     })
     .on("pointerleave", () => { rule.style("display", "none"); tip.style.display = "none"; });
 
   document.getElementById("notes").innerHTML =
-    `<p>Seat error: the number of seats that would have to change party to turn the forecast into the final result (half the sum of each party's difference). Each forecast is actual winners in declared English seats plus predicted winners in the rest.</p>` +
+    `<p>Each forecast is actual winners in declared English seats plus predicted winners in the rest. Hover to compare all three methods; seat error is the number of seats that would have to change party to turn the forecast into the final result.</p>` +
     `<p>Only English seats are used, both to measure change and to forecast. Transition matrix: T<sub>ab</sub> is the fraction of party a's 2019 voters now voting for party b; it is refitted from scratch after each declaration (convex least squares, entries ≥ 0, rows summing to 1), so it depends only on the seats declared so far.</p>` +
     `<p>Baseline: ${R.baseline}. Results: ${R.live}.</p>`;
 }
