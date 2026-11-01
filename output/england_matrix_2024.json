@@ -70,6 +70,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 399,
+     "Con": 90,
+     "LibDem": 49,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 418,
      "Con": 74,
@@ -166,6 +175,15 @@
     "theta_type_median": {
      "Lab": 391,
      "Con": 94,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 392,
+     "Con": 93,
      "LibDem": 53,
      "Reform": 1,
      "Green": 1,
@@ -274,6 +292,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 377,
+     "Con": 107,
+     "LibDem": 54,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 415,
      "Con": 77,
@@ -370,6 +397,15 @@
     "theta_type_median": {
      "Lab": 381,
      "Con": 103,
+     "LibDem": 54,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 380,
+     "Con": 104,
      "LibDem": 54,
      "Reform": 1,
      "Green": 1,
@@ -478,6 +514,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 384,
+     "Con": 108,
+     "LibDem": 46,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 393,
      "Con": 102,
@@ -574,6 +619,15 @@
     "theta_type_median": {
      "Lab": 379,
      "Con": 105,
+     "LibDem": 54,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 373,
+     "Con": 111,
      "LibDem": 54,
      "Reform": 1,
      "Green": 1,
@@ -682,6 +736,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 384,
+     "Con": 108,
+     "LibDem": 46,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 393,
      "Con": 102,
@@ -778,6 +841,15 @@
     "theta_type_median": {
      "Lab": 390,
      "Con": 106,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 389,
+     "Con": 107,
      "LibDem": 42,
      "Reform": 1,
      "Green": 1,
@@ -886,6 +958,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 390,
+     "Con": 106,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 390,
      "Con": 117,
@@ -982,6 +1063,15 @@
     "theta_type_median": {
      "Lab": 385,
      "Con": 112,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 389,
+     "Con": 108,
      "LibDem": 41,
      "Reform": 1,
      "Green": 1,
@@ -1090,6 +1180,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 389,
+     "Con": 108,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 388,
      "Con": 121,
@@ -1186,6 +1285,15 @@
     "theta_type_median": {
      "Lab": 389,
      "Con": 109,
+     "LibDem": 40,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 390,
+     "Con": 108,
      "LibDem": 40,
      "Reform": 1,
      "Green": 1,
@@ -1294,6 +1402,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 389,
+     "Con": 108,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 391,
      "Con": 118,
@@ -1390,6 +1507,15 @@
     "theta_type_median": {
      "Lab": 389,
      "Con": 107,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 390,
+     "Con": 106,
      "LibDem": 42,
      "Reform": 1,
      "Green": 1,
@@ -1498,6 +1624,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 389,
+     "Con": 107,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 391,
      "Con": 117,
@@ -1594,6 +1729,15 @@
     "theta_type_median": {
      "Lab": 378,
      "Con": 120,
+     "LibDem": 40,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 384,
+     "Con": 114,
      "LibDem": 40,
      "Reform": 1,
      "Green": 1,
@@ -1702,6 +1846,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 380,
+     "Con": 120,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 390,
      "Con": 121,
@@ -1804,6 +1957,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 376,
+     "Con": 124,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 391,
      "Con": 117,
@@ -1898,6 +2060,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 375,
+     "Con": 125,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 375,
      "Con": 125,
      "LibDem": 38,
@@ -2008,6 +2179,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 372,
+     "Con": 132,
+     "LibDem": 34,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 393,
      "Con": 115,
@@ -2104,6 +2284,15 @@
     "theta_type_median": {
      "Lab": 365,
      "Con": 141,
+     "LibDem": 32,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 360,
+     "Con": 146,
      "LibDem": 32,
      "Reform": 1,
      "Green": 1,
@@ -2212,6 +2401,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 355,
+     "Con": 149,
+     "LibDem": 34,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 390,
      "Con": 118,
@@ -2308,6 +2506,15 @@
     "theta_type_median": {
      "Lab": 360,
      "Con": 140,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 353,
+     "Con": 147,
      "LibDem": 38,
      "Reform": 1,
      "Green": 1,
@@ -2416,6 +2623,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 354,
+     "Con": 146,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 389,
      "Con": 119,
@@ -2512,6 +2728,15 @@
     "theta_type_median": {
      "Lab": 364,
      "Con": 136,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 353,
+     "Con": 147,
      "LibDem": 38,
      "Reform": 1,
      "Green": 1,
@@ -2620,6 +2845,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 354,
+     "Con": 146,
+     "LibDem": 38,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 389,
      "Con": 119,
@@ -2716,6 +2950,15 @@
     "theta_type_median": {
      "Lab": 364,
      "Con": 138,
+     "LibDem": 36,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 353,
+     "Con": 149,
      "LibDem": 36,
      "Reform": 1,
      "Green": 1,
@@ -2824,6 +3067,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 358,
+     "Con": 145,
+     "LibDem": 35,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 384,
      "Con": 124,
@@ -2920,6 +3172,15 @@
     "theta_type_median": {
      "Lab": 365,
      "Con": 139,
+     "LibDem": 34,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 353,
+     "Con": 151,
      "LibDem": 34,
      "Reform": 1,
      "Green": 1,
@@ -3028,6 +3289,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 150,
+     "LibDem": 36,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 385,
      "Con": 123,
@@ -3124,6 +3394,15 @@
     "theta_type_median": {
      "Lab": 365,
      "Con": 136,
+     "LibDem": 37,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 357,
+     "Con": 144,
      "LibDem": 37,
      "Reform": 1,
      "Green": 1,
@@ -3232,6 +3511,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 147,
+     "LibDem": 39,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 389,
      "Con": 120,
@@ -3328,6 +3616,15 @@
     "theta_type_median": {
      "Lab": 361,
      "Con": 136,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 148,
      "LibDem": 41,
      "Reform": 1,
      "Green": 1,
@@ -3436,6 +3733,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 145,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 386,
      "Con": 122,
@@ -3532,6 +3838,15 @@
     "theta_type_median": {
      "Lab": 361,
      "Con": 135,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 144,
      "LibDem": 42,
      "Reform": 1,
      "Green": 1,
@@ -3640,6 +3955,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 147,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 378,
      "Con": 131,
@@ -3736,6 +4060,15 @@
     "theta_type_median": {
      "Lab": 350,
      "Con": 147,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 148,
      "LibDem": 41,
      "Reform": 1,
      "Green": 1,
@@ -3844,6 +4177,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 353,
+     "Con": 143,
+     "LibDem": 42,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 375,
      "Con": 133,
@@ -3940,6 +4282,15 @@
     "theta_type_median": {
      "Lab": 364,
      "Con": 133,
+     "LibDem": 41,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 353,
+     "Con": 144,
      "LibDem": 41,
      "Reform": 1,
      "Green": 1,
@@ -4048,6 +4399,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 130,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 371,
      "Con": 135,
@@ -4144,6 +4504,15 @@
     "theta_type_median": {
      "Lab": 353,
      "Con": 129,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
      "LibDem": 56,
      "Reform": 1,
      "Green": 1,
@@ -4252,6 +4621,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 371,
      "Con": 135,
@@ -4348,6 +4726,15 @@
     "theta_type_median": {
      "Lab": 353,
      "Con": 129,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
      "LibDem": 56,
      "Reform": 1,
      "Green": 1,
@@ -4456,6 +4843,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 370,
      "Con": 136,
@@ -4552,6 +4948,15 @@
     "theta_type_median": {
      "Lab": 345,
      "Con": 137,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
      "LibDem": 56,
      "Reform": 1,
      "Green": 1,
@@ -4660,6 +5065,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 370,
      "Con": 136,
@@ -4756,6 +5170,15 @@
     "theta_type_median": {
      "Lab": 345,
      "Con": 137,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
      "LibDem": 56,
      "Reform": 1,
      "Green": 1,
@@ -4864,6 +5287,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 131,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 370,
      "Con": 136,
@@ -4960,6 +5392,15 @@
     "theta_type_median": {
      "Lab": 345,
      "Con": 138,
+     "LibDem": 55,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 132,
      "LibDem": 55,
      "Reform": 1,
      "Green": 1,
@@ -5068,6 +5509,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 137,
+     "LibDem": 50,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 363,
      "Con": 143,
@@ -5164,6 +5614,15 @@
     "theta_type_median": {
      "Lab": 345,
      "Con": 147,
+     "LibDem": 46,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 141,
      "LibDem": 46,
      "Reform": 1,
      "Green": 1,
@@ -5272,6 +5731,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 143,
+     "LibDem": 46,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 364,
      "Con": 140,
@@ -5374,6 +5842,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 144,
+     "LibDem": 45,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 364,
      "Con": 138,
@@ -5468,6 +5945,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 148,
+     "LibDem": 45,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 148,
      "LibDem": 45,
@@ -5578,6 +6064,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 144,
+     "LibDem": 45,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 364,
      "Con": 138,
@@ -5674,6 +6169,15 @@
     "theta_type_median": {
      "Lab": 345,
      "Con": 148,
+     "LibDem": 45,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 145,
      "LibDem": 45,
      "Reform": 1,
      "Green": 1,
@@ -5782,6 +6286,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 137,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 359,
      "Con": 138,
@@ -5878,6 +6391,15 @@
     "theta_type_median": {
      "Lab": 346,
      "Con": 139,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 136,
      "LibDem": 53,
      "Reform": 1,
      "Green": 1,
@@ -5986,6 +6508,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 133,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 359,
      "Con": 139,
@@ -6082,6 +6613,15 @@
     "theta_type_median": {
      "Lab": 351,
      "Con": 134,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 133,
      "LibDem": 53,
      "Reform": 1,
      "Green": 1,
@@ -6190,6 +6730,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 134,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 357,
      "Con": 141,
@@ -6284,6 +6833,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 351,
+     "Con": 134,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 351,
      "Con": 134,
      "LibDem": 53,
@@ -6394,6 +6952,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 133,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 358,
      "Con": 143,
@@ -6496,6 +7063,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 136,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 357,
      "Con": 144,
@@ -6590,6 +7166,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 141,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 141,
      "LibDem": 53,
@@ -6700,6 +7285,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 141,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 352,
      "Con": 149,
@@ -6794,6 +7388,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 141,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 141,
      "LibDem": 53,
@@ -6904,6 +7507,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 141,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 351,
      "Con": 151,
@@ -7000,6 +7612,15 @@
     "theta_type_median": {
      "Lab": 349,
      "Con": 136,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 137,
      "LibDem": 53,
      "Reform": 1,
      "Green": 1,
@@ -7108,6 +7729,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 352,
+     "Con": 133,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 353,
      "Con": 149,
@@ -7204,6 +7834,15 @@
     "theta_type_median": {
      "Lab": 353,
      "Con": 132,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 354,
+     "Con": 131,
      "LibDem": 53,
      "Reform": 1,
      "Green": 1,
@@ -7312,6 +7951,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 354,
+     "Con": 131,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 353,
      "Con": 150,
@@ -7406,6 +8054,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 354,
+     "Con": 131,
+     "LibDem": 53,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 354,
      "Con": 131,
      "LibDem": 53,
@@ -7516,6 +8173,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 354,
+     "Con": 133,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 353,
      "Con": 149,
@@ -7612,6 +8278,15 @@
     "theta_type_median": {
      "Lab": 358,
      "Con": 129,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 355,
+     "Con": 132,
      "LibDem": 51,
      "Reform": 1,
      "Green": 1,
@@ -7720,6 +8395,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 357,
+     "Con": 130,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 354,
      "Con": 148,
@@ -7816,6 +8500,15 @@
     "theta_type_median": {
      "Lab": 352,
      "Con": 135,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 355,
+     "Con": 132,
      "LibDem": 51,
      "Reform": 1,
      "Green": 1,
@@ -7924,6 +8617,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 355,
+     "Con": 132,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 350,
      "Con": 153,
@@ -8020,6 +8722,15 @@
     "theta_type_median": {
      "Lab": 352,
      "Con": 135,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 355,
+     "Con": 132,
      "LibDem": 51,
      "Reform": 1,
      "Green": 1,
@@ -8128,6 +8839,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 351,
+     "Con": 136,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 348,
      "Con": 155,
@@ -8222,6 +8942,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 349,
+     "Con": 138,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 349,
      "Con": 138,
      "LibDem": 51,
@@ -8332,6 +9061,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 349,
+     "Con": 137,
+     "LibDem": 52,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 346,
      "Con": 156,
@@ -8428,6 +9166,15 @@
     "theta_type_median": {
      "Lab": 349,
      "Con": 137,
+     "LibDem": 52,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 139,
      "LibDem": 52,
      "Reform": 1,
      "Green": 1,
@@ -8536,6 +9283,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 139,
+     "LibDem": 52,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 346,
      "Con": 157,
@@ -8632,6 +9388,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 142,
+     "LibDem": 52,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 139,
      "LibDem": 52,
      "Reform": 1,
      "Green": 1,
@@ -8740,6 +9505,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 141,
+     "LibDem": 52,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 346,
      "Con": 157,
@@ -8836,6 +9610,15 @@
     "theta_type_median": {
      "Lab": 347,
      "Con": 140,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 142,
      "LibDem": 51,
      "Reform": 1,
      "Green": 1,
@@ -8944,6 +9727,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 142,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 347,
      "Con": 155,
@@ -9040,6 +9832,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 143,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 142,
      "LibDem": 51,
      "Reform": 1,
      "Green": 1,
@@ -9148,6 +9949,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 145,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 348,
      "Con": 156,
@@ -9244,6 +10054,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 143,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 142,
      "LibDem": 51,
      "Reform": 1,
      "Green": 1,
@@ -9352,6 +10171,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 145,
+     "LibDem": 51,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 348,
      "Con": 156,
@@ -9448,6 +10276,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 143,
+     "LibDem": 56,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 140,
      "LibDem": 56,
      "Reform": 1,
      "Green": 1,
@@ -9556,6 +10393,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 137,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 158,
@@ -9652,6 +10498,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 135,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 138,
      "LibDem": 59,
      "Reform": 1,
      "Green": 1,
@@ -9760,6 +10615,15 @@
      "Independent": 0,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 135,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 158,
@@ -9856,6 +10720,15 @@
     "theta_type_median": {
      "Lab": 347,
      "Con": 132,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 0,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 135,
      "LibDem": 59,
      "Reform": 1,
      "Green": 1,
@@ -9964,6 +10837,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 135,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 158,
@@ -10060,6 +10942,15 @@
     "theta_type_median": {
      "Lab": 346,
      "Con": 132,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 135,
      "LibDem": 59,
      "Reform": 1,
      "Green": 1,
@@ -10168,6 +11059,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 135,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 157,
@@ -10264,6 +11164,15 @@
     "theta_type_median": {
      "Lab": 346,
      "Con": 132,
+     "LibDem": 59,
+     "Reform": 1,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 135,
      "LibDem": 59,
      "Reform": 1,
      "Green": 1,
@@ -10372,6 +11281,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 134,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 157,
@@ -10474,6 +11392,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 134,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 157,
@@ -10568,6 +11495,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 134,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 134,
      "LibDem": 59,
@@ -10678,6 +11614,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 134,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 157,
@@ -10772,6 +11717,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 134,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 134,
      "LibDem": 59,
@@ -10882,6 +11836,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 131,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 344,
      "Con": 154,
@@ -10978,6 +11941,15 @@
     "theta_type_median": {
      "Lab": 347,
      "Con": 130,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 131,
      "LibDem": 59,
      "Reform": 2,
      "Green": 1,
@@ -11086,6 +12058,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 129,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 158,
@@ -11182,6 +12163,15 @@
     "theta_type_median": {
      "Lab": 347,
      "Con": 130,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 129,
      "LibDem": 59,
      "Reform": 2,
      "Green": 1,
@@ -11290,6 +12280,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 129,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 159,
@@ -11386,6 +12385,15 @@
     "theta_type_median": {
      "Lab": 343,
      "Con": 134,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 132,
      "LibDem": 59,
      "Reform": 2,
      "Green": 1,
@@ -11494,6 +12502,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 132,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 158,
@@ -11590,6 +12607,15 @@
     "theta_type_median": {
      "Lab": 346,
      "Con": 129,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 130,
      "LibDem": 61,
      "Reform": 2,
      "Green": 1,
@@ -11698,6 +12724,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 132,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 158,
@@ -11794,6 +12829,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 133,
+     "LibDem": 59,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 134,
      "LibDem": 59,
      "Reform": 2,
      "Green": 1,
@@ -11902,6 +12946,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 133,
+     "LibDem": 60,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 158,
@@ -11998,6 +13051,15 @@
     "theta_type_median": {
      "Lab": 343,
      "Con": 133,
+     "LibDem": 60,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 134,
      "LibDem": 60,
      "Reform": 2,
      "Green": 1,
@@ -12106,6 +13168,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 134,
+     "LibDem": 60,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 160,
@@ -12202,6 +13273,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 132,
+     "LibDem": 60,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 133,
      "LibDem": 60,
      "Reform": 2,
      "Green": 1,
@@ -12310,6 +13390,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 133,
+     "LibDem": 60,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 159,
@@ -12406,6 +13495,15 @@
     "theta_type_median": {
      "Lab": 344,
      "Con": 132,
+     "LibDem": 60,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 136,
      "LibDem": 60,
      "Reform": 2,
      "Green": 1,
@@ -12514,6 +13612,15 @@
      "Independent": 1,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 1,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 160,
@@ -12616,6 +13723,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 336,
      "Con": 160,
@@ -12710,6 +13826,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 131,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 131,
      "LibDem": 61,
@@ -12820,6 +13945,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 131,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 159,
@@ -12916,6 +14050,15 @@
     "theta_type_median": {
      "Lab": 343,
      "Con": 131,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 132,
      "LibDem": 61,
      "Reform": 2,
      "Green": 1,
@@ -13024,6 +14167,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 133,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 160,
@@ -13120,6 +14272,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 136,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 133,
      "LibDem": 61,
      "Reform": 2,
      "Green": 1,
@@ -13228,6 +14389,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 136,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 160,
@@ -13324,6 +14494,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 134,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 136,
      "LibDem": 61,
      "Reform": 2,
      "Green": 1,
@@ -13432,6 +14611,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 136,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 160,
@@ -13526,6 +14714,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 338,
+     "Con": 136,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 338,
      "Con": 136,
      "LibDem": 61,
@@ -13636,6 +14833,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 337,
+     "Con": 137,
+     "LibDem": 61,
+     "Reform": 2,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 160,
@@ -13732,6 +14938,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 337,
+     "Con": 136,
      "LibDem": 61,
      "Reform": 3,
      "Green": 1,
@@ -13840,6 +15055,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 337,
+     "Con": 136,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 159,
@@ -13942,6 +15166,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 337,
+     "Con": 136,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 159,
@@ -14036,6 +15269,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 337,
+     "Con": 136,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 337,
      "Con": 136,
      "LibDem": 61,
@@ -14146,6 +15388,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 158,
@@ -14248,6 +15499,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 157,
@@ -14342,6 +15602,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 338,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 338,
      "Con": 135,
      "LibDem": 61,
@@ -14452,6 +15721,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 157,
@@ -14546,6 +15824,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 338,
+     "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 338,
      "Con": 135,
      "LibDem": 61,
@@ -14656,6 +15943,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 156,
@@ -14750,6 +16046,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 339,
      "Con": 134,
      "LibDem": 61,
@@ -14860,6 +16165,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 156,
@@ -14954,6 +16268,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 339,
      "Con": 134,
      "LibDem": 61,
@@ -15064,6 +16387,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 156,
@@ -15158,6 +16490,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 339,
      "Con": 134,
      "LibDem": 61,
@@ -15268,6 +16609,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 156,
@@ -15364,6 +16714,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 1,
@@ -15472,6 +16831,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 155,
@@ -15566,6 +16934,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 340,
+     "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 340,
      "Con": 133,
      "LibDem": 61,
@@ -15676,6 +17053,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 155,
@@ -15772,6 +17158,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 1,
@@ -15880,6 +17275,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 155,
@@ -15976,6 +17380,15 @@
     "theta_type_median": {
      "Lab": 341,
      "Con": 132,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 1,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 1,
@@ -16084,6 +17497,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -16180,6 +17602,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 2,
@@ -16288,6 +17719,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -16384,6 +17824,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 132,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 2,
@@ -16492,6 +17941,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -16588,6 +18046,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 2,
@@ -16696,6 +18163,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -16792,6 +18268,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 2,
@@ -16900,6 +18385,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -16996,6 +18490,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 133,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 2,
@@ -17104,6 +18607,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -17200,6 +18712,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 135,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
      "LibDem": 61,
      "Reform": 3,
      "Green": 2,
@@ -17308,6 +18829,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 134,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 154,
@@ -17404,6 +18934,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 134,
+     "LibDem": 62,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 133,
      "LibDem": 62,
      "Reform": 3,
      "Green": 2,
@@ -17512,6 +19051,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 149,
@@ -17608,6 +19156,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 132,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -17716,6 +19273,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 149,
@@ -17812,6 +19378,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -17920,6 +19495,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 147,
@@ -18016,6 +19600,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -18124,6 +19717,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 147,
@@ -18220,6 +19822,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -18328,6 +19939,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 147,
@@ -18424,6 +20044,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -18532,6 +20161,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 147,
@@ -18628,6 +20266,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -18736,6 +20383,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 147,
@@ -18832,6 +20488,15 @@
     "theta_type_median": {
      "Lab": 336,
      "Con": 134,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 132,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -18940,6 +20605,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 338,
+     "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 147,
@@ -19036,6 +20710,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -19144,6 +20827,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 146,
@@ -19240,6 +20932,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -19348,6 +21049,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -19444,6 +21154,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -19552,6 +21271,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -19648,6 +21376,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -19756,6 +21493,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -19852,6 +21598,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -19960,6 +21715,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -20056,6 +21820,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -20164,6 +21937,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 146,
@@ -20260,6 +22042,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -20368,6 +22159,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 146,
@@ -20464,6 +22264,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -20572,6 +22381,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 146,
@@ -20668,6 +22486,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -20776,6 +22603,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 146,
@@ -20872,6 +22708,15 @@
     "theta_type_median": {
      "Lab": 337,
      "Con": 133,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -20980,6 +22825,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 146,
@@ -21076,6 +22930,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -21184,6 +23047,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 145,
@@ -21280,6 +23152,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -21388,6 +23269,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 145,
@@ -21484,6 +23374,15 @@
     "theta_type_median": {
      "Lab": 338,
      "Con": 132,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -21592,6 +23491,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 145,
@@ -21688,6 +23596,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -21796,6 +23713,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 145,
@@ -21892,6 +23818,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 63,
      "Reform": 3,
      "Green": 2,
@@ -22000,6 +23935,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 144,
@@ -22094,6 +24038,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 63,
@@ -22204,6 +24157,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 143,
@@ -22298,6 +24260,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 63,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 63,
@@ -22408,6 +24379,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 143,
@@ -22502,6 +24482,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 61,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 129,
      "LibDem": 61,
@@ -22612,6 +24601,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 143,
@@ -22706,6 +24704,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 130,
      "LibDem": 60,
@@ -22816,6 +24823,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 143,
@@ -22912,6 +24928,15 @@
     "theta_type_median": {
      "Lab": 341,
      "Con": 132,
+     "LibDem": 60,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
      "LibDem": 60,
      "Reform": 3,
      "Green": 2,
@@ -23020,6 +25045,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 3,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 143,
@@ -23116,6 +25150,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
      "LibDem": 60,
      "Reform": 4,
      "Green": 2,
@@ -23224,6 +25267,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -23320,6 +25372,15 @@
     "theta_type_median": {
      "Lab": 341,
      "Con": 131,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
      "LibDem": 60,
      "Reform": 4,
      "Green": 2,
@@ -23428,6 +25489,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -23524,6 +25594,15 @@
     "theta_type_median": {
      "Lab": 341,
      "Con": 131,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
      "LibDem": 60,
      "Reform": 4,
      "Green": 2,
@@ -23632,6 +25711,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -23728,6 +25816,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 132,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
      "LibDem": 60,
      "Reform": 4,
      "Green": 2,
@@ -23836,6 +25933,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -23930,6 +26036,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 130,
      "LibDem": 60,
@@ -24040,6 +26155,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -24134,6 +26258,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 130,
      "LibDem": 60,
@@ -24244,6 +26377,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -24338,6 +26480,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 130,
      "LibDem": 60,
@@ -24448,6 +26599,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -24542,6 +26702,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 130,
      "LibDem": 60,
@@ -24652,6 +26821,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 142,
@@ -24746,6 +26924,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 130,
      "LibDem": 60,
@@ -24856,6 +27043,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 142,
@@ -24950,6 +27146,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 130,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 130,
      "LibDem": 60,
@@ -25060,6 +27265,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 145,
@@ -25162,6 +27376,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 145,
@@ -25256,6 +27479,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 130,
      "LibDem": 59,
@@ -25366,6 +27598,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 145,
@@ -25468,6 +27709,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 145,
@@ -25562,6 +27812,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 130,
      "LibDem": 59,
@@ -25672,6 +27931,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 142,
@@ -25766,6 +28034,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 130,
      "LibDem": 59,
@@ -25876,6 +28153,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 130,
+     "LibDem": 59,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 143,
@@ -25970,6 +28256,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 129,
      "LibDem": 60,
@@ -26080,6 +28375,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -26174,6 +28478,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 129,
      "LibDem": 60,
@@ -26284,6 +28597,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 129,
+     "LibDem": 60,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -26378,6 +28700,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 62,
@@ -26488,6 +28819,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -26582,6 +28922,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 62,
@@ -26692,6 +29041,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -26786,6 +29144,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 62,
@@ -26896,6 +29263,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -26990,6 +29366,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 62,
@@ -27100,6 +29485,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 142,
@@ -27194,6 +29588,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 127,
      "LibDem": 62,
@@ -27304,6 +29707,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 143,
@@ -27398,6 +29810,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 128,
      "LibDem": 62,
@@ -27508,6 +29929,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 143,
@@ -27602,6 +30032,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 128,
      "LibDem": 62,
@@ -27712,6 +30151,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -27806,6 +30254,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 128,
      "LibDem": 62,
@@ -27916,6 +30373,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -28010,6 +30476,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 128,
      "LibDem": 62,
@@ -28120,6 +30595,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 143,
@@ -28214,6 +30698,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 128,
      "LibDem": 62,
@@ -28324,6 +30817,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -28426,6 +30928,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -28520,6 +31031,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -28630,6 +31150,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -28724,6 +31253,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -28834,6 +31372,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -28928,6 +31475,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -29038,6 +31594,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -29132,6 +31697,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -29242,6 +31816,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -29338,6 +31921,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -29446,6 +32038,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -29542,6 +32143,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -29650,6 +32260,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -29744,6 +32363,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -29854,6 +32482,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 144,
@@ -29950,6 +32587,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -30058,6 +32704,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 145,
@@ -30154,6 +32809,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -30262,6 +32926,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 128,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 143,
@@ -30358,6 +33031,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 130,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 128,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -30466,6 +33148,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 128,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 142,
@@ -30562,6 +33253,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 129,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
      "LibDem": 64,
      "Reform": 4,
      "Green": 2,
@@ -30670,6 +33370,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 142,
@@ -30766,6 +33475,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 129,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
      "LibDem": 64,
      "Reform": 4,
      "Green": 2,
@@ -30874,6 +33592,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 142,
@@ -30970,6 +33697,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 129,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
      "LibDem": 64,
      "Reform": 4,
      "Green": 2,
@@ -31078,6 +33814,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 142,
@@ -31174,6 +33919,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -31282,6 +34036,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -31378,6 +34141,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -31486,6 +34258,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 146,
@@ -31582,6 +34363,15 @@
     "theta_type_median": {
      "Lab": 339,
      "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -31690,6 +34480,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -31792,6 +34591,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -31886,6 +34694,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -31996,6 +34813,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -32098,6 +34924,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -32192,6 +35027,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -32302,6 +35146,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 145,
@@ -32396,6 +35249,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -32506,6 +35368,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 146,
@@ -32600,6 +35471,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -32710,6 +35590,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 146,
@@ -32804,6 +35693,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -32914,6 +35812,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 145,
@@ -33008,6 +35915,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -33118,6 +36034,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 145,
@@ -33212,6 +36137,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -33322,6 +36256,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 145,
@@ -33416,6 +36359,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -33526,6 +36478,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 336,
      "Con": 146,
@@ -33620,6 +36581,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 340,
      "Con": 130,
      "LibDem": 62,
@@ -33730,6 +36700,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 335,
      "Con": 147,
@@ -33826,6 +36805,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -33934,6 +36922,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 336,
      "Con": 146,
@@ -34028,6 +37025,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 340,
      "Con": 130,
      "LibDem": 62,
@@ -34138,6 +37144,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 335,
      "Con": 147,
@@ -34232,6 +37247,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 340,
      "Con": 130,
      "LibDem": 62,
@@ -34342,6 +37366,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 334,
      "Con": 148,
@@ -34444,6 +37477,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 334,
      "Con": 148,
@@ -34538,6 +37580,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 340,
      "Con": 130,
      "LibDem": 62,
@@ -34648,6 +37699,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 335,
      "Con": 147,
@@ -34744,6 +37804,15 @@
     "theta_type_median": {
      "Lab": 340,
      "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -34852,6 +37921,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 336,
      "Con": 146,
@@ -34954,6 +38032,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 339,
+     "Con": 131,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 336,
      "Con": 146,
@@ -35048,6 +38135,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 340,
      "Con": 130,
      "LibDem": 62,
@@ -35158,6 +38254,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 336,
      "Con": 146,
@@ -35252,6 +38357,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -35362,6 +38476,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 145,
@@ -35456,6 +38579,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 129,
      "LibDem": 62,
@@ -35566,6 +38698,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 340,
+     "Con": 130,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 145,
@@ -35662,6 +38803,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -35770,6 +38920,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 129,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 144,
@@ -35866,6 +39025,15 @@
     "theta_type_median": {
      "Lab": 343,
      "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -35974,6 +39142,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 143,
@@ -36070,6 +39247,15 @@
     "theta_type_median": {
      "Lab": 343,
      "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -36178,6 +39364,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 143,
@@ -36280,6 +39475,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 128,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 143,
@@ -36374,6 +39578,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 126,
      "LibDem": 62,
@@ -36484,6 +39697,15 @@
      "Independent": 2,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 2,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 142,
@@ -36578,6 +39800,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 3,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 126,
      "LibDem": 62,
@@ -36688,6 +39919,15 @@
      "Independent": 3,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 3,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 142,
@@ -36782,6 +40022,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 3,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 126,
      "LibDem": 62,
@@ -36892,6 +40141,15 @@
      "Independent": 3,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 3,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 141,
@@ -36988,6 +40246,15 @@
     "theta_type_median": {
      "Lab": 343,
      "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 3,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 127,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -37096,6 +40363,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 142,
@@ -37192,6 +40468,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 126,
+     "LibDem": 62,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 127,
      "LibDem": 62,
      "Reform": 4,
      "Green": 2,
@@ -37300,6 +40585,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 141,
@@ -37396,6 +40690,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -37504,6 +40807,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -37600,6 +40912,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -37708,6 +41029,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -37810,6 +41140,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -37904,6 +41243,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 125,
      "LibDem": 63,
@@ -38014,6 +41362,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -38110,6 +41467,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -38218,6 +41584,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -38314,6 +41689,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -38422,6 +41806,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -38518,6 +41911,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -38626,6 +42028,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -38722,6 +42133,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -38830,6 +42250,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 140,
@@ -38926,6 +42355,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -39034,6 +42472,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 139,
@@ -39130,6 +42577,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -39238,6 +42694,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 139,
@@ -39340,6 +42805,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 139,
@@ -39434,6 +42908,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 125,
      "LibDem": 63,
@@ -39544,6 +43027,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 139,
@@ -39640,6 +43132,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -39748,6 +43249,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 138,
@@ -39844,6 +43354,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 125,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
      "LibDem": 63,
      "Reform": 4,
      "Green": 2,
@@ -39952,6 +43471,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 126,
+     "LibDem": 63,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 137,
@@ -40048,6 +43576,15 @@
     "theta_type_median": {
      "Lab": 342,
      "Con": 124,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 125,
      "LibDem": 64,
      "Reform": 4,
      "Green": 2,
@@ -40156,6 +43693,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 124,
+     "LibDem": 64,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 138,
@@ -40258,6 +43804,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 137,
@@ -40352,6 +43907,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 123,
      "LibDem": 65,
@@ -40462,6 +44026,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 137,
@@ -40556,6 +44129,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 123,
      "LibDem": 65,
@@ -40666,6 +44248,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 138,
@@ -40760,6 +44351,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 123,
      "LibDem": 65,
@@ -40870,6 +44470,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 138,
@@ -40964,6 +44573,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 123,
      "LibDem": 65,
@@ -41074,6 +44692,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 137,
@@ -41168,6 +44795,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 121,
      "LibDem": 67,
@@ -41278,6 +44914,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 136,
@@ -41372,6 +45017,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 121,
      "LibDem": 67,
@@ -41482,6 +45136,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 136,
@@ -41576,6 +45239,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 121,
      "LibDem": 67,
@@ -41686,6 +45358,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 136,
@@ -41780,6 +45461,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 122,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 122,
      "LibDem": 67,
@@ -41890,6 +45580,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 122,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -41984,6 +45683,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 123,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 123,
      "LibDem": 66,
@@ -42094,6 +45802,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 341,
+     "Con": 123,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 337,
      "Con": 138,
@@ -42188,6 +45905,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 341,
+     "Con": 123,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 341,
      "Con": 123,
      "LibDem": 66,
@@ -42298,6 +46024,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -42392,6 +46127,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 66,
@@ -42502,6 +46246,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -42596,6 +46349,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 66,
@@ -42706,6 +46468,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -42800,6 +46571,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 66,
@@ -42910,6 +46690,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -43004,6 +46793,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 66,
@@ -43114,6 +46912,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 123,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 2,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -43208,6 +47015,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 65,
@@ -43318,6 +47134,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 136,
@@ -43412,6 +47237,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 65,
@@ -43522,6 +47356,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 136,
@@ -43616,6 +47459,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 65,
@@ -43726,6 +47578,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 136,
@@ -43820,6 +47681,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 65,
@@ -43930,6 +47800,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 136,
@@ -44024,6 +47903,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 122,
      "LibDem": 65,
@@ -44134,6 +48022,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 122,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -44228,6 +48125,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 121,
      "LibDem": 66,
@@ -44338,6 +48244,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -44432,6 +48347,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 342,
      "Con": 121,
      "LibDem": 66,
@@ -44542,6 +48466,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 342,
+     "Con": 121,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 338,
      "Con": 137,
@@ -44636,6 +48569,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 120,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 120,
      "LibDem": 66,
@@ -44746,6 +48688,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 120,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 136,
@@ -44840,6 +48791,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 120,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 120,
      "LibDem": 66,
@@ -44950,6 +48910,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 120,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 136,
@@ -45044,6 +49013,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 120,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 120,
      "LibDem": 66,
@@ -45154,6 +49132,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 120,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 136,
@@ -45248,6 +49235,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 119,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 119,
      "LibDem": 66,
@@ -45358,6 +49354,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 119,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 134,
@@ -45452,6 +49457,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 119,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 119,
      "LibDem": 66,
@@ -45562,6 +49576,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 119,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 134,
@@ -45656,6 +49679,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 118,
      "LibDem": 67,
@@ -45766,6 +49798,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 134,
@@ -45868,6 +49909,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 134,
@@ -45962,6 +50012,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 119,
      "LibDem": 67,
@@ -46072,6 +50131,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 134,
@@ -46166,6 +50234,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 119,
      "LibDem": 67,
@@ -46276,6 +50353,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 134,
@@ -46370,6 +50456,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 119,
      "LibDem": 67,
@@ -46480,6 +50575,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 134,
@@ -46574,6 +50678,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 119,
      "LibDem": 67,
@@ -46684,6 +50797,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 134,
@@ -46778,6 +50900,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 343,
+     "Con": 119,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 343,
      "Con": 119,
      "LibDem": 67,
@@ -46888,6 +51019,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 133,
@@ -46982,6 +51122,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 118,
      "LibDem": 67,
@@ -47092,6 +51241,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 132,
@@ -47186,6 +51344,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 118,
      "LibDem": 67,
@@ -47296,6 +51463,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 340,
      "Con": 132,
@@ -47390,6 +51566,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 119,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 119,
      "LibDem": 66,
@@ -47500,6 +51685,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 132,
@@ -47594,6 +51788,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 118,
      "LibDem": 67,
@@ -47704,6 +51907,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 131,
@@ -47798,6 +52010,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 344,
      "Con": 118,
      "LibDem": 67,
@@ -47908,6 +52129,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 344,
+     "Con": 118,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 339,
      "Con": 131,
@@ -48002,6 +52232,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 67,
@@ -48112,6 +52351,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 129,
@@ -48206,6 +52454,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 67,
@@ -48316,6 +52573,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 128,
@@ -48410,6 +52676,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 67,
@@ -48520,6 +52795,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 127,
@@ -48614,6 +52898,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 67,
@@ -48724,6 +53017,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 128,
@@ -48818,6 +53120,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 67,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 67,
@@ -48928,6 +53239,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 341,
      "Con": 128,
@@ -49022,6 +53342,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 118,
      "LibDem": 66,
@@ -49132,6 +53461,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 342,
      "Con": 127,
@@ -49226,6 +53564,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 118,
      "LibDem": 66,
@@ -49336,6 +53683,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 126,
@@ -49430,6 +53786,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 118,
      "LibDem": 66,
@@ -49540,6 +53905,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 344,
      "Con": 125,
@@ -49634,6 +54008,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 118,
      "LibDem": 66,
@@ -49744,6 +54127,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 118,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 3,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 125,
@@ -49838,6 +54230,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 66,
@@ -49948,6 +54349,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 343,
      "Con": 124,
@@ -50042,6 +54452,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 345,
+     "Con": 117,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 345,
      "Con": 117,
      "LibDem": 66,
@@ -50152,6 +54571,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 344,
      "Con": 123,
@@ -50246,6 +54674,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 346,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 346,
      "Con": 116,
      "LibDem": 66,
@@ -50356,6 +54793,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 345,
      "Con": 122,
@@ -50450,6 +54896,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 346,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 346,
      "Con": 116,
      "LibDem": 66,
@@ -50560,6 +55015,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 345,
      "Con": 121,
@@ -50654,6 +55118,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 347,
+     "Con": 115,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 347,
      "Con": 115,
      "LibDem": 66,
@@ -50764,6 +55237,15 @@
      "Independent": 4,
      "Others": 3
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 115,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
     "matrix": {
      "Lab": 346,
      "Con": 120,
@@ -50858,6 +55340,15 @@
      "Others": 2
     },
     "theta_type_median": {
+     "Lab": 347,
+     "Con": 115,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 3
+    },
+    "theta_strong": {
      "Lab": 347,
      "Con": 115,
      "LibDem": 66,
@@ -50968,6 +55459,15 @@
      "Independent": 4,
      "Others": 2
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
     "matrix": {
      "Lab": 346,
      "Con": 120,
@@ -51062,6 +55562,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 347,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
+    "theta_strong": {
      "Lab": 347,
      "Con": 116,
      "LibDem": 66,
@@ -51172,6 +55681,15 @@
      "Independent": 4,
      "Others": 2
     },
+    "theta_strong": {
+     "Lab": 348,
+     "Con": 115,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
     "matrix": {
      "Lab": 347,
      "Con": 118,
@@ -51266,6 +55784,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 348,
+     "Con": 115,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
+    "theta_strong": {
      "Lab": 348,
      "Con": 115,
      "LibDem": 66,
@@ -51376,6 +55903,15 @@
      "Independent": 4,
      "Others": 2
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 116,
+     "LibDem": 66,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
     "matrix": {
      "Lab": 347,
      "Con": 118,
@@ -51470,6 +56006,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 347,
+     "Con": 117,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
+    "theta_strong": {
      "Lab": 347,
      "Con": 117,
      "LibDem": 65,
@@ -51580,6 +56125,15 @@
      "Independent": 4,
      "Others": 2
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 117,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 2
+    },
     "matrix": {
      "Lab": 347,
      "Con": 119,
@@ -51674,6 +56228,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 347,
+     "Con": 118,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 1
+    },
+    "theta_strong": {
      "Lab": 347,
      "Con": 118,
      "LibDem": 65,
@@ -51784,6 +56347,15 @@
      "Independent": 4,
      "Others": 1
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 118,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 4,
+     "Others": 1
+    },
     "matrix": {
      "Lab": 347,
      "Con": 119,
@@ -51878,6 +56450,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 346,
+     "Con": 118,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 5,
+     "Others": 1
+    },
+    "theta_strong": {
      "Lab": 346,
      "Con": 118,
      "LibDem": 65,
@@ -51988,6 +56569,15 @@
      "Independent": 5,
      "Others": 1
     },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 118,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 5,
+     "Others": 1
+    },
     "matrix": {
      "Lab": 346,
      "Con": 118,
@@ -52082,6 +56672,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 346,
+     "Con": 118,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 5,
+     "Others": 1
+    },
+    "theta_strong": {
      "Lab": 346,
      "Con": 118,
      "LibDem": 65,
@@ -52192,6 +56791,15 @@
      "Independent": 5,
      "Others": 1
     },
+    "theta_strong": {
+     "Lab": 346,
+     "Con": 118,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 5,
+     "Others": 1
+    },
     "matrix": {
      "Lab": 346,
      "Con": 118,
@@ -52294,6 +56902,15 @@
      "Independent": 5,
      "Others": 1
     },
+    "theta_strong": {
+     "Lab": 347,
+     "Con": 117,
+     "LibDem": 65,
+     "Reform": 4,
+     "Green": 4,
+     "Independent": 5,
+     "Others": 1
+    },
     "matrix": {
      "Lab": 347,
      "Con": 117,
@@ -52388,6 +57005,15 @@
      "Others": 1
     },
     "theta_type_median": {
+     "Lab": 347,
+     "Con": 116,
+     "LibDem": 65,
+     "Reform": 5,
+     "Green": 4,
+     "Independent": 5,
+     "Others": 1
+    },
+    "theta_strong": {
      "Lab": 347,
      "Con": 116,
      "LibDem": 65,

@@ -195,6 +195,22 @@ def seat_type(old_shares):
     return SEAT_TYPES.get(frozenset((a, b)))
 
 
+STRONG_SHARE = 0.60   # previous winner's share for a Con v Lab seat to count as strong
+STRENGTH_TYPES = ("Strong Con", "Strong Lab", "Con v Lab", "Con v LibDem", "Lab v LibDem")
+
+
+def seat_type_with_strength(old_shares):
+    """Like seat_type, but Con v Lab seats where the winner had STRONG_SHARE or
+    more are split off as "Strong Con" or "Strong Lab"."""
+    t = seat_type(old_shares)
+    if t == "Con v Lab":
+        if old_shares["Con"] >= STRONG_SHARE:
+            return "Strong Con"
+        if old_shares["Lab"] >= STRONG_SHARE:
+            return "Strong Lab"
+    return t
+
+
 class ThetaBySeatType:
     """Theta measured separately for each seat type, within one country.
 
@@ -203,18 +219,19 @@ class ThetaBySeatType:
     uses the overall theta of all declared seats.
     """
 
-    def __init__(self, stat="mean"):
+    def __init__(self, stat="mean", classify=seat_type, types=tuple(SEAT_TYPES.values())):
+        self.classify = classify
         self.overall = ThetaSwing(stat)
-        self.by_type = {t: ThetaSwing(stat) for t in SEAT_TYPES.values()}
+        self.by_type = {t: ThetaSwing(stat) for t in types}
 
     def add(self, old_shares, new_shares):
         self.overall.add(old_shares, new_shares)
-        t = seat_type(old_shares)
+        t = self.classify(old_shares)
         if t is not None:
             self.by_type[t].add(old_shares, new_shares)
 
     def swing_for(self, old_shares):
-        t = seat_type(old_shares)
+        t = self.classify(old_shares)
         if t is not None and self.by_type[t].declared >= MIN_TYPE_SEATS:
             return self.by_type[t]
         return self.overall

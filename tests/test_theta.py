@@ -4,7 +4,8 @@ import math
 import unittest
 from pathlib import Path
 
-from predictor.forecast import MIN_TYPE_SEATS, ThetaBySeatType, ThetaSwing, apply_theta, seat_type, theta
+from predictor.forecast import (MIN_TYPE_SEATS, ThetaBySeatType, ThetaSwing, apply_theta,
+                                seat_type, seat_type_with_strength, theta)
 from predictor.parties import vote_shares
 from predictor.replay import load_baseline, load_live, replay
 
@@ -62,6 +63,12 @@ class SeatTypeTests(unittest.TestCase):
         self.assertEqual(seat_type({"Con": .5, "LibDem": .4, "Lab": .1}), "Con v LibDem")
         self.assertEqual(seat_type({"LibDem": .5, "Lab": .4, "Con": .1}), "Lab v LibDem")
         self.assertIsNone(seat_type({"Lab": .5, "Reform": .3, "Con": .1}))
+
+    def test_strong_seats_split_off(self):
+        self.assertEqual(seat_type_with_strength(vote_shares({"Con": 60, "Lab": 30, "LibDem": 10})), "Strong Con")
+        self.assertEqual(seat_type_with_strength(vote_shares({"Lab": 65, "Con": 25, "LibDem": 10})), "Strong Lab")
+        self.assertEqual(seat_type_with_strength(vote_shares({"Con": 55, "Lab": 35, "LibDem": 10})), "Con v Lab")
+        self.assertEqual(seat_type_with_strength(vote_shares({"Con": 62, "LibDem": 30, "Lab": 8})), "Con v LibDem")
 
     def test_type_theta_used_only_after_enough_seats(self):
         swing = ThetaBySeatType()

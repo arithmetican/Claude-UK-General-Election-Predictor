@@ -48,7 +48,7 @@ class MatrixTests(unittest.TestCase):
     def test_replay_converges_to_final(self):
         r = run(self.seats, self.live)
         last = r["steps"][-1]["seats"]
-        for method in ("uniform", "theta", "theta_type", "theta_type_median", "matrix"):
+        for method in ("uniform", "theta", "theta_type", "theta_type_median", "theta_strong", "matrix"):
             self.assertEqual(last[method], r["final"])
 
 

@@ -22,7 +22,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .forecast import Swing, ThetaBySeatType, ThetaSwing
+from .forecast import STRENGTH_TYPES, Swing, ThetaBySeatType, ThetaSwing, seat_type_with_strength
 from .matching import ConstituencyMatcher
 from .matrix import ENGLAND_PARTIES, fit_matrix, predict_shares
 from .parties import INDEPENDENT, read_votes, vote_shares
@@ -62,12 +62,14 @@ def run(baseline_seats, live_results, start=START):
 
     uniform, theta, theta_type = Swing(), ThetaSwing(), ThetaBySeatType()
     theta_type_median = ThetaBySeatType("median")
+    theta_strong = ThetaBySeatType("median", seat_type_with_strength, STRENGTH_TYPES)
     steps = []
     for n, (seat, old, new, winner) in enumerate(rows, start=1):
         uniform.add(old, new)
         theta.add(old, new)
         theta_type.add(old, new)
         theta_type_median.add(old, new)
+        theta_strong.add(old, new)
         if n < start:
             continue
         T = fit_matrix(X[:n], Y[:n], M[:n])   # from scratch: depends only on these n seats
@@ -78,6 +80,7 @@ def run(baseline_seats, live_results, start=START):
             "theta": Counter(theta.predict(rows[i][1], "England") for i in rest),
             "theta_type": Counter(theta_type.predict(rows[i][1], "England") for i in rest),
             "theta_type_median": Counter(theta_type_median.predict(rows[i][1], "England") for i in rest),
+            "theta_strong": Counter(theta_strong.predict(rows[i][1], "England") for i in rest),
             "matrix": Counter(ENGLAND_PARTIES[k] for k in
                               predict_shares(X[n:], T, M[n:]).argmax(axis=1)) if n < len(rows) else Counter(),
         }
