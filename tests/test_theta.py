@@ -49,13 +49,13 @@ class SeatTypeTests(unittest.TestCase):
 
     def test_type_theta_used_only_after_enough_seats(self):
         swing = ThetaBySeatType()
-        old = {"Con": .5, "LibDem": .4, "Lab": .1}
-        new = {"Con": .3, "LibDem": .6, "Lab": .1}
+        old = vote_shares({"Con": 50, "LibDem": 40, "Lab": 10})
+        new = vote_shares({"Con": 30, "LibDem": 60, "Lab": 10})
         for i in range(MIN_TYPE_SEATS):
             self.assertIs(swing.swing_for(old), swing.overall)
             swing.add(old, new)
         self.assertIs(swing.swing_for(old), swing.by_type["Con v LibDem"])
-        self.assertIs(swing.swing_for({"Lab": .5, "Reform": .3}), swing.overall)
+        self.assertIs(swing.swing_for(vote_shares({"Lab": 50, "Reform": 30})), swing.overall)
 
 
 class ThetaReplayTests(unittest.TestCase):
