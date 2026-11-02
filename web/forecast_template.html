@@ -77,6 +77,26 @@ const chosen = {};
 const variantKey = () => DATA.options.map(o => `${o.name}=${chosen[o.name]}`).join("&");
 let RESULTS = null;
 
+// Variants are stored compactly (shared step details once, per-variant seat
+// totals and swings as arrays); rebuild the full form the graph draws.
+const expanded = {};
+function expand(key) {
+  if (expanded[key]) return expanded[key];
+  const sh = DATA.shared, v = DATA.variants[key];
+  const steps = sh.steps.map((m, i) => {
+    const seats = {}, swing = {};
+    sh.parties.forEach((p, k) => seats[p] = v.seats[i][k]);
+    sh.countries.forEach((c, j) => {
+      swing[c] = {};
+      v.swing_parties[c].forEach((p, k) => swing[c][p] = v.swing[i][j][k]);
+    });
+    return Object.assign({}, m, { seats, swing });
+  });
+  const r = Object.assign({}, sh, v, { steps });
+  delete r.swing_parties;
+  return (expanded[key] = r);
+}
+
 // Party colours: background (lines, label fill) and foreground (label text).
 const COLOURS = {
   Reform: "#12B6CF", Con: "#0087dc", Green: "#008066", Lab: "#d50000",
@@ -234,11 +254,11 @@ if (!DATA) {
         chosen[o.name] = v.value;
         row.selectAll("button").classed("on", false);
         d3.select(this).classed("on", true);
-        RESULTS = DATA.variants[variantKey()];
+        RESULTS = expand(variantKey());
         draw();
       }));
   });
-  RESULTS = DATA.variants[variantKey()];
+  RESULTS = expand(variantKey());
   draw();
 }
 </script>

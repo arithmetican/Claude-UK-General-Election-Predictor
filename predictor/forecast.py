@@ -244,3 +244,72 @@ class ThetaBySeatType:
 
     def predict(self, old_shares, country):
         return self.swing_for(old_shares).predict(old_shares, country)
+
+
+# ---------------------------------------------------------------------------
+# Seat-type groups as switchable options (used by the GB forecast page).
+# ---------------------------------------------------------------------------
+
+class GroupedSwing:
+    """A swing (uniform or theta) measured separately for some seat types.
+
+    make: creates the underlying swing (e.g. lambda: ThetaSwing("median")).
+    classify: maps a seat's previous shares to a type name, or None for
+    "use the overall figure". A type uses its own figure once MIN_TYPE_SEATS
+    of its seats have declared; until then it uses the overall figure.
+    """
+
+    def __init__(self, make, classify):
+        self.make, self.classify = make, classify
+        self.overall = make()
+        self.by_type = {}
+
+    @property
+    def declared(self):
+        return self.overall.declared
+
+    def add(self, old_shares, new_shares):
+        self.overall.add(old_shares, new_shares)
+        t = self.classify(old_shares)
+        if t is not None:
+            self.by_type.setdefault(t, self.make()).add(old_shares, new_shares)
+
+    def swing_for(self, old_shares):
+        t = self.classify(old_shares)
+        group = self.by_type.get(t)
+        if group is not None and group.declared >= MIN_TYPE_SEATS:
+            return group
+        return self.overall
+
+    def change(self, party):
+        return self.overall.change(party)
+
+    def changes(self):
+        return self.overall.changes()
+
+    def predict(self, old_shares, country):
+        return self.swing_for(old_shares).predict(old_shares, country)
+
+
+def type_classifier(enabled):
+    """Classifier using only the seat types in `enabled` (others count as no type)."""
+    enabled = frozenset(enabled)
+
+    def classify(old_shares):
+        t = seat_type(old_shares)
+        return t if t in enabled else None
+    return classify
+
+
+class CountryModel(SwingByCountry):
+    """A separate swing for England, Scotland and Wales, with optional seat-type
+    groups within England.
+
+    make: creates one country's swing, e.g. lambda: Swing("median").
+    england_types: the seat types that get their own figure in England.
+    """
+
+    def __init__(self, make, england_types=()):
+        self.by_country = {c: make() for c in COUNTRIES}
+        if england_types:
+            self.by_country["England"] = GroupedSwing(make, type_classifier(england_types))

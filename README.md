@@ -65,6 +65,15 @@ Options so far (each independent of the others):
   gaining wins a fixed fraction of the vote it previously lacked (the theta
   method).
 - **Average:** mean (base) or median of the per-seat changes (or thetas).
+- **Con v Lab, Con v LibDem, Lab v LibDem:** off (base) or on, each
+  separately. When on, English seats of that type (by the 2019 top two
+  parties) get their own swing once 5 of them have declared; until then, and
+  when off, they use England's overall swing. Scotland and Wales are not
+  split. This is a way of modelling tactical voting (and anything else such
+  seats have in common).
+
+All 32 combinations are computed in advance (about 5 minutes) and stored
+compactly in the page.
 
 ## England: forecast seats by method
 
