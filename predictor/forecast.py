@@ -25,6 +25,15 @@ import statistics
 from .parties import GB_PARTIES
 
 COUNTRIES = ("England", "Scotland", "Wales")
+
+
+def _average(values, stat):
+    """Mean or median of a list of per-seat values (0 if the list is empty)."""
+    if not values:
+        return 0.0
+    if stat == "mean":
+        return sum(values) / len(values)
+    return statistics.median(values)
 ONLY_STANDS_IN = {"SNP": "Scotland", "Plaid": "Wales"}
 
 
@@ -37,23 +46,24 @@ class Swing:
             raise ValueError(f"unknown statistic {stat!r}")
         self.stat = stat
         self._values = {p: [] for p in GB_PARTIES}
+        self._cache = {}          # party -> change, cleared whenever a seat is added
         self.declared = 0
 
     def add(self, old_shares, new_shares):
         """Include one newly declared seat."""
         self.declared += 1
+        self._cache.clear()
         for p in GB_PARTIES:
             if old_shares[p] > 0 or new_shares[p] > 0:
                 self._values[p].append(new_shares[p] - old_shares[p])
 
     def change(self, party):
-        """Change in the party's share so far (0 to 1 scale)."""
-        v = self._values[party]
-        if not v:
-            return 0.0
-        if self.stat == "mean":
-            return sum(v) / len(v)
-        return statistics.median(v)
+        """Change in the party's share so far (0 to 1 scale).
+
+        Worked out once per declaration and reused for every seat forecast."""
+        if party not in self._cache:
+            self._cache[party] = _average(self._values[party], self.stat)
+        return self._cache[party]
 
     def changes(self):
         return {p: self.change(p) for p in GB_PARTIES}
@@ -143,23 +153,24 @@ class ThetaSwing:
             raise ValueError(f"unknown statistic {stat!r}")
         self.stat = stat
         self._values = {p: [] for p in GB_PARTIES}
+        self._cache = {}          # party -> theta, cleared whenever a seat is added
         self.declared = 0
 
     def add(self, old_shares, new_shares):
         self.declared += 1
+        self._cache.clear()
         for p in GB_PARTIES:
             th = theta(old_shares[p], new_shares[p])
             if th is not None:
                 self._values[p].append(th)
 
     def change(self, party):
-        """Theta so far (0 if the party has no information yet)."""
-        v = self._values[party]
-        if not v:
-            return 0.0
-        if self.stat == "mean":
-            return sum(v) / len(v)
-        return statistics.median(v)
+        """Theta so far (0 if the party has no information yet).
+
+        Worked out once per declaration and reused for every seat forecast."""
+        if party not in self._cache:
+            self._cache[party] = _average(self._values[party], self.stat)
+        return self._cache[party]
 
     def changes(self):
         return {p: self.change(p) for p in GB_PARTIES}

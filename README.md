@@ -72,7 +72,7 @@ Options so far (each independent of the others):
   split. This is a way of modelling tactical voting (and anything else such
   seats have in common).
 
-All 32 combinations are computed in advance (about 5 minutes) and stored
+All 32 combinations are computed in advance (about 15 seconds) and stored
 compactly in the page.
 
 ## England: forecast seats by method
