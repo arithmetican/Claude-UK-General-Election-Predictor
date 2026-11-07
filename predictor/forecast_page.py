@@ -16,7 +16,9 @@ Options (each independent of the others):
     conlab, conlib, lablib
               off (base) or on: in England, Con v Lab / Con v LibDem /
               Lab v LibDem seats (by the 2019 top two parties) get their own
-              swing once 5 of them have declared
+              swing once 5 of them have declared. Con v Lab can also be
+              "split": Conservative-held and Labour-held Con v Lab seats each
+              get their own swing.
 """
 
 import itertools
@@ -36,7 +38,8 @@ OPTIONS = [
      "values": [{"value": "uniform", "label": "Uniform"}, {"value": "proportional", "label": "Proportional"}]},
     {"name": "average", "label": "Average",
      "values": [{"value": "mean", "label": "Mean"}, {"value": "median", "label": "Median"}]},
-    {"name": "conlab", "label": "Con v Lab", "values": OFF_ON},
+    {"name": "conlab", "label": "Con v Lab",
+     "values": OFF_ON + [{"value": "split", "label": "Split by holder"}]},
     {"name": "conlib", "label": "Con v LibDem", "values": OFF_ON},
     {"name": "lablib", "label": "Lab v LibDem", "values": OFF_ON},
 ]
@@ -47,8 +50,9 @@ def make_model(choice):
     """The forecast object for one combination of option values."""
     stat = choice["average"]
     base = (lambda: ThetaSwing(stat)) if choice["transfer"] == "proportional" else (lambda: Swing(stat))
-    types = [t for opt, t in TYPE_OPTIONS.items() if choice.get(opt) == "on"]
-    return lambda: CountryModel(base, types)
+    types = [t for opt, t in TYPE_OPTIONS.items() if choice.get(opt) in ("on", "split")]
+    split = choice.get("conlab") == "split"
+    return lambda: CountryModel(base, types, split)
 
 
 def method_for(choice):
@@ -62,7 +66,9 @@ def describe(choice):
                "fraction of their vote, parties gaining win a fixed fraction of the vote they lacked)")
     else:
         how = f"uniform swing (the {choice['average']} change in vote share)"
-    types = [t for opt, t in TYPE_OPTIONS.items() if choice.get(opt) == "on"]
+    types = [t for opt, t in TYPE_OPTIONS.items() if choice.get(opt) in ("on", "split")]
+    if choice.get("conlab") == "split":
+        types = ["Conservative-held Con v Lab", "Labour-held Con v Lab"] + [t for t in types if t != "Con v Lab"]
     split = (" In England, " + ", ".join(types) + " seats each have their own swing once 5 of them "
              "have declared.") if types else ""
     return (f"Great Britain seats won plus seats predicted by {how}, measured separately in "

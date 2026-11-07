@@ -38,6 +38,12 @@ class TypeSwitchTests(unittest.TestCase):
         self.assertEqual(classify(vote_shares({"Con": 50, "LibDem": 40, "Lab": 10})), "Con v LibDem")
         self.assertIsNone(classify(vote_shares({"Con": 50, "Lab": 40, "LibDem": 10})))
 
+    def test_split_by_holder(self):
+        classify = type_classifier(["Con v Lab"], split_conlab=True)
+        self.assertEqual(classify(vote_shares({"Con": 50, "Lab": 40, "LibDem": 10})), "Con-held v Lab")
+        self.assertEqual(classify(vote_shares({"Lab": 50, "Con": 40, "LibDem": 10})), "Lab-held v Con")
+        self.assertEqual(type_classifier(["Con v Lab"])(vote_shares({"Lab": 50, "Con": 40})), "Con v Lab")
+
     def test_types_apply_in_england_only(self):
         m = CountryModel(lambda: ThetaSwing("median"), ["Con v Lab"])
         old = vote_shares({"Con": 50, "Lab": 40, "LibDem": 10})
@@ -79,6 +85,11 @@ class ForecastPageTests(unittest.TestCase):
         last = {p: n for p, n in steps[-1]["seats"].items() if n}
         self.assertEqual(last, {"Lab": 411, "Con": 121, "LibDem": 72, "SNP": 9, "Reform": 5,
                                 "Independent": 5, "Green": 4, "Plaid": 4, "Others": 1})
+        self.assertTrue(all(sum(s["seats"].values()) == 632 for s in steps))
+
+    def test_split_ends_at_actual_result(self):
+        steps = self.run_choice(transfer="proportional", average="median", conlab="split", conlib="on")
+        self.assertEqual(steps[-1]["seats"]["Con"], 121)
         self.assertTrue(all(sum(s["seats"].values()) == 632 for s in steps))
 
     def test_compact_storage_round_trips(self):

@@ -302,13 +302,21 @@ class GroupedSwing:
         return self.swing_for(old_shares).predict(old_shares, country)
 
 
-def type_classifier(enabled):
-    """Classifier using only the seat types in `enabled` (others count as no type)."""
+def type_classifier(enabled, split_conlab=False):
+    """Classifier using only the seat types in `enabled` (others count as no type).
+
+    With split_conlab, Con v Lab seats are divided by who held them at the
+    previous election: "Con-held v Lab" and "Lab-held v Con".
+    """
     enabled = frozenset(enabled)
 
     def classify(old_shares):
         t = seat_type(old_shares)
-        return t if t in enabled else None
+        if t not in enabled:
+            return None
+        if t == "Con v Lab" and split_conlab:
+            return "Con-held v Lab" if old_shares["Con"] > old_shares["Lab"] else "Lab-held v Con"
+        return t
     return classify
 
 
@@ -318,9 +326,11 @@ class CountryModel(SwingByCountry):
 
     make: creates one country's swing, e.g. lambda: Swing("median").
     england_types: the seat types that get their own figure in England.
+    split_conlab: divide Con v Lab seats by who held them (needs "Con v Lab"
+    in england_types).
     """
 
-    def __init__(self, make, england_types=()):
+    def __init__(self, make, england_types=(), split_conlab=False):
         self.by_country = {c: make() for c in COUNTRIES}
         if england_types:
-            self.by_country["England"] = GroupedSwing(make, type_classifier(england_types))
+            self.by_country["England"] = GroupedSwing(make, type_classifier(england_types, split_conlab))

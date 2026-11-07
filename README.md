@@ -66,13 +66,14 @@ Options so far (each independent of the others):
   method).
 - **Average:** mean (base) or median of the per-seat changes (or thetas).
 - **Con v Lab, Con v LibDem, Lab v LibDem:** off (base) or on, each
-  separately. When on, English seats of that type (by the 2019 top two
+  separately (Con v Lab can also be split by holder: Conservative-held and
+  Labour-held Con v Lab seats each get their own swing). When on, English seats of that type (by the 2019 top two
   parties) get their own swing once 5 of them have declared; until then, and
   when off, they use England's overall swing. Scotland and Wales are not
   split. This is a way of modelling tactical voting (and anything else such
   seats have in common).
 
-All 32 combinations are computed in advance (about 15 seconds) and stored
+All 48 combinations are computed in advance (about 25 seconds) and stored
 compactly in the page.
 
 ## England: forecast seats by method
