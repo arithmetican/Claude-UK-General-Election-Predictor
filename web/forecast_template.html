@@ -49,7 +49,6 @@
   .tooltip th.group { text-align: center; }
   .tooltip .count { opacity: .7; font-size: 11px; }
   .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
-  .notes { color: var(--muted); font-size: 13px; margin-top: 16px; }
   .options { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 12px; }
   .option { display: flex; gap: 6px; align-items: center; }
   .option-label { color: var(--muted); font-size: 13px; margin-right: 2px; }
@@ -58,16 +57,14 @@
     background: transparent; color: var(--muted); border: 1px solid var(--border);
   }
   .option button.on { color: var(--text); background: var(--panel); border-color: var(--muted); }
-  .notes p { margin: 4px 0; }
 </style>
 </head>
 <body>
 <main>
   <h1 id="title"></h1>
-  <p class="sub" id="subtitle"></p>
+  <p class="sub" id="subtitle" hidden></p>
   <div class="options" id="options"></div>
   <div class="chart" id="chart"><div class="tooltip" id="tooltip"></div></div>
-  <div class="notes" id="notes"></div>
 </main>
 <script>
 const DATA = /*RESULTS*/null;
@@ -120,9 +117,6 @@ function draw() {
   document.getElementById("tooltip").style.display = "none";
   const R = RESULTS, steps = R.steps, gb = R.gb_seats;
   document.getElementById("title").textContent = R.title || "Election night forecast";
-  document.getElementById("subtitle").textContent =
-    (R.description || `Great Britain seats won plus seats predicted by swing (measured separately in England, Scotland and Wales), after each declaration.`) + ` ` +
-    `${steps[steps.length - 1].n} of ${gb} GB seats declared.`;
 
   // Only draw parties that hold at least one seat at some point.
   const parties = R.parties.filter(p => steps.some(s => s.seats[p] > 0));
@@ -224,24 +218,16 @@ function draw() {
     })
     .on("pointerleave", () => { rule.style("display", "none"); tip.style.display = "none"; });
 
-  const ni = Object.keys(R.ni_declared || {}).length;
-  document.getElementById("notes").innerHTML =
-    `<p>Each line is a party's seats won so far plus seats predicted for the GB seats still to declare. ` +
-    (R.method === "theta"
-      ? `θ is each party's ${R.average || "mean"} across the declared seats in each country: negative means losing ground (it keeps a fraction e<sup>θ</sup> of its previous share), positive means gaining (it wins a fraction 1 − e<sup>−θ</sup> of the vote it previously lacked). Each country's undeclared seats are predicted from its own θ only. The small number beside each country is how many of its seats have declared.</p>`
-      : `Swing is the ${R.average || "mean"} change in vote share (percentage points) across the declared seats in each country; each country's undeclared seats are predicted from its own swing only. The small number beside each country is how many of its seats have declared.</p>`) +
-    `<p>Northern Ireland's ${R.ni_seats} seats are not used in the forecast or shown here ` +
-    `(${ni} declared), but they count towards the ${R.total_seats} seats in the House.</p>` +
-    `<p>Baseline: ${R.baseline || "previous election"}. Live results: ${R.live || "live feed"}.` +
-    (R.skipped && R.skipped.length ? ` ${R.skipped.length} declaration(s) could not be used.` : "") + `</p>`;
 }
 
 if (!DATA) {
   document.getElementById("title").textContent = "No results yet";
   document.getElementById("subtitle").textContent = "Run: python -m predictor.forecast_page";
+  document.getElementById("subtitle").hidden = false;
 } else if (typeof d3 === "undefined") {
   document.getElementById("title").textContent = "Could not load D3";
   document.getElementById("subtitle").textContent = "The graph needs an internet connection to load d3.js.";
+  document.getElementById("subtitle").hidden = false;
 } else {
   // One row of buttons per option.
   const bar = d3.select("#options");
